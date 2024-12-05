@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LifePro_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (OR(ISBLANK( LifePRO_Name_ID__c ), ISBLANK( LifePRO_Policy_Number__c )), (ISPICKVAL( Type , &quot;LifePro&quot;)), TEXT (Sub_Type__c) &lt;&gt; &quot;Access Request&quot;, TEXT (Sub_Type__c) &lt;&gt; &quot;Calendar&quot; , TEXT (Sub_Type__c) &lt;&gt; &quot;Premium Notification/Gap Rosters&quot; , TEXT (Sub_Type__c) &lt;&gt; &quot;ENS Messages&quot;, TEXT (Sub_Type__c) &lt;&gt; &quot;Downtime Notification&quot;, TEXT (Sub_Type__c) &lt;&gt; &quot;Reporting&quot; )</errorConditionFormula>
+    <errorMessage>Please populate LifePRO Name ID and LifePRO Policy Number</errorMessage>
+</ValidationRule>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Format of Rate Sheet Looks Presentable --></label>
+        <name>Format_of_Rate_Sheet_Looks_Presentable__c</name>
+    </CustomFieldTranslation>

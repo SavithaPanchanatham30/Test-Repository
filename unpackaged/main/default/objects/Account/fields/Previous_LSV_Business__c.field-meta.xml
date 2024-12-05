@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Previous_LSV_Business__c</fullName>
+    <description>This is to store the last LSV Business value before the Master Group is terminated</description>
+    <inlineHelpText>Last LSV Business value before the Master Group is terminated</inlineHelpText>
+    <label>Previous LSV Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ancillary Only</fullName>
+                <default>false</default>
+                <label>Ancillary Only</label>
+            </value>
+            <value>
+                <fullName>Medical Only</fullName>
+                <default>false</default>
+                <label>Medical Only</label>
+            </value>
+            <value>
+                <fullName>Medical and Ancillary</fullName>
+                <default>false</default>
+                <label>Medical and Ancillary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

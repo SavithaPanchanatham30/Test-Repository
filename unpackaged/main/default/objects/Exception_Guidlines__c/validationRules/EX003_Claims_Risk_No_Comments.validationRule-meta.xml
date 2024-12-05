@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX003_Claims_Risk_No_Comments</fullName>
+    <active>true</active>
+    <description>If Claims risk is &quot;Yes&quot; you need to explain why</description>
+    <errorConditionFormula>And(TEXT(   Claims_Potential_Risk_in_play__c  ) = &quot;Yes&quot;,   Claims_Notes__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Claims_Notes__c</errorDisplayField>
+    <errorMessage>EX003- If Claims Risk In Play = Yes, then Claims Note needs to be entered</errorMessage>
+</ValidationRule>

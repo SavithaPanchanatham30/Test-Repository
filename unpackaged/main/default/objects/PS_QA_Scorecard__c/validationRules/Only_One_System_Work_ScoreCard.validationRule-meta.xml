@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_One_System_Work_ScoreCard</fullName>
+    <active>true</active>
+    <description>Only allow one System Work record type for QA Scorecard</description>
+    <errorConditionFormula>AND(
+     Case__r.PS_QA_System_Work_Count__c    &gt; 0,
+ISNEW(),  RecordType.DeveloperName  =  &quot;Research&quot;
+)</errorConditionFormula>
+    <errorMessage>QA-100 Can Only have one System Work Score Card per Case. QA Scorecard with Record Type System Work already created</errorMessage>
+</ValidationRule>

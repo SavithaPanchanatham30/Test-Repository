@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( 
+CASE(User_Active__c &amp; IF(ISPICKVAL(Active__c,&quot;True&quot;)=True,&quot;True&quot;,&quot;False&quot;), 
+&quot;TrueTrue&quot;, &quot;/img/samples/light_green.gif&quot;,
+&quot;/img/samples/light_red.gif&quot;), 
+&quot;status color&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If Status and User Status are True</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

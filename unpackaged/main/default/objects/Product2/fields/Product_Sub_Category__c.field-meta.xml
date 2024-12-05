@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Sub_Category__c</fullName>
+    <label>Product Sub Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Care</fullName>
+                <default>false</default>
+                <label>Care</label>
+            </value>
+            <value>
+                <fullName>TG Choice</fullName>
+                <default>false</default>
+                <label>TG Choice</label>
+            </value>
+            <value>
+                <fullName>TG Choice Plus</fullName>
+                <default>false</default>
+                <label>TG Choice Plus</label>
+            </value>
+            <value>
+                <fullName>TG Copayment</fullName>
+                <default>false</default>
+                <label>TG Copayment</label>
+            </value>
+            <value>
+                <fullName>Traditional PPO</fullName>
+                <default>false</default>
+                <label>Traditional PPO</label>
+            </value>
+            <value>
+                <fullName>Traditional PPO+</fullName>
+                <default>false</default>
+                <label>Traditional PPO+</label>
+            </value>
+            <value>
+                <fullName>Traditional PPP</fullName>
+                <default>false</default>
+                <label>Traditional PPP</label>
+            </value>
+            <value>
+                <fullName>Vol. Choice</fullName>
+                <default>false</default>
+                <label>Vol. Choice</label>
+            </value>
+            <value>
+                <fullName>Vol. Choice Plus</fullName>
+                <default>false</default>
+                <label>Vol. Choice Plus</label>
+            </value>
+            <value>
+                <fullName>Vol. Copayment</fullName>
+                <default>false</default>
+                <label>Vol. Copayment</label>
+            </value>
+            <value>
+                <fullName>Vol. PPO</fullName>
+                <default>false</default>
+                <label>Vol. PPO</label>
+            </value>
+            <value>
+                <fullName>Vol. PPO+</fullName>
+                <default>false</default>
+                <label>Vol. PPO+</label>
+            </value>
+            <value>
+                <fullName>Vol. PPP</fullName>
+                <default>false</default>
+                <label>Vol. PPP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

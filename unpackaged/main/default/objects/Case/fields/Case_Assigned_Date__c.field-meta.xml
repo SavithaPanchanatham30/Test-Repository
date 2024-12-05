@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Assigned_Date__c</fullName>
+    <description>Date case was assigned to an individual</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Case assigned date</inlineHelpText>
+    <label>Case Assigned Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

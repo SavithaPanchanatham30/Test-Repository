@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Review Policies/Certificates in Xpression, and forward to
+Policy Examiner/QA. Get Policy Examiner’s approval before
+continuing --></help>
+        <label><!-- Review Policies/Certificates Xpression --></label>
+        <name>Review_Policies_Certificates_Xpression__c</name>
+    </CustomFieldTranslation>

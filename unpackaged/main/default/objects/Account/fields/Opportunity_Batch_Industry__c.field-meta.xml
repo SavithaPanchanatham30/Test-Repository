@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Batch_Industry__c</fullName>
+    <description>Used in batch that automatically creates opportunities. For AR, opp is created for all School Districts, even if they do not have Medical.</description>
+    <label>Opportunity Batch Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>School District</fullName>
+                <default>false</default>
+                <label>School District</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

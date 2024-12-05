@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Correct Spouse Rates for Voluntary --></label>
+        <name>Correct_Spouse_Rates_for_Voluntary__c</name>
+    </CustomFieldTranslation>

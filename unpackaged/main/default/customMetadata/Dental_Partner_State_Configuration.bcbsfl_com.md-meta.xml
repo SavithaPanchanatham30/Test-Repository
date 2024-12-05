@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>@bcbsfl.com</label>
+    <protected>false</protected>
+    <values>
+        <field>Business_Partner__c</field>
+        <value xsi:type="xsd:string">Blue Cross Blue Shield of Florida</value>
+    </values>
+    <values>
+        <field>Partner_State__c</field>
+        <value xsi:type="xsd:string">Florida</value>
+    </values>
+</CustomMetadata>

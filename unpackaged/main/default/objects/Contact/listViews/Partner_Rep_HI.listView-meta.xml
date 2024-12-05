@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Rep_HI</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Contact_Type__c</columns>
+    <columns>Admin_System_Record__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Partner_Rep</value>
+    </filters>
+    <filters>
+        <field>Admin_System_Record__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Hawaii</value>
+    </filters>
+    <label>Partner Rep - HI</label>
+    <sharedTo>
+        <group>All_Hawaii_Sales</group>
+        <group>Junior_Admin_Group</group>
+    </sharedTo>
+</ListView>

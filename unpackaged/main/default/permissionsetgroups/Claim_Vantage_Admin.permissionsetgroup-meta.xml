@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>allows users to complete administration tasks and/or be an administrator specific to Claim Vantage</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Claim Vantage Admin</label>
+    <permissionSets>AbsenceClaimStatusReason_WRITE</permissionSets>
+    <permissionSets>Access_to_edit_Overpayment_Amounts</permissionSets>
+    <permissionSets>AdditionalIncome_WRITE</permissionSets>
+    <permissionSets>AutoPay_WRITE</permissionSets>
+    <permissionSets>CopyMoveDeleteDocumentsApexPermission</permissionSets>
+    <permissionSets>CoverageLimitation_WRITE</permissionSets>
+    <permissionSets>ExpressPay_WRITE</permissionSets>
+    <permissionSets>FICAandMedicareTaxability_WRITE</permissionSets>
+    <permissionSets>FilesTransitionToClaim_WRITE</permissionSets>
+    <permissionSets>Insurance_Claims_User_Permissions_Write</permissionSets>
+    <permissionSets>MemberBenefit_WRITE</permissionSets>
+    <permissionSets>OverPayment_WRITE</permissionSets>
+    <permissionSets>OverpaymentFlag_WRITE</permissionSets>
+    <permissionSets>PopulateClaimFromCase_WRITE</permissionSets>
+    <permissionSets>SocialSecurityExempt_WRITE</permissionSets>
+    <permissionSets>UsableCvabStatus_WRITE</permissionSets>
+    <permissionSets>cvab__AbsenceUserPermissions</permissionSets>
+    <permissionSets>cvab__PermissionsSalesforce</permissionSets>
+    <permissionSets>cvb__Base</permissionSets>
+    <permissionSets>cvint__Integration_ReadWrite</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

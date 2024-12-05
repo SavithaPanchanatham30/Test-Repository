@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Agency_Name__c</fullName>
+    <description>This field will be used on Opportunity Quick Close grid. It will be labelled as Broker Agency.</description>
+    <externalId>false</externalId>
+    <formula>Sales_Primary_Agency__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Primary Agency Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

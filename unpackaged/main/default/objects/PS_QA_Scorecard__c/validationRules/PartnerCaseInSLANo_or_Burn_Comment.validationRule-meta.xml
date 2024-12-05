@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartnerCaseInSLANo_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in  Partner Case Replied within 24 SLA then comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Partner_Case_Replied_Within_SLA__c )  = &quot;No&quot; , TEXT(Partner_Case_Replied_Within_SLA__c) = &quot;Burn&quot;),     Partner_Case_Replied_Comments__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Partner_Case_Replied_Comments__c</errorDisplayField>
+    <errorMessage>QA166 - If Partner Case Replied within SLA  = No or Burn, Then Responded to Questions Comments  must be entered</errorMessage>
+</ValidationRule>

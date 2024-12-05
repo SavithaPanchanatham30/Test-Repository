@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Intake_Points_Missed__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Text(   Salesforce_Notes_Stay_Accurate_Current__c  ) = &quot;No&quot;,5,0) + 
+IF (Text(  Case_Detail_Populated_Correctly__c  ) = &quot;No&quot;,5,0) + 
+IF (Text(  Child_Case_what_ServiceIntake_Can_t_Do__c  ) = &quot;No&quot;,5,0) + 
+IF (Text(   Docfinity_Uploaded_Indexed_Properly__c ) = &quot;No&quot;,5,0) + 
+IF (Text( Native_System_Work_Correct__c ) = &quot;No&quot;,5,0) + 
+IF (Text(  Emails_Professional_Include_Details__c ) = &quot;No&quot;,5,0) +
+IF (Text(   Phone_Call_First_Attempt_for_Missing_Inf__c  ) = &quot;No&quot;,5,0) +
+IF (Text(    Communication_to_Appropriate_Contacts__c   ) = &quot;No&quot;,5,0) +
+IF (Text(     Responded_to_Questions_within_24_hours__c   ) = &quot;No&quot;,5,0) +
+IF (Text(     Unread_Emails_Closed_Or_Replied_SLA__c  ) = &quot;No&quot;,5,0) +
+IF (Text( Partner_Case_Replied_Within_SLA__c  ) = &quot;No&quot;,5,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Service Intake Points Missed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

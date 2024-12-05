@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quote Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quote Logs</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Dental Quote Log Layout</layout>
+        <sections>
+            <label><!-- Competitiveness --></label>
+            <section>Competitiveness</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Submitted for Quote --></label>
+            <section>Submitted for Quote</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please select a Closed or Declined reason --></errorMessage>
+        <name>Closed_Declined_Reason</name>
+    </validationRules>
+</CustomObjectTranslation>

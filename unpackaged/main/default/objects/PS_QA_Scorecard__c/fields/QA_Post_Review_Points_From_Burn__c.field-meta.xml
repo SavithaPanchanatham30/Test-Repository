@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QA_Post_Review_Points_From_Burn__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Text( Release__c ) = &quot;Burn&quot;,3,0) + 
+IF (Text( Reinsurer__c ) = &quot;Burn&quot;,3,0) + 
+IF (Text( Child_Case__c ) = &quot;Burn&quot;,3,0) + 
+IF (Text( Communication__c ) = &quot;Burn&quot;,3,0) + 
+IF (Text( Sold_Plan_Confirmation__c ) = &quot;Burn&quot;,2,0) + 
+IF (Text( Notes_to_Specialist__c ) = &quot;Burn&quot;,2,0) + 
+IF (Text( All_Holds_Removed__c ) = &quot;Burn&quot;,3,0) + 
+IF (Text( Docfinity_Job_Completed__c ) = &quot;Burn&quot;,1,0) + 
+IF (Text( QA_Salesforce_Setup__c ) = &quot;Burn&quot;,2,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>QA  Post Review Points From Burn</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

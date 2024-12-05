@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Audit Request</name>
+    <queueMembers>
+        <users>
+            <user>kayla.ragland@usablelife.com</user>
+            <user>shane.hengesh@usablelife.com</user>
+            <user>summer.austin@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

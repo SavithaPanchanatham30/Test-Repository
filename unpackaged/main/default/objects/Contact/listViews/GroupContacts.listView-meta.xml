@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GroupContacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Contact_Type__c</columns>
+    <columns>Admin_System_Record__c</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_Type__c</field>
+        <operation>equals</operation>
+        <value>Group Contact</value>
+    </filters>
+    <label>Group Contacts</label>
+    <sharedTo>
+        <group>Junior_Admin_Group</group>
+        <roleAndSubordinatesInternal>EVP_Operations</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

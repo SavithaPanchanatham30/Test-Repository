@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Checklist_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( For_large_cases_Date__c ),1,0)+
+IF(ISBLANK( Approve_Members_Jet_Issue_Date__c ),1,0)+
+IF(ISBLANK( Check_Billing_Mode_Date__c ),1,0)+
+IF(ISBLANK( Proof_Roster_Against_Census_Date__c ),1,0)+
+IF(ISBLANK( Docs_Sent_to_Docfinity_Date__c ),1,0)+
+IF(ISBLANK( Check_DRMS_Rate_Run_Date__c ),1,0)+
+IF(ISBLANK( Email_EAP_and_FMLA_Account_Date__c ),1,0)+
+IF(ISBLANK( Generate_Roster_Date__c ),1,0)+
+IF(ISBLANK( DRMS_Submission_Date__c ),1,0)+
+IF(ISBLANK( Medical_Underwriting_EOI_MIB_Date__c ),1,0)+
+IF(ISBLANK( Order_Policies_Certificates_Date__c ),1,0)+
+IF(ISBLANK( Prepare_Master_App_in_Docfinity_Date__c ),1,0)+
+IF(ISBLANK( Prepare_Ntake_Manual_Census_Load_Date__c ),1,0)+
+IF(ISBLANK( Flip_Hold_Issued_Flags_Date__c ),1,0)+
+IF(ISBLANK( Review_Policies_Certificates_Date__c ),1,0)+
+IF(ISBLANK( Run_and_review_notional_bill_Date__c ),1,0)+
+IF(ISBLANK( Sold_Case_Confirmation_Date__c ),1,0)</formula>
+    <label>Checklist Status</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

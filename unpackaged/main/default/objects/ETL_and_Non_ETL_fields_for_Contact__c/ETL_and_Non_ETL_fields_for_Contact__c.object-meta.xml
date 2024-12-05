@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This custom setting contains all etl and non-etl fields of contact.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>ETL and Non-ETL fields for Contact</label>
+    <visibility>Public</visibility>
+</CustomObject>

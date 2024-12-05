@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Claims Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Claims Forms</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Disability Claim Form</layout>
+        <sections>
+            <label><!-- Any Income Received/Filed For/Eligible. Ask for Copy of Any Award/Denial Notice --></label>
+            <section>Any Income Received/Filed For/Eligible. Ask for Copy of Any Award/Denial Notice</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Disability Section --></label>
+            <section>Disability Section</section>
+        </sections>
+        <sections>
+            <label><!-- Employee Information Section --></label>
+            <section>Employee Information Section</section>
+        </sections>
+        <sections>
+            <label><!-- Over Payment Notice --></label>
+            <section>Over Payment Notice</section>
+        </sections>
+        <sections>
+            <label><!-- Physicians They Have Seen In Past Two Years --></label>
+            <section>Physicians They Have Seen In Past Two Years</section>
+        </sections>
+        <sections>
+            <label><!-- Requestors Signature --></label>
+            <section>Requestors Signature</section>
+        </sections>
+        <sections>
+            <label><!-- Scripts --></label>
+            <section>Scripts</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Wellness Claim Form</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Patient Information --></label>
+            <section>Patient Information</section>
+        </sections>
+        <sections>
+            <label><!-- Policy Holder Information --></label>
+            <section>Policy Holder Information</section>
+        </sections>
+        <sections>
+            <label><!-- Provider Information - Who Performed the Service --></label>
+            <section>Provider Information - Who Performed the Service</section>
+        </sections>
+        <sections>
+            <label><!-- Requestors Signature --></label>
+            <section>Requestors Signature</section>
+        </sections>
+        <sections>
+            <label><!-- Scripts --></label>
+            <section>Scripts</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Used for Disability Claims --></description>
+        <label><!-- Short Term Disability --></label>
+        <name>Short_Term_Disability</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used to file claim for Wellness Form --></description>
+        <label><!-- Wellness --></label>
+        <name>Wellness</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- CL000- Online one Claims Form per Case --></errorMessage>
+        <name>CL000OnlineOneClaimsForm</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-001 Social Security must be numeric 9 digits --></errorMessage>
+        <name>CL001Validate_if_Social_Security_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-002 Patient Social Security must be numeric 9 digits If Relationship not Self --></errorMessage>
+        <name>CL002Validate_Patient_SSN</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-003  Patient Name must be entered if Relationship not self --></errorMessage>
+        <name>CL003PatientNameEntered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-004  Patient Birth Date must be entered if Relationship not self and must be less than or equal to today and &gt; 120 years ago --></errorMessage>
+        <name>CL004PatientBirthDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-005  Employee Birth Date must be less than or equal to today and &gt; 120 years ago --></errorMessage>
+        <name>CL005EmployeeBirthDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-006 Mailing Zip Code Must be numeric --></errorMessage>
+        <name>CL006Validate_Mailing_Zip_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-007 Either Employer Phone or Address is Required --></errorMessage>
+        <name>CL007EmployerPhoneOrAddressRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-008 Either Date Symptoms First Appeared or Month Symptoms First Appeared Must be Entered --></errorMessage>
+        <name>CL008DateSymptomsOrMonthSymptoms</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-009 Either of First Treatment  or Month of First Treatment Must be Entered --></errorMessage>
+        <name>CL009DateTreatmentOrMonthTreatment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-010 Either the Medical Facility or Physician Must be Entered --></errorMessage>
+        <name>CL010MedicalFacilityORDR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-011 Either the Medical Facility/Physician Phone or Address Must be Entered --></errorMessage>
+        <name>CL011MedicalFacilityPhoneorAddress</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-012 If Facility Address Entered City Must be Entered --></errorMessage>
+        <name>CL012MedicalFacilityAddressCityRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-014 If Facility Address Entered State Must be Entered --></errorMessage>
+        <name>CL014MedicalFacilityAddressStateRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-015 If Facility Address Entered Numeric Zip Code Must be Entered --></errorMessage>
+        <name>CL015MedicalFacilityAddressZIPRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-016 If type of Disability Illness then Nature of Illness Required --></errorMessage>
+        <name>CL016NatureofIllenessRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-017 If type of Disability Illness - then Previously Had This or Similar Condition Required --></errorMessage>
+        <name>CL017PreviousHadThisIllness</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-018 If Previously Had This or Similar Condition = &quot;Yes&quot;  then What and When Was Previous Illness must be keyed --></errorMessage>
+        <name>CL018PreviousHadThisIllness</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-019 If Accident Occurred on the Job= &quot;Yes&quot;  then Explanation must be keyed --></errorMessage>
+        <name>CL019explainHowitOccurredDoingJob</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-020  IF Fraud Notice State then Signature Fraud Notice Read Must be Entered --></errorMessage>
+        <name>CL020FraudNoticeStateNoticeRead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-020 If Type of Disability - Accident then How and where the accident occurred must be keyed --></errorMessage>
+        <name>CL020Howandwheretheaccidentoccured</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-021 If Type of Disability - Accident then Disabling Condition Occur doing the Job must be filled out --></errorMessage>
+        <name>CL021DidDisablingAccidentonJob</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-021  IF Not a Fraud Notice State then Signature Non Fraud Notice State Must be Entered --></errorMessage>
+        <name>CL021NonFraudNoticeStateNoticeRead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-022 If Type of Disability - Accident then Disability Do to Motor Vehicle Accident must be Selected --></errorMessage>
+        <name>CL022DisabilityDotoMotorVehicleAccident</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-023 If in Motor Vehicle -Accident then Were you Driver Passenger Pedestrian Selected --></errorMessage>
+        <name>CL023WereyouDriverPassengerPedestrian</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-024 If Type of Disability - Accident then Disability Caused by a third Party must be filled out --></errorMessage>
+        <name>CL024DisabilityCausedbyaThirdParty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-025 If Accident Caused by Third Party = &quot;Yes&quot;  then Explanation must be keyed --></errorMessage>
+        <name>CL025DisabilityCausedbyaThirdParty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-026 If Type of Disability - Accident then Asked for Accident Report must be filled out --></errorMessage>
+        <name>CL026AskedforCopyofAccidentReport</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-028 Must asks if they had other Income and give examples below --></errorMessage>
+        <name>CL028MustAskforOtherIncome</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-029 If Type of Disability - Accident then Approximate Date/Time of Accident must be filled out --></errorMessage>
+        <name>CL029ApproximateDateTimeOfAccident</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-030  IF Fraud Notice State then Signature Fraud Notice Read Must be Entered --></errorMessage>
+        <name>CL030FraudNoticeStateNoticeRead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-031  IF Not a Fraud Notice State then Signature Non Fraud Notice State Must be Entered --></errorMessage>
+        <name>CL031NonFraudNoticeStateNoticeRead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-032 Either Date Treated #1 or Treatment#1 MM/YYYY must be entered --></errorMessage>
+        <name>CL032DateTreatmentOrMonthTreatment1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-033 Either Date Treated #2 or Treatment#2 MM/YYYY must be entered --></errorMessage>
+        <name>CL033DateTreatmentOrMonthTreatment_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-034 Either Date Treated #3 or Treatment#3 MM/YYYY must be entered --></errorMessage>
+        <name>CL034DateTreatmentOrMonthTreatment_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-035 Either Date Treated #4 or Treatment#4 MM/YYYY must be entered --></errorMessage>
+        <name>CL035DateTreatmentOrMonthTreatment_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CL-036 Either Date Treated #5 or Treatment#5 MM/YYYY must be entered --></errorMessage>
+        <name>CL036DateTreatmentOrMonthTreatment_5</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+Dear Valued LifeMap Customer,
+
+Thank you for your email. Your request has been assigned case# {!Case.CaseNumber}, and is in our queue for processing. Please do not resend applications by email, fax, or mail originals. Sending duplicates may result in processing delays.
+
+We appreciate the opportunity to serve you!
+
+LifeMap Enrollment Team
+
+
+{!Case.Thread_Id}

@@ -1,0 +1,7 @@
+Hi Jackie,
+
+Customer Care has received a FL Retail inquiry regarding an agent. The information is in case {!Case.CaseNumber} from {!Case.SLA_Start_Date__c}. If you have any questions, please contact me, LaToya Robinson or Erika Derryberry.
+
+Thank you,
+
+{!User.Name}

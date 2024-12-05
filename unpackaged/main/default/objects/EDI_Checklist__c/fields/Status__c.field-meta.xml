@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Submitted_for_Approval__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Incomplete</fullName>
+                <default>true</default>
+                <label>Incomplete</label>
+            </value>
+            <value>
+                <fullName>Awaiting Approval</fullName>
+                <default>false</default>
+                <label>Awaiting Approval</label>
+            </value>
+            <value>
+                <fullName>Approved - Manual</fullName>
+                <default>false</default>
+                <label>Approved - Manual</label>
+            </value>
+            <value>
+                <fullName>Approved - Auto</fullName>
+                <default>false</default>
+                <label>Approved - Auto</label>
+            </value>
+            <value>
+                <fullName>Denied</fullName>
+                <default>false</default>
+                <label>Denied</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>unchecked</controllingFieldValue>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Canceled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>unchecked</controllingFieldValue>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Incomplete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>unchecked</controllingFieldValue>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Awaiting Approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>unchecked</controllingFieldValue>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Denied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Approved - Manual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Approved - Auto</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

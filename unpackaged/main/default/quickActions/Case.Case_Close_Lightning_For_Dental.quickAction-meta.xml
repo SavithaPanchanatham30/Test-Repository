@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Status</field>
+        <formula>IF(
+    AND(
+        Case.RecordType.Name = &quot;Dental Operations&quot;, 
+        OR(
+            ISPICKVAL(Case.Status, &quot;Closed&quot;), 
+            ISPICKVAL(Case.Status, &quot;Closed/Spam&quot;), 
+            ISPICKVAL(Case.Status, &quot;Duplicate and Close&quot;)
+        )
+    ), 
+    TEXT(Case.Status), 
+   &quot;Closed&quot;
+)</formula>
+    </fieldOverrides>
+    <label>Case Close</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Status</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Disposition__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Root_Cause__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Outcome_Details__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns />
+    </quickActionLayout>
+    <type>Update</type>
+</QuickAction>

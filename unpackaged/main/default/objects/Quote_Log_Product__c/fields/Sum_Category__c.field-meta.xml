@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sum_Category__c</fullName>
+    <label>Sum Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Choice PPO - Vol</fullName>
+                <default>false</default>
+                <label>Choice PPO - Vol</label>
+            </value>
+            <value>
+                <fullName>Choice Plus PPO - Vol</fullName>
+                <default>false</default>
+                <label>Choice Plus PPO - Vol</label>
+            </value>
+            <value>
+                <fullName>Choice Copay - Vol</fullName>
+                <default>false</default>
+                <label>Choice Copay - Vol</label>
+            </value>
+            <value>
+                <fullName>Choice PPO - TG</fullName>
+                <default>false</default>
+                <label>Choice PPO - TG</label>
+            </value>
+            <value>
+                <fullName>Choice Plus PPO - TG</fullName>
+                <default>false</default>
+                <label>Choice Plus PPO - TG</label>
+            </value>
+            <value>
+                <fullName>Choice Copay - TG</fullName>
+                <default>false</default>
+                <label>Choice Copay - TG</label>
+            </value>
+            <value>
+                <fullName>Dental Prepaid</fullName>
+                <default>false</default>
+                <label>Dental Prepaid</label>
+            </value>
+            <value>
+                <fullName>Select PPO - Vol</fullName>
+                <default>false</default>
+                <label>Select PPO - Vol</label>
+            </value>
+            <value>
+                <fullName>Select PPO Plus -Vol</fullName>
+                <default>false</default>
+                <label>Select PPO Plus -Vol</label>
+            </value>
+            <value>
+                <fullName>Select PPO - Trad</fullName>
+                <default>false</default>
+                <label>Select PPO - Trad</label>
+            </value>
+            <value>
+                <fullName>Select PPO Plus – Trad</fullName>
+                <default>false</default>
+                <label>Select PPO Plus – Trad</label>
+            </value>
+            <value>
+                <fullName>Care</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Care</label>
+            </value>
+            <value>
+                <fullName>TG Choice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TG Choice</label>
+            </value>
+            <value>
+                <fullName>TG Choice Plus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TG Choice Plus</label>
+            </value>
+            <value>
+                <fullName>TG Copayment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TG Copayment</label>
+            </value>
+            <value>
+                <fullName>Traditional PPO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Traditional PPO</label>
+            </value>
+            <value>
+                <fullName>Traditional PPO+</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Traditional PPO+</label>
+            </value>
+            <value>
+                <fullName>Traditional PPP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Traditional PPP</label>
+            </value>
+            <value>
+                <fullName>Vol. Choice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vol. Choice</label>
+            </value>
+            <value>
+                <fullName>Vol. Choice Plus</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vol. Choice Plus</label>
+            </value>
+            <value>
+                <fullName>Vol. Copayment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vol. Copayment</label>
+            </value>
+            <value>
+                <fullName>Vol. PPO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vol. PPO</label>
+            </value>
+            <value>
+                <fullName>Vol. PPO+</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vol. PPO+</label>
+            </value>
+            <value>
+                <fullName>Vol. PPP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vol. PPP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

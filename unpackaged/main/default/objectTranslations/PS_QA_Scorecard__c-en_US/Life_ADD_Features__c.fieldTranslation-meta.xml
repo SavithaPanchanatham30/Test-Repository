@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Correct Riders and Amounts Included, Provisions Match Master App/Proposal - Upsell. --></help>
+        <label><!-- Life/ADD Features --></label>
+        <name>Life_ADD_Features__c</name>
+    </CustomFieldTranslation>

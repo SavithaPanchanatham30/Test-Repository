@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lightning Action for accessing multi line edit lightning page</description>
+    <height>650</height>
+    <label>Update Products</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <page>OLIMultilineUpdateVF</page>
+    <type>VisualforcePage</type>
+    <width>-100</width>
+</QuickAction>

@@ -1,0 +1,64 @@
+<apex:page standardController="Opportunity" standardStylesheets="false" showHeader="false" sidebar="false">
+   <style>
+    body {
+        padding: 0px !important;
+       }
+       
+    .clsCentered {
+        margin: auto;
+        width: 1000px;    
+    }       
+    </style>
+    
+    <apex:includeScript value="/lightning/lightning.out.js" />
+    <div id="divMultiLineCmp" class="clsCentered" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="/canvas/sdk/js/publisher.js"></script>
+    <script>
+
+        
+        $( document ).ready(function() {
+            var $ = jQuery.noConflict(true);
+			Sfdc.canvas.publisher.resize( { width : "900px" } );
+            var vOppId = '{!Opportunity.Id}';
+            console.log('ah::vOppId ' + vOppId);
+            
+            var vOwnerId = '{!Opportunity.OwnerId}';
+            console.log('ah::opp owner ' + vOwnerId);
+            
+            var vOppName = "{!JSENCODE(Opportunity.Name)}";
+            //vOppName = vOppName.replace(/'/g, '\\\'');
+            console.log('ah::vOppName ' + vOppName);
+            
+            var vPartRepName = "{!JSENCODE(Opportunity.Partner_Rep__r.Name)}";
+            console.log('ah::vPartRepName ' + vPartRepName);
+        
+            $Lightning.use("c:OpportunityGridApp", function() {
+        
+              $Lightning.createComponent("c:MultilineOLIUpdateCmp",
+              {
+                  opportunityName : vOppName,
+                  partnerRepName : vPartRepName,
+                  attOppId : vOppId,
+                  oppOwnerId : vOwnerId
+              },
+              "divMultiLineCmp",
+              function(cmp) {
+                console.log('component MultilineOLIUpdateCmp created');
+              }); 
+            });   
+        
+            window.setTimeout(function(){ 
+                $('.modal-body').css("width", "900px !important");
+                $('.modal-container').css("width", "900px !important");
+                $('.modal-container').css("min-width", "900px !important");
+                
+$('iframe').css('width', '900px !important');
+                console.log($('[id$="MultilineOLIUpdate"]').width());
+                //alert(1);
+                
+            }, 7000);
+        
+        });
+    </script>    
+</apex:page>

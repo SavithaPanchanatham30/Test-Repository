@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What main or material duties of job are they unable to perform --></help>
+        <label><!-- What Main/Material Duties Unable to do --></label>
+        <name>What_Main_Material_Duties_Unable_to_do__c</name>
+    </CustomFieldTranslation>

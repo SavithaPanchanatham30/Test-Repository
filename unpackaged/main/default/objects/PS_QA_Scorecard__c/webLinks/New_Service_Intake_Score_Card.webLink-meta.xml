@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Service_Intake_Score_Card</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Service Intake Score Card</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/lightning/o/PS_QA_Scorecard__c/new?recordTypeId=0120H000001QWHjQAO&amp;defaultFieldValues=Case__c={!Case.CaseSafeID__c}</url>
+</WebLink>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>eutf.claims@usablelife.com</email>
+    <name>EUTF Claims</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>All_EUTF_CS_Claims</publicGroup>
+        </publicGroups>
+        <users>
+            <user>angela.hunter@usablelife.com</user>
+            <user>devonnae.williams@usablelife.com</user>
+            <user>harold.hays@usablelife.com</user>
+            <user>janaia.secrest-holden@usablelife.com</user>
+            <user>jennifer.farnsworth@usablelife.com</user>
+            <user>june.urada@usablelife.com</user>
+            <user>leilani.tudela@usablelife.com</user>
+            <user>marianela.lopez@usablelife.com</user>
+            <user>morgan.poteet@usablelife.com</user>
+            <user>natalie.johansson@usablelife.com</user>
+            <user>niki.martinez@usablelife.com</user>
+            <user>ray.barkerii@usablelife.com</user>
+            <user>violeta.gomez@usablelife.com</user>
+            <user>wyomie.pilor@usablelife.comf</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

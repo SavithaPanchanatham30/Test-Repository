@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check Billing Mode for other than monthly --></help>
+        <label><!-- Check Billing Mode --></label>
+        <name>Check_Billing_Mode__c</name>
+    </CustomFieldTranslation>

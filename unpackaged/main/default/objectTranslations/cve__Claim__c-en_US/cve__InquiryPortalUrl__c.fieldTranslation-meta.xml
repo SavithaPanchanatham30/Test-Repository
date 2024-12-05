@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- URL that customers use to inquire about their claims --></help>
+        <label><!-- Inquiry Portal URL --></label>
+        <name>cve__InquiryPortalUrl__c</name>
+    </CustomFieldTranslation>

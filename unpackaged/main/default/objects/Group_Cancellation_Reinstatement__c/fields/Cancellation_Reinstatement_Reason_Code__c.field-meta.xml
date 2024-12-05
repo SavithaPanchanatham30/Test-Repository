@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Reinstatement_Reason_Code__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Cancellation_Reinstatement_Reason__c ,
+&quot;Terminated Employment&quot;, &quot;1&quot;, 
+&quot;Policyholder&#39;s Request&quot;, &quot;2&quot;, 
+&quot;Death&quot;,&quot;3&quot;, 
+&quot;Reinstatement&quot;,&quot;4&quot;, 
+&quot;Rescinded Policy&quot;,&quot;5&quot;, 
+&quot;Overloaned&quot;,&quot;6&quot;, 
+&quot;Leave Of Absence&quot;,&quot;7&quot;, 
+&quot;Rates/Competition&quot;,&quot;8&quot;, 
+&quot;Changing To Enterprise Small Group&quot;,&quot;9&quot;, 
+&quot;Delinquent&quot;,&quot;10&quot;, 
+&quot;Out Of Business/Dissolve&quot;,&quot;11&quot;, 
+&quot;Below Percentage/Size&quot;,&quot;12&quot;, 
+&quot;Transfer To Another Group With USAL&quot;,&quot;13&quot;, 
+&quot;Group&#39;s Request&quot;,&quot;14&quot;, 
+&quot;System Change Of Group Number Only&quot;,&quot;15&quot;, 
+&quot;Reduced Paid Up&quot;,&quot;16&quot;, 
+&quot;Extended Term Insurance&quot;,&quot;17&quot;, 
+&quot;Entered Terminated Group In Lifepro Due To Open Claim&quot;,&quot;18&quot;, 
+&quot;Not REC Takeover Business&quot;,&quot;19&quot;, 
+&quot;Expired Due To Age&quot;,&quot;20&quot;, 
+&quot;Move To SA Billing&quot;,&quot;21&quot;, 
+&quot;Cancel/Claims Request&quot;,&quot;22&quot;, 
+&quot;No DOL Approval&quot;,&quot;23&quot;, 
+&quot;Bankruptcy&quot;,&quot;24&quot;, 
+&quot;School Consolidation&quot;,&quot;25&quot;, 
+&quot;Product Setup In Error&quot;,&quot;26&quot;, 
+&quot;Withdrawn&quot;,&quot;27&quot;, 
+&quot;Paid At Master Group&quot;,&quot;28&quot;, 
+&quot;0&quot;)</formula>
+    <label>Cancellation/Reinstatement Reason Code</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

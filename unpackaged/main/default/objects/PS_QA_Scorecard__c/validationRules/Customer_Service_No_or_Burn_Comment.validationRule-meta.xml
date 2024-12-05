@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Service_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn is  Is entered in Customer Service Cases 90 Days then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Customer_Service_Cases_90_Days__c ) = &quot;No&quot; , TEXT ( Customer_Service_Cases_90_Days__c) = &quot;Burn&quot;),   Customer_Service_Cases_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Customer_Service_Cases_Comments__c</errorDisplayField>
+    <errorMessage>QA121- If Customer Service Cases 90 days  =  No or Burn, Then Customer Service Cases Comments must be entered</errorMessage>
+</ValidationRule>

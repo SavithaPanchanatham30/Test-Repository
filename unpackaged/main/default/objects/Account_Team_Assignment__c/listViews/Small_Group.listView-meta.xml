@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Small_Group</fullName>
+    <columns>NAME</columns>
+    <columns>Assignment_Method__c</columns>
+    <columns>Group_Segment__c</columns>
+    <columns>BC_Rep_Code__c</columns>
+    <columns>County__c</columns>
+    <columns>Team_Role__c</columns>
+    <columns>User__c</columns>
+    <columns>Blue_Partner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Group_Segment__c</field>
+        <operation>equals</operation>
+        <value>Small</value>
+    </filters>
+    <label>Small Group</label>
+</ListView>

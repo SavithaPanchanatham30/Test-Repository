@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>cve__Type__c</name>
+        <picklistValues>
+            <masterLabel>160 or more but less than 225 sq cm</masterLabel>
+            <translation><!-- 160 or more but less than 225 sq cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 or more but less than 40 sq cm</masterLabel>
+            <translation><!-- 20 or more but less than 40 sq cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>225 or more sq cm</masterLabel>
+            <translation><!-- 225 or more sq cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 or more but less than 65 sq cm</masterLabel>
+            <translation><!-- 40 or more but less than 65 sq cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65 or more but less than 160 sq cm</masterLabel>
+            <translation><!-- 65 or more but less than 160 sq cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air</masterLabel>
+            <translation><!-- Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ankle</masterLabel>
+            <translation><!-- Ankle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arthroscopy without surgical repair</masterLabel>
+            <translation><!-- Arthroscopy without surgical repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At least 5 but not more than 15 centimeters</masterLabel>
+            <translation><!-- At least 5 but not more than 15 centimeters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken tooth repaired with crown</masterLabel>
+            <translation><!-- Broken tooth repaired with crown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broken tooth resulting in extraction</masterLabel>
+            <translation><!-- Broken tooth resulting in extraction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coccyx</masterLabel>
+            <translation><!-- Coccyx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collar bone</masterLabel>
+            <translation><!-- Collar bone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cranial</masterLabel>
+            <translation><!-- Cranial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elbow</masterLabel>
+            <translation><!-- Elbow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Face</masterLabel>
+            <translation><!-- Face --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finger</masterLabel>
+            <translation><!-- Finger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foot</masterLabel>
+            <translation><!-- Foot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forearm</masterLabel>
+            <translation><!-- Forearm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hand</masterLabel>
+            <translation><!-- Hand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heel</masterLabel>
+            <translation><!-- Heel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hemiplegia (one side of body)</masterLabel>
+            <translation><!-- Hemiplegia (one side of body) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hernia</masterLabel>
+            <translation><!-- Hernia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hip</masterLabel>
+            <translation><!-- Hip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insured</masterLabel>
+            <translation><!-- Insured --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knee</masterLabel>
+            <translation><!-- Knee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kneecap</masterLabel>
+            <translation><!-- Kneecap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land</masterLabel>
+            <translation><!-- Land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leg</masterLabel>
+            <translation><!-- Leg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less than 20 sq cm</masterLabel>
+            <translation><!-- Less than 20 sq cm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less than 5 centimeters</masterLabel>
+            <translation><!-- Less than 5 centimeters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lower jaw</masterLabel>
+            <translation><!-- Lower jaw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nose</masterLabel>
+            <translation><!-- Nose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not requiring sutures and treated by a physician</masterLabel>
+            <translation><!-- Not requiring sutures and treated by a physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open abdominal (including exploratory laparotomy)</masterLabel>
+            <translation><!-- Open abdominal (including exploratory laparotomy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Over 15 centimeters</masterLabel>
+            <translation><!-- Over 15 centimeters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraplegia (lower limbs)</masterLabel>
+            <translation><!-- Paraplegia (lower limbs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pelvis</masterLabel>
+            <translation><!-- Pelvis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quadriplegia (four limbs)</masterLabel>
+            <translation><!-- Quadriplegia (four limbs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removal of foreign body by a physician</masterLabel>
+            <translation><!-- Removal of foreign body by a physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair of ruptured discs</masterLabel>
+            <translation><!-- Repair of ruptured discs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair of tendons and/or ligaments</masterLabel>
+            <translation><!-- Repair of tendons and/or ligaments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair of torn knee cartilages</masterLabel>
+            <translation><!-- Repair of torn knee cartilages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair of torn rotator cuffs</masterLabel>
+            <translation><!-- Repair of torn rotator cuffs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rib</masterLabel>
+            <translation><!-- Rib --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shoulder</masterLabel>
+            <translation><!-- Shoulder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shoulder blade</masterLabel>
+            <translation><!-- Shoulder blade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skull</masterLabel>
+            <translation><!-- Skull --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sternum</masterLabel>
+            <translation><!-- Sternum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgical repair</masterLabel>
+            <translation><!-- Surgical repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thoracic surgery</masterLabel>
+            <translation><!-- Thoracic surgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toe</masterLabel>
+            <translation><!-- Toe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upper arm</masterLabel>
+            <translation><!-- Upper arm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upper jaw</masterLabel>
+            <translation><!-- Upper jaw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vertebrae</masterLabel>
+            <translation><!-- Vertebrae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vertebral processes</masterLabel>
+            <translation><!-- Vertebral processes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrist</masterLabel>
+            <translation><!-- Wrist --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

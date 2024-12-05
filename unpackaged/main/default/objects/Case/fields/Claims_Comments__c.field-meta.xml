@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claims_Comments__c</fullName>
+    <deprecated>false</deprecated>
+    <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+    <inlineHelpText>This field is specific for Claim&#39;s private comments.</inlineHelpText>
+    <label>Claim&#39;s Comments</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

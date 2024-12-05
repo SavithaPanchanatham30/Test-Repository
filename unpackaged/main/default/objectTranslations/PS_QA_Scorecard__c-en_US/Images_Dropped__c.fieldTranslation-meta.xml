@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- 24 HOURS AFTER TO ENROLLMENT END DATE (Min Time 5, Time 10, Max Time 12) --></help>
+        <label><!-- Images Dropped --></label>
+        <name>Images_Dropped__c</name>
+    </CustomFieldTranslation>

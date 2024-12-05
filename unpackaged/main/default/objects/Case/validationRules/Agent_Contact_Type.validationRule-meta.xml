@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Contact_Type</fullName>
+    <active>true</active>
+    <description>If agent contact type user must select case reason agent/group, agent/member or agency relationship</description>
+    <errorConditionFormula>AND
+(Contact_Type__c = &quot;Agent&quot;, 
+AND(TEXT(Reason)&lt;&gt;&quot;Agent/Member&quot;,TEXT(Reason)&lt;&gt;&quot;Agent/Group&quot;, TEXT(Reason)&lt;&gt;&quot;Agency Relationship&quot;,TEXT(Reason)&lt;&gt;&quot;N/A&quot;),RecordType.DeveloperName &lt;&gt; &quot;Dental_Operations&quot;)</errorConditionFormula>
+    <errorDisplayField>Reason</errorDisplayField>
+    <errorMessage>Please enter correct Case Reason: Agent/Group, Agent/Member or Agency Relationship for  Agent</errorMessage>
+</ValidationRule>

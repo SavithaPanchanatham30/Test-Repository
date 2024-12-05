@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>reflects permission sets Claim Intake Coordinator need to handle claims within Claim Vantage</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Claims Intake Coordinator</label>
+    <permissionSets>AbsenceClaimStatusReason_READ</permissionSets>
+    <permissionSets>AdditionalIncome_READ</permissionSets>
+    <permissionSets>AutoPay_READ</permissionSets>
+    <permissionSets>ClaimIncurredDate_READ</permissionSets>
+    <permissionSets>ClaimTATCalculation_WRITE</permissionSets>
+    <permissionSets>CopyMoveDeleteDocumentsApexPermission</permissionSets>
+    <permissionSets>CoverageLimitation_READ</permissionSets>
+    <permissionSets>ExpressPay_READ</permissionSets>
+    <permissionSets>FICAandMedicareTaxability_READ</permissionSets>
+    <permissionSets>FilesTransitionToClaim_READ</permissionSets>
+    <permissionSets>Insurance_Claims_User_Permissions_Write</permissionSets>
+    <permissionSets>MemberBenefit_READ</permissionSets>
+    <permissionSets>OverPayment_READ</permissionSets>
+    <permissionSets>OverpaymentFlag_READ</permissionSets>
+    <permissionSets>PaymentApproval_READ</permissionSets>
+    <permissionSets>PaymentFields_READ</permissionSets>
+    <permissionSets>PaymentSpecificationRollup_READ</permissionSets>
+    <permissionSets>PopulateAbsenceClaimFromCase_WRITE</permissionSets>
+    <permissionSets>PopulateClaimFromCase_WRITE</permissionSets>
+    <permissionSets>SocialSecurityExempt_WRITE</permissionSets>
+    <permissionSets>Transfer_Records</permissionSets>
+    <permissionSets>UsableCvabStatus_WRITE</permissionSets>
+    <permissionSets>UserLOARoleFields_READ</permissionSets>
+    <permissionSets>cvab__AbsenceUserPermissions</permissionSets>
+    <permissionSets>cvab__PermissionsSalesforce</permissionSets>
+    <permissionSets>cvb__Base</permissionSets>
+    <permissionSets>cvint__Integration_ReadWrite</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

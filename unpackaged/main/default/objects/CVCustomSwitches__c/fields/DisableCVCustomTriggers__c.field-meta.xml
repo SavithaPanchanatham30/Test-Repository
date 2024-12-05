@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DisableCVCustomTriggers__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, CV Custom Triggers will not fire</description>
+    <inlineHelpText>Should remain unchecked during normal operation of the solution, but may need to be temporarily set to &quot;checked&quot; during data imports or debugging activities</inlineHelpText>
+    <label>Disable CV Custom Triggers</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

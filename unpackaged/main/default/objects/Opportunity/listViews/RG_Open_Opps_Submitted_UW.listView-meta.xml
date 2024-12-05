@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Open_Opps_Submitted_UW</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Blue_Rep_Region__c</field>
+        <operation>equals</operation>
+        <value>RG</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>In Process</value>
+    </filters>
+    <filters>
+        <field>Submitted_to_UW__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>RG Open Opps Submitted UW</label>
+    <sharedTo>
+        <group>Dental_Underwriting</group>
+        <group>Junior_Admin_Group</group>
+    </sharedTo>
+</ListView>

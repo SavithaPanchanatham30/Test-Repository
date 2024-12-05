@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Termination Letter - Generic</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TERM - Termination Letter (Generic)</name>
+    <style>none</style>
+    <subject>TERM - USAble Life Termination - Generic</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

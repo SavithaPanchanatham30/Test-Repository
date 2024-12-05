@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Life Change Event Type --></label>
+        <name>cve__LifeChangeEventType__c</name>
+        <picklistValues>
+            <masterLabel>Adoption</masterLabel>
+            <translation><!-- Adoption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Birth of Child</masterLabel>
+            <translation><!-- Birth of Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death of Dependent</masterLabel>
+            <translation><!-- Death of Dependent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death of Spouse</masterLabel>
+            <translation><!-- Death of Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Divorce</masterLabel>
+            <translation><!-- Divorce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Change</masterLabel>
+            <translation><!-- Employment Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ineligibility of Dependent</masterLabel>
+            <translation><!-- Ineligibility of Dependent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Separation</masterLabel>
+            <translation><!-- Legal Separation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marriage</masterLabel>
+            <translation><!-- Marriage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

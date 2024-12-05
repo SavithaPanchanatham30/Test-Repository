@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Confirm enrollment on enrollment/enroller schedule --></help>
+        <label><!-- Confirm Enrollment --></label>
+        <name>Confirm_Enrollment__c</name>
+    </CustomFieldTranslation>

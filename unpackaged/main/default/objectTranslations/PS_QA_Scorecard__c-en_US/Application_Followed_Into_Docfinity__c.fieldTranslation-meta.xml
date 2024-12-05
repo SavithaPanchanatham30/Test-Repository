@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Application followed into Docfinity &amp; Processed --></help>
+        <label><!-- Application Followed In Docfinity &amp; Pro --></label>
+        <name>Application_Followed_Into_Docfinity__c</name>
+    </CustomFieldTranslation>

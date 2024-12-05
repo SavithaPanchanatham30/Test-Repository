@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hold_Reason_PCCR_Licensing</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(RecordType.Name = &#39;Policy Services&#39; &amp;&amp;
+INCLUDES( Hold_Reasons__c , &#39;PCCR – Licensing&#39;),
+AND
+(ISPICKVAL(Status, &#39;Closed&#39;) || (ISPICKVAL(Status, &#39;Issued and Closed&#39;))))</errorConditionFormula>
+    <errorDisplayField>Hold_Reasons__c</errorDisplayField>
+    <errorMessage>“PCCR – Licensing” needs to be removed/deselected before the case can be closed?</errorMessage>
+</ValidationRule>

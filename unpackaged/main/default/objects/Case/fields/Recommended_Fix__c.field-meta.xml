@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recommended_Fix__c</fullName>
+    <description>how would you fix the problem</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>How would you solve the problem</inlineHelpText>
+    <label>Recommended Fix</label>
+    <length>800</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

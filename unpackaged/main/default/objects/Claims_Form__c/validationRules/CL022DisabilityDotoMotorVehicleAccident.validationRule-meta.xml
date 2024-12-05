@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL022DisabilityDotoMotorVehicleAccident</fullName>
+    <active>true</active>
+    <description>For Type of Disability Accident - Disability do to MVA must be keyed</description>
+    <errorConditionFormula>AND( TEXT( Type_of_Disability__c )= &quot;Accident&quot;, ISBlank(TEXT (  Disability_Do_to_Motor_Vehicle_Accident__c )) , RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Disability_Do_to_Motor_Vehicle_Accident__c</errorDisplayField>
+    <errorMessage>CL-022 If Type of Disability - Accident then Disability Do to Motor Vehicle Accident must be Selected</errorMessage>
+</ValidationRule>

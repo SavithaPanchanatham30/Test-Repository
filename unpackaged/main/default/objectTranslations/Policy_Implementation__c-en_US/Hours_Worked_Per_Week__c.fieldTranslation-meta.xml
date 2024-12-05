@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Hours Worked Per Week --></label>
+        <name>Hours_Worked_Per_Week__c</name>
+        <picklistValues>
+            <masterLabel>Continue/Don’t Submit</masterLabel>
+            <translation><!-- Continue/Don’t Submit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continue/Submit</masterLabel>
+            <translation><!-- Continue/Submit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Halt</masterLabel>
+            <translation><!-- Halt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

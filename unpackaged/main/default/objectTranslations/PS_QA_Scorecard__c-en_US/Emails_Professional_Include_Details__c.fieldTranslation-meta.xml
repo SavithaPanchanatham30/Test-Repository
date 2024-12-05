@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Were emails professional and include details of the request - This includes notification of decision and/or missing information --></help>
+        <label><!-- Emails Professional &amp; Include Details --></label>
+        <name>Emails_Professional_Include_Details__c</name>
+    </CustomFieldTranslation>

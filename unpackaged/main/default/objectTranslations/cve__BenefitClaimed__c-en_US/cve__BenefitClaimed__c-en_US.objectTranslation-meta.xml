@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>BenefitClaimed AD&amp;D Layout</layout>
+        <sections>
+            <label><!-- Accident Information --></label>
+            <section>Accident Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Death Information --></label>
+            <section>Death Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Adjustments --></label>
+            <section>Payment Adjustments</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Accident Layout</layout>
+        <sections>
+            <label><!-- Accident Information --></label>
+            <section>Accident Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Death Information --></label>
+            <section>Death Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Annuity Layout</layout>
+        <sections>
+            <label><!-- Annuity Information --></label>
+            <section>Annuity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Death Information --></label>
+            <section>Death Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Cancer Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cancer Information --></label>
+            <section>Cancer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Critical Illness Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Critical Illness Information --></label>
+            <section>Critical Illness Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Disability Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Benefit Date Information --></label>
+            <section>Benefit Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deceased Information --></label>
+            <section>Deceased Information</section>
+        </sections>
+        <sections>
+            <label><!-- Disability Information --></label>
+            <section>Disability Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Lookback Information --></label>
+            <section>Lookback Information</section>
+        </sections>
+        <sections>
+            <label><!-- Maternity Information --></label>
+            <section>Maternity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Code Information --></label>
+            <section>Medical Code Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Hospital Indemnity Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Indemnity Information --></label>
+            <section>Hospital Indemnity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Indemnity Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Indemnity Information --></label>
+            <section>Indemnity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Life Layout</layout>
+        <sections>
+            <label><!-- Age Information --></label>
+            <section>Age Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Death Information --></label>
+            <section>Death Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Life Claim Information --></label>
+            <section>Life Claim Information</section>
+        </sections>
+        <sections>
+            <label><!-- Life Expectancy Information --></label>
+            <section>Life Expectancy Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Adjustment Information --></label>
+            <section>Payment Adjustment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Long Term Care Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Long Term Care Information --></label>
+            <section>Long Term Care Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Survivor Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Death Information --></label>
+            <section>Death Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed WOP Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Benefit Date Information --></label>
+            <section>Benefit Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Code Information --></label>
+            <section>Medical Code Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Waiver of Premium Information --></label>
+            <section>Waiver of Premium Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>BenefitClaimed Wellness Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Wellness Information --></label>
+            <section>Wellness Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CustomAccidentBCLayout</layout>
+        <sections>
+            <label><!-- Accident Information --></label>
+            <section>Accident Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Death Information --></label>
+            <section>Death Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CustomCIBCLayout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Critical Illness Information --></label>
+            <section>Critical Illness Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CustomDisabilityBCLayout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Benefit Date Information --></label>
+            <section>Benefit Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deceased Information --></label>
+            <section>Deceased Information</section>
+        </sections>
+        <sections>
+            <label><!-- Disability Information --></label>
+            <section>Disability Information</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Lookback Information --></label>
+            <section>Lookback Information</section>
+        </sections>
+        <sections>
+            <label><!-- Maternity Information --></label>
+            <section>Maternity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Medical Code Information --></label>
+            <section>Medical Code Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CustomHIBCLayout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Explanation --></label>
+            <section>Calculated Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Calculation Information --></label>
+            <section>Calculation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Indemnity Information --></label>
+            <section>Hospital Indemnity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hospital Information --></label>
+            <section>Hospital Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metric Information --></label>
+            <section>Metric Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status Information --></label>
+            <section>Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Calculate --></label>
+        <name>cve__Calculate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Calculate Payments --></label>
+        <name>cve__CalculatePayments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Medical Code Search --></label>
+        <name>cve__MedicalCodeSearch</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Provides payment to the insured for loss resulting from accidental bodily injury. --></description>
+        <label><!-- Accident --></label>
+        <name>cve__Accident</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides payment to a beneficiary on death of the insured by accidental means (rather than natural causes) and/or payment to the insured for dismemberment, that includes loss of the use of certain body parts. --></description>
+        <label><!-- Accidental Death and Dismemberment --></label>
+        <name>cve__AccidentalDeathAndDismemberment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides payment to the annuitant at specific intervals, usually after retirement. --></description>
+        <label><!-- Annuity --></label>
+        <name>cve__Annuity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides a cash benefit for cancer-related expenses. --></description>
+        <label><!-- Cancer --></label>
+        <name>cve__Cancer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides a lump sum payment if the policyholder is diagnosed with a specified life-altering illness. --></description>
+        <label><!-- Critical Illness --></label>
+        <name>cve__CriticalIllness</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides a cash benefit for hospital-related expenses. --></description>
+        <label><!-- Hospital Indemnity --></label>
+        <name>cve__HospitalIndemnity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides monthly payments to a claimant incapacitated and hence unable to work due to illness or accident. IPI policies were formerly called PHI (Permanent Health Insurance) policies. --></description>
+        <label><!-- Income Protection --></label>
+        <name>cve__IncomeProtection</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides a lump sum payment to the insured for a hospital stay. --></description>
+        <label><!-- Indemnity --></label>
+        <name>cve__Indemnity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides payment if the policyholder is unable to perform specified daily activities. --></description>
+        <label><!-- Long Term Care --></label>
+        <name>cve__LongTermCare</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides monthly payments to a claimant of a percentage of their monthly earnings if they become disabled. --></description>
+        <label><!-- Long Term Disability --></label>
+        <name>cve__LongTermDisability</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides weekly payments to a claimant for their full or partial wages during a time of injury or illness that is not work-related. --></description>
+        <label><!-- Short Term Disability --></label>
+        <name>cve__ShortTermDisability</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides payment to family members upon the demise of the claimant. --></description>
+        <label><!-- Survivor --></label>
+        <name>cve__Survivor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides payment to a beneficiary should the insured die during a limited period of time, the relevant term. --></description>
+        <label><!-- Term Life --></label>
+        <name>cve__TermLife</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides payment of a lump sum benefit amount to the claimant in the event of a medically diagnosed event that renders the claimant unable to work again. --></description>
+        <label><!-- Total and Permanent Disability --></label>
+        <name>cve__TotalAndPermanentDisability</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides Whole Life Insurance with an added investment element, that results in a flexible death benefit. --></description>
+        <label><!-- Universal Life --></label>
+        <name>cve__UniversalLife</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Waives the policyholder&apos;s obligation to pay future premiums should they become disabled for a specified amount of time, such as six months. --></description>
+        <label><!-- Waiver of Premium --></label>
+        <name>cve__WaiverOfPremium</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides payment for services to prevent illness, such as routine check-ups, immunizations, patient counseling, and screenings. --></description>
+        <label><!-- Wellness --></label>
+        <name>cve__Wellness</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Provides payment of the level guaranteed death benefit to a beneficiary upon the demise of the insured or if the insured outlives the contract payment is made directly to the insured. --></description>
+        <label><!-- Whole Life --></label>
+        <name>cve__WholeLife</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Enter a value between 0 and 11 --></errorMessage>
+        <name>cve__MonthsValueRange</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Calculate --></label>
+        <name>cve__Calculate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CalculateEntitlements --></label>
+        <name>cve__CalculateEntitlements</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CaseManagement --></label>
+        <name>cve__CaseManagement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimNotes --></label>
+        <name>cve__ClaimNotes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MedicalCodeSearch --></label>
+        <name>cve__MedicalCodeSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PaymentCalculation --></label>
+        <name>cve__PaymentCalculation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PaymentCalculationWithCheck --></label>
+        <name>cve__PaymentCalculationWithCheck</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Approved_Benefit_Claimed</name>
+        <subject><!-- Approved Benefit Claimed --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Rejected_Benefit_Claim</name>
+        <subject><!-- Rejected Benefit Claim --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Requesting_to_review_Benefit_Claimed</name>
+        <subject><!-- Requesting to review Benefit Claimed --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disability_Type__c</fullName>
+    <label>Disability Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ED LTD1</fullName>
+                <default>false</default>
+                <label>ED LTD1</label>
+            </value>
+            <value>
+                <fullName>ED LTD2</fullName>
+                <default>false</default>
+                <label>ED LTD2</label>
+            </value>
+            <value>
+                <fullName>ED LTD3-1/4</fullName>
+                <default>false</default>
+                <label>ED LTD3-1/4</label>
+            </value>
+            <value>
+                <fullName>ED LTD3-1515</fullName>
+                <default>false</default>
+                <label>ED LTD3-1515</label>
+            </value>
+            <value>
+                <fullName>ED LTD3-3030</fullName>
+                <default>false</default>
+                <label>ED LTD3-3030</label>
+            </value>
+            <value>
+                <fullName>ED LTD3-6060</fullName>
+                <default>false</default>
+                <label>ED LTD3-6060</label>
+            </value>
+            <value>
+                <fullName>ED LTD3-88</fullName>
+                <default>false</default>
+                <label>ED LTD3-88</label>
+            </value>
+            <value>
+                <fullName>ED LTD4</fullName>
+                <default>false</default>
+                <label>ED LTD4</label>
+            </value>
+            <value>
+                <fullName>LTD</fullName>
+                <default>false</default>
+                <label>LTD</label>
+            </value>
+            <value>
+                <fullName>LTD6 1/4</fullName>
+                <default>false</default>
+                <label>LTD6 1/4</label>
+            </value>
+            <value>
+                <fullName>LTD6 15/15</fullName>
+                <default>false</default>
+                <label>LTD6 15/15</label>
+            </value>
+            <value>
+                <fullName>LTD6 30/30</fullName>
+                <default>false</default>
+                <label>LTD6 30/30</label>
+            </value>
+            <value>
+                <fullName>LTD6 60/60</fullName>
+                <default>false</default>
+                <label>LTD6 60/60</label>
+            </value>
+            <value>
+                <fullName>LTD6 8/8</fullName>
+                <default>false</default>
+                <label>LTD6 8/8</label>
+            </value>
+            <value>
+                <fullName>LTD6 90/90</fullName>
+                <default>false</default>
+                <label>LTD6 90/90</label>
+            </value>
+            <value>
+                <fullName>LTD ER PD</fullName>
+                <default>false</default>
+                <label>LTD ER PD</label>
+            </value>
+            <value>
+                <fullName>STD</fullName>
+                <default>false</default>
+                <label>STD</label>
+            </value>
+            <value>
+                <fullName>STD ER PD</fullName>
+                <default>false</default>
+                <label>STD ER PD</label>
+            </value>
+            <value>
+                <fullName>VLTD</fullName>
+                <default>false</default>
+                <label>VLTD</label>
+            </value>
+            <value>
+                <fullName>VSTD</fullName>
+                <default>false</default>
+                <label>VSTD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

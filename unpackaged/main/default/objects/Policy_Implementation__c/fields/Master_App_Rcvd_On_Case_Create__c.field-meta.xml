@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_App_Rcvd_On_Case_Create__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Master application has been received when the case was created</inlineHelpText>
+    <label>Submitted with Master App</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

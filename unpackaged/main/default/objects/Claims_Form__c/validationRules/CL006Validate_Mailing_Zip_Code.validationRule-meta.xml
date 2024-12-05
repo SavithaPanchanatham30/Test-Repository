@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL006Validate_Mailing_Zip_Code</fullName>
+    <active>true</active>
+    <description>Validate Mailing Zip Code</description>
+    <errorConditionFormula>AND(NOT(ISNUMBER(Mailing_Address_Zipcode__c)), RecordType.DeveloperName = &quot;Wellness&quot;)</errorConditionFormula>
+    <errorDisplayField>Mailing_Address_Zipcode__c</errorDisplayField>
+    <errorMessage>CL-006 Mailing Zip Code Must be numeric</errorMessage>
+</ValidationRule>

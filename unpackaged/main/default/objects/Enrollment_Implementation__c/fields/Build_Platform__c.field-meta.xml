@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Build_Platform__c</fullName>
+    <label>Build Platform</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Able Employee Navigator</fullName>
+                <default>false</default>
+                <label>Able Employee Navigator</label>
+            </value>
+            <value>
+                <fullName>AccessAble</fullName>
+                <default>false</default>
+                <label>AccessAble</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Trustmark</fullName>
+                <default>false</default>
+                <label>Trustmark</label>
+            </value>
+            <value>
+                <fullName>USAble Selerix</fullName>
+                <default>false</default>
+                <label>USAble Selerix</label>
+            </value>
+            <value>
+                <fullName>Selerix Choice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Selerix Choice</label>
+            </value>
+            <value>
+                <fullName>USAble</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>USAble</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Payroll groups name, ded frequency, ded codes, ded instructions --></help>
+        <label><!-- Bill Groups Info --></label>
+        <name>Bill_Groups_Info__c</name>
+    </CustomFieldTranslation>

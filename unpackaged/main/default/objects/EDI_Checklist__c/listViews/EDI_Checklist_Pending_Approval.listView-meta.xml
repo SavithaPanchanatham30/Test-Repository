@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDI_Checklist_Pending_Approval</fullName>
+    <columns>Group_Name__c</columns>
+    <columns>Case__c</columns>
+    <columns>NAME</columns>
+    <columns>Anniversary_Date__c</columns>
+    <columns>Billing_Method__c</columns>
+    <columns>Benefits_100_ER_Paid__c</columns>
+    <columns>Member_Count__c</columns>
+    <columns>Premium_Annualized__c</columns>
+    <columns>EDI_Vendor__c</columns>
+    <columns>Established_Vendor__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Awaiting Approval</value>
+    </filters>
+    <filters>
+        <field>Submitted_for_Approval__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>EDI Checklist Pending Approval</label>
+    <sharedTo>
+        <group>Group_EDI_Update</group>
+    </sharedTo>
+</ListView>

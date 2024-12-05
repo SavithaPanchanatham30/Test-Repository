@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Assignment__c</fullName>
+    <defaultValue>NOW()</defaultValue>
+    <description>Last time case was assigned to this person</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Last time case was assigned to this person</inlineHelpText>
+    <label>Last Assignment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

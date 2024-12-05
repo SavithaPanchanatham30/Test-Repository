@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <decisions>
+        <description>update birth certificate received date</description>
+        <name>Update_Birth_Certificate_Received_Date_to_Null</name>
+        <label>Update Birth Certificate Received Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>1223</locationY>
+        <defaultConnector>
+            <targetReference>Update_Birth_Certificate_Date_to_Null</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Birth_Certificate_Received_Date_to_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Birth_Certificate__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Birth_Certificate_Date_to_Null</targetReference>
+            </connector>
+            <label>Birth Certificate Received Date to Null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>update employer statement received to null</description>
+        <name>Update_Employer_Statement_Received_to_Null</name>
+        <label>Update Employer Statement Received to Null</label>
+        <locationX>176</locationX>
+        <locationY>623</locationY>
+        <defaultConnector>
+            <targetReference>Update_Employer_Statement_Date_to_Null</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Employer_Statement_Received_to_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Employer_Statement__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Employer_Statement_Date_to_Null</targetReference>
+            </connector>
+            <label>Employer Statement Received to Null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>update Insured Statement Received Date to Null</description>
+        <name>Update_Insured_Statement_Received_Date_to_Null</name>
+        <label>Update Insured Statement Received Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>1523</locationY>
+        <defaultConnector>
+            <targetReference>Update_Insured_Statement_Date_to_Null</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Insured_Statement_Received_Date_to_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Insured_Statement__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Insured_Statement_Date_to_Null</targetReference>
+            </connector>
+            <label>Insured Statement Received Date to Null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>update itemized bill statement date to null</description>
+        <name>Update_Itemized_Bill_Statement_Date_to_Null_Decision</name>
+        <label>Update Itemized Bill Statement Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>1823</locationY>
+        <defaultConnector>
+            <targetReference>Update_Itemized_Bill_Statement_Date_to_Null</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Itemized_Bill_Statement_Date_to_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Itemized_Bill_Statement__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Itemized_Bill_Statement_Date_to_Null</targetReference>
+            </connector>
+            <label>Itemized Bill Statement Date to Null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>update physician statement date to null</description>
+        <name>Update_Physician_Statement_Date_to_Null_Decision</name>
+        <label>Update Physician Statement Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>923</locationY>
+        <defaultConnector>
+            <targetReference>Update_Physician_Statement_Date_to_Null</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Physician_Statement_Date_to_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Physician_Statement__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Physician_Statement_Date_to_Null</targetReference>
+            </connector>
+            <label>Physician Statement Date to Null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>update employee statement received date to null</description>
+        <name>UpdateEmployeeStatementReceivedToNull</name>
+        <label>Update Employee Statement Received To Null</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Update_Employee_Statement_Date_to_Null</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Employee_Statement_Received_to_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Employee_Statement__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Employee_Statement_Date_to_Null</targetReference>
+            </connector>
+            <label>Employee Statement Received to Null</label>
+        </rules>
+    </decisions>
+    <description>updates dates for documents where it was accidentally marked as true but really false</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>updated birth certificate date to null</description>
+        <name>BirthCertificateDatetoNull</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE(&quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <description>update employee statement field to null</description>
+        <name>EmployeeStatementDatetoNull</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE(&quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <description>update employer statement field to null</description>
+        <name>EmployerStatementDatetoNull</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE(&quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <description>update insured statement date to null</description>
+        <name>InsuredStatementDatetoNull</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE(&quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <description>updated itemized bill statement date to null</description>
+        <name>ItemizedBillStatementtoNull</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE(&quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <description>update physician statement date to null</description>
+        <name>PhysicianStatementDatetoNull</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE(&quot;&quot;)</expression>
+    </formulas>
+    <interviewLabel>Claim Intake Documents Received/Removed {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Claim Intake Documents Received/Removed</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>update birth certificate received date to null</description>
+        <name>Update_Birth_Certificate_Date_to_Null</name>
+        <label>Update Birth Certificate Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>1415</locationY>
+        <connector>
+            <targetReference>Update_Insured_Statement_Received_Date_to_Null</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Birth_Certificate__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Birth_Certificate_Received__c</field>
+            <value>
+                <elementReference>BirthCertificateDatetoNull</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>update employee statement date to null if the flag is updated from true to not true</description>
+        <name>Update_Employee_Statement_Date_to_Null</name>
+        <label>Update Employee Statement Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>515</locationY>
+        <connector>
+            <targetReference>Update_Employer_Statement_Received_to_Null</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Employee_Statement__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Employee_Statement_Received__c</field>
+            <value>
+                <elementReference>EmployeeStatementDatetoNull</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>updated employer statement received date to null</description>
+        <name>Update_Employer_Statement_Date_to_Null</name>
+        <label>Update Employer Statement Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>815</locationY>
+        <connector>
+            <targetReference>Update_Physician_Statement_Date_to_Null_Decision</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Employer_Statement__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Employer_Statement_Received__c</field>
+            <value>
+                <elementReference>EmployerStatementDatetoNull</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>updated insured statement received date to null</description>
+        <name>Update_Insured_Statement_Date_to_Null</name>
+        <label>Update Insured Statement Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>1715</locationY>
+        <connector>
+            <targetReference>Update_Itemized_Bill_Statement_Date_to_Null_Decision</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Insured_Statement__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Insured_Statement_Received__c</field>
+            <value>
+                <elementReference>InsuredStatementDatetoNull</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>update itemized bill statement received date to null</description>
+        <name>Update_Itemized_Bill_Statement_Date_to_Null</name>
+        <label>Update Itemized Bill Statement Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>2015</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Itemized_Bill_Statement__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Itemized_Bill_Statement_Received__c</field>
+            <value>
+                <elementReference>ItemizedBillStatementtoNull</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>updated physician statement received date to null</description>
+        <name>Update_Physician_Statement_Date_to_Null</name>
+        <label>Update Physician Statement Date to Null</label>
+        <locationX>176</locationX>
+        <locationY>1115</locationY>
+        <connector>
+            <targetReference>Update_Birth_Certificate_Received_Date_to_Null</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Physician_Statement__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Physician_Statement_Received__c</field>
+            <value>
+                <elementReference>PhysicianStatementDatetoNull</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>UpdateEmployeeStatementReceivedToNull</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>012i0000001I8XbAAK</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>012i0000001IJJTAA4</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

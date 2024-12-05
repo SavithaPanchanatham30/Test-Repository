@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Access Benefits</name>
+    <queueMembers>
+        <users>
+            <user>alicia.hrdlicka@usablelife.com</user>
+            <user>angela.linebarger@usablelife.com</user>
+            <user>brandy.isom@usablelife.com</user>
+            <user>diane.elias-radler@usablelife.com</user>
+            <user>doug.diggs@usablelife.comf</user>
+            <user>janice.elmore@usablelife.com</user>
+            <user>jessica.goeman@usablelife.com</user>
+            <user>jessie.smith@usablelife.com</user>
+            <user>jodi.stelling@usablelife.com</user>
+            <user>jonathan.digby@usablelife.com</user>
+            <user>katey.baker@usablelife.com</user>
+            <user>maryann.disser@usablelife.com</user>
+            <user>michelle.grady@usablelife.com</user>
+            <user>najiba.pradhan@usablelife.com</user>
+            <user>rikita.saunders@usablelife.com</user>
+            <user>ryan.o&#39;dell@usablelife.com</user>
+            <user>sherri.payne@usablelife.como</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Enrollment Capture Method --></label>
+        <name>Enrollment_Capture_Method__c</name>
+        <picklistValues>
+            <masterLabel>Account Manager</masterLabel>
+            <translation><!-- Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Rep</masterLabel>
+            <translation><!-- Account Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Rep</masterLabel>
+            <translation><!-- Blue Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker/Agent</masterLabel>
+            <translation><!-- Broker/Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enroller</masterLabel>
+            <translation><!-- Enroller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Rep</masterLabel>
+            <translation><!-- Sales Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSM</masterLabel>
+            <translation><!-- TSM --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

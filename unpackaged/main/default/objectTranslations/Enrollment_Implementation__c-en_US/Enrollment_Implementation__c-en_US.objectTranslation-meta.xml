@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enrollment Implementation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Enrollment Implementations</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Enrollment Implementation Layout</layout>
+        <sections>
+            <label><!-- Case Setup Documents --></label>
+            <section>Case Setup Documents</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Enrollment Checklist --></label>
+            <section>Enrollment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Enrollment Implementation --></label>
+            <section>Enrollment Implementation</section>
+        </sections>
+        <sections>
+            <label><!-- Final Review --></label>
+            <section>Final Review</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Post Setup --></label>
+            <section>Implementation Post Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Setup --></label>
+            <section>Implementation Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Manager Audit --></label>
+            <section>Manager Audit</section>
+        </sections>
+        <sections>
+            <label><!-- Manager Review --></label>
+            <section>Manager Review</section>
+        </sections>
+        <sections>
+            <label><!-- Peer Review --></label>
+            <section>Peer Review</section>
+        </sections>
+        <sections>
+            <label><!-- Post Enrollment Checklist --></label>
+            <section>Post Enrollment Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Products Enrolled --></label>
+            <section>Products Enrolled</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The case currently has a Enrollment Implementation record, please navigate to the existing record and select edit --></errorMessage>
+        <name>OnlyOneEnrollmentImplementation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If External Test Released then Testing Release Date must be entered --></errorMessage>
+        <name>ReleasedDatemustbeentered</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Clone_EIO --></label>
+        <name>Clone_EIO</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- VF_Clone_EIO --></label>
+        <name>VF_Clone_EIO</name>
+    </webLinks>
+</CustomObjectTranslation>

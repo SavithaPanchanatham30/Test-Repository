@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Insured Relationship to Policyholder --></label>
+        <name>cve__InsuredRelationshipToPolicyholder__c</name>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic Partner</masterLabel>
+            <translation><!-- Domestic Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Person</masterLabel>
+            <translation><!-- Same Person --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

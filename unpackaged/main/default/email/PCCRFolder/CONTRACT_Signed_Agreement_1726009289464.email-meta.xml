@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fully executed contract send to broker</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CONTRACT - Signed Agreement</name>
+    <style>none</style>
+    <subject>USAble Life Contract - Signed Agreement</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

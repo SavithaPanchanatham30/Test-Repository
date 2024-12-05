@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Release - New MA PFML + New Other Products</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Release - New MA PFML + New Other Products</name>
+    <style>none</style>
+    <subject>Release - MA PFML + Other Products {{{Case.CaseNumber}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

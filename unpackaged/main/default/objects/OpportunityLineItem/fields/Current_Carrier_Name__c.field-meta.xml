@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Carrier_Name__c</fullName>
+    <description>Values in these three picklists should generally align, except Asset has a value for &#39;Medical&#39; not present in the other picklists: 
+• Asset.Carrier__c 
+• OpportunityProduct.Current_Carrier__c
+• OpportunityProduct.Competitor_Name__c</description>
+    <label>Current Carrier Name</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aetna</fullName>
+                <default>false</default>
+                <label>Aetna</label>
+            </value>
+            <value>
+                <fullName>AIG</fullName>
+                <default>false</default>
+                <label>AIG</label>
+            </value>
+            <value>
+                <fullName>Ameritas</fullName>
+                <default>false</default>
+                <label>Ameritas</label>
+            </value>
+            <value>
+                <fullName>Assurant</fullName>
+                <default>false</default>
+                <label>Assurant</label>
+            </value>
+            <value>
+                <fullName>BCBS</fullName>
+                <default>false</default>
+                <label>BCBS</label>
+            </value>
+            <value>
+                <fullName>Cigna</fullName>
+                <default>false</default>
+                <label>Cigna</label>
+            </value>
+            <value>
+                <fullName>Delta Dental</fullName>
+                <default>false</default>
+                <label>Delta Dental</label>
+            </value>
+            <value>
+                <fullName>Guardian</fullName>
+                <default>false</default>
+                <label>Guardian</label>
+            </value>
+            <value>
+                <fullName>Hartford</fullName>
+                <default>false</default>
+                <label>Hartford</label>
+            </value>
+            <value>
+                <fullName>HDS</fullName>
+                <default>false</default>
+                <label>HDS</label>
+            </value>
+            <value>
+                <fullName>Humana</fullName>
+                <default>false</default>
+                <label>Humana</label>
+            </value>
+            <value>
+                <fullName>Lincoln National</fullName>
+                <default>false</default>
+                <label>Lincoln National</label>
+            </value>
+            <value>
+                <fullName>LSV</fullName>
+                <default>false</default>
+                <label>LSV</label>
+            </value>
+            <value>
+                <fullName>MetLife</fullName>
+                <default>false</default>
+                <label>MetLife</label>
+            </value>
+            <value>
+                <fullName>Mutual of Omaha</fullName>
+                <default>false</default>
+                <label>Mutual of Omaha</label>
+            </value>
+            <value>
+                <fullName>No Existing Coverage</fullName>
+                <default>false</default>
+                <label>No Existing Coverage</label>
+            </value>
+            <value>
+                <fullName>Pacific Guardian Life</fullName>
+                <default>false</default>
+                <label>Pacific Guardian Life</label>
+            </value>
+            <value>
+                <fullName>Principal</fullName>
+                <default>false</default>
+                <label>Principal</label>
+            </value>
+            <value>
+                <fullName>Protective</fullName>
+                <default>false</default>
+                <label>Protective</label>
+            </value>
+            <value>
+                <fullName>Prudential</fullName>
+                <default>false</default>
+                <label>Prudential</label>
+            </value>
+            <value>
+                <fullName>Reliance Standard</fullName>
+                <default>false</default>
+                <label>Reliance Standard</label>
+            </value>
+            <value>
+                <fullName>Soltice</fullName>
+                <default>false</default>
+                <label>Soltice</label>
+            </value>
+            <value>
+                <fullName>Standard</fullName>
+                <default>false</default>
+                <label>Standard</label>
+            </value>
+            <value>
+                <fullName>Sun Life</fullName>
+                <default>false</default>
+                <label>Sun Life</label>
+            </value>
+            <value>
+                <fullName>United Concordia</fullName>
+                <default>false</default>
+                <label>United Concordia</label>
+            </value>
+            <value>
+                <fullName>United Healthcare</fullName>
+                <default>false</default>
+                <label>United Healthcare</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Unum</fullName>
+                <default>false</default>
+                <label>Unum</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

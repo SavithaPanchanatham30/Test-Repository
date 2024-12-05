@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quote Log Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quote Log Products</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Quote Log Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dental Underwriting Rates --></label>
+            <section>Dental Underwriting Rates</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You are Unable to change the customer state. Please check with your Salesforce Admin. --></errorMessage>
+        <name>Cant_Switch_State</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Regence, select one of the states IA, ID, OR, WA --></errorMessage>
+        <name>QLP01_Select_the_right_state_for_Regence</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Hawaii, select the state as HI --></errorMessage>
+        <name>QLP02_Select_the_right_state_for_HI</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Arkansas, select the state as AR --></errorMessage>
+        <name>QLP03_Select_the_right_state_for_AR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Florida, select the state as FL --></errorMessage>
+        <name>QLP04_Select_the_right_state_for_FL</name>
+    </validationRules>
+</CustomObjectTranslation>

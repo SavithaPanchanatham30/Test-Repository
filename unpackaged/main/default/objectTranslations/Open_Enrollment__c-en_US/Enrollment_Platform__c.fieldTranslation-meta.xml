@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Enrollment Platform --></label>
+        <name>Enrollment_Platform__c</name>
+        <picklistValues>
+            <masterLabel>AccessAble</masterLabel>
+            <translation><!-- AccessAble --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI</masterLabel>
+            <translation><!-- EDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper</masterLabel>
+            <translation><!-- Paper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selerix</masterLabel>
+            <translation><!-- Selerix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spreadsheet</masterLabel>
+            <translation><!-- Spreadsheet --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

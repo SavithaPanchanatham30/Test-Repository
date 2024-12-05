@@ -1,0 +1,11 @@
+Dear Valued LifeMap Customer, 
+
+We attempted to contact you via email for Case# {!Case.CaseNumber}, regarding a request submitted to us in which you had not provided complete information for processing. 
+
+This request has been closed as we have not received a response at this time.  If you should have any questions, please contact our offices at 800-794-5390. 
+
+Thank you, 
+LifeMap Enrollment Team
+
+
+{!Case.Thread_Id}

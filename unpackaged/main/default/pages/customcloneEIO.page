@@ -1,0 +1,93 @@
+<apex:page standardController="Enrollment_Implementation__c" extensions="customcloneEIO">
+<apex:form >
+<apex:pageMessages id="pageMessagesId"/>
+<apex:pageBlock title="Enrollment Implementation details">
+<apex:pageBlockSection title="Information" columns="1">
+<apex:inputField value="{!Enrollment_Implementation__c.Case__c}"   required="true" />
+<apex:inputField value="{!Enrollment_Implementation__c.Enrollment_Start_Date__c}" required="true" />
+<apex:inputField value="{!Enrollment_Implementation__c.Override_Street__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Override_City_State_Zip__c}" />
+</apex:pageBlockSection>
+<apex:pageBlockSection title="Implementation Setup" columns="1">
+<apex:inputField value="{!Enrollment_Implementation__c.Enrollment_State__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Payroll_Load__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Payroll_Vendor__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Payroll_Vendor_Contact__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Separate_by_Payroll__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Bill_Mode__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Skip_Months__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Skip_Months_Notes__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Deductions_Payroll_Frequency__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Billing_Time__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Bill_Method__c}" />
+<apex:inputField value="{!Enrollment_Implementation__c.Billed_By__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Bill_Groups_Info__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Carrier_Group_Numbers__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Classes_by_Product__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Financial_Tool__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Invoice_of_Cost__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Enrollment_Agreement__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Other_Carrier_File_Layouts__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Enrollment_Driver__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Communication_Plan__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Bio_Description__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Enrollment_Plan_Notes_Instructions__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Group_Type__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Group_Size__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Section_125_Type__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Flex_Administrator__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Obtain_TASC_ID__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Flex_ID__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Medical_Re_Max__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Dependent_Care_Max__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Grace_Period_Days__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Grace_End_Date__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Run_Out_Period_Days__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Run_Out_Date__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Rollover__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Individual_AOR_Letters__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Domestic_Partner__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Same_Sex_Marriage__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.VMS__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Contributions_by_Employer__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Product_Instructions__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Enrollment_Setup_Contact__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Payroll_Contact__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Decision_Maker_Contact__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.HR_Contact__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Territory_Sales_Manager_TSM__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Broker_Agent_Contact__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Additional_Broker_Contact__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Additional_Contact_1__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Additional_Contact_2__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Additional_Contact_3__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Additional_Contacts_Notes__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Sales_Rep__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Agency_Region__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.USAble_Region__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Agency_Rep__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Technology_Credit__c}"/>
+</apex:pageBlockSection>
+<apex:pageBlockSection title="Products Enrolled" columns="1">
+<apex:inputField value="{!Enrollment_Implementation__c.USAble_Life_Products__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Other_Life_Disability_Carriers__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.TASC_Flex__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.DUO__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Health__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Dental__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Vision__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Accident_Type__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Critical_Type__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Cancer_Type__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Disability_Type__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Hospital_Type__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.Life_Type__c}"/>
+<apex:inputField value="{!Enrollment_Implementation__c.ECR_Commissions_Heaped_Level__c}"/>
+</apex:pageBlockSection>
+<apex:pageBlockButtons >
+<apex:commandButton action="{!cloneEIO}" value="Save Clone"   />
+<apex:outputLink target="_parent" value="/{!Enrollment_Implementation__c.Case__c}">Go to Case</apex:outputLink>
+</apex:pageBlockButtons>
+        </apex:pageBlock>
+</apex:form>
+</apex:page>

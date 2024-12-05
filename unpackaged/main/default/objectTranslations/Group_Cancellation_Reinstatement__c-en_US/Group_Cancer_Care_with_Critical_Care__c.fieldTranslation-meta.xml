@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Group Cancer Care with Critical Care --></label>
+        <name>Group_Cancer_Care_with_Critical_Care__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gate_2_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISPICKVAL(Critical_Census_Data__c, &quot;Continue/Submit&quot;),ISPICKVAL(Critical_Census_Data__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(SIC_Code__c, &quot;Continue/Submit&quot;),ISPICKVAL(SIC_Code__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(CDF__c, &quot;Continue/Submit&quot;),ISPICKVAL(CDF__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(W_2_Agreement__c, &quot;Continue/Submit&quot;),ISPICKVAL(W_2_Agreement__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(LTD_W_2_Option_Marked_on_Master_App__c, &quot;Continue/Submit&quot;),ISPICKVAL(LTD_W_2_Option_Marked_on_Master_App__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(FICA_Match_Agreement__c, &quot;Continue/Submit&quot;),ISPICKVAL(FICA_Match_Agreement__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(LTD_Census_Shows_Occupation__c, &quot;Continue/Submit&quot;),ISPICKVAL(LTD_Census_Shows_Occupation__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Evidence_of_Insurability_EOI_forms__c, &quot;Continue/Submit&quot;),ISPICKVAL(Evidence_of_Insurability_EOI_forms__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Member_Applications_Voluntary_Product__c, &quot;Continue/Submit&quot;),ISPICKVAL(Member_Applications_Voluntary_Product__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Prior_Carrier_Documents__c, &quot;Continue/Submit&quot;),ISPICKVAL(Prior_Carrier_Documents__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Waiting_Period__c, &quot;Continue/Submit&quot;),ISPICKVAL(Waiting_Period__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Hours_Worked_Per_Week__c, &quot;Continue/Submit&quot;),ISPICKVAL(Hours_Worked_Per_Week__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Contributory_Percentage__c, &quot;Continue/Submit&quot;),ISPICKVAL(Contributory_Percentage__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(OldEffective_Date__c, &quot;Continue/Submit&quot;),ISPICKVAL(OldEffective_Date__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Minimum_Hours_Worked__c, &quot;Continue/Submit&quot;),ISPICKVAL(Minimum_Hours_Worked__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Status_of_Number_of_Lives__c, &quot;Continue/Submit&quot;),ISPICKVAL(Status_of_Number_of_Lives__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Rate_Guaranteed_Years__c, &quot;Continue/Submit&quot;),ISPICKVAL(Rate_Guaranteed_Years__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Group_meets_Issue_Participation__c, &quot;Continue/Submit&quot;),ISPICKVAL(Group_meets_Issue_Participation__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(List_of_employees_not_actively_at_work__c, &quot;Continue/Submit&quot;),ISPICKVAL(List_of_employees_not_actively_at_work__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Replacement_of_prior_coverage__c, &quot;Continue/Submit&quot;),ISPICKVAL(Replacement_of_prior_coverage__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Signed_by_Group_Leader_before_Eff_Date__c, &quot;Continue/Submit&quot;),ISPICKVAL(Signed_by_Group_Leader_before_Eff_Date__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Annual_Earnings__c, &quot;Continue/Submit&quot;),ISPICKVAL(Annual_Earnings__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Voluntary_Benefits__c, &quot;Continue/Submit&quot;),ISPICKVAL(Voluntary_Benefits__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Date_of_Hire__c, &quot;Continue/Submit&quot;),ISPICKVAL(Date_of_Hire__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Prior_Carrier_Bill__c, &quot;Continue/Submit&quot;),ISPICKVAL(Prior_Carrier_Bill__c, &quot;Not Applicable&quot;)),0,1)</formula>
+    <label>Gate 2 Status</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

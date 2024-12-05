@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>M&amp;B Escalation</name>
+    <queueMembers>
+        <users>
+            <user>amanda.giovanini@usablelife.com</user>
+            <user>amie.holm@usablelife.com</user>
+            <user>cameron.webb@usablelife.com</user>
+            <user>cheryl.smith@usablelife.com</user>
+            <user>davecia.randall@usablelife.com</user>
+            <user>james.austin@usablelife.com</user>
+            <user>jerry.gossitt@usablelife.com</user>
+            <user>marlana.taylor@usablelife.com</user>
+            <user>michael.yancey@usablelife.com</user>
+            <user>ramona.caldera@usablelife.com</user>
+            <user>roberta.lepper@usablelife.com</user>
+            <user>sara.fay@usablelife.com</user>
+            <user>skylaar.underwood@usablelife.com</user>
+            <user>taylor.wesley@usablelife.com</user>
+            <user>terry.blake@usablelife.com</user>
+            <user>terrye.pruitt@usablelife.com</user>
+            <user>yvonne.gonzalez@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

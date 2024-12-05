@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enrollment_ETA__c</fullName>
+    <description>We are often on long periods of external holds pending enrollment, This would be an cleaner way to check</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Enrollment ETA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

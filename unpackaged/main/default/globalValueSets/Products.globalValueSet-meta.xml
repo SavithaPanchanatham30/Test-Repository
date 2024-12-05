@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accident</fullName>
+        <default>false</default>
+        <label>Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>AD&amp;D</fullName>
+        <default>false</default>
+        <label>AD&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancer</fullName>
+        <default>false</default>
+        <label>Cancer</label>
+    </customValue>
+    <customValue>
+        <fullName>Critical Illness</fullName>
+        <default>false</default>
+        <label>Critical Illness</label>
+    </customValue>
+    <customValue>
+        <fullName>Dep LIfe</fullName>
+        <default>false</default>
+        <label>Dep LIfe</label>
+    </customValue>
+    <customValue>
+        <fullName>DUO Accident</fullName>
+        <default>false</default>
+        <label>DUO Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>DUO Critical</fullName>
+        <default>false</default>
+        <label>DUO Critical</label>
+    </customValue>
+    <customValue>
+        <fullName>DUO Hospital</fullName>
+        <default>false</default>
+        <label>DUO Hospital</label>
+    </customValue>
+    <customValue>
+        <fullName>FICA Match</fullName>
+        <default>false</default>
+        <label>FICA Match</label>
+    </customValue>
+    <customValue>
+        <fullName>GTL</fullName>
+        <default>false</default>
+        <label>GTL</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital Confinement</fullName>
+        <default>false</default>
+        <label>Hospital Confinement</label>
+    </customValue>
+    <customValue>
+        <fullName>Life</fullName>
+        <default>false</default>
+        <label>Life</label>
+    </customValue>
+    <customValue>
+        <fullName>LTD</fullName>
+        <default>false</default>
+        <label>LTD</label>
+    </customValue>
+    <customValue>
+        <fullName>LTD Buy-up</fullName>
+        <default>false</default>
+        <label>LTD Buy-up</label>
+    </customValue>
+    <customValue>
+        <fullName>MA PFML</fullName>
+        <default>false</default>
+        <label>MA PFML</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Carrier Product</fullName>
+        <default>false</default>
+        <label>Other Carrier Product</label>
+    </customValue>
+    <customValue>
+        <fullName>STD</fullName>
+        <default>false</default>
+        <label>STD</label>
+    </customValue>
+    <customValue>
+        <fullName>STD Buy-up</fullName>
+        <default>false</default>
+        <label>STD Buy-up</label>
+    </customValue>
+    <customValue>
+        <fullName>TDI</fullName>
+        <default>false</default>
+        <label>TDI</label>
+    </customValue>
+    <customValue>
+        <fullName>VADD</fullName>
+        <default>false</default>
+        <label>VADD</label>
+    </customValue>
+    <customValue>
+        <fullName>VGTL</fullName>
+        <default>false</default>
+        <label>VGTL</label>
+    </customValue>
+    <customValue>
+        <fullName>VIP</fullName>
+        <default>false</default>
+        <label>VIP</label>
+    </customValue>
+    <customValue>
+        <fullName>VLTD</fullName>
+        <default>false</default>
+        <label>VLTD</label>
+    </customValue>
+    <customValue>
+        <fullName>VSTD</fullName>
+        <default>false</default>
+        <label>VSTD</label>
+    </customValue>
+    <customValue>
+        <fullName>AIRMED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AIRMED</label>
+    </customValue>
+    <masterLabel>Products</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

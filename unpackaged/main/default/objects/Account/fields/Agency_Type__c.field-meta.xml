@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Type__c</fullName>
+    <description>Groups the Agency Sub Type into either &#39;Broker Agency&#39; or &#39;Wholesaler&#39;</description>
+    <externalId>false</externalId>
+    <formula>IF(
+        RecordType.DeveloperName = &#39;Agency&#39; &amp;&amp;
+	OR(ISPICKVAL(Agency_Sub_Type__c,&#39;CGA&#39;),
+	   ISPICKVAL(Agency_Sub_Type__c,&#39;MGA&#39;),
+	   ISPICKVAL(Agency_Sub_Type__c,&#39;NCA&#39;),
+	   ISPICKVAL(Agency_Sub_Type__c,&#39;Service Bureau&#39;),
+	   ISPICKVAL(Agency_Sub_Type__c,&#39;BCBS&#39;),
+           ISPICKVAL(Agency_Sub_Type__c,&#39;Fla Farm Bureau&#39;),
+	   ISPICKVAL(Agency_Sub_Type__c,&#39;Broker Agency&#39;),
+	   ISBLANK(TEXT(Agency_Sub_Type__c))
+	   ),
+	   &#39;Broker Agency&#39;,
+	   IF(ISPICKVAL(Agency_Sub_Type__c,&#39;Wholesaler&#39;)
+	   ,&#39;Wholesaler&#39;,null)
+  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Agency Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

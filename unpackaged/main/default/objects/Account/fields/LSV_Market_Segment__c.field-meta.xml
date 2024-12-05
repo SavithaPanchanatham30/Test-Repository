@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSV_Market_Segment__c</fullName>
+    <label>LSV Market Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Small</fullName>
+                <default>false</default>
+                <label>Small</label>
+            </value>
+            <value>
+                <fullName>Mid-Market</fullName>
+                <default>false</default>
+                <label>Mid-Market</label>
+            </value>
+            <value>
+                <fullName>Large</fullName>
+                <default>false</default>
+                <label>Large</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

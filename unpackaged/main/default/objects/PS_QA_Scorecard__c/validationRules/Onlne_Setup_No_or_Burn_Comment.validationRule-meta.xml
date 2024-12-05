@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onlne_Setup_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Online Setup then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(Online_Setup__c ) = &quot;No&quot; , TEXT(Online_Setup__c) = &quot;Burn&quot;), Online_Setup_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Online_Setup_Comments__c</errorDisplayField>
+    <errorMessage>QA181 - If  Online Setup No or Burn, Then Online Setup Comments must be entered</errorMessage>
+</ValidationRule>

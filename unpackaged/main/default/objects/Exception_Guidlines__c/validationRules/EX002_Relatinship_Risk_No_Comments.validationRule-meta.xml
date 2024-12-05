@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX002_Relatinship_Risk_No_Comments</fullName>
+    <active>true</active>
+    <description>If Relationship risk is &quot;Yes&quot; you need to explain why</description>
+    <errorConditionFormula>And(TEXT( Relationship_Potentially_in_Play__c ) = &quot;Yes&quot;,  Relationship_Potential_Risk_Explanation__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Relationship_Potential_Risk_Explanation__c</errorDisplayField>
+    <errorMessage>EX002- If Relationship In Play = Yes, then Relationship Potential Risk Explanation Needs to be entered</errorMessage>
+</ValidationRule>

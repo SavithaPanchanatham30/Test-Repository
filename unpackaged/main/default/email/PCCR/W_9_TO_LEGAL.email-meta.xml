@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Send to accountspayablevendorsetup@usablelife.com to request EAS code.  CC: Roshonda Franklin, Shana Graves if contract is included in documentation.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EAS Request to Finance</name>
+    <style>none</style>
+    <subject>EAS Request - (agency name)</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL005EmployeeBirthDate</fullName>
+    <active>true</active>
+    <description>Employee Birthdate must be less than today or less than 120 years agoe</description>
+    <errorConditionFormula>AND(  OR(  Employee_Birthdate__c   &lt; DATE(1890,01,01),  Employee_Birthdate__c  &gt; TODAY( )), RecordType.DeveloperName = &quot;Short_Term_Disability&quot;  )</errorConditionFormula>
+    <errorDisplayField>Employee_Birthdate__c</errorDisplayField>
+    <errorMessage>CL-005  Employee Birth Date must be less than or equal to today and &gt; 120 years ago</errorMessage>
+</ValidationRule>

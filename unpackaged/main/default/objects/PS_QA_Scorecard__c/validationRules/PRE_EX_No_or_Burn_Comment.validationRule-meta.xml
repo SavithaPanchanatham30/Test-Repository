@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRE_EX_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Pre-EX then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Pre_EX_Correct__c ) = &quot;No&quot; , TEXT ( Pre_EX_Correct__c ) = &quot;Burn&quot;),    Pre_EX_Correct_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Pre_EX_Correct_Comments__c</errorDisplayField>
+    <errorMessage>QA126- If PRE-EX No or Burn, Then Pre-Ex Comments must be entered</errorMessage>
+</ValidationRule>

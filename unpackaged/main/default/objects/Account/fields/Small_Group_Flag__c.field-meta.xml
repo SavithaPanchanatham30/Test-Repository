@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Small_Group_Flag__c</fullName>
+    <description>Field pulled from admin system Compass that reflect groups that have a type of small group product(s)</description>
+    <inlineHelpText>Identifies that a group has small group products.</inlineHelpText>
+    <label>Small Group Flag</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>SGPL20</fullName>
+                <default>false</default>
+                <label>SGPL20</label>
+            </value>
+            <value>
+                <fullName>SGP10</fullName>
+                <default>false</default>
+                <label>SGP10</label>
+            </value>
+            <value>
+                <fullName>SGP15</fullName>
+                <default>false</default>
+                <label>SGP15</label>
+            </value>
+            <value>
+                <fullName>SGP20</fullName>
+                <default>false</default>
+                <label>SGP20</label>
+            </value>
+            <value>
+                <fullName>SGP25</fullName>
+                <default>false</default>
+                <label>SGP25</label>
+            </value>
+            <value>
+                <fullName>SGP35</fullName>
+                <default>false</default>
+                <label>SGP35</label>
+            </value>
+            <value>
+                <fullName>SGGEN2</fullName>
+                <default>false</default>
+                <label>SGGEN2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Asked for a copy of accident report if one is available --></help>
+        <label><!-- Asked for Copy of Accident Report if Avl --></label>
+        <name>Asked_for_Copy_of_Accident_Report_if_Ava__c</name>
+    </CustomFieldTranslation>

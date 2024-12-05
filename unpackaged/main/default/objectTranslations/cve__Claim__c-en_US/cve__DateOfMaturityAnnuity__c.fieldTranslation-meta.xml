@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Value is from Benefit Claimed --></help>
+        <label><!-- Date of Maturity/Annuity --></label>
+        <name>cve__DateOfMaturityAnnuity__c</name>
+    </CustomFieldTranslation>

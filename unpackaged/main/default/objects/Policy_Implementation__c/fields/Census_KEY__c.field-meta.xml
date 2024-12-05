@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Census_KEY__c</fullName>
+    <defaultValue>&quot; Green - Approve Pending Coverage &quot; + BR() + 
+&quot; Red - Leave Pending Coverage &quot; + BR() +
+&quot; Blue - Split Pending Coverage &quot;</defaultValue>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Census KEY</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

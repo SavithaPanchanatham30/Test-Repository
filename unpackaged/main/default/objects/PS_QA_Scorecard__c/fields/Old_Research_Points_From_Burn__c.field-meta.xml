@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Old_Research_Points_From_Burn__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(Reviewed_within_allotted_time__c) = &quot;Burn&quot;,5,0) + 
+IF (TEXT(All_Information_Requested__c ) = &quot;Burn&quot;,15,0) + 
+IF (TEXT( Acknowledgment_email_sent_within_SLA__c ) = &quot;Burn&quot;,5,0) +
+IF (TEXT( Sent_to_Retro_or_UW_within_24_hours__c) = &quot;Burn&quot;,5,0) +
+IF (TEXT( Bill_Hold_PS_Issue_Flag_Fillped__c ) = &quot;Burn&quot;,3,0) +
+IF (TEXT(Salesforce_Setup_and_System_Note__c) = &quot;Burn&quot;,1,0) +
+IF (TEXT(Native_System_Work_Correct__c) = &quot;Burn&quot;,15,0) +
+IF (TEXT( Risk_Reallocation_Ran__c ) = &quot;Burn&quot;,5,0) +
+IF (Text(Member_Impacted_by_Change_Noted__c) = &quot;Burn&quot;,3,0) + 
+IF (TEXT( Notional_Bill_Compared_to_Last__c ) = &quot;Burn&quot;,10,0) + 
+IF (TEXT( Production_Bill_Compared_to_Notational__c ) = &quot;Burn&quot;,15,0) + 
+IF (TEXT( Bill_Hold_Removed_After_Bill_Ran__c ) = &quot;Burn&quot;,10,0) + 
+IF (TEXT( M_B_Notified_of_Massive_Billing_Chg__c ) = &quot;Burn&quot;,3,0) + 
+IF (TEXT( Amendment_Created_Completed__c ) = &quot;Burn&quot;,10,0) + 
+IF (TEXT( Complete_Explanation_Sent_to_Customer__c ) = &quot;Burn&quot;,15,0) + 
+IF (TEXT( All_Parties_Kept_Informed__c ) = &quot;Burn&quot;,5,0) + 
+IF (TEXT( Regenerated_Documents_Compared_Existing__c ) = &quot;Burn&quot;,15,0) + 
+IF (TEXT ( Sent_to_Claims__c ) = &quot;Burn&quot;,3,0) +
+IF (TEXT( Salesforce_Notes_Stay_Current_Closed__c ) = &quot;Burn&quot;,3,0) + 
+IF (TEXT ( Regular_Follow_ups_Sent_fr_Information__c) = &quot;Burn&quot;,3,0) +
+IF (TEXT ( Responded_to_Questions_within_24_hours__c) = &quot;Burn&quot;,3,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Old Research Points From Burn</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

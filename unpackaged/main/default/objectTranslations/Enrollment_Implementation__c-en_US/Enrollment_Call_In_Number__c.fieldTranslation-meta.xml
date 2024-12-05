@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Get and provide phone number for enrollment if applicable --></help>
+        <label><!-- Enrollment Call In Number --></label>
+        <name>Enrollment_Call_In_Number__c</name>
+    </CustomFieldTranslation>

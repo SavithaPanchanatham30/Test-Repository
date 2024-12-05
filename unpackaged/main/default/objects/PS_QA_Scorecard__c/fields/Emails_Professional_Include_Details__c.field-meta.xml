@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emails_Professional_Include_Details__c</fullName>
+    <inlineHelpText>Were emails professional and include details of the request - This includes notification of decision and/or missing information</inlineHelpText>
+    <label>Emails Professional &amp; Include Details</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>PS_QA_Picklist</valueSetName>
+    </valueSet>
+</CustomField>

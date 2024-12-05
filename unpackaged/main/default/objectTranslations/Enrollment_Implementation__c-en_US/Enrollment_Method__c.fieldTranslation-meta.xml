@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Enrollment Method --></label>
+        <name>Enrollment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Call Center</masterLabel>
+            <translation><!-- Call Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Enrollers</masterLabel>
+            <translation><!-- Onsite Enrollers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Pop Apps</masterLabel>
+            <translation><!-- Pre Pop Apps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Enrollment</masterLabel>
+            <translation><!-- Self Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual</masterLabel>
+            <translation><!-- Virtual --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

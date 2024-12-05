@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_Agency_Record__c</fullName>
+    <formula>IF( AND(ISBLANK(Service_Master_Agency__c),  RecordType.Name = &#39;Agency&#39;) , True, False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Service Agency</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Master Application Email comments --></label>
+        <name>Master_Application_Email_comments__c</name>
+    </CustomFieldTranslation>

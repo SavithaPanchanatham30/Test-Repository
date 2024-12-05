@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Producer Registration - Agent not in Compass</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>PROD REG - New Producer Registration - Not In Compass</name>
+    <style>none</style>
+    <subject>Appointed Producer - Not Available for Website Access</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

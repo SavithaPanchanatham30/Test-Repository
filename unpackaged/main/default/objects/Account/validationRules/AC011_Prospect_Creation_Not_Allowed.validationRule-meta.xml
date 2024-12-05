@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC011_Prospect_Creation_Not_Allowed</fullName>
+    <active>true</active>
+    <description>This validation rule ensures that only FL, AR, HI &amp; RG Users can create Prospect Account. As additional regions are rolled out, both this validation rule and the user records must be updated to allow creation of prospect records.</description>
+    <errorConditionFormula>RecordType.DeveloperName = &#39;Prospect&#39; 
+&amp;&amp;  
+NOT(
+    INCLUDES($User.Region__c , &#39;FL&#39;)
+    || 
+    INCLUDES($User.Region__c , &#39;AR&#39;)
+    || 
+    INCLUDES($User.Region__c , &#39;HI&#39;)   
+    || 
+    INCLUDES($User.Region__c , &#39;RG&#39;)   
+) 
+&amp;&amp; 
+ISNEW() 
+&amp;&amp; 
+$Profile.Name &lt;&gt; &#39;USAble System Administrator&#39;
+&amp;&amp; NOT($UserRole.Name == &#39;RFP Analyst&#39;)</errorConditionFormula>
+    <errorMessage>AC011 You do not have permission to create Prospect accounts</errorMessage>
+</ValidationRule>

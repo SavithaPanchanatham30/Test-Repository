@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Premium__c</fullName>
+    <inlineHelpText>Annualized Premium at point of sale for a new benefit OR Premium at point of renewal for an existing benefit.
+This will reset at the time of renewal.</inlineHelpText>
+    <label>Initial Premium</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <type>Currency</type>
+</CustomField>

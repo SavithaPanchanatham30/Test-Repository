@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Business_Systems</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Business Systems</label>
+        <sharedTo>
+            <group>All_Business_Systems</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Business Systems</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Business_Systems_Read_Only</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>View of business systems cases with read access for all users outside of Business Systems Compass/LifePRO support team</description>
+        <label>Business Systems Read Only</label>
+        <sharedTo>
+            <group>All_Users_Except_Acct_Mgmt</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Business Systems,EDI</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Sharing_ServCoor_AcctMgmt</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule provides read/write access based on EUTF Customer Service Record Type, amongst Service Coordinator and Account Management Users</description>
+        <label>Case Sharing ServCoor/AcctMgmt</label>
+        <sharedTo>
+            <group>EUTF_ServCoor_AcctMgmt</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EUTF Customer Service</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Claims_Customer_Service_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Claims - Customer Service Sharing</label>
+        <sharedTo>
+            <group>All_Customer_Service</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EUTF Customer Service,EUTF Claims,Claims Intake,Claims</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Claims_Interdepartmental_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule provides read/write access based on Claims Record Type, amongst Claims department.</description>
+        <label>Claims - Interdepartmental Sharing</label>
+        <sharedTo>
+            <group>All_Claims</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EUTF Customer Service,EUTF Claims,Claims Intake,Claims</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Claims_for_Service_Intake</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Claims for Service Intake</label>
+        <sharedTo>
+            <group>Service_Intake</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Claims,EUTF Claims,EUTF Customer Service,Claims Intake</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Commission_Cases</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Commission Cases</label>
+        <sharedTo>
+            <group>All_Users_Except_Acct_Mgmt</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>SBMA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Commission</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dental_Operations</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allow dental operations users to see and update dental operations cases even if they are not the owner</description>
+        <label>Dental Operations</label>
+        <sharedTo>
+            <group>Dental_Support_User</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Dental Operations</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Enrollment_Services</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Account for sharing enrollment services case record type with enrollment service team</description>
+        <label>Enrollment Services</label>
+        <sharedTo>
+            <group>All_Enrollment_Services</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Enrollment Services</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Group_Underwiting_Read_Only</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Group Underwiting Read Only</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Sales_Ops</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Group Underwriting</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Group_Underwritng</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Group Underwriters can see each others cases</description>
+        <label>Group Underwritng</label>
+        <sharedTo>
+            <group>Group_Underwriting</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Group Underwriting</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>LM_Cambia_Enrollment_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule will provide read/write sharing for LifeMap/Cambia among all All Internal Users except Account Management</description>
+        <label>LM/Cambia Enrollment Sharing</label>
+        <sharedTo>
+            <group>All_Users_Except_Acct_Mgmt</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>LM Enrollment</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Medical_Underwriting_Interdepartmental_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule provides read/write access based on Medical Underwriting Record Type, amongst Medical Underwriting department.</description>
+        <label>Medical Underwriting - Interdepartmental Sharing</label>
+        <sharedTo>
+            <group>All_Medical_Underwriting</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Medical Underwriting</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PCCR_Can_Read_Enrollment</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>allow those in SBMA Group to Read Enrollment Services Cases</description>
+        <label>PCCR Can Read Enrollment</label>
+        <sharedTo>
+            <group>All_SBMA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Enrollment Services</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PS_CS_M_B_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule provides read/write access based on PS, M&amp;B, and Customer Service Record Types, amongst All Internal Users except Account Management users</description>
+        <label>PS/CS/M&amp;B Sharing</label>
+        <sharedTo>
+            <group>All_Users_Except_Acct_Mgmt</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Enrollment Services,Partner Service,Customer Service,Web Support,Policy Services,Group Underwriting,Membership &amp; Billing,Benefits Adminstration,Service Intake,Central Records</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Partner_Service</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Account for sharing Partner Services case record type with Partner Service team</description>
+        <label>Partner Service</label>
+        <sharedTo>
+            <group>All_Users_Except_Acct_Mgmt</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Partner Service</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Partner_Services</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Partner Services can edit each others records.</description>
+        <label>Partner Services</label>
+        <sharedTo>
+            <group>All_Partner_Services</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Partner Service</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Partner_Services_Can_See_Claims</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allow Partner Services to see claims cases</description>
+        <label>Partner Services Can See Claims</label>
+        <sharedTo>
+            <group>All_Partner_Services</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer Service,Claims,EUTF Claims,EUTF Customer Service,Claims Intake</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_Finding_Inches_Case</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Read finding Inches cases</description>
+        <label>Read Finding Inches Case</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Finding Inches</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>SBMA_Interdepartmental_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This rule provides read/write access based on SBMA Record Type, amongst SBMA department.</description>
+        <label>SBMA - Interdepartmental Sharing</label>
+        <sharedTo>
+            <group>All_SBMA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>SBMA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Service_Intake</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Service Intake</label>
+        <sharedTo>
+            <group>Service_Intake</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Service Intake</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Update_EDI_Records</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allow Read/Write access to all EDI Records</description>
+        <label>Update EDI Records</label>
+        <sharedTo>
+            <group>Group_EDI_Update</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EDI</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Update_Finding_Inches</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>M&amp;B can update Finding Inches no matter who owns the case</description>
+        <label>Update Finding Inches</label>
+        <sharedTo>
+            <group>Finding_Inches_Update</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Finding Inches</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>PS_SMBA_commission</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>PS - SMBA commission</label>
+        <sharedTo>
+            <group>All_Policy_Services</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>SBMA_Commissions</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Application/Election Form- Existing Empl --></label>
+        <name>Application_Election_Form_Existing_Empl__c</name>
+    </CustomFieldTranslation>

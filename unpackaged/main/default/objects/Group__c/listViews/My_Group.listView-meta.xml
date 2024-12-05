@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Group</fullName>
+    <columns>NAME</columns>
+    <columns>Master_Group__c</columns>
+    <columns>Group_Id__c</columns>
+    <columns>Group_Nbr__c</columns>
+    <columns>Grp_Effective_Date__c</columns>
+    <columns>Grp_Term_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Group</label>
+</ListView>

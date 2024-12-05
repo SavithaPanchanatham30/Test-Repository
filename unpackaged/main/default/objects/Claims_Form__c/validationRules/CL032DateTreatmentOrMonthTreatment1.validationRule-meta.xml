@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL032DateTreatmentOrMonthTreatment1</fullName>
+    <active>true</active>
+    <description>Date of First Treatment  or Month of First Treatment1 must be entered</description>
+    <errorConditionFormula>AND( ISBLANK(  Date_Treated_1__c   ),  ISBLANK(   Treatment_1_MM_YYYY_If_No_Exact_Date__c ), RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Treatment_1_MM_YYYY_If_No_Exact_Date__c</errorDisplayField>
+    <errorMessage>CL-032 Either Date Treated #1 or Treatment#1 MM/YYYY must be entered</errorMessage>
+</ValidationRule>

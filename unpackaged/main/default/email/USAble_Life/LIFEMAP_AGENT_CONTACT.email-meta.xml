@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>LIFEMAP AGENT CONTACT REQUEST</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>LIFEMAP AGENT CONTACT</name>
+    <style>none</style>
+    <subject>GROUP NAME                  DATE</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

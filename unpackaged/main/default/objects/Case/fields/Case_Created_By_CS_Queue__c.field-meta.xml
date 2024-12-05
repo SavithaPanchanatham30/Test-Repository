@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Created_By_CS_Queue__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>this check box used for reports to Case data How many initiated by a CS</description>
+    <label>Case Created By CS Queue</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

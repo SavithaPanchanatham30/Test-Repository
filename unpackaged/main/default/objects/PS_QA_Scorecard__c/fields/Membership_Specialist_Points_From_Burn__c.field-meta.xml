@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_Specialist_Points_From_Burn__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Text(  Case_Notes_as_to_What_Was_Processed__c ) = &quot;Burn&quot;,5,0) + 
+IF (Text( Case_Detail_Populated_Correctly__c ) = &quot;Burn&quot;,5,0) + 
+IF (Text( Case_Created_For_Central_Records__c ) = &quot;Burn&quot;,5,0) + 
+IF (Text(  Application_Followed_Into_Docfinity__c  ) = &quot;Burn&quot;,5,0) + 
+IF (Text( Native_System_Work_Correct__c ) = &quot;Burn&quot;,5,0) + 
+IF (Text( Emails_Professional_Include_Details__c ) = &quot;Burn&quot;,5,0) +
+IF (Text( Phone_Call_First_Attempt_for_Missing_Inf__c ) = &quot;Burn&quot;,5,0) +
+IF (Text( Communication_to_Appropriate_Contacts__c ) = &quot;Burn&quot;,5,0) +
+IF (Text( Responded_to_Questions_within_24_hours__c ) = &quot;Burn&quot;,5,0) +
+IF (Text( Unread_Emails_Closed_Or_Replied_SLA__c ) = &quot;Burn&quot;,5,0) +
+IF (Text( Partner_Case_Replied_Within_SLA__c ) = &quot;Burn&quot;,5,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Membership Specialist Points From Burn</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

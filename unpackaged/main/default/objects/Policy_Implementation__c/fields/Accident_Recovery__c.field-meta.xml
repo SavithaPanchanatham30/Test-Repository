@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accident_Recovery__c</fullName>
+    <defaultValue>&quot;•   Plan Type:  &quot; +   BR()+                                                                                  
+&quot;      o    24 hour / off the job &quot; +  BR()+                                                          
+&quot;•  Packages Offered:   &quot; + BR()   +                                                   
+&quot;      o Basic / Select / Ultra   &quot; + BR() +                                              
+&quot;•  AD&amp;D Rider Amount:  &quot; + BR() +                                                             
+&quot;      o $50k / $100k&quot;</defaultValue>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Accident Recovery</label>
+    <length>1500</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>15</visibleLines>
+</CustomField>

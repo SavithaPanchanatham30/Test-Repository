@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Dental</fullName>
+        <default>false</default>
+        <label>Dental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Life &amp; ADD</fullName>
+        <default>false</default>
+        <label>Life &amp; ADD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LTD</fullName>
+        <default>false</default>
+        <label>LTD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical</fullName>
+        <default>false</default>
+        <label>Medical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STD</fullName>
+        <default>false</default>
+        <label>STD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VGTL</fullName>
+        <default>false</default>
+        <label>VGTL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Worksite</fullName>
+        <default>false</default>
+        <label>Worksite</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vision</fullName>
+        <default>false</default>
+        <label>Vision</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supplemental</fullName>
+        <default>false</default>
+        <label>Supplemental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PFML</fullName>
+        <default>false</default>
+        <label>PFML</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Disability Type --></label>
+        <name>Disability_Type__c</name>
+        <picklistValues>
+            <masterLabel>ED LTD1</masterLabel>
+            <translation><!-- ED LTD1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED LTD2</masterLabel>
+            <translation><!-- ED LTD2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED LTD3-1/4</masterLabel>
+            <translation><!-- ED LTD3-1/4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED LTD3-1515</masterLabel>
+            <translation><!-- ED LTD3-1515 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED LTD3-3030</masterLabel>
+            <translation><!-- ED LTD3-3030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED LTD3-6060</masterLabel>
+            <translation><!-- ED LTD3-6060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED LTD3-88</masterLabel>
+            <translation><!-- ED LTD3-88 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED LTD4</masterLabel>
+            <translation><!-- ED LTD4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD</masterLabel>
+            <translation><!-- LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD ER PD</masterLabel>
+            <translation><!-- LTD ER PD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD6 1/4</masterLabel>
+            <translation><!-- LTD6 1/4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD6 15/15</masterLabel>
+            <translation><!-- LTD6 15/15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD6 30/30</masterLabel>
+            <translation><!-- LTD6 30/30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD6 60/60</masterLabel>
+            <translation><!-- LTD6 60/60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD6 8/8</masterLabel>
+            <translation><!-- LTD6 8/8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD6 90/90</masterLabel>
+            <translation><!-- LTD6 90/90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STD</masterLabel>
+            <translation><!-- STD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STD ER PD</masterLabel>
+            <translation><!-- STD ER PD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VLTD</masterLabel>
+            <translation><!-- VLTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VSTD</masterLabel>
+            <translation><!-- VSTD --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

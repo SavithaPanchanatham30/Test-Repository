@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- [insert state] requires us to notify you of the following fraud statement: [insert applicable state fraud notice].”  CCA must reference applicable state information in Fraud Notice CL-FRAUD (6-16). *FRAUD NOTICE COMPLETED?  (Initial or N/A) --></help>
+        <label><!-- Fraud Notice Complete --></label>
+        <name>Fraud_Notice_Complete__c</name>
+    </CustomFieldTranslation>

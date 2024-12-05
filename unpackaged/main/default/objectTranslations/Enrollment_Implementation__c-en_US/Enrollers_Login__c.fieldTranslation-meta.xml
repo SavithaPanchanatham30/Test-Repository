@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Ensure all enrollers have log ins for any systems they are to use (other carriers etc.) --></help>
+        <label><!-- Enrollers Login --></label>
+        <name>Enrollers_Login__c</name>
+    </CustomFieldTranslation>

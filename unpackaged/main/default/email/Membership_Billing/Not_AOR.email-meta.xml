@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Not Listed As The Agent of Record for the Group</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Not AOR</name>
+    <style>none</style>
+    <subject>Agent of Record</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

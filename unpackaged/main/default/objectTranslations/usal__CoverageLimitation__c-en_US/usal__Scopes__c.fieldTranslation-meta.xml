@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Scopes --></label>
+        <name>usal__Scopes__c</name>
+        <picklistValues>
+            <masterLabel>Per Accident Date</masterLabel>
+            <translation><!-- Per Accident Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Calendar Year</masterLabel>
+            <translation><!-- Per Calendar Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Claimant</masterLabel>
+            <translation><!-- Per Claimant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Period (Days)</masterLabel>
+            <translation><!-- Per Period (Days) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Policy</masterLabel>
+            <translation><!-- Per Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Policy Year</masterLabel>
+            <translation><!-- Per Policy Year --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

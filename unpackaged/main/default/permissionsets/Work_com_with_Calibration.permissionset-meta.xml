@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Created to handle standard work.com settings providing users access to coaching, feedback, goals, performance cycles and calibration</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Work.com with Calibration</label>
+</PermissionSet>

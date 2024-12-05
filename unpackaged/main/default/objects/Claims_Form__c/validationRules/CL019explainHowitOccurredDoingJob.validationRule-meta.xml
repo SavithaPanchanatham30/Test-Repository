@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL019explainHowitOccurredDoingJob</fullName>
+    <active>true</active>
+    <description>For Accident Occurred on the job -  explained how it occurred on the job</description>
+    <errorConditionFormula>AND( TEXT( Did_Disabling_Accident_Occur_Performing__c  )= &quot;Yes&quot;,ISBlank(  Explain_How_it_Occurred_Doing_Job_D__c  ) , RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Explain_How_it_Occurred_Doing_Job_D__c</errorDisplayField>
+    <errorMessage>CL-019 If Accident Occurred on the Job= &quot;Yes&quot;  then Explanation must be keyed</errorMessage>
+</ValidationRule>

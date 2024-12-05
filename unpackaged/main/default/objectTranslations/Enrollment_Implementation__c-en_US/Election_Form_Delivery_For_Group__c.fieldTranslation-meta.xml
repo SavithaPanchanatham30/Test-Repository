@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Election Form Delivery For Group --></label>
+        <name>Election_Form_Delivery_For_Group__c</name>
+        <picklistValues>
+            <masterLabel>Deliver as PDF&quot;S</masterLabel>
+            <translation><!-- Deliver as PDF&quot;S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print in Field</masterLabel>
+            <translation><!-- Print in Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print in Office</masterLabel>
+            <translation><!-- Print in Office --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

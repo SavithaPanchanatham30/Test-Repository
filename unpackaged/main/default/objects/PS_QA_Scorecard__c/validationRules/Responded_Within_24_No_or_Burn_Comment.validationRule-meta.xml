@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Responded_Within_24_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Responded Withing 24 Hours then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Responded_to_Questions_within_24_hours__c )   = &quot;No&quot; , TEXT(Responded_to_Questions_within_24_hours__c  ) = &quot;Burn&quot;),  Responded_to_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Responded_to_Comments__c</errorDisplayField>
+    <errorMessage>QA065 - If Responded to Questions Within 24 Hours  = No or Burn, Then Responded to  Comments must be entered</errorMessage>
+</ValidationRule>

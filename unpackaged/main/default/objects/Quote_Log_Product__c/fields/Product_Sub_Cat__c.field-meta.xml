@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Sub_Cat__c</fullName>
+    <label>Product Sub Cat</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>State__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Choice PPO - Vol</fullName>
+                <default>false</default>
+                <label>Choice PPO - Vol</label>
+            </value>
+            <value>
+                <fullName>Choice Plus PPO - Vol</fullName>
+                <default>false</default>
+                <label>Choice Plus PPO - Vol</label>
+            </value>
+            <value>
+                <fullName>Choice Copay - Vol</fullName>
+                <default>false</default>
+                <label>Choice Copay - Vol</label>
+            </value>
+            <value>
+                <fullName>Choice PPO - TG</fullName>
+                <default>false</default>
+                <label>Choice PPO - TG</label>
+            </value>
+            <value>
+                <fullName>Choice Plus PPO - TG</fullName>
+                <default>false</default>
+                <label>Choice Plus PPO - TG</label>
+            </value>
+            <value>
+                <fullName>Choice Copay - TG</fullName>
+                <default>false</default>
+                <label>Choice Copay - TG</label>
+            </value>
+            <value>
+                <fullName>Dental Prepaid</fullName>
+                <default>false</default>
+                <label>Dental Prepaid</label>
+            </value>
+            <value>
+                <fullName>Select PPO - Vol</fullName>
+                <default>false</default>
+                <label>Select PPO - Vol</label>
+            </value>
+            <value>
+                <fullName>Select PPO Plus -Vol</fullName>
+                <default>false</default>
+                <label>Select PPO Plus -Vol</label>
+            </value>
+            <value>
+                <fullName>Select PPO - Trad</fullName>
+                <default>false</default>
+                <label>Select PPO - Trad</label>
+            </value>
+            <value>
+                <fullName>Select PPO Plus – Trad</fullName>
+                <default>false</default>
+                <label>Select PPO Plus – Trad</label>
+            </value>
+            <value>
+                <fullName>PPO</fullName>
+                <default>false</default>
+                <label>PPO</label>
+            </value>
+            <value>
+                <fullName>PPO/DMO</fullName>
+                <default>false</default>
+                <label>PPO/DMO</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AR</controllingFieldValue>
+            <valueName>Select PPO - Vol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AR</controllingFieldValue>
+            <valueName>Select PPO Plus -Vol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AR</controllingFieldValue>
+            <valueName>Select PPO - Trad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AR</controllingFieldValue>
+            <valueName>Select PPO Plus – Trad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <valueName>Choice PPO - Vol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <valueName>Choice Plus PPO - Vol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <valueName>Choice Copay - Vol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <valueName>Choice PPO - TG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <valueName>Choice Plus PPO - TG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <valueName>Choice Copay - TG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <valueName>Dental Prepaid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HI</controllingFieldValue>
+            <controllingFieldValue>WA</controllingFieldValue>
+            <controllingFieldValue>OR</controllingFieldValue>
+            <controllingFieldValue>ID</controllingFieldValue>
+            <controllingFieldValue>UT</controllingFieldValue>
+            <valueName>PPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HI</controllingFieldValue>
+            <valueName>PPO/DMO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

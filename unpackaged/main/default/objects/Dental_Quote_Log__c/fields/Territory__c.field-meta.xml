@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory__c</fullName>
+    <label>Territory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Central (AR &amp; FL)</fullName>
+                <default>false</default>
+                <label>Central (AR &amp; FL)</label>
+            </value>
+            <value>
+                <fullName>East (AR)</fullName>
+                <default>false</default>
+                <label>East (AR)</label>
+            </value>
+            <value>
+                <fullName>Government &amp; Public (FL)</fullName>
+                <default>false</default>
+                <label>Government &amp; Public (FL)</label>
+            </value>
+            <value>
+                <fullName>Hawaii</fullName>
+                <default>false</default>
+                <label>Hawaii</label>
+            </value>
+            <value>
+                <fullName>Major &amp; National (FL)</fullName>
+                <default>false</default>
+                <label>Major &amp; National (FL)</label>
+            </value>
+            <value>
+                <fullName>North (FL)</fullName>
+                <default>false</default>
+                <label>North (FL)</label>
+            </value>
+            <value>
+                <fullName>Northeast (AR)</fullName>
+                <default>false</default>
+                <label>Northeast (AR)</label>
+            </value>
+            <value>
+                <fullName>Northwest (AR &amp; FL)</fullName>
+                <default>false</default>
+                <label>Northwest (AR &amp; FL)</label>
+            </value>
+            <value>
+                <fullName>South (FL)</fullName>
+                <default>false</default>
+                <label>South (FL)</label>
+            </value>
+            <value>
+                <fullName>South Central (AR)</fullName>
+                <default>false</default>
+                <label>South Central (AR)</label>
+            </value>
+            <value>
+                <fullName>Southeast (AR)</fullName>
+                <default>false</default>
+                <label>Southeast (AR)</label>
+            </value>
+            <value>
+                <fullName>Southwest (AR)</fullName>
+                <default>false</default>
+                <label>Southwest (AR)</label>
+            </value>
+            <value>
+                <fullName>West Central (AR)</fullName>
+                <default>false</default>
+                <label>West Central (AR)</label>
+            </value>
+            <value>
+                <fullName>West Coast (FL)</fullName>
+                <default>false</default>
+                <label>West Coast (FL)</label>
+            </value>
+            <value>
+                <fullName>ID (RG)</fullName>
+                <default>false</default>
+                <label>ID (RG)</label>
+            </value>
+            <value>
+                <fullName>OR (RG)</fullName>
+                <default>false</default>
+                <label>OR (RG)</label>
+            </value>
+            <value>
+                <fullName>UT (RG)</fullName>
+                <default>false</default>
+                <label>UT (RG)</label>
+            </value>
+            <value>
+                <fullName>WA (RG)</fullName>
+                <default>false</default>
+                <label>WA (RG)</label>
+            </value>
+            <value>
+                <fullName>Clark County (RG)</fullName>
+                <default>false</default>
+                <label>Clark County (RG)</label>
+            </value>
+            <value>
+                <fullName>Asuris (RG)</fullName>
+                <default>false</default>
+                <label>Asuris (RG)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

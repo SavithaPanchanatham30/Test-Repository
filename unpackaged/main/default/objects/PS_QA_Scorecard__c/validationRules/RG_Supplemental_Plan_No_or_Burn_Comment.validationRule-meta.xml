@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RG_Supplemental_Plan_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in RG - Supplemental Plan Info then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( RG_Supplemental_Plan_Info__c ) = &quot;No&quot; , TEXT(                RG_Supplemental_Plan_Info__c)  = &quot;Burn&quot;),   RG_Supplemental_Plan_Info_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>RG_Supplemental_Plan_Info_Comments__c</errorDisplayField>
+    <errorMessage>QA231 =  If RG Supplemental Plan Info No or Burn, Then RG Supplemental Plan Info Comments must be entered</errorMessage>
+</ValidationRule>

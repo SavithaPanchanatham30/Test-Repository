@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HighlightPanel</fullName>
+    <fields>Subject</fields>
+    <fields>Priority</fields>
+    <fields>Status</fields>
+    <fields>CaseNumber</fields>
+    <fields>OwnerId</fields>
+    <fields>CreatedDate</fields>
+    <fields>SLA_End_Date__c</fields>
+    <label>HighlightPanel</label>
+</CompactLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_Last_Updated__c</fullName>
+    <description>Field on Account object to show the last date of the PM score update (SOW 8 CR BRD reference: OR002-02)</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Risk Last Updated</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

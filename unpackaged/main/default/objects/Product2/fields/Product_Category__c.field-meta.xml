@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Category__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Product Category</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ASO / ATP STD</fullName>
+                <default>false</default>
+                <label>ASO / ATP STD</label>
+            </value>
+            <value>
+                <fullName>Copay PPO</fullName>
+                <default>false</default>
+                <label>Copay PPO</label>
+            </value>
+            <value>
+                <fullName>Indiv. Dental</fullName>
+                <default>false</default>
+                <label>Indiv. Dental</label>
+            </value>
+            <value>
+                <fullName>Indiv. Life</fullName>
+                <default>false</default>
+                <label>Indiv. Life</label>
+            </value>
+            <value>
+                <fullName>Indiv. Worksite</fullName>
+                <default>false</default>
+                <label>Indiv. Worksite</label>
+            </value>
+            <value>
+                <fullName>Indemnity/PAR</fullName>
+                <default>false</default>
+                <label>Indemnity/PAR</label>
+            </value>
+            <value>
+                <fullName>LTD / VLTD</fullName>
+                <default>false</default>
+                <label>LTD / VLTD</label>
+            </value>
+            <value>
+                <fullName>Medical</fullName>
+                <default>false</default>
+                <label>Medical</label>
+            </value>
+            <value>
+                <fullName>PPO</fullName>
+                <default>false</default>
+                <label>PPO</label>
+            </value>
+            <value>
+                <fullName>PPO+</fullName>
+                <default>false</default>
+                <label>PPO+</label>
+            </value>
+            <value>
+                <fullName>Prepaid/DHMO</fullName>
+                <default>false</default>
+                <label>Prepaid/DHMO</label>
+            </value>
+            <value>
+                <fullName>STD / VSTD</fullName>
+                <default>false</default>
+                <label>STD / VSTD</label>
+            </value>
+            <value>
+                <fullName>TDI</fullName>
+                <default>false</default>
+                <label>TDI</label>
+            </value>
+            <value>
+                <fullName>True Group Life</fullName>
+                <default>false</default>
+                <label>True Group Life</label>
+            </value>
+            <value>
+                <fullName>VADD</fullName>
+                <default>false</default>
+                <label>VADD</label>
+            </value>
+            <value>
+                <fullName>VGTL</fullName>
+                <default>false</default>
+                <label>VGTL</label>
+            </value>
+            <value>
+                <fullName>Worksite ECR</fullName>
+                <default>false</default>
+                <label>Worksite ECR</label>
+            </value>
+            <value>
+                <fullName>Vision</fullName>
+                <default>false</default>
+                <label>Vision</label>
+            </value>
+            <value>
+                <fullName>Integrated</fullName>
+                <default>false</default>
+                <label>Integrated</label>
+            </value>
+            <value>
+                <fullName>Non-Integrated</fullName>
+                <default>false</default>
+                <label>Non-Integrated</label>
+            </value>
+            <value>
+                <fullName>PFML</fullName>
+                <default>false</default>
+                <label>PFML</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

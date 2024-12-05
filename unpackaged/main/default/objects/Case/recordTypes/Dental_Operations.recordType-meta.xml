@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dental_Operations</fullName>
+    <active>true</active>
+    <businessProcess>Dental Operations</businessProcess>
+    <compactLayoutAssignment>Dental_Operations_Compact_Layout</compactLayoutAssignment>
+    <description>Dental Operations Support Cases</description>
+    <label>Dental Operations</label>
+    <picklistValues>
+        <picklist>Action_Taken__c</picklist>
+        <values>
+            <fullName>Explained Functionality Limitation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initiated Customer Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Action Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Contact Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Resolution Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thanked Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attachment_Type__c</picklist>
+        <values>
+            <fullName>CIS - Duplicate Policy Request App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Records - Additions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Records - Changes%2FAdjustments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Records - Conversion APP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Records - EOI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Records - Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Records - Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Records - Port%2FConvert APP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conversion APP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance Group - Terminations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Und%2E - Disease Elim%2E Rider</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Awaiting_Response_Internally_Reason__c</picklist>
+        <values>
+            <fullName>Commissions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licensing and Appointments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%26B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underwriting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Benefit_Summary__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reviewed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Tier_Level__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Close_Reason__c</picklist>
+        <values>
+            <fullName>Inforce LifeMap Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inforce USAble Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Core State Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-standard Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spam</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Complexity__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Department_Name__c</picklist>
+        <values>
+            <fullName>Business Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Membership %26 Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCCR %28Previously SBMA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Policy Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underwriting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Disposition__c</picklist>
+        <values>
+            <fullName>Issue Not Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Action Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-Routed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Enrollment_Implementation_Status__c</picklist>
+        <values>
+            <fullName>Case Built waiting on Data Upload</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perpetual Build</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Enrollment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready to Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent for Download</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for Information from Sales%2FGroup</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hold_Reasons__c</picklist>
+        <values>
+            <fullName>Business Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CDF%2FAQF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Census File</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Census Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOI%E2%80%99s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrollment Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FICA Match Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Master Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCCR %E2%80%93 Commissions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCCR %E2%80%93 Licensing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prior Carrier Certs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prior Carrier Invoice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quoting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roster Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scrub Answers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UW Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W2 Agreement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Not_in_System__c</picklist>
+        <values>
+            <fullName>Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>On_Hold_Reason__c</picklist>
+        <values>
+            <fullName>Benefits Amount Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Census Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grandfather Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hold Removed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>LSV_Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regence_Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UsableOps_Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome_of_Outreach__c</picklist>
+        <values>
+            <fullName>Business in Jeopardy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response From Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referred to Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remained Neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restored Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satisfied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_State__c</picklist>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Policy_Implementation_Stage_Status__c</picklist>
+        <values>
+            <fullName>Continue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release with LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Release without LTD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Policy_Implementation_Stage__c</picklist>
+        <values>
+            <fullName>Gate 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gate 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Released</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triage</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Policy_Implementation_Status__c</picklist>
+        <values>
+            <fullName>Assigned to PSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Signature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cert and Policy Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Entry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preparing Release</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scrub</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product__c</picklist>
+        <values>
+            <fullName>ASO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fully Insured</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HCR%2FACA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MedAdvantage%2FEGWP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MediGap</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Products_del__c</picklist>
+        <values>
+            <fullName>AD%26D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AIRMED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Critical Illness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DUO Accident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DUO Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DUO Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FICA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FMLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gap Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital Confinement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIFE%2FADD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Carrier Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Advantage Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VADD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VGTL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VLTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worksite to Group</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Agency Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent%2FGroup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent%2FMember</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group%2FMember</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rebill_Reason__c</picklist>
+        <values>
+            <fullName>Adds%2FDeletes%2FChanges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amendments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete Compass Risk Updates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost Bill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Adds</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Root_Cause__c</picklist>
+        <values>
+            <fullName>Benefit Coding Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claim Processing Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>File Content Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>File Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Data Error</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Starting_Sentiment__c</picklist>
+        <values>
+            <fullName>High Five</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Positive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unclear</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Type__c</picklist>
+        <values>
+            <fullName>1099 related questions or issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>51%2B sized groups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASO Benefit Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accumulator Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BBB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benefit Display Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cert Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D4H Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DLPS%2FCPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dental Directors for Appeals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exceptions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Service Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group Applications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group Benefit Summary Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Login</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New groups or group renewals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New sold groups%2Frenewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notifications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presidential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Portal - Find a Dentist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Portal Access Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-Routed Report Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retro Adds%2FTerms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollover Claim Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rollover Report Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subpoenas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscriber ID Change Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Access Issues</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Systems_impacted__c</picklist>
+        <values>
+            <fullName>AccessAble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Docfinity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fimmas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LifePro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NTake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>xPression</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Access to Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appeals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benefits %26 Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clinical Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance %26 HIPPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D4H%2FMedical Conditions Inquiries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grievances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group and Enrollment Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICS%2FUCD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID Cards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loyalty Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member-Facing Collateral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Membership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFP%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule %27A%27 and Schedule %27C%27 %285500 Form%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subrogations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surveys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teledentistry%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underwriting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Underwriting_State__c</picklist>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Underwriting_Tier__c</picklist>
+        <values>
+            <fullName>Level 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Welcome_Call_Completed__c</picklist>
+        <values>
+            <fullName>Follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Welcome_Call_Outcome__c</picklist>
+        <values>
+            <fullName>No Answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reached Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice Mail</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gate_1_Hold_Issues__c</fullName>
+    <description>Concatenates Gate 1 Issues for Reporting</description>
+    <externalId>false</externalId>
+    <formula>IF(  ISPICKVAL(Master_Application_Received__c, &quot;No&quot;), &quot;Master Application&quot; &amp; &quot;, &quot;,null) +
+IF( ISPICKVAL(Census_Enrollment_Received__c, &quot;No&quot;) , &quot;Census Enrollment&quot; &amp; &quot;, &quot;,null) +
+IF(  ISPICKVAL(Commissions_Worksheet_Received__c, &quot;No&quot;) , &quot;Commission WS&quot; &amp; &quot;, &quot;,null) +
+IF(  ISPICKVAL(Proposal_Received__c, &quot;No&quot;) , &quot;Proposal&quot; &amp; &quot;, &quot;,null) +
+IF( ISPICKVAL(License_Verified__c, &quot;No&quot;) , &quot;License&quot; &amp; &quot;, &quot;,null) +
+IF(  ISPICKVAL(Appointment_Verified__c, &quot;No&quot;) , &quot;Appointment&quot; &amp; &quot;, &quot;,null) +
+IF(  ISPICKVAL(Status_of_Form_Sent_to_SBMA__c, &quot;No&quot;), &quot;SBMA Form Status&quot; &amp; &quot;, &quot;,null) +
+IF(  ISPICKVAL(Tax_ID__c, &quot;No&quot;) , &quot;Tax ID&quot; &amp; &quot;, &quot;,null) +
+IF(  ISPICKVAL(Employer_Name_and_Location__c, &quot;No&quot;), &quot;Employer Name/Location&quot; &amp; &quot;, &quot;,null)</formula>
+    <label>Gate 1 Hold Issues</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

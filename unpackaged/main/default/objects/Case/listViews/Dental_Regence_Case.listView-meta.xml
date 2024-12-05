@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dental_Regence_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Case_Owner_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Queue</filterScope>
+    <label>Dental Regence</label>
+    <queue>Dental_Regence</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

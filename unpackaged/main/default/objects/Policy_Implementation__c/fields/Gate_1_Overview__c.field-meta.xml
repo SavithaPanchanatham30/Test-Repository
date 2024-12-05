@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gate_1_Overview__c</fullName>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Use this field to provide an overview of where the Gate is in the process.</inlineHelpText>
+    <label>Gate 1 Overview</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

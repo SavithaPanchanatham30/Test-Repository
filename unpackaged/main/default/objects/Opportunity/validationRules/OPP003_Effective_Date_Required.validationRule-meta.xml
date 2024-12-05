@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP003_Effective_Date_Required</fullName>
+    <active>true</active>
+    <description>Requires user to set an effective date if the Master Group does not have a value in Group Anniversary Date</description>
+    <errorConditionFormula>ISBLANK( Account.Group_Anniversary_Date__c) &amp;&amp;    ISBLANK(Effective_Date__c)</errorConditionFormula>
+    <errorDisplayField>Effective_Date__c</errorDisplayField>
+    <errorMessage>OPP003 Please provide Effective Date.</errorMessage>
+</ValidationRule>

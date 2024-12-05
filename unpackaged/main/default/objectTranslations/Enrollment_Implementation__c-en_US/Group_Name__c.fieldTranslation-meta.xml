@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is a formula (read only) field that reflect the master group field from the case --></help>
+        <label><!-- Group Name --></label>
+        <name>Group_Name__c</name>
+    </CustomFieldTranslation>

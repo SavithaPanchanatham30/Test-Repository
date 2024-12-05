@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Specialist_Points_Earned__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Text( Case_Notes_are_clearly_documented__c ) = &quot;Yes&quot;,1,0) +
+IF (Text( Case_Detail_Populated_Correctly__c ) = &quot;Yes&quot;,0.5,0) +
+IF (Text( Positive_Tone_in_Response__c ) = &quot;Yes&quot;,1,0) +
+IF (Text( Utilized_Correct_Grammer__c ) = &quot;Yes&quot;,1,0) +
+IF (Text( Unread_Emails_Closed_Or_Replied_SLA__c ) = &quot;Yes&quot;,0.5,0) +
+IF (Text( System_Work_Accurately_Completed__c ) = &quot;Yes&quot;,1,0) +
+IF (Text( Notes_added_to_CSW_and_or_LifePRO__c ) = &quot;Yes&quot;,1,0) +
+IF (Text( Communication_to_Appropriate_Contacts__c ) = &quot;Yes&quot;,1,0) +
+IF (Text( Partner_Case_Replied_Within_SLA__c ) = &quot;Yes&quot;,1,0) +
+IF (Text( Claims_Case_Replied_within_SLA__c ) = &quot;Yes&quot;,1,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Billing Specialist Points Earned</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

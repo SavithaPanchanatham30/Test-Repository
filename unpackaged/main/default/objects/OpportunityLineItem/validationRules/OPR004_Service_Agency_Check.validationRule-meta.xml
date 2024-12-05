@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPR004_Service_Agency_Check</fullName>
+    <active>true</active>
+    <description>Prevents user from selecting a Service Master Agency on opportunity line item. Agency must be a branch agency.</description>
+    <errorConditionFormula>OR 
+( 
+Broker_Agency__r.Master_Agency_Record__c = true, 
+Broker_Agency__r.RecordType.DeveloperName = &#39;Prospect&#39;, 
+Broker_Agency__r.RecordType.DeveloperName = &#39;Master_Group&#39;, 
+Broker_Agency__r.RecordType.DeveloperName = &#39;Partner&#39; 
+
+)</errorConditionFormula>
+    <errorDisplayField>Broker_Agency__c</errorDisplayField>
+    <errorMessage>OPR004 Please select a Branch Agency account only.</errorMessage>
+</ValidationRule>

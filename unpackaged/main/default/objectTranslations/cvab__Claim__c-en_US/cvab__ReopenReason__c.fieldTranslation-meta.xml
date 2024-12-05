@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reopen Reason --></label>
+        <name>cvab__ReopenReason__c</name>
+        <picklistValues>
+            <masterLabel>Employer override</masterLabel>
+            <translation><!-- Employer override --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extenuating circumstances</masterLabel>
+            <translation><!-- Extenuating circumstances --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relapse</masterLabel>
+            <translation><!-- Relapse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STD information received</masterLabel>
+            <translation><!-- STD information received --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

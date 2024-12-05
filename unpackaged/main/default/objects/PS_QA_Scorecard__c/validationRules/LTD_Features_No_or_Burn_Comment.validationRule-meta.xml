@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LTD_Features_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in DisabilityFeatures then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT( Disability_Features__c )   = &quot;No&quot; , TEXT(  Disability_Features__c) = &quot;Burn&quot;),  Disability_Features_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Disability_Features_Comments__c</errorDisplayField>
+    <errorMessage>QA047 - If Disability Features = No or Burn, Then Disability Features Comments must be entered</errorMessage>
+</ValidationRule>

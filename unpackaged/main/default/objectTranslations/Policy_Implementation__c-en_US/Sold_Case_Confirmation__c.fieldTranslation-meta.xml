@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- File in the U: drive
+or coordinate with DRMS to verify correct information --></help>
+        <label><!-- Sold Case Confirmation --></label>
+        <name>Sold_Case_Confirmation__c</name>
+    </CustomFieldTranslation>

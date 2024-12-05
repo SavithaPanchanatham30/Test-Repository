@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Workers&apos; Compensation Benefit Frequency --></label>
+        <name>Workers_Compensation_Benefit_Frequency__c</name>
+    </CustomFieldTranslation>

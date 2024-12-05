@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSV_Master_Account_ID__c</fullName>
+    <description>This is the LSV Master ID from the Account of the Contact, used in Matching Rules so we can find contacts at the same account. Matching Rules that match on account name will find a dupe with the same account name. This will be populated by WFR.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <label>LSV Master Account ID</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

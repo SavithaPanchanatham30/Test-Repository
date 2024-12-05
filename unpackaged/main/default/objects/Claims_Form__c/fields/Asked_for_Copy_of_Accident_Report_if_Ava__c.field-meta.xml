@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asked_for_Copy_of_Accident_Report_if_Ava__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Asked for a copy of accident report if one is available</inlineHelpText>
+    <label>Asked for Copy of Accident Report if Avl</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

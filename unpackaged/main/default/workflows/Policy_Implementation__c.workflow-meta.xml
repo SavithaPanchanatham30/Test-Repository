@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Assign_Case_to_PS1</fullName>
+        <description>Assign case to PS 1 Queue</description>
+        <field>OwnerId</field>
+        <lookupValue>PS_1</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign Case to PS1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_Case_to_PS2</fullName>
+        <description>Reassign case to PS2 queue</description>
+        <field>OwnerId</field>
+        <lookupValue>PS_2</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign Case to PS2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_Case_to_PS3</fullName>
+        <description>assign tier 3 cases to PS3</description>
+        <field>OwnerId</field>
+        <lookupValue>PS_3</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign Case to PS3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_case_to_PS4</fullName>
+        <description>Reassign case to PS4 queue</description>
+        <field>OwnerId</field>
+        <lookupValue>PS_4</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign case to PS4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_to_Amend4</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Amend_4</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign to Amend4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_to_Amend_1</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Amend_1</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign to Amend 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_to_Amend_2</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Amend_2</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign to Amend 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_to_Amend_3</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Amend_3</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign to Amend 3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Status_In_Process</fullName>
+        <field>Status</field>
+        <literalValue>In Process</literalValue>
+        <name>Case Status In Process</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Gate_1_Completed_Date</fullName>
+        <field>Gate_1_Completion_Date__c</field>
+        <formula>now()</formula>
+        <name>Gate 1 Completed Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Gate_1_Completed_Date_Null</fullName>
+        <field>Gate_1_Completion_Date__c</field>
+        <name>Gate 1 Completed Date Null</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Gate_2_Completed_Date</fullName>
+        <field>Gate_2_Completion_Date__c</field>
+        <formula>now()</formula>
+        <name>Gate 2 Completed Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Gate_2_Completed_Date_Null</fullName>
+        <field>Gate_2_Completion_Date__c</field>
+        <name>Gate 2 Completed Date Null</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Implementation_In_Process</fullName>
+        <description>Set Implementation in process after scrub complete or when implementation is resubmitted</description>
+        <field>Policy_Implementation_Status__c</field>
+        <literalValue>Implementation In Process</literalValue>
+        <name>Implementation In Process</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Implementation_QA_Review_Again</fullName>
+        <field>Implementation_Review__c</field>
+        <literalValue>Review Again</literalValue>
+        <name>Implementation QA Review Again</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Overall_Completion_Status</fullName>
+        <field>Overall_Completion_Status__c</field>
+        <formula>Gate_1_Status__c + Gate_2_Status__c +  Checklist_Status__c</formula>
+        <name>Overall Completion Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Policy_Implementation_Stage_Gate_1</fullName>
+        <field>Policy_Implementation_Stage__c</field>
+        <literalValue>Gate 1</literalValue>
+        <name>Policy Implementation Stage - Gate 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Policy_Implementation_Stage_Gate_2</fullName>
+        <field>Policy_Implementation_Stage__c</field>
+        <literalValue>Gate 2</literalValue>
+        <name>Policy Implementation Stage - Gate 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Policy_Implementation_Status_Continue</fullName>
+        <field>Policy_Implementation_Stage_Status__c</field>
+        <literalValue>Continue</literalValue>
+        <name>Policy Implementation Status - Continue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Policy_Implementation_Status_Halt</fullName>
+        <field>Policy_Implementation_Stage_Status__c</field>
+        <literalValue>Halt</literalValue>
+        <name>Policy Implementation Status - Halt</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>QA_Approve_Implementation_Ready_for_Rel</fullName>
+        <description>Executed when QA Reviewer Approves Implementation, the policy implementation is no ready for release.</description>
+        <field>Policy_Implementation_Status__c</field>
+        <literalValue>Implementation Ready for Release</literalValue>
+        <name>QA Approve Implementation Ready for Rel</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rework_Scrub</fullName>
+        <field>Policy_Implementation_Status__c</field>
+        <literalValue>Scrub In Process</literalValue>
+        <name>Rework Scrub</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Scrub_Review_to_Review_Again</fullName>
+        <description>Timed workflow after resubmit requested</description>
+        <field>Scrub_Review__c</field>
+        <literalValue>Review Again</literalValue>
+        <name>Set Scrub Review to Review Again</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LTD_VTD_checkbox</fullName>
+        <field>LTD_or_VLTD_Checked__c</field>
+        <literalValue>1</literalValue>
+        <name>Update LTD VTD checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Overall_Completion_Percentage</fullName>
+        <field>Overall_Completion_Percentage__c</field>
+        <formula>(58-( Gate_1_Status__c + Gate_2_Status__c + Checklist_Status__c ))/58</formula>
+        <name>Update Overall Completion Percentage</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Upddate_Group_Tier_on_Case</fullName>
+        <field>Case_Group_Tier__c</field>
+        <formula>TEXT( Group_Tier__c )</formula>
+        <name>Update Group Tier on Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>Case__c</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Assign Tier 1 to Amend1</fullName>
+        <actions>
+            <name>Assign_to_Amend_1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Amendment to Policy</value>
+        </criteriaItems>
+        <description>Assign Tier 1 case to Amend 1</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign Tier 1 to PS1</fullName>
+        <actions>
+            <name>Assign_Case_to_PS1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>New Business Setup</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Group Level System Work</value>
+        </criteriaItems>
+        <description>Assign Tier 1 case to PS1</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign Tier 2 to Amend2</fullName>
+        <actions>
+            <name>Assign_to_Amend_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Amendment to Policy</value>
+        </criteriaItems>
+        <description>Assign Tier 2 case to Amend 2</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign Tier 2 to PS2</fullName>
+        <actions>
+            <name>Assign_Case_to_PS2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>New Business Setup</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Group Level System Work</value>
+        </criteriaItems>
+        <description>Assign Tier 2 case to PS2</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign Tier 3 to Amend3</fullName>
+        <actions>
+            <name>Assign_to_Amend_3</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Amendment to Policy</value>
+        </criteriaItems>
+        <description>Assign Tier 3 case to Amend 3</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign Tier 3 to PS3</fullName>
+        <actions>
+            <name>Assign_Case_to_PS3</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier  3,Tier 3</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>New Business Setup</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Group Level System Work</value>
+        </criteriaItems>
+        <description>Assign Tier 3 case to PS3</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign Tier 4 to Amend4</fullName>
+        <actions>
+            <name>Assign_to_Amend4</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 4</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Amendment to Policy</value>
+        </criteriaItems>
+        <description>Assign Tier 4 case to Amend 4</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign Tier 4 to PS4</fullName>
+        <actions>
+            <name>Assign_case_to_PS4</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 4</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>New Business Setup</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Group Level System Work</value>
+        </criteriaItems>
+        <description>Assign Tier 4 case to PS4</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Implementation QA Request Resubmission</fullName>
+        <actions>
+            <name>Implementation_In_Process</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Implementation_QA_Review_Again</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Policy_Implementation_Status__c</field>
+            <operation>equals</operation>
+            <value>Implementation Sent to QA Initial Review,Implementation Sent to QA Resubmitted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Implementation_Review__c</field>
+            <operation>equals</operation>
+            <value>Resubmit</value>
+        </criteriaItems>
+        <description>This is executed if QA Review Request Implementation be resubmitted</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>QA Approve Implementation</fullName>
+        <actions>
+            <name>QA_Approve_Implementation_Ready_for_Rel</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Policy_Implementation_Status__c</field>
+            <operation>equals</operation>
+            <value>Implementation Sent to QA Initial Review,Implementation Sent to QA Resubmitted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Implementation_Review__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <description>This is executed when QA Reviewer approves Implementation</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>QA Approve Scrub</fullName>
+        <actions>
+            <name>Implementation_In_Process</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Policy_Implementation_Status__c</field>
+            <operation>equals</operation>
+            <value>Scrub Sent to QA Initial Review,Scrub Sent to QA Resubmitted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Scrub_Review__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <description>Executes when QA Approves Scrub</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>QA Request Scrub resubmit</fullName>
+        <actions>
+            <name>Rework_Scrub</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Scrub_Review_to_Review_Again</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Policy_Implementation_Status__c</field>
+            <operation>equals</operation>
+            <value>Scrub Sent to QA Initial Review,Scrub Sent to QA Resubmitted</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Scrub_Review__c</field>
+            <operation>equals</operation>
+            <value>Resubmit</value>
+        </criteriaItems>
+        <description>Executes when QA Request Scrub Resubmit</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Case Group Tier from PI</fullName>
+        <actions>
+            <name>Upddate_Group_Tier_on_Case</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Policy_Implementation__c.Group_Tier__c</field>
+            <operation>equals</operation>
+            <value>Tier 1,Tier 2,Tier  3,Tier 4,Tier 3</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update checkbox if LTD or VLTD checked</fullName>
+        <actions>
+            <name>Update_LTD_VTD_checkbox</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Policy_Implementation__c.LTD__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Policy_Implementation__c.VLTD__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

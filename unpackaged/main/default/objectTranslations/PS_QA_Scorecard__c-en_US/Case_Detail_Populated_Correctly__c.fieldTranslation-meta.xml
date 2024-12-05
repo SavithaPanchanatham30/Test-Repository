@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Were case details populated correctly and on the same day --></help>
+        <label><!-- Case Detail Populated Correctly --></label>
+        <name>Case_Detail_Populated_Correctly__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Disability__c</fullName>
+    <label>Type of Disability</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident</fullName>
+                <default>false</default>
+                <label>Accident</label>
+            </value>
+            <value>
+                <fullName>Pregnancy</fullName>
+                <default>false</default>
+                <label>Pregnancy</label>
+            </value>
+            <value>
+                <fullName>Illness</fullName>
+                <default>false</default>
+                <label>Illness</label>
+            </value>
+            <value>
+                <fullName>FMLA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FMLA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

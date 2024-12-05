@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Salesforce Notes Stay Updated &amp; Case is closed Correctly --></help>
+        <label><!-- Salesforce Notes Stay Current/Closed --></label>
+        <name>Salesforce_Notes_Stay_Current_Closed__c</name>
+    </CustomFieldTranslation>

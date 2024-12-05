@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP006_Create_not_allowed_in_close_stage</fullName>
+    <active>true</active>
+    <description>System users are not allowed to create an opportunity from Closed stage.</description>
+    <errorConditionFormula>AND( 
+ISNEW(), 
+IsClosed 
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>OPP006 Opportunity record cannot be created with a &#39;Closed&#39; stage</errorMessage>
+</ValidationRule>

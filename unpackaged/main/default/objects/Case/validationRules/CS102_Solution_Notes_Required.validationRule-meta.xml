@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CS102_Solution_Notes_Required</fullName>
+    <active>true</active>
+    <description>CS102_If Explained Functional Limitation Functionality notes must be filled in</description>
+    <errorConditionFormula>AND(ISPICKVAL( Origin , &quot;WEB&quot;), ISPICKVAL( Action_Taken__c , &quot;Solution Provided&quot;), ISBLANK( Solution_Notes__c )  )</errorConditionFormula>
+    <errorDisplayField>Solution_Notes__c</errorDisplayField>
+    <errorMessage>CS102 - If Solution Provided then Solution Notes must be entered</errorMessage>
+</ValidationRule>

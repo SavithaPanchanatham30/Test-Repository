@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When an individual requests AccessAble login credentials</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Individual Website Request</name>
+    <style>none</style>
+    <subject>Your Request for Individual Online Access</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

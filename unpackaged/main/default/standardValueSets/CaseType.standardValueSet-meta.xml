@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Accessable Enrollment</fullName>
+        <default>false</default>
+        <label>Accessable Enrollment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Access to Care</fullName>
+        <default>false</default>
+        <label>Access to Care</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add, Change, Delete of Members to Policy</fullName>
+        <default>false</default>
+        <label>Add, Change, Delete of Members to Policy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Address Change</fullName>
+        <default>false</default>
+        <label>Address Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>All Others</fullName>
+        <default>false</default>
+        <label>All Others</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Amendments</fullName>
+        <default>false</default>
+        <label>Amendments</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Amendment to Policy</fullName>
+        <default>false</default>
+        <label>Amendment to Policy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Appeals</fullName>
+        <default>false</default>
+        <label>Appeals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Audit</fullName>
+        <default>false</default>
+        <label>Audit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Beneficiary Change</fullName>
+        <default>false</default>
+        <label>Beneficiary Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Benefits &amp; Products</fullName>
+        <default>false</default>
+        <label>Benefits &amp; Products</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Benefits Question</fullName>
+        <default>false</default>
+        <label>Benefits Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Benefit Summary</fullName>
+        <default>false</default>
+        <label>Benefit Summary</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Benefit Summary Request</fullName>
+        <default>false</default>
+        <label>Benefit Summary Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bill Copy</fullName>
+        <default>false</default>
+        <label>Bill Copy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing and Payment</fullName>
+        <default>false</default>
+        <label>Billing and Payment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bill Request</fullName>
+        <default>false</default>
+        <label>Bill Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bills Request</fullName>
+        <default>false</default>
+        <label>Bills Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Campaigns</fullName>
+        <default>false</default>
+        <label>Campaigns</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancellation/Reinstatement</fullName>
+        <default>false</default>
+        <label>Cancellation/Reinstatement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Case Maintenance</fullName>
+        <default>false</default>
+        <label>Case Maintenance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Certificate Request</fullName>
+        <default>false</default>
+        <label>Certificate Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Certificate Requests</fullName>
+        <default>false</default>
+        <label>Certificate Requests</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims</fullName>
+        <default>false</default>
+        <label>Claims</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims – All Others</fullName>
+        <default>false</default>
+        <label>Claims – All Others</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims – Disability</fullName>
+        <default>false</default>
+        <label>Claims – Disability</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims – Essential Care and Recovery</fullName>
+        <default>false</default>
+        <label>Claims – Essential Care and Recovery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims Fax</fullName>
+        <default>false</default>
+        <label>Claims Fax</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims Inquiry</fullName>
+        <default>false</default>
+        <label>Claims Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims Level</fullName>
+        <default>false</default>
+        <label>Claims Level</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims - Life Claim Inquiry</fullName>
+        <default>false</default>
+        <label>Claims - Life Claim Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claim Status</fullName>
+        <default>false</default>
+        <label>Claim Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claims – Wellness Only Inquiry</fullName>
+        <default>false</default>
+        <label>Claims – Wellness Only Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Integrated Services</fullName>
+        <default>false</default>
+        <label>Client Integrated Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clinical Review</fullName>
+        <default>false</default>
+        <label>Clinical Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Commission</fullName>
+        <default>false</default>
+        <label>Commission</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compass</fullName>
+        <default>false</default>
+        <label>Compass</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compliance &amp; HIPPA</fullName>
+        <default>false</default>
+        <label>Compliance &amp; HIPPA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conservation</fullName>
+        <default>false</default>
+        <label>Conservation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract / Cert Request</fullName>
+        <default>false</default>
+        <label>Contract / Cert Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract / Policy Change</fullName>
+        <default>false</default>
+        <label>Contract / Policy Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Coupon Bills</fullName>
+        <default>false</default>
+        <label>Coupon Bills</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <label>Customer Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>D4H/Medical Conditions Inquiries</fullName>
+        <default>false</default>
+        <label>D4H/Medical Conditions Inquiries</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Death Notification</fullName>
+        <default>false</default>
+        <label>Death Notification</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Disability</fullName>
+        <default>false</default>
+        <label>Disability</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate Policy Certificate Request</fullName>
+        <default>false</default>
+        <label>Duplicate Policy Certificate Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EDI General</fullName>
+        <default>false</default>
+        <label>EDI General</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EDI Inquiry</fullName>
+        <default>false</default>
+        <label>EDI Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Self-Service</fullName>
+        <default>false</default>
+        <label>Employee Self-Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employer Self-Service</fullName>
+        <default>false</default>
+        <label>Employer Self-Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enrollment</fullName>
+        <default>false</default>
+        <label>Enrollment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enrollment Application Status</fullName>
+        <default>false</default>
+        <label>Enrollment Application Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enrollment Application Status Request</fullName>
+        <default>false</default>
+        <label>Enrollment Application Status Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enrollment Status</fullName>
+        <default>false</default>
+        <label>Enrollment Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EOI</fullName>
+        <default>false</default>
+        <label>EOI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ES Inquiry</fullName>
+        <default>false</default>
+        <label>ES Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Business</fullName>
+        <default>false</default>
+        <label>Existing Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Feed Changes</fullName>
+        <default>false</default>
+        <label>Existing Feed Changes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FEP</fullName>
+        <default>false</default>
+        <label>FEP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FICA Reports / W2</fullName>
+        <default>false</default>
+        <label>FICA Reports / W2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FL / Retail - Member Termination</fullName>
+        <default>false</default>
+        <label>FL / Retail - Member Termination</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FL / Retail - Refund</fullName>
+        <default>false</default>
+        <label>FL / Retail - Refund</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FL Worksite / Retail</fullName>
+        <default>false</default>
+        <label>FL Worksite / Retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Forms</fullName>
+        <default>false</default>
+        <label>Forms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General Sales Inquiry</fullName>
+        <default>false</default>
+        <label>General Sales Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General Service</fullName>
+        <default>false</default>
+        <label>General Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Grievances</fullName>
+        <default>false</default>
+        <label>Grievances</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group and Enrollment Issues</fullName>
+        <default>false</default>
+        <label>Group and Enrollment Issues</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Cancellation</fullName>
+        <default>false</default>
+        <label>Group Cancellation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Information Changes or Updates</fullName>
+        <default>false</default>
+        <label>Group Information Changes or Updates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Name Change</fullName>
+        <default>false</default>
+        <label>Group Name Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Group Name Change Request</fullName>
+        <default>false</default>
+        <label>Group Name Change Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ICS/UCD</fullName>
+        <default>false</default>
+        <label>ICS/UCD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ID Cards</fullName>
+        <default>false</default>
+        <label>ID Cards</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Imaging (In Flow)</fullName>
+        <default>false</default>
+        <label>Imaging (In Flow)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Imaging (Out of Flow)</fullName>
+        <default>false</default>
+        <label>Imaging (Out of Flow)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implemented</fullName>
+        <default>false</default>
+        <label>Implemented</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoice Payment Status</fullName>
+        <default>false</default>
+        <label>Invoice Payment Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoice Payment Status Request</fullName>
+        <default>false</default>
+        <label>Invoice Payment Status Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Legal</fullName>
+        <default>false</default>
+        <label>Legal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Licensing &amp; Appointment</fullName>
+        <default>false</default>
+        <label>Licensing &amp; Appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Life Claim Follow-up</fullName>
+        <default>false</default>
+        <label>Life Claim Follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LifePRO</fullName>
+        <default>false</default>
+        <label>LifePRO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loyalty Program</fullName>
+        <default>false</default>
+        <label>Loyalty Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintanence Email</fullName>
+        <default>false</default>
+        <label>Maintanence Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Underwriting</fullName>
+        <default>false</default>
+        <label>Medical Underwriting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member-Facing Collateral</fullName>
+        <default>false</default>
+        <label>Member-Facing Collateral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member Information Changes or Updates</fullName>
+        <default>false</default>
+        <label>Member Information Changes or Updates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member on Wrong Scheme</fullName>
+        <default>false</default>
+        <label>Member on Wrong Scheme</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Membership</fullName>
+        <default>false</default>
+        <label>Membership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member Termination</fullName>
+        <default>false</default>
+        <label>Member Termination</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member Termination Request</fullName>
+        <default>false</default>
+        <label>Member Termination Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Name Change</fullName>
+        <default>false</default>
+        <label>Name Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Navigator General</fullName>
+        <default>false</default>
+        <label>Navigator General</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Navigator New Request</fullName>
+        <default>false</default>
+        <label>Navigator New Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Navigator Production Support</fullName>
+        <default>false</default>
+        <label>Navigator Production Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business</fullName>
+        <default>false</default>
+        <label>New Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business - Paper Enrollment</fullName>
+        <default>false</default>
+        <label>New Business - Paper Enrollment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business Setup</fullName>
+        <default>false</default>
+        <label>New Business Setup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Request</fullName>
+        <default>false</default>
+        <label>New Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>One &amp; Done Processes</fullName>
+        <default>false</default>
+        <label>One &amp; Done Processes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Online</fullName>
+        <default>false</default>
+        <label>Online</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payment History</fullName>
+        <default>false</default>
+        <label>Payment History</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payroll Reconciliation Requests</fullName>
+        <default>false</default>
+        <label>Payroll Reconciliation Requests</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Perpetual Case</fullName>
+        <default>false</default>
+        <label>Perpetual Case</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PNW</fullName>
+        <default>false</default>
+        <label>PNW</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Policy Change Request</fullName>
+        <default>false</default>
+        <label>Policy Change Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Policy Changes</fullName>
+        <default>false</default>
+        <label>Policy Changes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Policy Questions</fullName>
+        <default>false</default>
+        <label>Policy Questions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Policy Related Requests</fullName>
+        <default>false</default>
+        <label>Policy Related Requests</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Port/Convert/Conserve</fullName>
+        <default>false</default>
+        <label>Port/Convert/Conserve</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Port/Convert/Conserve Request</fullName>
+        <default>false</default>
+        <label>Port/Convert/Conserve Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Producer Demographic Changes</fullName>
+        <default>false</default>
+        <label>Producer Demographic Changes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Production Support</fullName>
+        <default>false</default>
+        <label>Production Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Provider</fullName>
+        <default>false</default>
+        <label>Provider</label>
+    </standardValue>
+    <standardValue>
+        <fullName>QA Review</fullName>
+        <default>false</default>
+        <label>QA Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quick Hits</fullName>
+        <default>false</default>
+        <label>Quick Hits</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rates Inquiry</fullName>
+        <default>false</default>
+        <label>Rates Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rates Request</fullName>
+        <default>false</default>
+        <label>Rates Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Re-enrollment</fullName>
+        <default>false</default>
+        <label>Re-enrollment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Re-enrollment (Products Added)</fullName>
+        <default>false</default>
+        <label>Re-enrollment (Products Added)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reenrollment - Paper Enrollment</fullName>
+        <default>false</default>
+        <label>Reenrollment - Paper Enrollment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reporting</fullName>
+        <default>false</default>
+        <label>Reporting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RFP&#39;s</fullName>
+        <default>false</default>
+        <label>RFP&#39;s</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Materials</fullName>
+        <default>false</default>
+        <label>Sales Materials</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sample Cases</fullName>
+        <default>false</default>
+        <label>Sample Cases</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SBMA</fullName>
+        <default>false</default>
+        <label>SBMA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Schedule &#39;A&#39; and Schedule &#39;C&#39; (5500 Form)</fullName>
+        <default>false</default>
+        <label>Schedule &#39;A&#39; and Schedule &#39;C&#39; (5500 Form)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Schedule A Report</fullName>
+        <default>false</default>
+        <label>Schedule A Report</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Schedule of Benefit Request</fullName>
+        <default>false</default>
+        <label>Schedule of Benefit Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Self-Service</fullName>
+        <default>false</default>
+        <label>Self-Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SLD</fullName>
+        <default>false</default>
+        <label>SLD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Subrogations</fullName>
+        <default>false</default>
+        <label>Subrogations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surrender or Loans</fullName>
+        <default>false</default>
+        <label>Surrender or Loans</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surveys</fullName>
+        <default>false</default>
+        <label>Surveys</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TDI Customer Service</fullName>
+        <default>false</default>
+        <label>TDI Customer Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Teledentistry.com</fullName>
+        <default>false</default>
+        <label>Teledentistry.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telephonic Claims</fullName>
+        <default>false</default>
+        <label>Telephonic Claims</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trial</fullName>
+        <default>false</default>
+        <label>Trial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Underwriting</fullName>
+        <default>false</default>
+        <label>Underwriting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Universal Life</fullName>
+        <default>false</default>
+        <label>Universal Life</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Worksite to Group</fullName>
+        <default>false</default>
+        <label>Worksite to Group</label>
+    </standardValue>
+</StandardValueSet>

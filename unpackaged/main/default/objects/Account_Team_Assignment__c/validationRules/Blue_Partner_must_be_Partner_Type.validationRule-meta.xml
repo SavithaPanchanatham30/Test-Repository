@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blue_Partner_must_be_Partner_Type</fullName>
+    <active>true</active>
+    <description>Blue Partner must be Partner Type</description>
+    <errorConditionFormula>Blue_Partner__r.RecordType.DeveloperName != &#39;Partner&#39;</errorConditionFormula>
+    <errorDisplayField>Blue_Partner__c</errorDisplayField>
+    <errorMessage>Blue Partner must be of Partner Record Type</errorMessage>
+</ValidationRule>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome_of_Outreach__c</fullName>
+    <inlineHelpText>* Restored Confidence can only be used if Starting Sentiment was Unclear/Opportunity/Low Confidence.
+* Remained Neutral creates a task for follow-up in 90 days.</inlineHelpText>
+    <label>Outcome of Outreach</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Starting_Sentiment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High Confidence</fullName>
+                <default>false</default>
+                <label>High Confidence</label>
+            </value>
+            <value>
+                <fullName>Satisfied</fullName>
+                <default>false</default>
+                <label>Satisfied</label>
+            </value>
+            <value>
+                <fullName>Restored Confidence</fullName>
+                <default>false</default>
+                <label>Restored Confidence</label>
+            </value>
+            <value>
+                <fullName>Remained Neutral</fullName>
+                <default>false</default>
+                <label>Remained Neutral</label>
+            </value>
+            <value>
+                <fullName>Referred to Other</fullName>
+                <default>false</default>
+                <label>Referred to Other</label>
+            </value>
+            <value>
+                <fullName>Business in Jeopardy</fullName>
+                <default>false</default>
+                <label>Business in Jeopardy</label>
+            </value>
+            <value>
+                <fullName>No Response From Customer</fullName>
+                <default>false</default>
+                <label>No Response From Customer</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>High Five</controllingFieldValue>
+            <controllingFieldValue>Positive</controllingFieldValue>
+            <controllingFieldValue>Unclear</controllingFieldValue>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <controllingFieldValue>Low Confidence</controllingFieldValue>
+            <valueName>High Confidence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Five</controllingFieldValue>
+            <controllingFieldValue>Positive</controllingFieldValue>
+            <controllingFieldValue>Unclear</controllingFieldValue>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <controllingFieldValue>Low Confidence</controllingFieldValue>
+            <valueName>Satisfied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Five</controllingFieldValue>
+            <controllingFieldValue>Positive</controllingFieldValue>
+            <controllingFieldValue>Unclear</controllingFieldValue>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <controllingFieldValue>Low Confidence</controllingFieldValue>
+            <valueName>Referred to Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Five</controllingFieldValue>
+            <controllingFieldValue>Positive</controllingFieldValue>
+            <controllingFieldValue>Unclear</controllingFieldValue>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <controllingFieldValue>Low Confidence</controllingFieldValue>
+            <valueName>No Response From Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unclear</controllingFieldValue>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <controllingFieldValue>Low Confidence</controllingFieldValue>
+            <valueName>Restored Confidence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unclear</controllingFieldValue>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <controllingFieldValue>Low Confidence</controllingFieldValue>
+            <valueName>Remained Neutral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unclear</controllingFieldValue>
+            <controllingFieldValue>Opportunity</controllingFieldValue>
+            <controllingFieldValue>Low Confidence</controllingFieldValue>
+            <valueName>Business in Jeopardy</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

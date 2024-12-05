@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EUTF_Claims_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>SLA_Flag__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>NAME</columns>
+    <columns>Master_Group__c</columns>
+    <columns>Member__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Type_SubType__c</columns>
+    <columns>CASES.ORIGIN</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>eutf.claims@usablelife.com</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <label>E2C: EUTF Claims New Cases</label>
+    <queue>EUTF_Claims</queue>
+    <sharedTo>
+        <group>All_EUTF_CS_Claims</group>
+    </sharedTo>
+</ListView>

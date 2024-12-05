@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clean_Enrollment_Experience__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If Checked show 20 in Score column</description>
+    <label>Clean Enrollment Experience</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

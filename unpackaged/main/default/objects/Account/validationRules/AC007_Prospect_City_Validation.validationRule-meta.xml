@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC007_Prospect_City_Validation</fullName>
+    <active>true</active>
+    <description>The purpose of this validation rule is to make city field required for the user while creating a prospect account.</description>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &#39;Prospect&#39;, ISBLANK(BillingCity))</errorConditionFormula>
+    <errorDisplayField>BillingCity</errorDisplayField>
+    <errorMessage>AC007 Please enter Billing City.</errorMessage>
+</ValidationRule>

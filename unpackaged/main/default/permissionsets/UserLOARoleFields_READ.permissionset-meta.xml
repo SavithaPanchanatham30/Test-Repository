@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set for Admins to read separate User LOA roles for
+        Absence, Disability, and Supplemental Claims.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>User LOA Role Fields (READ)</label>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.AbsenceClaimsLOARole__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.DisabilityClaimsLOARole__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.SupplementalClaimsLOARole__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplateFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>rick.culbreth@usablelife.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>EditAllContents</accessLevel>
+        <sharedTo>All_Policy_Services</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <name>Policy Services Folder</name>
+</EmailTemplateFolder>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Native_System_Work_Correct_No_Affect_Pro__c</fullName>
+    <inlineHelpText>Native Compass/GPS Work Correct but does not affect certificates or Billing - Group Issue. Native Compass/GPS Work Correct but does not affect Claims</inlineHelpText>
+    <label>Native System Work Correct No Affect Pro</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>PS_QA_Picklist</valueSetName>
+    </valueSet>
+</CustomField>

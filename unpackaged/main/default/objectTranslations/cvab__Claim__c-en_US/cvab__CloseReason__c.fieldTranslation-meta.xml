@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Close Reason --></label>
+        <name>cvab__CloseReason__c</name>
+        <picklistValues>
+            <masterLabel>ADA exhausted</masterLabel>
+            <translation><!-- ADA exhausted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhausted</masterLabel>
+            <translation><!-- Exhausted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No certificate received</masterLabel>
+            <translation><!-- No certificate received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No return to work</masterLabel>
+            <translation><!-- No return to work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to work</masterLabel>
+            <translation><!-- Return to work --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

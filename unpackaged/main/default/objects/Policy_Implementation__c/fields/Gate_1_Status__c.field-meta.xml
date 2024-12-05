@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gate_1_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISPICKVAL(Master_Application_Received__c, &quot;Yes&quot;), ISPICKVAL(Master_Application_Received__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Census_Enrollment_Received__c, &quot;Yes&quot;), ISPICKVAL(Census_Enrollment_Received__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Commissions_Worksheet_Received__c, &quot;Yes&quot;), ISPICKVAL(Commissions_Worksheet_Received__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Proposal_Received__c, &quot;Yes&quot;), ISPICKVAL(Proposal_Received__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(License_Verified__c, &quot;Yes&quot;), ISPICKVAL(License_Verified__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Appointment_Verified__c, &quot;Yes&quot;), ISPICKVAL(Appointment_Verified__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Tax_ID__c, &quot;Yes&quot;),ISPICKVAL(Tax_ID__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Employer_Name_and_Location__c, &quot;Yes&quot;),ISPICKVAL(Employer_Name_and_Location__c, &quot;Not Applicable&quot;)),0,1)+
+IF(OR(ISPICKVAL(Status_of_Form_Sent_to_SBMA__c, &quot;Yes&quot;), ISPICKVAL(Status_of_Form_Sent_to_SBMA__c, &quot;Not Applicable&quot;)),0,1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Gate 1 Status</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

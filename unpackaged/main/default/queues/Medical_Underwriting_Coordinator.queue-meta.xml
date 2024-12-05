@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Medical Underwriting Coordinator</name>
+    <queueMembers>
+        <users>
+            <user>amy.williams@usablelife.com</user>
+            <user>danielle.taylor@usablelife.com</user>
+            <user>lisa.demarco@usablelife.com</user>
+            <user>lora.rice@usablelife.com</user>
+            <user>shane.loftis@usablelife.com</user>
+            <user>terry.moreno@usablelife.com</user>
+            <user>traci.holt@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

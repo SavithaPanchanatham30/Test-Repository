@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_of_EDI_Enrollment_Feeds__c</fullName>
+    <label>No of EDI Enrollment Feeds</label>
+    <summaryFilterItems>
+        <field>Group__c.EDI_Enrollment_Feeds__c</field>
+        <operation>contains</operation>
+        <value>Yes - Not Prereduced,Yes - Reduced, In Progress</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Group__c.Master_Group__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

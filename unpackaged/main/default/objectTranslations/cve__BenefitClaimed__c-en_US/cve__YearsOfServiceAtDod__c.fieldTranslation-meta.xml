@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Whole years of service; partial years are entered in the &quot;Months of Service at DOD&quot; field --></help>
+        <label><!-- Years of Service at Date of Disability --></label>
+        <name>cve__YearsOfServiceAtDod__c</name>
+    </CustomFieldTranslation>

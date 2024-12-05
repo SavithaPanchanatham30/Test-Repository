@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scorecard_Has_RightQA_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Scorecard has Correct QA Specialist then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(Scorecard_Has_Correct_QA_Specialist__c)   = &quot;No&quot; , TEXT(Scorecard_Has_Correct_QA_Specialist__c ) = &quot;Burn&quot;),            Scorecard_Has_QA_Specialist_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Scorecard_Has_QA_Specialist_Comments__c</errorDisplayField>
+    <errorMessage>QA158 - If Scorecard Has Correct QA Specialist  = No or Burn, Then Scorecard Has QA Specialist Comments must be entered</errorMessage>
+</ValidationRule>

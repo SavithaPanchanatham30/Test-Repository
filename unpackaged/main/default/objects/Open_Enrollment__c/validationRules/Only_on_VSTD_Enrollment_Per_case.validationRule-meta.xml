@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_on_VSTD_Enrollment_Per_case</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  Case__r.Renewal_VSTD_Count__c   = 1,
+ISNEW(),    ISPICKVAL(Product_Type__c, &quot;VSTD&quot;) 
+)</errorConditionFormula>
+    <errorMessage>OE003-The case currently has a VSTD Renewal Enrollment, please navigate to the existing record and select edit.</errorMessage>
+</ValidationRule>

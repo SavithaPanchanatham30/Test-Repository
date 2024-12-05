@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Latest Payment Specification with a Payment Type of &apos;Benefit&apos;. If no Benefit Payment Specification exists then use the latest Payment Specification regardless of Payment Type --></help>
+        <label><!-- Latest Payment Specification --></label>
+        <name>cve__LatestPaymentSpecification__c</name>
+        <relationshipLabel><!-- Benefits Claimed --></relationshipLabel>
+    </CustomFieldTranslation>

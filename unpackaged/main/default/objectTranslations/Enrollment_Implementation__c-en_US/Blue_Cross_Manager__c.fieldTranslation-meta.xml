@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Blue Cross Manager --></label>
+        <name>Blue_Cross_Manager__c</name>
+        <relationshipLabel><!-- Enrollment Implementations (Blue Cross Manager) --></relationshipLabel>
+    </CustomFieldTranslation>

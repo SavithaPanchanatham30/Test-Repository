@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Run Member Benefit Status Report (Roster) and
+request a bill from Premium Accounting --></help>
+        <label><!-- Generate Roster --></label>
+        <name>Generate_Roster__c</name>
+    </CustomFieldTranslation>

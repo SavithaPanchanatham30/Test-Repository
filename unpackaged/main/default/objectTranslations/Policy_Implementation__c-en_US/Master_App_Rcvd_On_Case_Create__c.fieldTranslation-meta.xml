@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Master application has been received when the case was created --></help>
+        <label><!-- Submitted with Master App --></label>
+        <name>Master_App_Rcvd_On_Case_Create__c</name>
+    </CustomFieldTranslation>

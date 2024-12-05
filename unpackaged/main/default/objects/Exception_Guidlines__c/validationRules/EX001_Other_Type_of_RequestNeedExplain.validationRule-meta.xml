@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX001_Other_Type_of_RequestNeedExplain</fullName>
+    <active>true</active>
+    <description>If Type other is selected then you need an Explanation.</description>
+    <errorConditionFormula>And(TEXT(Type_of_Request__c) = &quot;Other&quot;, Other_Type_of_Request_Explanation__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Other_Type_of_Request_Explanation__c</errorDisplayField>
+    <errorMessage>EX001- If Type of Request is Other then Other Type of Request Explanation needs to be  entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>LifeMap Transition - Broker Reach Out No Voluntary</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LifeMap Transition - Broker Reach Out No Voluntary</name>
+    <style>none</style>
+    <subject>LifeMap Transition to USAble Life</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

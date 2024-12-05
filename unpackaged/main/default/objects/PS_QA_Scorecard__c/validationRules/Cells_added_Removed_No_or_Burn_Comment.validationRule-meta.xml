@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cells_added_Removed_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Cells Added/Removed then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT( Cells_Added_Removed__c )  = &quot;No&quot; , TEXT(Cells_Added_Removed__c ) = &quot;Burn&quot;),       Cells_Added_Removed_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Cells_Added_Removed_Comments__c</errorDisplayField>
+    <errorMessage>QA027 - If Cells Added/Removed = No or Burn, Then Cells Added/Removed Comments must be entered</errorMessage>
+</ValidationRule>

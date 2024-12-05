@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enrollment_Implementation_Status__c</fullName>
+    <description>Used for Enrollment Service Cases shows Status</description>
+    <label>Enrollment Implementation Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Waiting for Information from Sales/Group</fullName>
+                <default>false</default>
+                <label>Waiting for Information from Sales/Group</label>
+            </value>
+            <value>
+                <fullName>Case Configuration</fullName>
+                <default>false</default>
+                <label>Case Configuration</label>
+            </value>
+            <value>
+                <fullName>Case Built waiting on Data Upload</fullName>
+                <default>false</default>
+                <label>Case Built waiting on Data Upload</label>
+            </value>
+            <value>
+                <fullName>Internal Testing</fullName>
+                <default>false</default>
+                <label>Internal Testing</label>
+            </value>
+            <value>
+                <fullName>External Testing</fullName>
+                <default>false</default>
+                <label>External Testing</label>
+            </value>
+            <value>
+                <fullName>Sent for Download</fullName>
+                <default>false</default>
+                <label>Sent for Download</label>
+            </value>
+            <value>
+                <fullName>Enrolling</fullName>
+                <default>false</default>
+                <label>Enrolling</label>
+            </value>
+            <value>
+                <fullName>Post Enrollment</fullName>
+                <default>false</default>
+                <label>Post Enrollment</label>
+            </value>
+            <value>
+                <fullName>Ready to Close</fullName>
+                <default>false</default>
+                <label>Ready to Close</label>
+            </value>
+            <value>
+                <fullName>Perpetual Build</fullName>
+                <default>false</default>
+                <label>Perpetual Build</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

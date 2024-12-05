@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Email_Communicat_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Phone Email Communication Documented then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Phone_Email_Communication_Documented__c ) = &quot;No&quot; ,  TEXT (Phone_Email_Communication_Documented__c) = &quot;Burn&quot;),     Phone_Email_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Phone_Email_Comments__c</errorDisplayField>
+    <errorMessage>QA073 - If Phone Email Communication Documented = No or Burn, Then Phone Email Comments must be entered</errorMessage>
+</ValidationRule>

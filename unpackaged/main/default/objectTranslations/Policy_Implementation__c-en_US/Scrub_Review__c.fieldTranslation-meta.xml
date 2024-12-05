@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Approve or have user resubmit scrub --></help>
+        <label><!-- Scrub Review --></label>
+        <name>Scrub_Review__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resubmit</masterLabel>
+            <translation><!-- Resubmit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review Again</masterLabel>
+            <translation><!-- Review Again --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

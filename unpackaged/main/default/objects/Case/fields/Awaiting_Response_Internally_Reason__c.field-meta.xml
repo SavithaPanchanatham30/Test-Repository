@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Awaiting_Response_Internally_Reason__c</fullName>
+    <description>Internal Hold Reasons</description>
+    <inlineHelpText>Enter Areas you are waiting on an Internal Response</inlineHelpText>
+    <label>Awaiting  Response Internally Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Commissions</fullName>
+                <default>false</default>
+                <label>Commissions</label>
+            </value>
+            <value>
+                <fullName>Compass Support</fullName>
+                <default>false</default>
+                <label>Compass Support</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Licensing and Appointments</fullName>
+                <default>false</default>
+                <label>Licensing and Appointments</label>
+            </value>
+            <value>
+                <fullName>M&amp;B</fullName>
+                <default>false</default>
+                <label>M&amp;B</label>
+            </value>
+            <value>
+                <fullName>Management</fullName>
+                <default>false</default>
+                <label>Management</label>
+            </value>
+            <value>
+                <fullName>Policy Services</fullName>
+                <default>false</default>
+                <label>Policy Services</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Underwriting</fullName>
+                <default>false</default>
+                <label>Underwriting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

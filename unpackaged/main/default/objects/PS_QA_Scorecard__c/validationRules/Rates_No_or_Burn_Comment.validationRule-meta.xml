@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rates_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Rates then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Rates__c )   = &quot;No&quot; , TEXT(  Rates__c   ) = &quot;Burn&quot;),        Rates_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Rates_Comments__c</errorDisplayField>
+    <errorMessage>QA205 =  If Rates = No or Burn, Then Rates Comments must be entered</errorMessage>
+</ValidationRule>

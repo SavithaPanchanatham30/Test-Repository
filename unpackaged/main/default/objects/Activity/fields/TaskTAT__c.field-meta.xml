@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TaskTAT__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(DATEVALUE(CompletedDateTime) &lt; ActivityDate, 0, (5 * ( FLOOR( (  DATEVALUE( CompletedDateTime ) - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( DATEVALUE( CompletedDateTime ) - DATE( 1900, 1, 8), 7 ) ) )
+-
+(5 * ( FLOOR( (ActivityDate  - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD(ActivityDate - DATE( 1900, 1, 8), 7 ) ) ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Task TAT</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

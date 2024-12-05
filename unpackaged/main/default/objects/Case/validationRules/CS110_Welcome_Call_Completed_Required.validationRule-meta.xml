@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CS110_Welcome_Call_Completed_Required</fullName>
+    <active>true</active>
+    <description>CS110 if subtype contains New Business-FT then Welcome Call Completed Required</description>
+    <errorConditionFormula>AND(TEXT( Sub_Type__c )  = &quot;New Business-FT&quot;,  RecordType.DeveloperName= &quot;Policy_Services&quot;, TEXT(Welcome_Call_Completed__c  ) = &quot;&quot;, OR(ISPICKVAL(Status, &quot;Closed&quot;),ISPICKVAL(Status, &quot;Issued and Closed&quot;)))</errorConditionFormula>
+    <errorMessage>CS110 - Welcome Call Completed must be selected before closing the case no New Business-FT</errorMessage>
+</ValidationRule>

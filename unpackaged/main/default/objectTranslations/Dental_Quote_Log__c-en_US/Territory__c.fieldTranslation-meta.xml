@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Territory --></label>
+        <name>Territory__c</name>
+        <picklistValues>
+            <masterLabel>Asuris (RG)</masterLabel>
+            <translation><!-- Asuris (RG) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central (AR &amp; FL)</masterLabel>
+            <translation><!-- Central (AR &amp; FL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clark County (RG)</masterLabel>
+            <translation><!-- Clark County (RG) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East (AR)</masterLabel>
+            <translation><!-- East (AR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government &amp; Public (FL)</masterLabel>
+            <translation><!-- Government &amp; Public (FL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID (RG)</masterLabel>
+            <translation><!-- ID (RG) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major &amp; National (FL)</masterLabel>
+            <translation><!-- Major &amp; National (FL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North (FL)</masterLabel>
+            <translation><!-- North (FL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeast (AR)</masterLabel>
+            <translation><!-- Northeast (AR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northwest (AR &amp; FL)</masterLabel>
+            <translation><!-- Northwest (AR &amp; FL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR (RG)</masterLabel>
+            <translation><!-- OR (RG) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South (FL)</masterLabel>
+            <translation><!-- South (FL) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Central (AR)</masterLabel>
+            <translation><!-- South Central (AR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast (AR)</masterLabel>
+            <translation><!-- Southeast (AR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest (AR)</masterLabel>
+            <translation><!-- Southwest (AR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT (RG)</masterLabel>
+            <translation><!-- UT (RG) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA (RG)</masterLabel>
+            <translation><!-- WA (RG) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Central (AR)</masterLabel>
+            <translation><!-- West Central (AR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Coast (FL)</masterLabel>
+            <translation><!-- West Coast (FL) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

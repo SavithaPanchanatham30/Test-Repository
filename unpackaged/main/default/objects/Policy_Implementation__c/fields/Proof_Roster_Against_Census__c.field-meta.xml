@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proof_Roster_Against_Census__c</fullName>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Check NTAKE/roster against the census</inlineHelpText>
+    <label>Proof Roster Against Census</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

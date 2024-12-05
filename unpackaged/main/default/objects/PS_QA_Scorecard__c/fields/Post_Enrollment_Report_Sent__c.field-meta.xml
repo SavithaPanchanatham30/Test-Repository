@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Enrollment_Report_Sent__c</fullName>
+    <description>24 HOURS AFTER TO ENROLLMENT END DATE</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>24 HOURS AFTER TO ENROLLMENT END DATE (Min Time 5, Time 10, Max Time 13)</inlineHelpText>
+    <label>Post Enrollment Report Sent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

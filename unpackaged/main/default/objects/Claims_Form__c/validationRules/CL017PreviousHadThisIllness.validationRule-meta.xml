@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL017PreviousHadThisIllness</fullName>
+    <active>true</active>
+    <description>For Type of Disability Illness - Previous Had This Condition Required</description>
+    <errorConditionFormula>AND( ISBLANK( TEXT(Previously_Had_This_or_Similar_Condition__c )),TEXT( Type_of_Disability__c ) = &quot;Illness&quot; , RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Previously_Had_This_or_Similar_Condition__c</errorDisplayField>
+    <errorMessage>CL-017 If type of Disability Illness - then Previously Had This or Similar Condition Required</errorMessage>
+</ValidationRule>

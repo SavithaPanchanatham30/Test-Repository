@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status Reasons --></label>
+        <name>cve__StatusReasons__c</name>
+        <picklistValues>
+            <masterLabel>--- Approved ---</masterLabel>
+            <translation><!-- - - - Approved - - - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>--- Denied ---</masterLabel>
+            <translation><!-- - - - Denied - - - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>--- Incomplete ---</masterLabel>
+            <translation><!-- - - - Incomplete - - - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>--- Pending ---</masterLabel>
+            <translation><!-- - - - Pending - - - --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticipated Medical Recovery Date</masterLabel>
+            <translation><!-- Anticipated Medical Recovery Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticipated Medical Recovery During BWP</masterLabel>
+            <translation><!-- Anticipated Medical Recovery During BWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticipatory Claim - Denied</masterLabel>
+            <translation><!-- Anticipatory Claim - Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anticipatory Claim - Pending</masterLabel>
+            <translation><!-- Anticipatory Claim - Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Financial</masterLabel>
+            <translation><!-- Awaiting Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Medical</masterLabel>
+            <translation><!-- Awaiting Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Other Information</masterLabel>
+            <translation><!-- Awaiting Other Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Vocational</masterLabel>
+            <translation><!-- Awaiting Vocational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claimant Expects to Return to Work</masterLabel>
+            <translation><!-- Claimant Expects to Return to Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contested Claim</masterLabel>
+            <translation><!-- Contested Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contested Claim - Approved</masterLabel>
+            <translation><!-- Contested Claim - Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contested Claim - Denied</masterLabel>
+            <translation><!-- Contested Claim - Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractual Exclusion</masterLabel>
+            <translation><!-- Contractual Exclusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractual Limitation Applied</masterLabel>
+            <translation><!-- Contractual Limitation Applied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death During BWP</masterLabel>
+            <translation><!-- Death During BWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death of Member</masterLabel>
+            <translation><!-- Death of Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Earnings Exceed % Allowed</masterLabel>
+            <translation><!-- Earnings Exceed % Allowed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluating Received Data</masterLabel>
+            <translation><!-- Evaluating Received Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Claim Setup</masterLabel>
+            <translation><!-- Incorrect Claim Setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Financial</masterLabel>
+            <translation><!-- Insufficient Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Financial Documentation</masterLabel>
+            <translation><!-- Insufficient Financial Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Medical</masterLabel>
+            <translation><!-- Insufficient Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Medical Documentation</masterLabel>
+            <translation><!-- Insufficient Medical Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Vocational</masterLabel>
+            <translation><!-- Insufficient Vocational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Vocational Documentation</masterLabel>
+            <translation><!-- Insufficient Vocational Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Settlement - Approved</masterLabel>
+            <translation><!-- Legal Settlement - Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Settlement - Denied</masterLabel>
+            <translation><!-- Legal Settlement - Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Recovery During BWP</masterLabel>
+            <translation><!-- Medical Recovery During BWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need Attending Physician Statement</masterLabel>
+            <translation><!-- Need Attending Physician Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need Employee Statement</masterLabel>
+            <translation><!-- Need Employee Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need Employer Statement</masterLabel>
+            <translation><!-- Need Employer Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newly Assigned</masterLabel>
+            <translation><!-- Newly Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Insured Under Group Policy</masterLabel>
+            <translation><!-- Not Insured Under Group Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preexisting Condition Exclusion Applied</masterLabel>
+            <translation><!-- Preexisting Condition Exclusion Applied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preexisting Condition Investigation</masterLabel>
+            <translation><!-- Preexisting Condition Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proof of Loss Not Provided</masterLabel>
+            <translation><!-- Proof of Loss Not Provided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released By Physician During BWP</masterLabel>
+            <translation><!-- Released By Physician During BWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released By Treating Physician</masterLabel>
+            <translation><!-- Released By Treating Physician --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return To Work During BWP</masterLabel>
+            <translation><!-- Return To Work During BWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Work</masterLabel>
+            <translation><!-- Return to Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Work Responsibility Limitation</masterLabel>
+            <translation><!-- Return to Work Responsibility Limitation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement - Approved</masterLabel>
+            <translation><!-- Settlement - Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement - Denied</masterLabel>
+            <translation><!-- Settlement - Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Related Condition - Approved</masterLabel>
+            <translation><!-- Work Related Condition - Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Related Condition - Denied</masterLabel>
+            <translation><!-- Work Related Condition - Denied --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

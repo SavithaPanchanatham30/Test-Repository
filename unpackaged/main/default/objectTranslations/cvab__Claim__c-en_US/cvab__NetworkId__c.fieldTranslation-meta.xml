@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When a Claim is created by an Experience/Community, this Network ID is populated and Workflow sets it on any ContentVersion records created so they can be viewed in the Experience/Community --></help>
+        <label><!-- Network ID --></label>
+        <name>cvab__NetworkId__c</name>
+    </CustomFieldTranslation>

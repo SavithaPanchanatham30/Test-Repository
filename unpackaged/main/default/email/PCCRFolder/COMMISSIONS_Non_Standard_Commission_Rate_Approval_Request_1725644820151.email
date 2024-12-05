@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi [Insert Contact Name]<br />
+<br />
+We have received a new business case requesting non-standard commission rates.</p>
+
+<p>Below are the details for your review:</p>
+
+<p style="margin-left: 40px;">- Group Name: [Insert Group Name]<br />
+<br />
+- Product(s) Involved: [Insert Product(s)]<br />
+<br />
+- Standard Commission Rate: [Insert Standard Rate]<br />
+<br />
+- Current Commission Rate: [If applicable, Insert Current Rate]<br />
+<br />
+- Requested Non-Standard Commission Rate: [Insert Requested Rate]<br />
+<br />
+- Broker Name: [Insert Broker Name]<br />
+<br />
+- Number of Covered Lives: [Insert Number]<br />
+<br />
+- Inforce Annual Premium: [Insert Premium Amount]</p>
+
+<p>Your prompt response will be appreciated as we will hold the case pending your review.</p>
+
+<p>Thank you,</p>
+
+<p>[Your Name]<br />
+Producer Services</p>
+</body>
+</html>

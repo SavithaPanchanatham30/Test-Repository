@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_My_Teams_Open_Tasks_2</fullName>
+    <columns>SUBJECT</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>PRIORITY</columns>
+    <columns>STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IS_CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>equals</operation>
+        <value>Jennifer Farnsworth,Logan Taylor,Matthew Grider,Mary Ladson,China Harris-Sykes,Mary Sanford</value>
+    </filters>
+    <filters>
+        <field>WHAT_NAME</field>
+        <operation>contains</operation>
+        <value>C-</value>
+    </filters>
+    <label>Supplemental Team Open Tasks</label>
+    <sharedTo>
+        <role>Analyst_CentralR_Claims</role>
+        <role>Analyst_Claims</role>
+        <role>Supervisor_Claims</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>EDI</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Group_EDI_Update</publicGroup>
+        </publicGroups>
+        <users>
+            <user>caleb.dather@usablelife.com</user>
+            <user>dana.kennedy@usablelife.com</user>
+            <user>devin.dunlap@usablelife.com</user>
+            <user>greg.dozier@usablelife.com</user>
+            <user>jebry.alhajjaj@usablelife.com</user>
+            <user>jerry.clamon@lsvusa.com</user>
+            <user>john.petersen@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

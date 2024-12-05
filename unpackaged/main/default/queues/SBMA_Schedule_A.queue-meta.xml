@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>SBMA Schedule A</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>All_SBMA</publicGroup>
+        </publicGroups>
+        <users>
+            <user>rick.culbreth@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

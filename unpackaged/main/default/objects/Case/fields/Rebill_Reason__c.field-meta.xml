@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rebill_Reason__c</fullName>
+    <description>This field contains the reason for the case rebill</description>
+    <label>Rebill Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sub_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adds/Deletes/Changes</fullName>
+                <default>false</default>
+                <label>Adds/Deletes/Changes</label>
+            </value>
+            <value>
+                <fullName>Amendments</fullName>
+                <default>false</default>
+                <label>Amendments</label>
+            </value>
+            <value>
+                <fullName>Incomplete Compass Risk Updates</fullName>
+                <default>false</default>
+                <label>Incomplete Compass Risk Updates</label>
+            </value>
+            <value>
+                <fullName>Lost Bill</fullName>
+                <default>false</default>
+                <label>Lost Bill</label>
+            </value>
+            <value>
+                <fullName>Product Adds</fullName>
+                <default>false</default>
+                <label>Product Adds</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Paid Current</controllingFieldValue>
+            <controllingFieldValue>Billing / Rebill Request</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <controllingFieldValue>Not Paid Current</controllingFieldValue>
+            <valueName>Adds/Deletes/Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Current</controllingFieldValue>
+            <controllingFieldValue>Billing / Rebill Request</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <controllingFieldValue>Not Paid Current</controllingFieldValue>
+            <valueName>Amendments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Current</controllingFieldValue>
+            <controllingFieldValue>Billing / Rebill Request</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <controllingFieldValue>Not Paid Current</controllingFieldValue>
+            <valueName>Incomplete Compass Risk Updates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Current</controllingFieldValue>
+            <controllingFieldValue>Billing / Rebill Request</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <controllingFieldValue>Not Paid Current</controllingFieldValue>
+            <valueName>Lost Bill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Current</controllingFieldValue>
+            <controllingFieldValue>Billing / Rebill Request</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <controllingFieldValue>Not Paid Current</controllingFieldValue>
+            <valueName>Product Adds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing / Rebill Request</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

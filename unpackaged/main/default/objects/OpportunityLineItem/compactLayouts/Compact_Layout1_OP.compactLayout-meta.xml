@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compact_Layout1_OP</fullName>
+    <fields>Product2Id</fields>
+    <fields>Quantity</fields>
+    <fields>UnitPrice</fields>
+    <fields>TotalPrice</fields>
+    <fields>OpportunityId</fields>
+    <fields>Line_Item_Stage__c</fields>
+    <label>Compact Layout1 OP</label>
+</CompactLayout>

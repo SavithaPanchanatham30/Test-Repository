@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>M&amp;B Florida</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>All_Membership_Billing</publicGroup>
+        </publicGroups>
+        <users>
+            <user>debbie.graff@usablelife.com</user>
+            <user>joyce.silvey@usablelife.com</user>
+            <user>teaushia.hall@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

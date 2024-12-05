@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_one_exception_Guidelines</fullName>
+    <active>true</active>
+    <description>Case can only have one exception guidelines</description>
+    <errorConditionFormula>AND(
+ Case__r.Count_of_Exception_Guidelines__c =  1,
+ISNEW())</errorConditionFormula>
+    <errorMessage>Only one Exception Guidelines per case</errorMessage>
+</ValidationRule>

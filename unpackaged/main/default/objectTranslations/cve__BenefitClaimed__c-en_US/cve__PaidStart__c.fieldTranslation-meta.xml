@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Earliest paid Payment Start date --></help>
+        <label><!-- Paid Start --></label>
+        <name>cve__PaidStart__c</name>
+    </CustomFieldTranslation>

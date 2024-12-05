@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Claims Leadership</name>
+    <queueMembers>
+        <users>
+            <user>allison.taylor@usablelife.com</user>
+            <user>beverly.recalde@usablelife.com</user>
+            <user>evon.gray@usablelife.com</user>
+            <user>gary.smith@usablelife.com</user>
+            <user>jennifer.farnsworth@usablelife.com</user>
+            <user>mary.sanford@fclife.com</user>
+            <user>shane.loftis@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

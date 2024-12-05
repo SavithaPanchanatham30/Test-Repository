@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Customer Service Cases in the Last 90 days --></help>
+        <label><!-- Customer Service Cases 90 Days --></label>
+        <name>Customer_Service_Cases_90_Days__c</name>
+    </CustomFieldTranslation>

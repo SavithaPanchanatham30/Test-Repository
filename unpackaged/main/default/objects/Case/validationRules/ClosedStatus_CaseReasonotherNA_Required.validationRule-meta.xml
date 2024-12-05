@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClosedStatus_CaseReasonotherNA_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+OR(ISPICKVAL(Status, &quot;Closed&quot;),ISPICKVAL(Status, &quot;Issued and Closed&quot;)),
+AND(ISPICKVAL(Reason, &quot;N/A&quot;),RecordType.DeveloperName &lt;&gt; &quot;Claims_Intake&quot;,RecordType.DeveloperName &lt;&gt; &quot;EUTF_Claims&quot;,RecordType.DeveloperName &lt;&gt; &quot;Business_Systems&quot;,
+RecordType.DeveloperName &lt;&gt; &quot;Group_Underwriting&quot;, 
+RecordType.DeveloperName &lt;&gt; &quot;Central_Records&quot;,
+Not(ISPICKVAL(Type, &quot;Quick Hits&quot;)))), 
+TRUE,
+FALSE
+)</errorConditionFormula>
+    <errorDisplayField>Reason</errorDisplayField>
+    <errorMessage>Please update case reason. Case Reason cannot be N/A</errorMessage>
+</ValidationRule>

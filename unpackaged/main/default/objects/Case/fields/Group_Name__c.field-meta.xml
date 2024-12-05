@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Name__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Captures Group Name</description>
+    <inlineHelpText>Captures Group Name</inlineHelpText>
+    <label>Group Name</label>
+    <referenceTo>Group__c</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

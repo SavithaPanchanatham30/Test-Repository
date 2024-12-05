@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Analysis</fullName>
+        <default>false</default>
+        <label>Analysis</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Assignment</fullName>
+        <default>false</default>
+        <label>Awaiting Assignment</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Response</fullName>
+        <default>false</default>
+        <label>Awaiting Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Response Externally</fullName>
+        <default>false</default>
+        <label>Awaiting Response Externally</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Response Internally</fullName>
+        <default>false</default>
+        <label>Awaiting Response Internally</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Award Pending</fullName>
+        <default>false</default>
+        <label>Award Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed/Spam</fullName>
+        <default>false</default>
+        <label>Closed/Spam</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Commissions Set Up</fullName>
+        <default>false</default>
+        <label>Commissions Set Up</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate and Closed</fullName>
+        <default>false</default>
+        <label>Duplicate and Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up Needed</fullName>
+        <default>false</default>
+        <label>Follow Up Needed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Imaging (In Flow)</fullName>
+        <default>false</default>
+        <label>Imaging (In Flow)</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Imaging (Out of Flow)</fullName>
+        <default>false</default>
+        <label>Imaging (Out of Flow)</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Implementation Pending</fullName>
+        <default>false</default>
+        <label>Implementation Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Implemented</fullName>
+        <default>false</default>
+        <label>Implemented</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incomplete</fullName>
+        <default>false</default>
+        <label>Incomplete</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Process</fullName>
+        <default>false</default>
+        <label>In Process</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Issued and Closed</fullName>
+        <default>false</default>
+        <label>Issued and Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Licensing/Appt. Approved</fullName>
+        <default>false</default>
+        <label>Licensing/Appt. Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Licensing/Appt. Declined</fullName>
+        <default>false</default>
+        <label>Licensing/Appt. Declined</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Manual Assignment</fullName>
+        <default>false</default>
+        <label>Manual Assignment</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Email Closed Case</fullName>
+        <default>false</default>
+        <label>New Email Closed Case</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Out of Scope/Duplicate</fullName>
+        <default>false</default>
+        <label>Out of Scope/Duplicate</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Licensing/Appt. Validation</fullName>
+        <default>false</default>
+        <label>Pending Licensing/Appt. Validation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Policy Services Hold and Setup</fullName>
+        <default>false</default>
+        <label>Pending Policy Services Hold and Setup</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Production Percentages</fullName>
+        <default>false</default>
+        <label>Pending Production Percentages</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Requested Documentation</fullName>
+        <default>false</default>
+        <label>Pending Requested Documentation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Underwriting Approval</fullName>
+        <default>false</default>
+        <label>Pending Underwriting Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>QA Review</fullName>
+        <default>false</default>
+        <label>QA Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready</fullName>
+        <default>false</default>
+        <label>Ready</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Received</fullName>
+        <default>false</default>
+        <label>Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Withdrawn and Closed</fullName>
+        <default>false</default>
+        <label>Withdrawn and Closed</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

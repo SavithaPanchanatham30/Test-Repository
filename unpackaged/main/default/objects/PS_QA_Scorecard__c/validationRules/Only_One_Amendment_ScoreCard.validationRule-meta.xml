@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_One_Amendment_ScoreCard</fullName>
+    <active>true</active>
+    <description>Only allow one Amendment record type for QA Scorecard</description>
+    <errorConditionFormula>AND(
+  Case__r.PS_QA_Amendment_Count__c  &gt; 0,
+ISNEW(),  RecordType.DeveloperName  =  &quot;Amendments&quot;
+)</errorConditionFormula>
+    <errorMessage>QA-100 Can Only have one Amendment Score Card per Case. QA Scorecard with Record Type Amendment already created</errorMessage>
+</ValidationRule>

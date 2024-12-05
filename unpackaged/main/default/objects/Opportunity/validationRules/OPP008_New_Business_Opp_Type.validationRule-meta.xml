@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP008_New_Business_Opp_Type</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL (Type, &quot;New Business&quot;) &amp;&amp;  NOT(ISPICKVAL(Account.Type, &#39;Prospect&#39;))</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>New Business Opportunity Type is only applicable to Prospect Accounts.</errorMessage>
+</ValidationRule>

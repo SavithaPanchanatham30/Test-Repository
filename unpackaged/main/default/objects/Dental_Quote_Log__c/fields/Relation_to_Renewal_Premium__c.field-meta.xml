@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relation_to_Renewal_Premium__c</fullName>
+    <description>Field created to monitor premium competitiveness.</description>
+    <formula>Quoted_PPO_Annual_Premium__c / Renewal_PPO_Annual_Premium__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>=  Quoted PPO Annual Premium / Renewal PPO Annual Premium</inlineHelpText>
+    <label>Relation to Renewal Premium</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

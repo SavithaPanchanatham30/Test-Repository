@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send to accountspayablevendorsetup@usablelife.com. Use for purchase/merger termination of EAS codes, 60 days in the future.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>EAS - EAS Termination to Finance</name>
+    <style>none</style>
+    <subject>EAS Termination - _____</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

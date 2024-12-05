@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Type__c</fullName>
+    <description>Indicates the medical plan types available to the master group. Also indicates if an asset is an SG2 asset.</description>
+    <label>Plan Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CMED</fullName>
+                <default>false</default>
+                <label>CMED</label>
+            </value>
+            <value>
+                <fullName>HMOMED</fullName>
+                <default>false</default>
+                <label>HMOMED</label>
+            </value>
+            <value>
+                <fullName>PPOMED</fullName>
+                <default>false</default>
+                <label>PPOMED</label>
+            </value>
+            <value>
+                <fullName>OtherRiders</fullName>
+                <default>false</default>
+                <label>OtherRiders</label>
+            </value>
+            <value>
+                <fullName>SG2</fullName>
+                <default>false</default>
+                <label>SG2</label>
+            </value>
+            <value>
+                <fullName>ABCBS Bronze 3500</fullName>
+                <default>false</default>
+                <label>ABCBS Bronze 3500</label>
+            </value>
+            <value>
+                <fullName>ABCBS Bronze 4000 - HSA</fullName>
+                <default>false</default>
+                <label>ABCBS Bronze 4000 - HSA</label>
+            </value>
+            <value>
+                <fullName>ABCBS Bronze 6300 - HSA</fullName>
+                <default>false</default>
+                <label>ABCBS Bronze 6300 - HSA</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1000-1</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1000-1</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1000-2</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1000-2</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1000-3</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1000-3</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1000-4</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1000-4</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1000-5</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1000-5</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1000-6</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1000-6</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1500</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1500</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1500-1</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1500-1</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1500-2</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1500-2</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 1500-3</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 1500-3</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 2500 HSA</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 2500 HSA</label>
+            </value>
+            <value>
+                <fullName>ABCBS Platinum 250-1</fullName>
+                <default>false</default>
+                <label>ABCBS Platinum 250-1</label>
+            </value>
+            <value>
+                <fullName>ABCBS Platinum 250-2</fullName>
+                <default>false</default>
+                <label>ABCBS Platinum 250-2</label>
+            </value>
+            <value>
+                <fullName>ABCBS Platinum 250-4</fullName>
+                <default>false</default>
+                <label>ABCBS Platinum 250-4</label>
+            </value>
+            <value>
+                <fullName>ABCBS Platinum 500-1</fullName>
+                <default>false</default>
+                <label>ABCBS Platinum 500-1</label>
+            </value>
+            <value>
+                <fullName>ABCBS Platinum 500-2</fullName>
+                <default>false</default>
+                <label>ABCBS Platinum 500-2</label>
+            </value>
+            <value>
+                <fullName>ABCBS Platinum 500-3</fullName>
+                <default>false</default>
+                <label>ABCBS Platinum 500-3</label>
+            </value>
+            <value>
+                <fullName>ABCBS Platinum 500-4</fullName>
+                <default>false</default>
+                <label>ABCBS Platinum 500-4</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2000-1</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2000-1</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2000-2</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2000-2</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2000-3</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2000-3</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2000-4</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2000-4</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2000-5</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2000-5</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2000-7</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2000-7</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2000-9</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2000-9</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2500-1</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2500-1</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 2500-2</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 2500-2</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 3000</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 3000</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 3000 HSA</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 3000 HSA</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 3600 HSA</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 3600 HSA</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 4350 HSA</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 4350 HSA</label>
+            </value>
+            <value>
+                <fullName>CMM 101</fullName>
+                <default>false</default>
+                <label>CMM 101</label>
+            </value>
+            <value>
+                <fullName>CMM 102</fullName>
+                <default>false</default>
+                <label>CMM 102</label>
+            </value>
+            <value>
+                <fullName>CMM 103</fullName>
+                <default>false</default>
+                <label>CMM 103</label>
+            </value>
+            <value>
+                <fullName>CMM Custom</fullName>
+                <default>false</default>
+                <label>CMM Custom</label>
+            </value>
+            <value>
+                <fullName>Drug Only Custom</fullName>
+                <default>false</default>
+                <label>Drug Only Custom</label>
+            </value>
+            <value>
+                <fullName>HA Bronze 3000</fullName>
+                <default>false</default>
+                <label>HA Bronze 3000</label>
+            </value>
+            <value>
+                <fullName>HA Bronze 4000</fullName>
+                <default>false</default>
+                <label>HA Bronze 4000</label>
+            </value>
+            <value>
+                <fullName>HA Bronze 4750</fullName>
+                <default>false</default>
+                <label>HA Bronze 4750</label>
+            </value>
+            <value>
+                <fullName>HA Gold 1000-1</fullName>
+                <default>false</default>
+                <label>HA Gold 1000-1</label>
+            </value>
+            <value>
+                <fullName>HA Gold 1000-2</fullName>
+                <default>false</default>
+                <label>HA Gold 1000-2</label>
+            </value>
+            <value>
+                <fullName>HA Gold 1500-1</fullName>
+                <default>false</default>
+                <label>HA Gold 1500-1</label>
+            </value>
+            <value>
+                <fullName>HA Gold 1500-2</fullName>
+                <default>false</default>
+                <label>HA Gold 1500-2</label>
+            </value>
+            <value>
+                <fullName>HA Gold 1500-3</fullName>
+                <default>false</default>
+                <label>HA Gold 1500-3</label>
+            </value>
+            <value>
+                <fullName>HA Gold 2000 HSA</fullName>
+                <default>false</default>
+                <label>HA Gold 2000 HSA</label>
+            </value>
+            <value>
+                <fullName>HA HSA 501</fullName>
+                <default>false</default>
+                <label>HA HSA 501</label>
+            </value>
+            <value>
+                <fullName>HA HSA 502</fullName>
+                <default>false</default>
+                <label>HA HSA 502</label>
+            </value>
+            <value>
+                <fullName>HA HSA 503</fullName>
+                <default>false</default>
+                <label>HA HSA 503</label>
+            </value>
+            <value>
+                <fullName>HA HSA 503 - G2</fullName>
+                <default>false</default>
+                <label>HA HSA 503 - G2</label>
+            </value>
+            <value>
+                <fullName>HA HSA 504</fullName>
+                <default>false</default>
+                <label>HA HSA 504</label>
+            </value>
+            <value>
+                <fullName>HA HSA 505</fullName>
+                <default>false</default>
+                <label>HA HSA 505</label>
+            </value>
+            <value>
+                <fullName>HA HSA 506</fullName>
+                <default>false</default>
+                <label>HA HSA 506</label>
+            </value>
+            <value>
+                <fullName>HA HSA 506 - G2</fullName>
+                <default>false</default>
+                <label>HA HSA 506 - G2</label>
+            </value>
+            <value>
+                <fullName>HA HSA 517E</fullName>
+                <default>false</default>
+                <label>HA HSA 517E</label>
+            </value>
+            <value>
+                <fullName>HA HSA 518E</fullName>
+                <default>false</default>
+                <label>HA HSA 518E</label>
+            </value>
+            <value>
+                <fullName>HA HSA 519E</fullName>
+                <default>false</default>
+                <label>HA HSA 519E</label>
+            </value>
+            <value>
+                <fullName>HA HSA Custom</fullName>
+                <default>false</default>
+                <label>HA HSA Custom</label>
+            </value>
+            <value>
+                <fullName>HA Platinum 250-1</fullName>
+                <default>false</default>
+                <label>HA Platinum 250-1</label>
+            </value>
+            <value>
+                <fullName>HA Platinum 500-1</fullName>
+                <default>false</default>
+                <label>HA Platinum 500-1</label>
+            </value>
+            <value>
+                <fullName>HA Silver 2000-1</fullName>
+                <default>false</default>
+                <label>HA Silver 2000-1</label>
+            </value>
+            <value>
+                <fullName>HA Silver 2000-3</fullName>
+                <default>false</default>
+                <label>HA Silver 2000-3</label>
+            </value>
+            <value>
+                <fullName>HA Silver 2000-4</fullName>
+                <default>false</default>
+                <label>HA Silver 2000-4</label>
+            </value>
+            <value>
+                <fullName>HA Silver 2500-1</fullName>
+                <default>false</default>
+                <label>HA Silver 2500-1</label>
+            </value>
+            <value>
+                <fullName>HA Silver 2500-2</fullName>
+                <default>false</default>
+                <label>HA Silver 2500-2</label>
+            </value>
+            <value>
+                <fullName>HA Silver 2500-3</fullName>
+                <default>false</default>
+                <label>HA Silver 2500-3</label>
+            </value>
+            <value>
+                <fullName>HA Silver 3000-1</fullName>
+                <default>false</default>
+                <label>HA Silver 3000-1</label>
+            </value>
+            <value>
+                <fullName>HA Silver 3000-2</fullName>
+                <default>false</default>
+                <label>HA Silver 3000-2</label>
+            </value>
+            <value>
+                <fullName>HA Silver 3600 HSA</fullName>
+                <default>false</default>
+                <label>HA Silver 3600 HSA</label>
+            </value>
+            <value>
+                <fullName>HMO Custom - Coinsurance</fullName>
+                <default>false</default>
+                <label>HMO Custom - Coinsurance</label>
+            </value>
+            <value>
+                <fullName>HMO Custom - Copayment</fullName>
+                <default>false</default>
+                <label>HMO Custom - Copayment</label>
+            </value>
+            <value>
+                <fullName>HSA 611</fullName>
+                <default>false</default>
+                <label>HSA 611</label>
+            </value>
+            <value>
+                <fullName>HSA 611 - G2</fullName>
+                <default>false</default>
+                <label>HSA 611 - G2</label>
+            </value>
+            <value>
+                <fullName>HSA 611A</fullName>
+                <default>false</default>
+                <label>HSA 611A</label>
+            </value>
+            <value>
+                <fullName>HSA 612</fullName>
+                <default>false</default>
+                <label>HSA 612</label>
+            </value>
+            <value>
+                <fullName>HSA 612 - G2</fullName>
+                <default>false</default>
+                <label>HSA 612 - G2</label>
+            </value>
+            <value>
+                <fullName>HSA 612A</fullName>
+                <default>false</default>
+                <label>HSA 612A</label>
+            </value>
+            <value>
+                <fullName>HSA 613</fullName>
+                <default>false</default>
+                <label>HSA 613</label>
+            </value>
+            <value>
+                <fullName>HSA 613 - G2</fullName>
+                <default>false</default>
+                <label>HSA 613 - G2</label>
+            </value>
+            <value>
+                <fullName>HSA 613A</fullName>
+                <default>false</default>
+                <label>HSA 613A</label>
+            </value>
+            <value>
+                <fullName>HSA 614</fullName>
+                <default>false</default>
+                <label>HSA 614</label>
+            </value>
+            <value>
+                <fullName>HSA 615</fullName>
+                <default>false</default>
+                <label>HSA 615</label>
+            </value>
+            <value>
+                <fullName>HSA 615 - G2</fullName>
+                <default>false</default>
+                <label>HSA 615 - G2</label>
+            </value>
+            <value>
+                <fullName>HSA 615A</fullName>
+                <default>false</default>
+                <label>HSA 615A</label>
+            </value>
+            <value>
+                <fullName>HSA 616</fullName>
+                <default>false</default>
+                <label>HSA 616</label>
+            </value>
+            <value>
+                <fullName>HSA 616 - G2</fullName>
+                <default>false</default>
+                <label>HSA 616 - G2</label>
+            </value>
+            <value>
+                <fullName>HSA 616A</fullName>
+                <default>false</default>
+                <label>HSA 616A</label>
+            </value>
+            <value>
+                <fullName>HSA 617E</fullName>
+                <default>false</default>
+                <label>HSA 617E</label>
+            </value>
+            <value>
+                <fullName>HSA 618E</fullName>
+                <default>false</default>
+                <label>HSA 618E</label>
+            </value>
+            <value>
+                <fullName>HSA 619E</fullName>
+                <default>false</default>
+                <label>HSA 619E</label>
+            </value>
+            <value>
+                <fullName>HSA Custom</fullName>
+                <default>false</default>
+                <label>HSA Custom</label>
+            </value>
+            <value>
+                <fullName>Medipak Plan F</fullName>
+                <default>false</default>
+                <label>Medipak Plan F</label>
+            </value>
+            <value>
+                <fullName>Medipak Plan F With Deductible</fullName>
+                <default>false</default>
+                <label>Medipak Plan F With Deductible</label>
+            </value>
+            <value>
+                <fullName>POS 301</fullName>
+                <default>false</default>
+                <label>POS 301</label>
+            </value>
+            <value>
+                <fullName>POS 301 - G</fullName>
+                <default>false</default>
+                <label>POS 301 - G</label>
+            </value>
+            <value>
+                <fullName>POS 302</fullName>
+                <default>false</default>
+                <label>POS 302</label>
+            </value>
+            <value>
+                <fullName>POS 302 - G</fullName>
+                <default>false</default>
+                <label>POS 302 - G</label>
+            </value>
+            <value>
+                <fullName>POS 302 - G2</fullName>
+                <default>false</default>
+                <label>POS 302 - G2</label>
+            </value>
+            <value>
+                <fullName>POS 303</fullName>
+                <default>false</default>
+                <label>POS 303</label>
+            </value>
+            <value>
+                <fullName>POS 303 - G</fullName>
+                <default>false</default>
+                <label>POS 303 - G</label>
+            </value>
+            <value>
+                <fullName>POS 303 - G2</fullName>
+                <default>false</default>
+                <label>POS 303 - G2</label>
+            </value>
+            <value>
+                <fullName>POS 304</fullName>
+                <default>false</default>
+                <label>POS 304</label>
+            </value>
+            <value>
+                <fullName>POS 304 - G</fullName>
+                <default>false</default>
+                <label>POS 304 - G</label>
+            </value>
+            <value>
+                <fullName>POS 304 - G2</fullName>
+                <default>false</default>
+                <label>POS 304 - G2</label>
+            </value>
+            <value>
+                <fullName>POS 305</fullName>
+                <default>false</default>
+                <label>POS 305</label>
+            </value>
+            <value>
+                <fullName>POS 305 - G</fullName>
+                <default>false</default>
+                <label>POS 305 - G</label>
+            </value>
+            <value>
+                <fullName>POS 305 - G2</fullName>
+                <default>false</default>
+                <label>POS 305 - G2</label>
+            </value>
+            <value>
+                <fullName>POS 306</fullName>
+                <default>false</default>
+                <label>POS 306</label>
+            </value>
+            <value>
+                <fullName>POS 306 - G</fullName>
+                <default>false</default>
+                <label>POS 306 - G</label>
+            </value>
+            <value>
+                <fullName>POS 307</fullName>
+                <default>false</default>
+                <label>POS 307</label>
+            </value>
+            <value>
+                <fullName>POS 309</fullName>
+                <default>false</default>
+                <label>POS 309</label>
+            </value>
+            <value>
+                <fullName>POS 310</fullName>
+                <default>false</default>
+                <label>POS 310</label>
+            </value>
+            <value>
+                <fullName>POS 310 - G</fullName>
+                <default>false</default>
+                <label>POS 310 - G</label>
+            </value>
+            <value>
+                <fullName>POS 401</fullName>
+                <default>false</default>
+                <label>POS 401</label>
+            </value>
+            <value>
+                <fullName>POS Custom</fullName>
+                <default>false</default>
+                <label>POS Custom</label>
+            </value>
+            <value>
+                <fullName>PPO 201</fullName>
+                <default>false</default>
+                <label>PPO 201</label>
+            </value>
+            <value>
+                <fullName>PPO 201 - G</fullName>
+                <default>false</default>
+                <label>PPO 201 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 201 - G2</fullName>
+                <default>false</default>
+                <label>PPO 201 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 202</fullName>
+                <default>false</default>
+                <label>PPO 202</label>
+            </value>
+            <value>
+                <fullName>PPO 202 - G</fullName>
+                <default>false</default>
+                <label>PPO 202 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 202 - G2</fullName>
+                <default>false</default>
+                <label>PPO 202 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 203</fullName>
+                <default>false</default>
+                <label>PPO 203</label>
+            </value>
+            <value>
+                <fullName>PPO 203 - G</fullName>
+                <default>false</default>
+                <label>PPO 203 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 203 - G2</fullName>
+                <default>false</default>
+                <label>PPO 203 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 204</fullName>
+                <default>false</default>
+                <label>PPO 204</label>
+            </value>
+            <value>
+                <fullName>PPO 204 - G</fullName>
+                <default>false</default>
+                <label>PPO 204 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 204 - G2</fullName>
+                <default>false</default>
+                <label>PPO 204 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 205</fullName>
+                <default>false</default>
+                <label>PPO 205</label>
+            </value>
+            <value>
+                <fullName>PPO 205 - G</fullName>
+                <default>false</default>
+                <label>PPO 205 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 205 - G2</fullName>
+                <default>false</default>
+                <label>PPO 205 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 206</fullName>
+                <default>false</default>
+                <label>PPO 206</label>
+            </value>
+            <value>
+                <fullName>PPO 206 - G</fullName>
+                <default>false</default>
+                <label>PPO 206 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 206 - G2</fullName>
+                <default>false</default>
+                <label>PPO 206 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 207</fullName>
+                <default>false</default>
+                <label>PPO 207</label>
+            </value>
+            <value>
+                <fullName>PPO 207 - G</fullName>
+                <default>false</default>
+                <label>PPO 207 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 207 - G2</fullName>
+                <default>false</default>
+                <label>PPO 207 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 208</fullName>
+                <default>false</default>
+                <label>PPO 208</label>
+            </value>
+            <value>
+                <fullName>PPO 208 - G</fullName>
+                <default>false</default>
+                <label>PPO 208 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 208 - G2</fullName>
+                <default>false</default>
+                <label>PPO 208 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 209</fullName>
+                <default>false</default>
+                <label>PPO 209</label>
+            </value>
+            <value>
+                <fullName>PPO 209 - G</fullName>
+                <default>false</default>
+                <label>PPO 209 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 209 - G2</fullName>
+                <default>false</default>
+                <label>PPO 209 - G2</label>
+            </value>
+            <value>
+                <fullName>PPO 210</fullName>
+                <default>false</default>
+                <label>PPO 210</label>
+            </value>
+            <value>
+                <fullName>PPO 210 - G</fullName>
+                <default>false</default>
+                <label>PPO 210 - G</label>
+            </value>
+            <value>
+                <fullName>PPO 211</fullName>
+                <default>false</default>
+                <label>PPO 211</label>
+            </value>
+            <value>
+                <fullName>PPO 212</fullName>
+                <default>false</default>
+                <label>PPO 212</label>
+            </value>
+            <value>
+                <fullName>PPO 213</fullName>
+                <default>false</default>
+                <label>PPO 213</label>
+            </value>
+            <value>
+                <fullName>PPO 213 - G</fullName>
+                <default>false</default>
+                <label>PPO 213 - G</label>
+            </value>
+            <value>
+                <fullName>PPO Custom</fullName>
+                <default>false</default>
+                <label>PPO Custom</label>
+            </value>
+            <value>
+                <fullName>SHOP Bronze 3000 HSA</fullName>
+                <default>false</default>
+                <label>SHOP Bronze 3000 HSA</label>
+            </value>
+            <value>
+                <fullName>SHOP Bronze 3500</fullName>
+                <default>false</default>
+                <label>SHOP Bronze 3500</label>
+            </value>
+            <value>
+                <fullName>SHOP Gold 1500</fullName>
+                <default>false</default>
+                <label>SHOP Gold 1500</label>
+            </value>
+            <value>
+                <fullName>SHOP Silver 2000</fullName>
+                <default>false</default>
+                <label>SHOP Silver 2000</label>
+            </value>
+            <value>
+                <fullName>SHOP Silver 2000-5</fullName>
+                <default>false</default>
+                <label>SHOP Silver 2000-5</label>
+            </value>
+            <value>
+                <fullName>SHOP Silver 4350</fullName>
+                <default>false</default>
+                <label>SHOP Silver 4350</label>
+            </value>
+            <value>
+                <fullName>TX HSA 701 - G2</fullName>
+                <default>false</default>
+                <label>TX HSA 701 - G2</label>
+            </value>
+            <value>
+                <fullName>TX HSA 703</fullName>
+                <default>false</default>
+                <label>TX HSA 703</label>
+            </value>
+            <value>
+                <fullName>TX HSA 703 - G2</fullName>
+                <default>false</default>
+                <label>TX HSA 703 - G2</label>
+            </value>
+            <value>
+                <fullName>TX HSA 704</fullName>
+                <default>false</default>
+                <label>TX HSA 704</label>
+            </value>
+            <value>
+                <fullName>TX HSA 705</fullName>
+                <default>false</default>
+                <label>TX HSA 705</label>
+            </value>
+            <value>
+                <fullName>TX HSA 706</fullName>
+                <default>false</default>
+                <label>TX HSA 706</label>
+            </value>
+            <value>
+                <fullName>TX HSA 706 - G2</fullName>
+                <default>false</default>
+                <label>TX HSA 706 - G2</label>
+            </value>
+            <value>
+                <fullName>TX HSA 719E</fullName>
+                <default>false</default>
+                <label>TX HSA 719E</label>
+            </value>
+            <value>
+                <fullName>TX PPO 921</fullName>
+                <default>false</default>
+                <label>TX PPO 921</label>
+            </value>
+            <value>
+                <fullName>TX PPO 922</fullName>
+                <default>false</default>
+                <label>TX PPO 922</label>
+            </value>
+            <value>
+                <fullName>TX PPO 922 - G</fullName>
+                <default>false</default>
+                <label>TX PPO 922 - G</label>
+            </value>
+            <value>
+                <fullName>TX PPO 922 - G2</fullName>
+                <default>false</default>
+                <label>TX PPO 922 - G2</label>
+            </value>
+            <value>
+                <fullName>TX PPO 923</fullName>
+                <default>false</default>
+                <label>TX PPO 923</label>
+            </value>
+            <value>
+                <fullName>TX PPO 923 - G</fullName>
+                <default>false</default>
+                <label>TX PPO 923 - G</label>
+            </value>
+            <value>
+                <fullName>TX PPO 923 - G2</fullName>
+                <default>false</default>
+                <label>TX PPO 923 - G2</label>
+            </value>
+            <value>
+                <fullName>TX PPO 924</fullName>
+                <default>false</default>
+                <label>TX PPO 924</label>
+            </value>
+            <value>
+                <fullName>TX PPO 924 - G</fullName>
+                <default>false</default>
+                <label>TX PPO 924 - G</label>
+            </value>
+            <value>
+                <fullName>TX PPO 925</fullName>
+                <default>false</default>
+                <label>TX PPO 925</label>
+            </value>
+            <value>
+                <fullName>TX PPO 925 - G</fullName>
+                <default>false</default>
+                <label>TX PPO 925 - G</label>
+            </value>
+            <value>
+                <fullName>TX PPO 925 - G2</fullName>
+                <default>false</default>
+                <label>TX PPO 925 - G2</label>
+            </value>
+            <value>
+                <fullName>TX PPO 926 - G</fullName>
+                <default>false</default>
+                <label>TX PPO 926 - G</label>
+            </value>
+            <value>
+                <fullName>TX PPO 927</fullName>
+                <default>false</default>
+                <label>TX PPO 927</label>
+            </value>
+            <value>
+                <fullName>TX PPO 927 - G</fullName>
+                <default>false</default>
+                <label>TX PPO 927 - G</label>
+            </value>
+            <value>
+                <fullName>TX PPO 927 - G2</fullName>
+                <default>false</default>
+                <label>TX PPO 927 - G2</label>
+            </value>
+            <value>
+                <fullName>TX PPO 928</fullName>
+                <default>false</default>
+                <label>TX PPO 928</label>
+            </value>
+            <value>
+                <fullName>TX PPO 928 - G2</fullName>
+                <default>false</default>
+                <label>TX PPO 928 - G2</label>
+            </value>
+            <value>
+                <fullName>TX PPO 929</fullName>
+                <default>false</default>
+                <label>TX PPO 929</label>
+            </value>
+            <value>
+                <fullName>TX PPO 929 - G</fullName>
+                <default>false</default>
+                <label>TX PPO 929 - G</label>
+            </value>
+            <value>
+                <fullName>TX PPO 929 - G2</fullName>
+                <default>false</default>
+                <label>TX PPO 929 - G2</label>
+            </value>
+            <value>
+                <fullName>TX PPO 943</fullName>
+                <default>false</default>
+                <label>TX PPO 943</label>
+            </value>
+            <value>
+                <fullName>TX PPO 943 - G2</fullName>
+                <default>false</default>
+                <label>TX PPO 943 - G2</label>
+            </value>
+            <value>
+                <fullName>Unbranded HSA Custom</fullName>
+                <default>false</default>
+                <label>Unbranded HSA Custom</label>
+            </value>
+            <value>
+                <fullName>Unbranded PPO Custom</fullName>
+                <default>false</default>
+                <label>Unbranded PPO Custom</label>
+            </value>
+            <value>
+                <fullName>USAble Bronze 5500-HSA</fullName>
+                <default>false</default>
+                <label>USAble Bronze 5500-HSA</label>
+            </value>
+            <value>
+                <fullName>USAble Bronze 6500-HSA PHCS</fullName>
+                <default>false</default>
+                <label>USAble Bronze 6500-HSA PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1000-1 P</fullName>
+                <default>false</default>
+                <label>USAble Gold 1000-1 P</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1000-1 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Gold 1000-1 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1000-2 P</fullName>
+                <default>false</default>
+                <label>USAble Gold 1000-2 P</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1000-2 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Gold 1000-2 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1250 P</fullName>
+                <default>false</default>
+                <label>USAble Gold 1250 P</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1250 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Gold 1250 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1500 P</fullName>
+                <default>false</default>
+                <label>USAble Gold 1500 P</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1500 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Gold 1500 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1500-1 P</fullName>
+                <default>false</default>
+                <label>USAble Gold 1500-1 P</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1500-1 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Gold 1500-1 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1500-2 P</fullName>
+                <default>false</default>
+                <label>USAble Gold 1500-2 P</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1500-2 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Gold 1500-2 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 2500 P</fullName>
+                <default>false</default>
+                <label>USAble Gold 2500 P</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 3000 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Gold 3000 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Platinum 250 P</fullName>
+                <default>false</default>
+                <label>USAble Platinum 250 P</label>
+            </value>
+            <value>
+                <fullName>USAble Platinum 250-1 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Platinum 250-1 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Platinum 500 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Platinum 500 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Platinum 500-1 P</fullName>
+                <default>false</default>
+                <label>USAble Platinum 500-1 P</label>
+            </value>
+            <value>
+                <fullName>USAble Platinum 500-1 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Platinum 500-1 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble PPO Custom</fullName>
+                <default>false</default>
+                <label>USAble PPO Custom</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 2000</fullName>
+                <default>false</default>
+                <label>USAble Silver 2000</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 2000 P</fullName>
+                <default>false</default>
+                <label>USAble Silver 2000 P</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 2000 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Silver 2000 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 2500 P</fullName>
+                <default>false</default>
+                <label>USAble Silver 2500 P</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 2500 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Silver 2500 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 2500-HSA PHCS</fullName>
+                <default>false</default>
+                <label>USAble Silver 2500-HSA PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 3000 P</fullName>
+                <default>false</default>
+                <label>USAble Silver 3000 P</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 3000 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Silver 3000 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 3500</fullName>
+                <default>false</default>
+                <label>USAble Silver 3500</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 3500 P</fullName>
+                <default>false</default>
+                <label>USAble Silver 3500 P</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 3500 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Silver 3500 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 4000-HSA PHCS</fullName>
+                <default>false</default>
+                <label>USAble Silver 4000-HSA PHCS</label>
+            </value>
+            <value>
+                <fullName>ABCBS Bronze 6500 HSA</fullName>
+                <default>false</default>
+                <label>ABCBS Bronze 6500 HSA</label>
+            </value>
+            <value>
+                <fullName>ABCBS Gold 2000-1</fullName>
+                <default>false</default>
+                <label>ABCBS Gold 2000-1</label>
+            </value>
+            <value>
+                <fullName>ABCBS Platinum 1000-1</fullName>
+                <default>false</default>
+                <label>ABCBS Platinum 1000-1</label>
+            </value>
+            <value>
+                <fullName>ABCBS Silver 3000-1</fullName>
+                <default>false</default>
+                <label>ABCBS Silver 3000-1</label>
+            </value>
+            <value>
+                <fullName>HA Gold 2000-1</fullName>
+                <default>false</default>
+                <label>HA Gold 2000-1</label>
+            </value>
+            <value>
+                <fullName>HA HSA 520E</fullName>
+                <default>false</default>
+                <label>HA HSA 520E</label>
+            </value>
+            <value>
+                <fullName>HA HSA 521E</fullName>
+                <default>false</default>
+                <label>HA HSA 521E</label>
+            </value>
+            <value>
+                <fullName>HA Silver 2600 HSA</fullName>
+                <default>false</default>
+                <label>HA Silver 2600 HSA</label>
+            </value>
+            <value>
+                <fullName>HA Silver 3000-3</fullName>
+                <default>false</default>
+                <label>HA Silver 3000-3</label>
+            </value>
+            <value>
+                <fullName>HSA 620E</fullName>
+                <default>false</default>
+                <label>HSA 620E</label>
+            </value>
+            <value>
+                <fullName>HSA 621E</fullName>
+                <default>false</default>
+                <label>HSA 621E</label>
+            </value>
+            <value>
+                <fullName>TX HSA 702</fullName>
+                <default>false</default>
+                <label>TX HSA 702</label>
+            </value>
+            <value>
+                <fullName>TX HSA 717E</fullName>
+                <default>false</default>
+                <label>TX HSA 717E</label>
+            </value>
+            <value>
+                <fullName>TX PPO 940</fullName>
+                <default>false</default>
+                <label>TX PPO 940</label>
+            </value>
+            <value>
+                <fullName>TX PPO 941</fullName>
+                <default>false</default>
+                <label>TX PPO 941</label>
+            </value>
+            <value>
+                <fullName>USAble Gold 1000 PHCS</fullName>
+                <default>false</default>
+                <label>USAble Gold 1000 PHCS</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 2500</fullName>
+                <default>false</default>
+                <label>USAble Silver 2500</label>
+            </value>
+            <value>
+                <fullName>USAble Silver 2500-HSA</fullName>
+                <default>false</default>
+                <label>USAble Silver 2500-HSA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

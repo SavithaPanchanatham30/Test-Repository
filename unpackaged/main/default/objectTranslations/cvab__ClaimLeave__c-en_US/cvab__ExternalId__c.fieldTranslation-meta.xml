@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Required when the Absence is not being saved in the claim in order to group the Date Range records that apply to this absence. --></help>
+        <label><!-- External ID --></label>
+        <name>cvab__ExternalId__c</name>
+    </CustomFieldTranslation>

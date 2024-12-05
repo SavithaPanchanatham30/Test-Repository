@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Queue_Name_is_Unique</fullName>
+    <active>false</active>
+    <errorConditionFormula>if( ISCHANGED(  Name ), 
+       IF( len(VLOOKUP(  $ObjectType.Assignment_Group_Queues__c.Fields.Name,    $ObjectType.Assignment_Group_Queues__c.Fields.Name , Name ))&gt;0,
+               True,
+               False),
+       False
+)</errorConditionFormula>
+    <errorMessage>Queue already belongs to an Assignment Group.  Please remove from Assignment Group or choose another Queue</errorMessage>
+</ValidationRule>

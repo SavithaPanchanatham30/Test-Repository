@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Followed_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Case Notes as to what was processed then Case Notes Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(Application_Followed_Into_Docfinity__c) = &quot;No&quot; , TEXT(Application_Followed_Into_Docfinity__c) = &quot;Burn&quot;),                Application_in_Docfinity_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Application_in_Docfinity_Comments__c</errorDisplayField>
+    <errorMessage>QA169 - If Application Followed In Docfinitity &amp; Processed No or Burn, Then Application in Docfinity Comments must be entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>Implement Excel Specialist (PS)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Implement Excel Specialist (PS)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Manager_PS</parentRole>
+</Role>

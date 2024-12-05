@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acknowledge_Submitter_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Acknowledgment to Submitter then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Acknowledgment_to_Submitter__c ) = &quot;No&quot; , TEXT (Acknowledgment_to_Submitter__c) = &quot;Burn&quot;),   Acknowledgment_to_Submitter_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Acknowledgment_to_Submitter_Comments__c</errorDisplayField>
+    <errorMessage>QA124- If Acknowledgment to Submitter made No or Burn, Then Acknowledgment to Submitter Comments must be entered</errorMessage>
+</ValidationRule>

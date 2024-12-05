@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>OVERRIDE COMMISSIONS - NON PAYMENT</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>OVERRIDE COMMISSIONS - NOT LICENSED/APPOINTED</name>
+    <style>none</style>
+    <subject>Non-Payment of Override Commissions - &lt;Name of Group&gt;</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

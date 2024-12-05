@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>None</contactAccessLevel>
+    <description>Supervisor Group Underwriting (G</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Supervisor Group Underwriting (GU)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Manager_Group_Underwriting_GU</parentRole>
+</Role>

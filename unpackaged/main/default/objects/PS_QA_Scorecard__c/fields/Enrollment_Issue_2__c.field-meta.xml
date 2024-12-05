@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enrollment_Issue_2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If check enter a -5 into the Score column</description>
+    <inlineHelpText>RESULTS IN 5 POINT DEDUCTION</inlineHelpText>
+    <label>Enrollment Issue #2</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

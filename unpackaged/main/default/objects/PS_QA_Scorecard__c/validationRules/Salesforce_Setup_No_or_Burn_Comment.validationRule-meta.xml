@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Setup_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Salesforce Setup then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Salesforce_Setup__c )   = &quot;No&quot; , TEXT(Salesforce_Setup__c ) = &quot;Burn&quot;),   Salesforce_Setup_Comments__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Salesforce_Setup_Comments__c</errorDisplayField>
+    <errorMessage>QA062- If Salesforce Setup = No or Burn, Then Document Scanned  Comments must be entered</errorMessage>
+</ValidationRule>

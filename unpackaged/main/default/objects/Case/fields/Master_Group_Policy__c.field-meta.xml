@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_Group_Policy__c</fullName>
+    <description>Used to return Master Group Policies</description>
+    <externalId>false</externalId>
+    <formula>Master_Group__r.Group_Policy_num__c</formula>
+    <label>Master Group Policy#</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What is the other denial reason? --></help>
+        <label><!-- Other Denial Reason --></label>
+        <name>cvab__DenialReasonOther__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_QA_Review</fullName>
+    <booleanFilter>1 AND (2 AND 3) AND 4</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Expected_CompletionDate__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>QA_Review_Start_Date__c</columns>
+    <columns>Case_Comments__c</columns>
+    <columns>Effective_Date__c</columns>
+    <columns>Policy_Implementation_Status__c</columns>
+    <columns>Type_SubType__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Concierge_Case__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Benefit_Summary__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Policy_Services</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>QA Review</value>
+    </filters>
+    <filters>
+        <field>Policy_Implementation_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Implementation Sent to QA Initial Review</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>notEqual</operation>
+        <value>Evon,Casey,Stephanie</value>
+    </filters>
+    <label>PS QA Review</label>
+    <sharedTo>
+        <group>All_Policy_Services</group>
+    </sharedTo>
+</ListView>

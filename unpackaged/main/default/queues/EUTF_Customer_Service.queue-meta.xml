@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>eutf.custserv@usablelife.com</email>
+    <name>EUTF Customer Service</name>
+    <queueMembers>
+        <users>
+            <user>alana.mason@usablelife.com</user>
+            <user>amanda.bloom@usablelife.com</user>
+            <user>amber.hughey@usablelife.com</user>
+            <user>bryce.mayon@usablelife.com</user>
+            <user>carla.burris@usablelife.com</user>
+            <user>chelsea.otsu@usablelife.com</user>
+            <user>christin.motta-lewis@usablelife.com</user>
+            <user>devonnae.williams@usablelife.com</user>
+            <user>harold.hays@usablelife.com</user>
+            <user>janaia.secrest-holden@usablelife.com</user>
+            <user>jessica.dover@usablelife.com</user>
+            <user>jonathan.digby@usablelife.com</user>
+            <user>joshua.thompson@usablelife.com</user>
+            <user>kari.smith@usablelife.com</user>
+            <user>keneisha.mason@usablelife.com</user>
+            <user>lauren.gordon@usablelife.com</user>
+            <user>leilani.tudela@usablelife.com</user>
+            <user>niki.martinez@usablelife.com</user>
+            <user>noah.duncan@usablelife.com</user>
+            <user>renee.jackson-latham@usablelife.com</user>
+            <user>ryan.bogan@usablelife.com</user>
+            <user>sandy.patterson@lsvusa.com</user>
+            <user>sara.pollock@usablelife.com</user>
+            <user>serene.weber@usablelife.com</user>
+            <user>shelby.hicks@usablelife.com</user>
+            <user>talia.porrello@usablelife.com</user>
+            <user>violeta.gomez@usablelife.com</user>
+            <user>wyomie.pilor@usablelife.comf</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

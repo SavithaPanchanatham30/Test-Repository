@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL010MedicalFacilityORDR</fullName>
+    <active>true</active>
+    <description>Medical Facility or Doctor Must be Entered</description>
+    <errorConditionFormula>AND( ISBLANK( Name_of_Medical_Facility__c ),  ISBLANK(  Performing_Physician_Name_First_Last__c  ), RecordType.DeveloperName = &quot;Wellness&quot; )</errorConditionFormula>
+    <errorDisplayField>Name_of_Medical_Facility__c</errorDisplayField>
+    <errorMessage>CL-010 Either the Medical Facility or Physician Must be Entered</errorMessage>
+</ValidationRule>

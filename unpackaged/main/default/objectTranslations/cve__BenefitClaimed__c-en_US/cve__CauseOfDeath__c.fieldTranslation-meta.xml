@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cause of Death --></label>
+        <name>cve__CauseOfDeath__c</name>
+        <picklistValues>
+            <masterLabel>AIDS</masterLabel>
+            <translation><!-- AIDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alzheimer&#39;s</masterLabel>
+            <translation><!-- Alzheimer&apos;s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer</masterLabel>
+            <translation><!-- Cancer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Bladder</masterLabel>
+            <translation><!-- Cancer - Bladder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Breast</masterLabel>
+            <translation><!-- Cancer - Breast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Colon</masterLabel>
+            <translation><!-- Cancer - Colon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Kidney</masterLabel>
+            <translation><!-- Cancer - Kidney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Lung</masterLabel>
+            <translation><!-- Cancer - Lung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Lymphoma</masterLabel>
+            <translation><!-- Cancer - Lymphoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Melanoma</masterLabel>
+            <translation><!-- Cancer - Melanoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Pancreatic</masterLabel>
+            <translation><!-- Cancer - Pancreatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Prostate</masterLabel>
+            <translation><!-- Cancer - Prostate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer - Thyroid</masterLabel>
+            <translation><!-- Cancer - Thyroid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catastrophic</masterLabel>
+            <translation><!-- Catastrophic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerebro-vascular Diseases</masterLabel>
+            <translation><!-- Cerebro-vascular Diseases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic Liver</masterLabel>
+            <translation><!-- Chronic Liver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic Lower Respiratory</masterLabel>
+            <translation><!-- Chronic Lower Respiratory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crohn&#39;s Disease</masterLabel>
+            <translation><!-- Crohn&apos;s Disease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dementia</masterLabel>
+            <translation><!-- Dementia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes Mellitus</masterLabel>
+            <translation><!-- Diabetes Mellitus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drowning</masterLabel>
+            <translation><!-- Drowning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fall</masterLabel>
+            <translation><!-- Fall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fetal</masterLabel>
+            <translation><!-- Fetal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire or Explosion</masterLabel>
+            <translation><!-- Fire or Explosion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firearm</masterLabel>
+            <translation><!-- Firearm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heart Disease</masterLabel>
+            <translation><!-- Heart Disease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homicide</masterLabel>
+            <translation><!-- Homicide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homicide at Work</masterLabel>
+            <translation><!-- Homicide at Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influenza/Pneumonia</masterLabel>
+            <translation><!-- Influenza/Pneumonia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kidney Disease</masterLabel>
+            <translation><!-- Kidney Disease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural Causes</masterLabel>
+            <translation><!-- Natural Causes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organ Failure</masterLabel>
+            <translation><!-- Organ Failure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Accident</masterLabel>
+            <translation><!-- Other Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overdose</masterLabel>
+            <translation><!-- Overdose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poisoning</masterLabel>
+            <translation><!-- Poisoning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Plane Accident</masterLabel>
+            <translation><!-- Private Plane Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sepsis</masterLabel>
+            <translation><!-- Sepsis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stroke</masterLabel>
+            <translation><!-- Stroke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suicide</masterLabel>
+            <translation><!-- Suicide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terrorism</masterLabel>
+            <translation><!-- Terrorism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicular Accident</masterLabel>
+            <translation><!-- Vehicular Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicular Accident-Driver of Car</masterLabel>
+            <translation><!-- Vehicular Accident-Driver of Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicular Accident-Passenger of Car</masterLabel>
+            <translation><!-- Vehicular Accident-Passenger of Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>War</masterLabel>
+            <translation><!-- War --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workplace Accident</masterLabel>
+            <translation><!-- Workplace Accident --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

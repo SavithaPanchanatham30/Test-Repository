@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Sub_Type__c</fullName>
+    <label>Agency Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Service Bureau</fullName>
+                <default>false</default>
+                <label>Service Bureau</label>
+            </value>
+            <value>
+                <fullName>Broker Agency</fullName>
+                <default>false</default>
+                <label>Broker Agency</label>
+            </value>
+            <value>
+                <fullName>CGA</fullName>
+                <default>false</default>
+                <label>CGA</label>
+            </value>
+            <value>
+                <fullName>MGA</fullName>
+                <default>false</default>
+                <label>MGA</label>
+            </value>
+            <value>
+                <fullName>NCA</fullName>
+                <default>false</default>
+                <label>NCA</label>
+            </value>
+            <value>
+                <fullName>BCBS</fullName>
+                <default>false</default>
+                <label>BCBS</label>
+            </value>
+            <value>
+                <fullName>Fla Farm Bureau</fullName>
+                <default>false</default>
+                <label>Fla Farm Bureau</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

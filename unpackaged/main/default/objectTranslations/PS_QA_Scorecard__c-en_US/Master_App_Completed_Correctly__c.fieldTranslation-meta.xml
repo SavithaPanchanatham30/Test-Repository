@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Complete Master App for Upsell &amp; Implementation. Master App Completed Correctly Group Issue. --></help>
+        <label><!-- Master App Completed Correctly --></label>
+        <name>Master_App_Completed_Correctly__c</name>
+    </CustomFieldTranslation>

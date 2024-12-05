@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AbsenceClaimsLOARole__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Absence Claims LOA Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Absence Examiner 1</fullName>
+                <default>false</default>
+                <label>Absence Examiner 1</label>
+            </value>
+            <value>
+                <fullName>Absence Examiner 2</fullName>
+                <default>false</default>
+                <label>Absence Examiner 2</label>
+            </value>
+            <value>
+                <fullName>Sr Absence Examiner</fullName>
+                <default>false</default>
+                <label>Sr Absence Examiner</label>
+            </value>
+            <value>
+                <fullName>Absence Team Lead</fullName>
+                <default>false</default>
+                <label>Absence Team Lead</label>
+            </value>
+            <value>
+                <fullName>Absence Supervisor</fullName>
+                <default>false</default>
+                <label>Absence Supervisor</label>
+            </value>
+            <value>
+                <fullName>Absence Manager</fullName>
+                <default>false</default>
+                <label>Absence Manager</label>
+            </value>
+            <value>
+                <fullName>Claims Trainee</fullName>
+                <default>false</default>
+                <label>Claims Trainee</label>
+            </value>
+            <value>
+                <fullName>Claims Auditor</fullName>
+                <default>false</default>
+                <label>Claims Auditor</label>
+            </value>
+            <value>
+                <fullName>Claims Director</fullName>
+                <default>false</default>
+                <label>Claims Director</label>
+            </value>
+            <value>
+                <fullName>Claims Sr Director</fullName>
+                <default>false</default>
+                <label>Claims Sr Director</label>
+            </value>
+            <value>
+                <fullName>VP Claims</fullName>
+                <default>false</default>
+                <label>VP Claims</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

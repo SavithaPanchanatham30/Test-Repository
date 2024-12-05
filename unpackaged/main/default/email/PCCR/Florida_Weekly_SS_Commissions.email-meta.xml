@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Commissions use when sending FL Weekly SS to BCBSFL</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Florida Weekly SS - Commissions</name>
+    <style>none</style>
+    <subject>FL Appt/Term Spreadsheet for (date)</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

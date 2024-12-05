@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access to create Underwriting Case</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Group Underwriting</label>
+    <license>Salesforce</license>
+    <recordTypeVisibilities>
+        <recordType>Case.Group_Underwriting</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabSettings>
+        <tab>standard-Case</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

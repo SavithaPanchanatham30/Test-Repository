@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- CSW Member Notes for Grandfathering --></label>
+        <name>CSW_Member_Notes_for_Grandfathering__c</name>
+    </CustomFieldTranslation>

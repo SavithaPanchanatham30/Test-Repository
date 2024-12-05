@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Setup_Reviewed_No_Burn_Comments</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Setup Reviewed Differences hen Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT( Setup_Reviewed_Differences_Noted__c  ) = &quot;No&quot;,TEXT(Setup_Reviewed_Differences_Noted__c ) = &quot;Burn&quot;),    Setup_Reviewed_Differences_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Setup_Reviewed_Differences_Comments__c</errorDisplayField>
+    <errorMessage>QA004 - If Setup Reviewed/Differences Noted = No or Burn, Then Setup Review Comments Must be Entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Notional Bill Ran - Amendments &amp; Group Issue, Notional Total Matches Recon Total/Bill  - Upsell --></help>
+        <label><!-- Notional Bill Ran --></label>
+        <name>Notional_Bill_Ran__c</name>
+    </CustomFieldTranslation>

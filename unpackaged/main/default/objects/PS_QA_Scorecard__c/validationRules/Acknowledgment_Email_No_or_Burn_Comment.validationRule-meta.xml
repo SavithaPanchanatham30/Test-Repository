@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acknowledgment_Email_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Acknowledgment Email sent within SLA then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Acknowledgment_email_sent_within_SLA__c ) = &quot;No&quot; , TEXT (  Acknowledgment_email_sent_within_SLA__c ) = &quot;Burn&quot;),            Acknowledgement_email_sent_comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Acknowledgement_email_sent_comments__c</errorDisplayField>
+    <errorMessage>QA084 - If Acknowledgment email sent within sla  = No or Burn, Then Acknowledgement email sent Comments must be entered</errorMessage>
+</ValidationRule>

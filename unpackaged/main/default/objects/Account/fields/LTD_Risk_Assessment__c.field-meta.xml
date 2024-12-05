@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LTD_Risk_Assessment__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( LTD_Risk_Score__c=1, IMAGE(&quot;/resource/1499677513000/icons/green.jpg&quot;,&#39;Target&#39;),
+  IF( LTD_Risk_Score__c=2, IMAGE(&quot;/resource/1499677513000/icons/green.jpg&quot;,&#39;Target&#39;),
+    IF( LTD_Risk_Score__c=3, IMAGE(&quot;/resource/1499677513000/icons/blue.jpg&quot;,&#39;Neutral&#39;),
+      IF( LTD_Risk_Score__c=4, IMAGE(&quot;/resource/1499677513000/icons/red.jpg&quot;,&#39;Risk&#39;),&quot;&quot;)
+    )
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>LTD Risk Assessment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

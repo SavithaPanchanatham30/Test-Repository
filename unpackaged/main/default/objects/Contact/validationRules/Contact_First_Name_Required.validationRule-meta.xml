@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_First_Name_Required</fullName>
+    <active>true</active>
+    <description>Contact first name is required for Member, Group Contact and Agent</description>
+    <errorConditionFormula>AND( ISBLANK(FirstName),
+     Admin_System_Record__c = FALSE,
+      OR ( RecordType.Name == &#39;Member&#39;,
+           RecordType.Name == &#39;Agent&#39;,
+           RecordType.Name == &#39;Group Contact&#39;,
+           RecordType.Name == &#39;Partner Rep&#39;
+      )
+ )</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>First Name is required</errorMessage>
+</ValidationRule>

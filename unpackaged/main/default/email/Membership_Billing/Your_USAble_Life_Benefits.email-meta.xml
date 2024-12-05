@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>new groups with past due amounts</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Your USAble Life Benefits</name>
+    <style>none</style>
+    <subject>Your USAble Life Benefits</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

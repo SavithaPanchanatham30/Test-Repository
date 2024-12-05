@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CS104_Action_Taken_Must_BeFilledIn</fullName>
+    <active>true</active>
+    <description>CS104- If Outcome of Outreach  Entered Action TakentMust be filled in</description>
+    <errorConditionFormula>AND(TEXT( Action_Taken__c)  = &quot;&quot;, TEXT( Outcome_of_Outreach__c  )  &lt;&gt; &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Action_Taken__c</errorDisplayField>
+    <errorMessage>CS104 - If Outcome of Outreach Entered then Action Taken should be entered.</errorMessage>
+</ValidationRule>

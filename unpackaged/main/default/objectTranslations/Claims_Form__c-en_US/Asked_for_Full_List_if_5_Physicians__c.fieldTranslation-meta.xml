@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Asked for Full List if  &gt; 5 Physicians --></label>
+        <name>Asked_for_Full_List_if_5_Physicians__c</name>
+    </CustomFieldTranslation>

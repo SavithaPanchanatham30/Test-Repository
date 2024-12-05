@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_EAP_and_FMLA_Account__c</fullName>
+    <description>This field contains Email EAP and FMLA Account Sold forms when applicable to
+appropriate vendors.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Email EAP and FMLA Account Sold forms when applicable to
+appropriate vendors</inlineHelpText>
+    <label>Email EAP and FMLA Account</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Format_of_Rate_Sheet_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Format of Rate Sheet then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(  Format_of_Rate_Sheet_Looks_Presentable__c ) = &quot;No&quot; , TEXT (  Format_of_Rate_Sheet_Looks_Presentable__c  ) = &quot;Burn&quot;),  Format_of_Rate_Sheet_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Format_of_Rate_Sheet_Comments__c</errorDisplayField>
+    <errorMessage>QA131 - If Format of Rate Sheet No or Burn, Then Format of Rate Sheet Comments must be entered</errorMessage>
+</ValidationRule>

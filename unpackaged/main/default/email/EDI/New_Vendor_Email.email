@@ -1,0 +1,26 @@
+Vendor Representative Name
+Vendor Company Name
+
+RE: Group Name and #12345
+
+Good Morning/Afternoon, 
+
+{Group Admin/other of Group Name} has authorized us to work together to establish an EDI enrollment feed for the {captioned group}. The implementation process requires a 45-day timeframe for most groups engaging in core and voluntary enrollments.  
+
+Please find attached two files: a file specifications sheet and an example of our Standard File Format.  We would prefer to receive nominated amounts and multipliers in the file rather than volume for benefit amounts. Please remember, the ANSI 834 EDI Enrollment Implementation Format cannot be used to communicate Life, Disability and/or Worksite benefits. USAble has its own Enrollment Feed standard.  
+ 
+We will establish an SFTP connection to transfer the data, allowing for automation and security to be applied to the exchange of enrollment files.  There will be a Test Folder to transmit test files when we are ready for this phase as well as a Production File when transitioning to Production.
+
+Below are the Keycodes to be used for Bill Group and Class: 
+•	Group Number 
+•	Bill Group 
+•	Class
+
+We will invite you to an onboarding call with Group Admin to be scheduled in the near future. 
+
+Please be prepared to answer the following questions during the onboarding call:
+•	What is the IP address(es) the data will be transmitted from?
+•	Do you have a test environment?
+
+
+Please let us know if there are additional questions, or if you would like to schedule another call to talk through the process.

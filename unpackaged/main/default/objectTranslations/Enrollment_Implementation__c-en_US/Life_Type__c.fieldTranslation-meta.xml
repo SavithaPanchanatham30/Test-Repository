@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Life Type --></label>
+        <name>Life_Type__c</name>
+        <picklistValues>
+            <masterLabel>ADD</masterLabel>
+            <translation><!-- ADD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Term Life</masterLabel>
+            <translation><!-- Group Term Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supp ADD</masterLabel>
+            <translation><!-- Supp ADD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supp Life</masterLabel>
+            <translation><!-- Supp Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Life</masterLabel>
+            <translation><!-- Term Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VADD</masterLabel>
+            <translation><!-- VADD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VGTL</masterLabel>
+            <translation><!-- VGTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VGTL w/ ADD</masterLabel>
+            <translation><!-- VGTL w/ ADD --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

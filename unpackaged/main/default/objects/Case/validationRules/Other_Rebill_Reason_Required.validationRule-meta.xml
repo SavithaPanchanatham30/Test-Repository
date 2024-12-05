@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Rebill_Reason_Required</fullName>
+    <active>true</active>
+    <description>This validation will be triggerd when Rebill Reason = Other then &quot;Other Rebill Reason&quot; will be the required field.</description>
+    <errorConditionFormula>IF( 
+     ISPICKVAL( Rebill_Reason__c , &quot;Other&quot;) ,
+     ISBLANK( Other_Rebill_Reason__c ), 
+     null
+   )</errorConditionFormula>
+    <errorDisplayField>Other_Rebill_Reason__c</errorDisplayField>
+    <errorMessage>Please specify this field as Rebill Reason=Other</errorMessage>
+</ValidationRule>

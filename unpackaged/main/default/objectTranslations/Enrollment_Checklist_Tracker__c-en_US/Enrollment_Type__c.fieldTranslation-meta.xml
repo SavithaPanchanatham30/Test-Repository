@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Enrollment Type --></label>
+        <name>Enrollment_Type__c</name>
+        <picklistValues>
+            <masterLabel>AA</masterLabel>
+            <translation><!-- AA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Census</masterLabel>
+            <translation><!-- Census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ER/MSS/Enroller</masterLabel>
+            <translation><!-- ER/MSS/Enroller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selerix</masterLabel>
+            <translation><!-- Selerix --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

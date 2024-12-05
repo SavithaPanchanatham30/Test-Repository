@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPR007_Changed_Carrier_FL_Groups_300</fullName>
+    <active>true</active>
+    <description>Require Changed Carrier to be set for FL groups over 300. 
+For 3 Closed Stages on OLI</description>
+    <errorConditionFormula>Opportunity.Account.FL__c = true &amp;&amp;
+Opportunity.Account.LSV_Group_Size__c &gt; 300 &amp;&amp; 
+ISBLANK(TEXT(Changed_Carrier__c)) &amp;&amp;
+OR (
+   ISPICKVAL(Line_Item_Stage__c, &quot;Closed Won&quot; ),
+   ISPICKVAL(Line_Item_Stage__c, &quot;Closed Lost - Not Quoted&quot;) 
+   ) &amp;&amp;
+AND
+  (
+  NOT(ISPICKVAL( Current_Carrier_Name__c, &quot;No Existing Coverage&quot; )), 
+  NOT(ISBLANK( TEXT(Current_Carrier_Name__c )))
+  )</errorConditionFormula>
+    <errorDisplayField>Changed_Carrier__c</errorDisplayField>
+    <errorMessage>OPR007 Please select Changed Carrier</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Letter advising Florida producers that their appointment will be termed in 60 days</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TERM - FL Termed by FL Blue (60 days)</name>
+    <style>none</style>
+    <subject>USAble Life Appointment Termination</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

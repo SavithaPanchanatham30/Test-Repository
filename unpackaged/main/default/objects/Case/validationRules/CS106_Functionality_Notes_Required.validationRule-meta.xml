@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CS106_Functionality_Notes_Required</fullName>
+    <active>true</active>
+    <description>CS106 If Explained Functional Limitation Functionality notes must be filled in</description>
+    <errorConditionFormula>AND(ISPICKVAL( Origin , &quot;WEB&quot;), ISPICKVAL( Action_Taken__c , &quot;Explained Functionality Limitation&quot;), ISBLANK( Functionality_Notes__c )  )</errorConditionFormula>
+    <errorDisplayField>Functionality_Notes__c</errorDisplayField>
+    <errorMessage>CS106 - If Explained Functionality Limitations then Functional Notes must be entered</errorMessage>
+</ValidationRule>

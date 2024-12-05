@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Reset_Account_Team</fullName>
+        <field>Reset_Account_Team__c</field>
+        <literalValue>1</literalValue>
+        <name>Reset Account Team</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Reset  Account Team on change in Territory code</fullName>
+        <actions>
+            <name>Reset_Account_Team</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Reset Account Team if Territory code is change</description>
+        <formula>IF ( ISCHANGED( Blue_Territory_Code__c ) &amp;&amp;   RecordType.DeveloperName = &#39;Master_Group&#39; ,  true ,  false)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

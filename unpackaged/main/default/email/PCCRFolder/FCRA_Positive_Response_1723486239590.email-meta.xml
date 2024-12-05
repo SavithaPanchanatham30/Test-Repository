@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Check box page 4 Agency/Agent Appt App to receive copy of consumer report</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>APPT - FCRA Positive Response</name>
+    <style>none</style>
+    <subject>Consumer Report Copy Request</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

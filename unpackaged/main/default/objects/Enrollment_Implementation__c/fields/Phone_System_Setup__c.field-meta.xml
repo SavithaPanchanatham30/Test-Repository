@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_System_Setup__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Submit ticket for use of USAble Phone system if applicable and set enrollers up</inlineHelpText>
+    <label>Phone System Setup</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

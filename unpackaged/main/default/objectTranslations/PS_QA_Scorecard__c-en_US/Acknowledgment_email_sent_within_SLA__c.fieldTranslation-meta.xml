@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Acknowledgement email sent within 24 hours --></help>
+        <label><!-- Acknowledgment email sent within SLA --></label>
+        <name>Acknowledgment_email_sent_within_SLA__c</name>
+    </CustomFieldTranslation>

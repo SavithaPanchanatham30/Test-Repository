@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Has Group Confirmed there are no expected claims as a result of this change --></help>
+        <label><!-- Group Confirmed No Claims from Change --></label>
+        <name>Group_Confirmed_No_Expected_Claims_from__c</name>
+    </CustomFieldTranslation>

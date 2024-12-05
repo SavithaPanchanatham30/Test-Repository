@@ -1,0 +1,32 @@
+Hello {!Case.Contact}
+In preparation for your upcoming 2018 Annual Enrollment USAble has performed an audit on your EDI file feed. We believe this will help clean up any outstanding issues and pending amounts prior to your enrollment being submitted and processed. Please review the enclosed audit.
+•	Annual Enrollment effective date is XXX
+•	The audit was based on the file feed processed on XXX
+If you feel any of the data in the audit is an error or have any further questions please feel free to reach out and reply to this message and I will be happy to assist.
+
+We have the following information that we are requesting to help plan for the processing of your file.
+	Can you advise on the delivery date of the Annual Enrollment File?
+	Will regular files be sent during the Annual Enrollment period?
+•	If not, please advise on that period where no files will be delivered
+
+Below are some common questions that you or your vendor might have regarding the Annual Enrollment submission process with your EDI file feed.
+
+•	Can you confirm you are the correct contact for their OE file?
+o	Yes, edirequest@usablelife.com is the correct contact information.
+•	Will the Annual Enrollment file need a naming convention that differs from the normal file name?
+o	Yes, the preferred naming convention for all Annual Enrollment files: OE_GroupNumber_GroupName_YYYYMMDD.csv 
+o	Please notify the EDI Team at edirequest@usablelife.com when sending the OE file so we can take the proper steps to review the file manually before processing the production data.
+•	Do you term by omission or do you require termination dates to be sent on the Annual Enrollment file?
+o	USABLE LIFE does not term by omission. We will need the specific termination effective date in the file for the member or member's benefit.
+•	What is the Server address for sending the Annual Enrollment PRODUCTION file?
+o	The server address is the same as the weekly production files. Please continue to use the same server.
+o	Please notify the EDI Team at edirequest@usablelife.com when sending the OE file so we can take the proper steps to review the file manually before processing the production data.
+•	Will original effective date or new effective dates be sent on the AE PRODUCTION file and ongoing file?
+o	New effective dates are preferred for all members
+•	What is the cut-off date the Annual Enrollment file needs to be received to ensure new ID cards are sent out to employee by the start of the new plan year?
+o	We do not produce ID cards for Life and Disability. This will not be applicable
+
+Thank You 
+Billy Chappell
+Benefits Data Analyst
+Enrollment Solutions| USAble Life

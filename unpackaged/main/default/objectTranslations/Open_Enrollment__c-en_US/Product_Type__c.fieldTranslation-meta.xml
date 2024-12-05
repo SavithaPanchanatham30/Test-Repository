@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>VGTL</masterLabel>
+            <translation><!-- VGTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VLTD</masterLabel>
+            <translation><!-- VLTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VSTD</masterLabel>
+            <translation><!-- VSTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worksite ACC</masterLabel>
+            <translation><!-- Worksite ACC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worksite CA &amp; CI</masterLabel>
+            <translation><!-- Worksite CA &amp; CI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worksite CI</masterLabel>
+            <translation><!-- Worksite CI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worksite HIP</masterLabel>
+            <translation><!-- Worksite HIP --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

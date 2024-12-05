@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Affiliation/Relationship required for AR, OR, MT</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>AFFIL - Affiliation/Relationship Required AR, OR, MT</name>
+    <style>none</style>
+    <subject>Affiliation/Relationship Required</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

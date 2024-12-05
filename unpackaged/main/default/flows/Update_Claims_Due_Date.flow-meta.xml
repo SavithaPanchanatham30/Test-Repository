@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <constants>
+        <name>Task_Earnings</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Earnings</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <name>TaskRecordType</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Claims</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>Check_Due_Date</name>
+        <label>Check Due Date</label>
+        <locationX>1103</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Due_Date_NOT_NULL</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ActivityDate</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_Task_Type</targetReference>
+            </connector>
+            <label>Due Date NOT NULL</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Task_Record_Type</name>
+        <label>Check Task Record Type</label>
+        <locationX>1632</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Claims_Task</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Claims</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_Due_Date</targetReference>
+            </connector>
+            <label>Claims Task</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Task_Type</name>
+        <label>Check Task Type</label>
+        <locationX>309</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Check_Task_Type2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X2_Bus_Days</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Earnings</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Employer Request</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Internal Request</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Insured Request</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Due_Date_to_2_Bus_Days</targetReference>
+            </connector>
+            <label>2 Bus Days</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Task_Type2</name>
+        <label>Check Task Type</label>
+        <locationX>569</locationX>
+        <locationY>611</locationY>
+        <defaultConnector>
+            <targetReference>Check_Task_Type3</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X5_Bus_Days</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Medical Records</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pre-Ex Review</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Max Documents</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Due_Date_to_5_Bus_Days</targetReference>
+            </connector>
+            <label>5 Bus Days</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Task_Type3</name>
+        <label>Check Task Type</label>
+        <locationX>825</locationX>
+        <locationY>719</locationY>
+        <defaultConnector>
+            <targetReference>Check_Task_Type4</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Five_Bus_Days</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Referrals</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Tolling Letter</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Due_Date_to_25_Bus_Days</targetReference>
+            </connector>
+            <label>25 Bus Days</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Task_Type4</name>
+        <label>Check Task Type</label>
+        <locationX>1073</locationX>
+        <locationY>827</locationY>
+        <defaultConnector>
+            <targetReference>Check_Task_Type5</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X10_Bus_Days</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Overpayment</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Due_Date_to_10_Bus_Days</targetReference>
+            </connector>
+            <label>10 Bus Days</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Task_Type5</name>
+        <label>Check Task Type</label>
+        <locationX>1304</locationX>
+        <locationY>935</locationY>
+        <defaultConnector>
+            <targetReference>Check_Task_Type6</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X14_Bus_Days</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Claim Determination</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Due_Date_to_14_Bus_Days</targetReference>
+            </connector>
+            <label>14 Bus Days</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Task_Type6</name>
+        <label>Check Task Type</label>
+        <locationX>1502</locationX>
+        <locationY>1043</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Today</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Mail Received</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>STD Update Forms</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cancer Update Forms</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Beneficiary Update Forms</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closure Letter</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Employer Notification</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Designation Letter</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Due_Date_to_Today</targetReference>
+            </connector>
+            <label>Today</label>
+        </rules>
+    </decisions>
+    <description>Update the due date for claims tasks</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>CurrentDate</name>
+        <dataType>Date</dataType>
+        <expression>Today()</expression>
+    </formulas>
+    <formulas>
+        <name>FiveDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD( today() - DATE( 1900, 1, 7 ), 7 ),
+  0, today() + 5,
+  1, today() + 2 + 5,
+  2, today() + 2 + 5,
+  3, today() + 2 + 5,
+  4, today() + 2 + 5,
+  5, today() + 2 + 5,
+  today() + 1 + 5
+)</expression>
+    </formulas>
+    <formulas>
+        <name>FourteenDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD( today() - DATE( 1900, 1, 7 ), 7 ),
+  0, today() + 4 + 14,
+  1, today() + 4 + 14,
+  2, today() + 6 + 14,
+  3, today() + 6 + 14,
+  4, today() + 6 + 14,
+  5, today() + 6 + 14,
+  today() + 5 + 14
+)</expression>
+    </formulas>
+    <formulas>
+        <name>TenDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD( today() - DATE( 1900, 1, 7 ), 7 ),
+  0, today() + 10,
+  1, today() + 2 + 10,
+  2, today() + 4 + 10,
+  3, today() + 4 + 10,
+  4, today() + 4 + 10,
+  5, today() + 4 + 10,
+  today() + 3 + 10
+)</expression>
+    </formulas>
+    <formulas>
+        <name>TwentyFiveDays</name>
+        <dataType>Date</dataType>
+        <expression>
+CASE( 
+  MOD( today() - DATE( 1900, 1, 7 ), 7 ),
+  0, today() + 8 + 25,
+  1, today() + 10 + 25,
+  2, today() + 10 + 25,
+  3, today() + 10 + 25,
+  4, today() + 10 + 25,
+  5, today() + 10 + 25,
+  today() + 9 + 25
+)</expression>
+    </formulas>
+    <formulas>
+        <name>TwoDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD( today() - DATE( 1900, 1, 7 ), 7 ),
+  0, today() + 2,
+  1, today() + 2,
+  2, today() + 2,
+  3, today() + 2,
+  4, today() + 2 + 2,
+  5, today() + 2 + 2,
+  today() + 1 + 2
+)</expression>
+    </formulas>
+    <interviewLabel>Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Claims Due Date</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Due_Date_to_10_Bus_Days</name>
+        <label>Update Due Date to 10 Bus Days</label>
+        <locationX>842</locationX>
+        <locationY>935</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>TenDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>$Record.Type</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Due_Date_to_14_Bus_Days</name>
+        <label>Update Due Date to 14 Bus Days</label>
+        <locationX>1106</locationX>
+        <locationY>1043</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>FourteenDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>$Record.Type</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Due_Date_to_25_Bus_Days</name>
+        <label>Update Due Date to 25 Bus Days</label>
+        <locationX>578</locationX>
+        <locationY>827</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>TwentyFiveDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>$Record.Type</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Due_Date_to_2_Bus_Days</name>
+        <label>Update Due Date to 2 Bus Days</label>
+        <locationX>50</locationX>
+        <locationY>611</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>TwoDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>$Record.Type</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Due_Date_to_5_Bus_Days</name>
+        <label>Update Due Date to 5 Bus Days</label>
+        <locationX>314</locationX>
+        <locationY>719</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>FiveDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>$Record.Type</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Due_Date_to_Today</name>
+        <label>Update Due Date to Today</label>
+        <locationX>1370</locationX>
+        <locationY>1151</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>$Record.Type</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>1506</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Task_Record_Type</targetReference>
+        </connector>
+        <object>Task</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

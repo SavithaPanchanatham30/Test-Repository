@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Signed by Group Leader before Eff. Date --></label>
+        <name>Signed_by_Group_Leader_before_Eff_Date__c</name>
+        <picklistValues>
+            <masterLabel>Continue/Don’t Submit</masterLabel>
+            <translation><!-- Continue/Don’t Submit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continue/Submit</masterLabel>
+            <translation><!-- Continue/Submit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Halt</masterLabel>
+            <translation><!-- Halt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

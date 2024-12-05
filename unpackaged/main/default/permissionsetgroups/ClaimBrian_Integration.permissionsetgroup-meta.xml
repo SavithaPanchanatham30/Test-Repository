@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ClaimBrian Integration</label>
+    <permissionSets>ClaimIncurredDate_WRITE</permissionSets>
+    <permissionSets>Claimsbrain_Integration_User_Read_Write</permissionSets>
+    <permissionSets>PaymentApproval_WRITE</permissionSets>
+    <permissionSets>SocialSecurityExempt_READ</permissionSets>
+    <permissionSets>UsableCvabStatus_READ</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

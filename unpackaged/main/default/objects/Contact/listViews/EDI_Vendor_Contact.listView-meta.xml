@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDI_Vendor_Contact</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Contact_Type__c</columns>
+    <columns>Admin_System_Record__c</columns>
+    <columns>Entity_Type__c</columns>
+    <columns>CONTACT.ADDRESS2_CITY</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Entity_Type__c</field>
+        <operation>equals</operation>
+        <value>EDI Vendor</value>
+    </filters>
+    <label>EDI Vendor Contact</label>
+    <sharedTo>
+        <group>Group_EDI_Update</group>
+    </sharedTo>
+</ListView>

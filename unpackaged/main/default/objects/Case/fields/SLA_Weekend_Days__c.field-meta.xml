@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Weekend_Days__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(MOD( DATEVALUE(SLA_Start_Date__c)  - DATE(1985,6,24),7), 
+  0 , CASE( MOD( DATEVALUE(SLA_Calendar_End_Date__c) - DATEVALUE(SLA_Start_Date__c), 7),1,0,2,0,3,0,4,0,5,1,6,2,0), 
+  1 , CASE( MOD( DATEVALUE(SLA_Calendar_End_Date__c) - DATEVALUE(SLA_Start_Date__c), 7),0,0,1,0,2,0,3,0,4,0,5,2,2), 
+  2 , CASE( MOD( DATEVALUE(SLA_Calendar_End_Date__c) - DATEVALUE(SLA_Start_Date__c), 7),0,0,1,0,2,0,3,1,2), 
+  3 , CASE( MOD( DATEVALUE(SLA_Calendar_End_Date__c) - DATEVALUE(SLA_Start_Date__c), 7),0,0,1,0,2,1,2), 
+  4 , CASE( MOD( DATEVALUE(SLA_Calendar_End_Date__c) - DATEVALUE(SLA_Start_Date__c), 7),0,0,1,1,2), 
+  5 , CASE( MOD( DATEVALUE(SLA_Calendar_End_Date__c) - DATEVALUE(SLA_Start_Date__c), 7),0,1,2), 
+  6 , CASE( MOD( DATEVALUE(SLA_Calendar_End_Date__c) - DATEVALUE(SLA_Start_Date__c), 7),6,2,1),
+  999)
+  +
+  (FLOOR(( DATEVALUE(SLA_Calendar_End_Date__c) - DATEVALUE(SLA_Start_Date__c) )/7)*2)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SLA Weekend Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

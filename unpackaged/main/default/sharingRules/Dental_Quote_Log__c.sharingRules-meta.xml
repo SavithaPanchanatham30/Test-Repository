@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Quote_Log_Dental</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Quote Log Dental</label>
+        <sharedTo>
+            <group>Dental_Underwriting</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Dental_Underwriting</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

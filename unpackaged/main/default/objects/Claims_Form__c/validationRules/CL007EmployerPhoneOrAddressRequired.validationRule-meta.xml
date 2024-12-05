@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL007EmployerPhoneOrAddressRequired</fullName>
+    <active>true</active>
+    <description>For Disability Employer Phone  or Address Required</description>
+    <errorConditionFormula>AND( ISBLANK(   Employer_Phone__c   ),  ISBLANK(  Employer_Address__c   ), RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Employer_Phone__c</errorDisplayField>
+    <errorMessage>CL-007 Either Employer Phone or Address is Required</errorMessage>
+</ValidationRule>

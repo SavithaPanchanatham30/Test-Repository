@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>SBMA Commissions</name>
+    <queueMembers>
+        <roles>
+            <role>Analyst_SBMA</role>
+        </roles>
+        <users>
+            <user>amanda.floyd@usablelife.com</user>
+            <user>amy.hickson@usablelife.com</user>
+            <user>bobbi.tackett@usablelife.com</user>
+            <user>deb.landry@usablelife.com</user>
+            <user>donna.diraimo@fclife.com</user>
+            <user>emily.connell@usablelife.com</user>
+            <user>evan.hines@usablelife.com1</user>
+            <user>gloria.mcintosh@usablelife.com</user>
+            <user>hilma.clarke@usablelife.com</user>
+            <user>holly.watson@usablelife.com</user>
+            <user>jesaca.duncan@usablelife.com</user>
+            <user>jessica.runyon@usablelife.com</user>
+            <user>joshua.hart@usablelife.com</user>
+            <user>linda.leatherwood@usablelife.com</user>
+            <user>lisa.bates@usablelife.com</user>
+            <user>millicent.seilenga@usablelife.com</user>
+            <user>sedeepta.bose@usablelife.com1</user>
+            <user>stacy.weaver@usablelife.com</user>
+            <user>teresa.routt@usablelife.com</user>
+            <user>vicki.johnston@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

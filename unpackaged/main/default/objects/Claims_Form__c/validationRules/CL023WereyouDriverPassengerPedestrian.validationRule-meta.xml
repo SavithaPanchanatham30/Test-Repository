@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL023WereyouDriverPassengerPedestrian</fullName>
+    <active>true</active>
+    <description>-Disability do to MVA then Driver/Passenger/Perdestrian</description>
+    <errorConditionFormula>AND(TEXT (  Disability_Do_to_Motor_Vehicle_Accident__c ) = &quot;Yes&quot;,ISBLANK(TEXT (Were_you_Driver_Passenger_Pedestrian__c))  , RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Were_you_Driver_Passenger_Pedestrian__c</errorDisplayField>
+    <errorMessage>CL-023 If in Motor Vehicle -Accident then Were you Driver Passenger Pedestrian Selected</errorMessage>
+</ValidationRule>

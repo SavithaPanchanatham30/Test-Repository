@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- No Change to Enrolled/Eligible Lives, plan or billed rates. --></help>
+        <label><!-- No Chg Enrolled/Eligible Lives/Plan/Rate --></label>
+        <name>No_Chg_Enrolled_Eligible_Lives_Plan_Rate__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalate</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Escalate</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/22.0/connection.js&quot;)}
+
+var updateRecord = new Array(); 
+var myquery = &quot;SELECT Id FROM Case WHERE Id = &#39;{!Case.Id}&#39; limit 1&quot;;
+
+result = sforce.connection.query(myquery);
+records = result.getArray(&quot;records&quot;);
+
+if ({!Case.IsClosed}){
+    alert(&#39;Closed case cannot be escalated&#39;);    
+} else {
+
+	if(records[0])
+	{
+    		var update_Case = records[0];
+    		update_Case.IsEscalated = &quot;true&quot;; 
+    		update_Case.Status = &quot;Escalated&quot;;
+    		update_Case.Manually_Escalated__c = &quot;true&quot;;
+	    	updateRecord.push(update_Case);
+	}
+
+	result = sforce.connection.update(updateRecord);
+
+	if (result[0].getBoolean(&quot;success&quot;) == false) 
+	{
+     		alert(&#39;Please specify the Escalation Reason&#39;);     
+	} else {
+     		parent.location.href = parent.location.href;
+	}
+}</url>
+</WebLink>

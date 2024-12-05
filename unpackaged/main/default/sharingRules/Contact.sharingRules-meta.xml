@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Admin_Contacts_Read_Only_for_Service</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>If the record is an Admin System Record (created or owned by EDI user) then all users in the Service hierarchy should have Read Only access</description>
+        <label>Admin Contacts Read Only for Service</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>EVP_Operations</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>equals</operation>
+            <value>005i0000002OG7P</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>005i0000002OG7P</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Claims_can_update_Members</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Claims can update Members</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Director_Claims</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>005i0000002OG7PAAW,0056S00000K0gRtQAJ</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Member,Dependent</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Group_Contacts_and_Partner_Reps_with_Sales_AR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Group Contacts and Partner Reps with Sales AR</label>
+        <sharedTo>
+            <group>All_Arkansas_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Group Contact,Agent,Partner Rep</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>AR__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Group_Contacts_and_Partner_Reps_with_Sales_FL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Group Contacts and Partner Reps with Sales FL</label>
+        <sharedTo>
+            <group>All_Florida_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Group Contact,Agent,Partner Rep</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>FL__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Group_Contacts_and_Partner_Reps_with_Sales_HI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Group Contacts and Partner Reps with Sales HI</label>
+        <sharedTo>
+            <group>All_Hawaii_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Agent,Group Contact,Partner Rep</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>HI__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Group_Contacts_and_Partner_Reps_with_Sales_RG1</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Group Contacts and Partner Reps with Sales RG</label>
+        <sharedTo>
+            <group>All_Regence_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Agent,Group Contact,Partner Rep</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RG__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Integrations_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>allows integration users to have read/write access on contacts</description>
+        <label>Integrations Users</label>
+        <sharedTo>
+            <group>All_Integration_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>005i0000002OG7PAAW,0056S00000K0gRtQAJ</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Member,Dependent</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>User_Created_Contacts_RW_Customer_Service_for_Sales</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>If the contact has been created by a user (not EDI), then all users in the Customer Service for Sales should have read/write access.</description>
+        <label>User Created Contacts RW Customer Service for Sales</label>
+        <sharedTo>
+            <group>Customer_Service_for_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>notEqual</operation>
+            <value>005i0000002OG7PAAW</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value>005i0000002OG7PAAW</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Agent,Group Contact,Member,Partner Rep,Other</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>User_Created_Contacts_Read_Write_for_Service</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>If the contact has been created by a user (not EDI), then all users in the Service role hierarchy should have read/write access</description>
+        <label>User Created Contacts Read Write for Service</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>EVP_Operations</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>notEqual</operation>
+            <value>005i0000002OG7PAAW</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value>005i0000002OG7PAAW</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Agent,Group Contact,Member,Partner Rep,Other</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

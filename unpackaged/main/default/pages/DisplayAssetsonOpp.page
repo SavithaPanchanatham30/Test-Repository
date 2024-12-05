@@ -1,0 +1,108 @@
+<apex:page standardController="Opportunity" extensions="DisplayAllAssetsOpportunities">
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<link rel="stylesheet" href="{! $Resource.slds214 + '/assets/styles/salesforce-lightning-design-system.css'}"/>
+
+    <style>
+        .clsTH { 
+            border: 1px solid #e0e3e5;
+        }
+        
+        .clsTRBorder {
+            border-bottom: 1px solid #f2f3f3;    
+        }
+        
+        .clsFont {
+            font-size: 11px;
+            font-family: Arial,Helvetica,sans-serif;
+        }
+        
+        .clsHeight {
+            line-height: 22px;
+        }
+        
+        .clsPaddingLeft {
+            padding-left: 5px;
+        }    
+        
+        .clsPaddingRight {
+            padding-right: 5px;
+            text-align: right;
+        }    
+    
+        .pbSubsection {
+            margin-left: -20px !important;    
+        }
+    
+        .clsFont12 {
+            font-size: 12px;
+        }
+    </style>    
+
+    <script>
+        $( document ).ready(function() {
+            
+            var $ = jQuery.noConflict(true);
+             if( (typeof sforce != 'undefined') && (sforce != null) ) 
+             {
+                 //$('.clsClassic').css('display', 'none');
+                 //$('.clsSFOne').css('display', 'block');
+                 $('.clsAssetsTab').removeClass('clsTH');
+                 $('.clsAssetsTab').addClass('slds-table');
+             } 
+             else 
+             {
+                 //$('.clsClassic').css('display', 'block');
+                 //$('.clsSFOne').css('display', 'none');
+                 $('.clsAssetsTab').addClass('clsTH');
+                 $('.clsAssetsTab').removeClass('slds-table');                 
+             } 
+        });
+    </script>
+<!--
+<div class="bPageBlock brandSecondaryBrd secondaryPalette">
+    <div class="pbHeader">
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+            <tr>
+                <td class="pbTitle">
+                    <img src="/img/s.gif" alt="" width="1" height="1" class="minWidth" title=""/>
+                    <img src="/img/s.gif" alt="" class="relatedListIcon" title="" />
+                    <h3>&nbsp;</h3>
+                </td>
+                <td class="pbButton">&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="pbBody">
+-->
+        <table class="clsTH clsFont clsAssetsTab" cellspacing="0" cellpadding="0">
+            <thead>
+                <tr style="background-color: #f2f3f3;" class="clsHeight">
+                    <th class="clsTH">&nbsp;Account Name</th>
+                    <th class="clsTH">&nbsp;Product Category</th>
+                    <th class="clsTH clsPaddingRight">&nbsp;Current Premium</th>
+                    <th class="clsTH clsPaddingRight">&nbsp;Current Eligibles</th>
+                    <th class="clsTH clsPaddingRight">&nbsp;Current Contracts</th>
+                </tr>
+            </thead>
+            <tbody class="clsFont12">
+                <apex:repeat value="{!groupedResults}" var="a"> 
+                    <tr class="clsTRBorder clsHeight">
+                        <td class="clsPaddingLeft"><apex:outputText value="{!a['a']}"/></td>
+                        <td class="clsPaddingLeft"><apex:outputText value="{!a['b']}"/></td>
+                        <td class="clsPaddingRight"><apex:outputText value="{! IF(a['c']==null, '', '$')}"/><apex:outputText value="{!a['c']}" /></td>
+                        <td class="clsPaddingRight"><apex:outputText value="{!a['d']}"/></td>
+                        <td class="clsPaddingRight"><apex:outputText value="{!a['e']}"/></td>
+                    </tr>    
+                </apex:repeat>  
+            </tbody>        
+        </table>      
+<!--    
+    </div>
+</div>    
+    
+-->
+
+</apex:page>

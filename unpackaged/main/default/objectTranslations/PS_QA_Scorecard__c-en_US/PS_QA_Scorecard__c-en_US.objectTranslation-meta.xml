@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>QA Scorecard</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>QA Scorecards</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Amendment Page Layout</layout>
+        <sections>
+            <label><!-- Amendment/NOC --></label>
+            <section>Amendment/NOC</section>
+        </sections>
+        <sections>
+            <label><!-- Billing --></label>
+            <section>Billing</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Managers Q/A --></label>
+            <section>Managers Q/A</section>
+        </sections>
+        <sections>
+            <label><!-- Release - Review &amp; Documentation --></label>
+            <section>Release - Review &amp; Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Scrub --></label>
+            <section>Scrub</section>
+        </sections>
+        <sections>
+            <label><!-- System Work --></label>
+            <section>System Work</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Benefit Summary</layout>
+        <sections>
+            <label><!-- Benefit Summary --></label>
+            <section>Benefit Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Managers Q/A --></label>
+            <section>Managers Q/A</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Billing Solutions QA Scorecard</layout>
+        <sections>
+            <label><!-- Billing Specialist - Processing --></label>
+            <section>Billing Specialist - Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Communication --></label>
+            <section>Communication</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Timeliness --></label>
+            <section>Timeliness</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Claims Setup</layout>
+        <sections>
+            <label><!-- Claims Setup --></label>
+            <section>Claims Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Managers Q/A --></label>
+            <section>Managers Q/A</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Enrollment Service Layout</layout>
+        <sections>
+            <label><!-- Audit Total         - - - - - - - - - - - - - - - -         215 Points Possible --></label>
+            <section>Audit Total         ----------------        215 Points Possible</section>
+        </sections>
+        <sections>
+            <label><!-- Case Build            - - - - - - - - - - -                 50 Points Possible --></label>
+            <section>Case Build            -----------                 50 Points Possible</section>
+        </sections>
+        <sections>
+            <label><!-- Case Testing            - - - - - - - - - - -                 75 Points Possible --></label>
+            <section>Case Testing            -----------                 75 Points Possible</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Documentation           - - - - - - - - - - - - - - - - - - -                 40 Points Possible --></label>
+            <section>Documentation           -------------------                 40 Points Possible</section>
+        </sections>
+        <sections>
+            <label><!-- SLA            - - - - - - - - - - -                 50 Points Possible --></label>
+            <section>SLA            -----------                 50 Points Possible</section>
+        </sections>
+        <sections>
+            <label><!-- Service Intake --></label>
+            <section>Service Intake</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Group Issue Page layout</layout>
+        <sections>
+            <label><!-- Billing --></label>
+            <section>Billing</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Managers Q/A --></label>
+            <section>Managers Q/A</section>
+        </sections>
+        <sections>
+            <label><!-- Policy/Certificates --></label>
+            <section>Policy/Certificates</section>
+        </sections>
+        <sections>
+            <label><!-- Release Review - Documentation --></label>
+            <section>Release Review - Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Scrub --></label>
+            <section>Scrub</section>
+        </sections>
+        <sections>
+            <label><!-- System Work --></label>
+            <section>System Work</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Implementation Layout</layout>
+        <sections>
+            <label><!-- Communication/Review During Issue --></label>
+            <section>Communication/Review During Issue</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Release Call --></label>
+            <section>Implementation Release Call</section>
+        </sections>
+        <sections>
+            <label><!-- Initial Call --></label>
+            <section>Initial Call</section>
+        </sections>
+        <sections>
+            <label><!-- Managers QA --></label>
+            <section>Managers QA</section>
+        </sections>
+        <sections>
+            <label><!-- Scrub --></label>
+            <section>Scrub</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Membership Analyst</layout>
+        <sections>
+            <label><!-- Communication Section --></label>
+            <section>Communication Section</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Membership Analyst  - Setup --></label>
+            <section>Membership Analyst  - Setup</section>
+        </sections>
+        <sections>
+            <label><!-- Post Recon Section --></label>
+            <section>Post Recon Section</section>
+        </sections>
+        <sections>
+            <label><!-- Service Intake --></label>
+            <section>Service Intake</section>
+        </sections>
+        <sections>
+            <label><!-- Timeliness Section --></label>
+            <section>Timeliness Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Membership Specialist</layout>
+        <sections>
+            <label><!-- Communication Section --></label>
+            <section>Communication Section</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Membership Specialist - Processing --></label>
+            <section>Membership Specialist - Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Service Intake --></label>
+            <section>Service Intake</section>
+        </sections>
+        <sections>
+            <label><!-- Timeliness Section --></label>
+            <section>Timeliness Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>PS QA Scorecard Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partner Services Scorecard Layout</layout>
+        <sections>
+            <label><!-- Accuracy --></label>
+            <section>Accuracy</section>
+        </sections>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Education --></label>
+            <section>Customer Education</section>
+        </sections>
+        <sections>
+            <label><!-- Escalation --></label>
+            <section>Escalation</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Identify Opportunities --></label>
+            <section>Identify Opportunities</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Collaboration --></label>
+            <section>Internal Collaboration</section>
+        </sections>
+        <sections>
+            <label><!-- Positive Tone --></label>
+            <section>Positive Tone</section>
+        </sections>
+        <sections>
+            <label><!-- Request Assistance --></label>
+            <section>Request Assistance</section>
+        </sections>
+        <sections>
+            <label><!-- SLA Response --></label>
+            <section>SLA Response</section>
+        </sections>
+        <sections>
+            <label><!-- System Work Completion --></label>
+            <section>System Work Completion</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Policy Services</layout>
+        <sections>
+            <label><!-- Amendments (IV) --></label>
+            <section>Amendments (IV)</section>
+        </sections>
+        <sections>
+            <label><!-- Benefit Summary &amp; Rate Grids (V) --></label>
+            <section>Benefit Summary &amp; Rate Grids (V)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Leadership Post Review --></label>
+            <section>Leadership Post Review</section>
+        </sections>
+        <sections>
+            <label><!-- Policies &amp; Certificates (III) --></label>
+            <section>Policies &amp; Certificates (III)</section>
+        </sections>
+        <sections>
+            <label><!-- Post Review --></label>
+            <section>Post Review</section>
+        </sections>
+        <sections>
+            <label><!-- Reconciliation (VI) --></label>
+            <section>Reconciliation (VI)</section>
+        </sections>
+        <sections>
+            <label><!-- Scrub &amp; System Work (II) --></label>
+            <section>Scrub &amp; System Work (II)</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Research</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Documentation &amp; Communication --></label>
+            <section>Documentation &amp; Communication</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Managers Q/A --></label>
+            <section>Managers Q/A</section>
+        </sections>
+        <sections>
+            <label><!-- Scrub --></label>
+            <section>Scrub</section>
+        </sections>
+        <sections>
+            <label><!-- System &amp; Billing --></label>
+            <section>System &amp; Billing</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Intake</layout>
+        <sections>
+            <label><!-- Communication Section --></label>
+            <section>Communication Section</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Service Intake --></label>
+            <section>Service Intake</section>
+        </sections>
+        <sections>
+            <label><!-- Service Intake - Processing --></label>
+            <section>Service Intake - Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Timeliness Section --></label>
+            <section>Timeliness Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Upsell Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Managers Q/A --></label>
+            <section>Managers Q/A</section>
+        </sections>
+        <sections>
+            <label><!-- Policy/Certificates --></label>
+            <section>Policy/Certificates</section>
+        </sections>
+        <sections>
+            <label><!-- Recon --></label>
+            <section>Recon</section>
+        </sections>
+        <sections>
+            <label><!-- Release --></label>
+            <section>Release</section>
+        </sections>
+        <sections>
+            <label><!-- Scrub --></label>
+            <section>Scrub</section>
+        </sections>
+        <sections>
+            <label><!-- System Work --></label>
+            <section>System Work</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- PS Used for Amendments  QA --></description>
+        <label><!-- Amendments --></label>
+        <name>Amendments</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PS Used for Benefit Summary QA --></description>
+        <label><!-- Benefit Summary --></label>
+        <name>Benefit_Summary</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Billing Solutions --></label>
+        <name>Billing_Solutions</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PS Used for Claims Group Setup QA --></description>
+        <label><!-- Claims Setup --></label>
+        <name>Claims_Setup</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Enrollment Services for Selerix enrollments --></description>
+        <label><!-- Enrollment Services --></label>
+        <name>Enrollment_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PS Used for Group Issue QA --></description>
+        <label><!-- Group Issue --></label>
+        <name>Group_Issue</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PS Used to QA Implementation Specialist Cases --></description>
+        <label><!-- Implementation --></label>
+        <name>Implementation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- M&amp;B Analyst Post review Audit --></description>
+        <label><!-- Membership Analyst --></label>
+        <name>Membership_Analyst</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Post Review for Membership Specialist cases --></description>
+        <label><!-- Membership Specialist --></label>
+        <name>Membership_Specialist</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Partner Services Scorecard --></description>
+        <label><!-- Partner Services --></label>
+        <name>Partner_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Policy Services General Score Card --></description>
+        <label><!-- Policy Services --></label>
+        <name>Policy_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PS Used to QA Research Cases --></description>
+        <label><!-- System Work --></label>
+        <name>Research</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for Service Intake --></description>
+        <label><!-- Service Intake --></label>
+        <name>Service_Intake</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- PS Used for Upsell QA --></description>
+        <label><!-- Upsell --></label>
+        <name>Upsell</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- QA057- If Access Able Setup Bill Shows  = No or Burn, Then AccessAble Comments must be entered --></errorMessage>
+        <name>Accessable_Setup_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA124- If Acknowledgment to Submitter made No or Burn, Then Acknowledgment to Submitter Comments must be entered --></errorMessage>
+        <name>Acknowledge_Submitter_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA084 - If Acknowledgment email sent within sla  = No or Burn, Then Acknowledgement email sent Comments must be entered --></errorMessage>
+        <name>Acknowledgment_Email_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA029 - If Additional Services Added = No or Burn, Then Additional Services Comments must be entered --></errorMessage>
+        <name>Additional_Services_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA178  - If Were all Enrollers Added No or Burn, Then All Enrollers Added Comments must be entered --></errorMessage>
+        <name>All_Enrollers_Added_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA002 - If All Information Requested = No or Burn, Then All Information Comments Must be Entered --></errorMessage>
+        <name>All_Information_No_or_Burn_then_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA090 - If All Parties Kept Informed  = No or Burn, Then All Parties Kept Informed Comments must be entered --></errorMessage>
+        <name>All_Parties_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA041 - If Amendment Created/Completed = No or Burn, Then Amendment Created/Completed Comments must be entered --></errorMessage>
+        <name>Amendement_Created_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA079 - If Amendment Matches System Work/Request  = No or Burn, Then Amendment Matches Comments must be entered --></errorMessage>
+        <name>Amendment_Matches_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA219 =  If Ammendment/NOC No or Burn, Then Amendment/NOC Comments must be entered --></errorMessage>
+        <name>Ammendment_NOC_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA169 - If Application Followed In Docfinitity &amp; Processed No or Burn, Then Application in Docfinity Comments must be entered --></errorMessage>
+        <name>Application_Followed_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA003 - If Approval Letter Sent/Acknowledged = No or Burn, Then Approval Letter Comments Must be Entered --></errorMessage>
+        <name>Approval_Letter_No_Burn_Then_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA183 - If  Approval Received No or Burn, Then Approval Received Comments must be entered --></errorMessage>
+        <name>Approvals_Received_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA103 - If Get Available Times for Release Call = No or Burn, Then Get Available Times Comments must be entered --></errorMessage>
+        <name>Available_times_Rel_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA221 =  If BS Class Name No or Burn, Then BS Class Name Comments must be entered --></errorMessage>
+        <name>BS_Class_Name_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA223 =  If BS Disability Benefits No or Burn, Then BS Disability Benefits Comments must be entered --></errorMessage>
+        <name>BS_Disabilit_Benefits_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA222 =  If BS Life Benefits No or Burn, Then BS Life Benefits Comments must be entered --></errorMessage>
+        <name>BS_Life_Benefits_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA224 =  If BS Supplemental Benefits No or Burn, Then BS Supplemental Benefits Comments must be entered --></errorMessage>
+        <name>BS_Supplemen_Benefits_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA225 =  If BS Third Party Services No or Burn, Then BS Third Party Services Comments must be entered --></errorMessage>
+        <name>BS_Third_Party_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA017 - If Benefit Options - Member Grp  Lvl Correct = No or Burn, Then Benefit Options Member Comments must be entered --></errorMessage>
+        <name>Benefit_Options_Membr_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA016 - If Benefit Options - Scheme Level Correct = No or Burn, Then Benefit Options Scheme Comments must be entered --></errorMessage>
+        <name>Benefit_Options_schm_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA023 - If Benefit Summary Correct Benefits  = No or Burn, Then Benefit Summary Benefits Comments must be entered --></errorMessage>
+        <name>Benefit_Summary_Cben_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA024 - If Benefit and GI Amount = No or Burn, Then Benefit and GI Comments must be entered --></errorMessage>
+        <name>Benefit_Summary_Cserv_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA008 - If  Bill Hold PS Issue Flag  = No or Burn, Then Bill Hold PS Comments Comments must be entered --></errorMessage>
+        <name>Bill_Hold_PS_Issue_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA058- If Bill Hold Removed PS Issue Flag Flipped = No or Burn, Then Bill Hold Removed Comments must be entered --></errorMessage>
+        <name>Bill_Hold_Removed_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA087 - If Bill Hold Removed After Bill Ran= No or Burn, Then Bill Hold Removed After Comments must be entered --></errorMessage>
+        <name>Bill_Hold_removed_aft_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA021 - If Bill put on hold = No or Burn, Then Bill Put On Hold Comments  must be entered --></errorMessage>
+        <name>Bill_put_on_hold_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA204 =  If Billing Mode &amp; Structure = No or Burn, Then Class Level Comments must be entered --></errorMessage>
+        <name>Billing_Mode_And_Stru_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA018 - If Billing Payer/Scheduler Setup Correct = No or Burn, Then Billing Payer/Scheduler comments  must be entered --></errorMessage>
+        <name>Billing_Payer_Schedul_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA154 - If Billing Compete Review, Items Noted CRCLife = No or Burn, Then Billing Complete Review Comments must be entered --></errorMessage>
+        <name>Billing_complete_review_Items_Noted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA160 - If Burn Only Used When Required No or Burn, Then Burn Only Used Comments must be entered --></errorMessage>
+        <name>Burn_Only_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA011 - If CDF Sent within 24 hours = No or Burn, Then CDF Sent Comments  must be entered --></errorMessage>
+        <name>CDF_Sent_Within_24_Hours_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA200- If CSW Group Note  = No or Burn, Then CSW Group Number Comments must be entered --></errorMessage>
+        <name>CSW_Group_Note_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA207 =  If CSW Member Notes = No or Burn, Then CSW Member Notes Comments must be entered --></errorMessage>
+        <name>CSW_Member_Notes_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA096 - If Call Agenda Completed  = No or Burn, Then Call Agenda Comments must be entered --></errorMessage>
+        <name>Call_Agenda_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA070 - If Case Created for Central Records = No or Burn, Then Case for Central Records Comments must be entered --></errorMessage>
+        <name>Case_Created_CentralR_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA161 - If  Case Detail Populated Correctly = No or Burn, Then Case Detail Populated Correctly Comment must be entered --></errorMessage>
+        <name>Case_Detail_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA179  - If  Case Detail Updated in 24 hours No or Burn, Then All Case Detail Updated Comments must be entered --></errorMessage>
+        <name>Case_Detail_Updated24_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA239 - If Case Notes are clearly documented  = No or Burn, Then Case Notes Comments  must be entered --></errorMessage>
+        <name>Case_Notes_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA168 - If Case Notes as to What Was Process No or Burn, Then Case Notes Comments must be entered --></errorMessage>
+        <name>Case_Notes_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA027 - If Cells Added/Removed = No or Burn, Then Cells Added/Removed Comments must be entered --></errorMessage>
+        <name>Cells_added_Removed_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA007 - If  Census Validation  = No or Burn, Then Census Validation Comments must be entered --></errorMessage>
+        <name>Census_Validation_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA210 =  If Certificate Effective Date = No or Burn, Then Certificate Effective Date Comments must be entered --></errorMessage>
+        <name>Certificate_Effective_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA236 =  If Child Case No or Burn, Then Child Case Comments must be entered --></errorMessage>
+        <name>Child2_Case_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA162 - If  Child Case for What Service Intake Can&apos;t Do = No or Burn, Then Child Case ServiceIntake Comment must be entered --></errorMessage>
+        <name>Child_Case_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA245 - If Claims Case Replied Within SLA = No or Burn, Then Claims Case Replied Comments must be entered --></errorMessage>
+        <name>Claims_Case_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA125- If Class Description No or Burn, Then Class Description Comments must be entered --></errorMessage>
+        <name>Class_Description_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA202- If Class Level Options = No or Burn, Then Class Level Comments must be entered --></errorMessage>
+        <name>Class_level_options_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA015 - If Classes copied with correct date/benefits = No or Burn, Then Classes Copied Comments must be entered --></errorMessage>
+        <name>Classes_copied_No_or_Burn_then_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA069- If Closed Issued &amp; Closed = No or Burn, Then Closed Comments must be entered --></errorMessage>
+        <name>Closed_IssuenClosed_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA107- If Communication Expectations = No or Burn, Then Communication Expectations  Comments must be entered --></errorMessage>
+        <name>Commuicate_Expectatio_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA142 - If Communication Expectations PSS No or Burn, Then Communication Expectations PSS Comments must be entered --></errorMessage>
+        <name>Communicate_EXP_PSS_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA143 - If Communication Expectations QA No or Burn, Then Communication Expectations QA Comments must be entered --></errorMessage>
+        <name>Communicate_EXP_QA_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA237 =  If Communication  No or Burn, Then Communication Comments must be entered --></errorMessage>
+        <name>Communication_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA165 - If Communication to Appropriate Contacts  = No or Burn, Then Communication to Appropriate Comments  must be entered --></errorMessage>
+        <name>CommunicationtoContactNo_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA180 - If  Compass Status No or Burn, Then Compass Status Comments must be entered --></errorMessage>
+        <name>Compass_Status_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA089 - If Completed Explanation Sent Customer = No or Burn, ThenCompleted Explanation Sent Comments must be entered --></errorMessage>
+        <name>Complete_Explanation_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA146 - If Completed Checklist n Group Issue Folder  = No or Burn, Then Completed Checklist Comments must be entered --></errorMessage>
+        <name>Completed_Checklist_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA064 - If Completed Within SLA Guidelines  = No or Burn, Then Completed Within SLA Comments must be entered --></errorMessage>
+        <name>Completed_Within_SLA_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA240 =  If Compliant &amp; Administerable No or Burn, Then Compliant &amp; Adminsterable Comments must be entered --></errorMessage>
+        <name>Compliant_Administera_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA110 - If Confirm Save the Date Meeting = No or Burn, Then Confirm Save the date Comments must be entered --></errorMessage>
+        <name>Confirm_Save_Date_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA203- If Contact Information = No or Burn, Then Class Level Comments must be entered --></errorMessage>
+        <name>Contact_Information_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA043 - If Continuity of Coverage  = No or Burn, Then Continuity of Coverage Comments must be entered --></errorMessage>
+        <name>Continuity_of_Coverag_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA075 - If Correct Amendment Number Used = No or Burn, Then Correct Amendment Comments must be entered --></errorMessage>
+        <name>Correct_Ammendment_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA020 - If Correct Billing Mode = No or Burn, Then Correct Billing Mode Comments  must be entered --></errorMessage>
+        <name>Correct_Billing_Mode_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA074 - If Correct From Number Used = No or Burn, Then Correct Form# Comments must be entered --></errorMessage>
+        <name>Correct_Form_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA134 - If Correct Gi Included on RS No or Burn, Then Correct GI Comments must be entered --></errorMessage>
+        <name>Correct_GI_Included_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA132 - If Correct Pay Period No or Burn, Then Correct Pay Period Comments must be entered --></errorMessage>
+        <name>Correct_Pay_Period_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA135 - If Correct Plan Type No or Burn, Then Correct Plan Type Comments must be entered --></errorMessage>
+        <name>Correct_Plan_Type_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA076 - If Correct Policy Number Used = No or Burn, Then Correct Policy Comments must be entered --></errorMessage>
+        <name>Correct_Policy_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA136 - If Correct Rounding No or Burn, Then Correct Plan Type Comments must be entered --></errorMessage>
+        <name>Correct_Rounding_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA106- If Correct Signed Documents  = No or Burn, Then Correct Signed Documents  Comments must be entered --></errorMessage>
+        <name>Correct_Signed_Doc_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA133 - If Correct Spouse Rates  No or Burn, Then Correct Spouse Rates Comments must be entered --></errorMessage>
+        <name>Correct_Spouse_Rate_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA121- If Customer Service Cases 90 days  =  No or Burn, Then Customer Service Cases Comments must be entered --></errorMessage>
+        <name>Customer_Service_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA119- If Delinquent Report  =  No or Burn, Then Delinquent Report Comments must be entered --></errorMessage>
+        <name>Delinquent_Report_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA099 - If Discuss  Differences in Scrub = No or Burn, Then Discuss Differences in Scrub  Comments must be entered --></errorMessage>
+        <name>Dis_Differences_noted_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA098 - If Discuss Type of Discuss Disability Report/Additional = No or Burn, Then Discuss Type of Discuss Disability Reporting Comments must be entered --></errorMessage>
+        <name>Dis_Disability_Option_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA216 =  If Disability Provisions No or Burn, Then Disability Provision Comments must be entered --></errorMessage>
+        <name>Disability_Provisions_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA097 - If Discuss Type of Enrollment = No or Burn, Then Discuss Type of Enrollment Comments must be entered --></errorMessage>
+        <name>Discu_type_Enrollment_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA141 - If Discuss Billing Method No or Burn, Then Discuss Billing Method Comments must be entered --></errorMessage>
+        <name>Discuss_Billing_Metho_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA094 - If Discuss Master Application = No or Burn Discuss Master Application Comments must be entered --></errorMessage>
+        <name>Discuss_Master_App_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA113 - If Discuss Online Billing Services =  No or Burn, Then Discuss Online Billing Services Comments must be entered --></errorMessage>
+        <name>Discuss_Online_Billin_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA101 - If Discuss Timeline = No or Burn, Then Discuss Timeline  Comments must be entered --></errorMessage>
+        <name>Discuss_Timeline_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA169 - If Docfinity Uploaded Indexed Properly No or Burn, Then Uploaded Indexed Docfinity Comments must be entered --></errorMessage>
+        <name>Docfinity_Indexed_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA067 - If Docfinity Job Completed  = No or Burn, Then Docfinity Job Comments must be entered --></errorMessage>
+        <name>Docfinity_Job_complet_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA072 - If Docfinity Notations Added  = No or Burn, Then Docfinity Notations Comments must be entered --></errorMessage>
+        <name>Docfinity_Notes_Added_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA059- If Documents in Postmaster  = No or Burn, Then Documents in Postmaster Comments must be entered --></errorMessage>
+        <name>Documents_Postmaster_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA061- If Documents Scan Under Correct Doc Type = No or Burn, Then Document Scanned  Comments must be entered --></errorMessage>
+        <name>Documents_Scanned_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA127- If EP and Duration No or Burn, Then EP and Duration  Comments must be entered --></errorMessage>
+        <name>EP_And_Duration_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA038 - If Earnings Definition Correct = No or Burn, Then Earning Definition Comments must be entered --></errorMessage>
+        <name>Earning_Definition_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA077 - If Effective Date Matches Request  = No or Burn, Then Effective Date  Comments must be entered --></errorMessage>
+        <name>Effective_Date_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA218 =  If Effective/Renewal Date No or Burn, Then Effective Date Comments must be entered --></errorMessage>
+        <name>Effective_Renewal_Dat_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA171  - If Email Sent On Completions of Automation  No or Burn, Then Email Sent on Automation  Comments must be entered --></errorMessage>
+        <name>Email_Sent_Automation_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA163 - If  Emails Professional Include Detail = No or Burn, Then Emails Professional Comments must be entered --></errorMessage>
+        <name>Emails_professional_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA060- If Final Policy/Certificates in Docfinity  = No or Burn, Then Final Policy Certificates Comments must be entered --></errorMessage>
+        <name>Final_Certificates_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA035 - If Final Master App = No or Burn, Then Final Master App Comments must be entered --></errorMessage>
+        <name>Final_Master_App_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA177  - If First Premium Applied Correctly No or Burn, Then First Premium Applied  Comments must b Entered. --></errorMessage>
+        <name>FirstPremiumApplied_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA131 - If Format of Rate Sheet No or Burn, Then Format of Rate Sheet Comments must be entered --></errorMessage>
+        <name>Format_of_Rate_Sheet_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA130 - If Formatting of Summary No or Burn, Then Formatting of Summary Comments must be entered --></errorMessage>
+        <name>Formatting_of_Summary_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA112 - If Go Over Policy/Certificates -  No or Burn, Then Go Over Policy/Certificates Comments must be entered --></errorMessage>
+        <name>Go_PolicyCertificate_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA209 =  If Group Name and Subsidiaries = No or Burn, Then Group Name and Subsidiaries Comments must be entered --></errorMessage>
+        <name>Group_Name_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA201- If Group Level Options = No or Burn, Then Group Level Comments must be entered --></errorMessage>
+        <name>Group_level_options_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA083 - If All Holds Removed = No or Burn, Then All Holds Removed Comments must be entered --></errorMessage>
+        <name>Holds_Removed_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA161 - If Implementation Screen Completed Correctly No or Burn, Then Implementation Screen Comments must be entered --></errorMessage>
+        <name>Implementation_Screen_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA111 - If Introductions/Recordings = No or Burn, Then Introductions/Recordings Comments must be entered --></errorMessage>
+        <name>Introductions_Record_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA047 - If Disability Features = No or Burn, Then Disability Features Comments must be entered --></errorMessage>
+        <name>LTD_Features_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA170  - If LifePRO Market Codes Setup Within SLA No or Burn, ThenLifePRO Market Codes Comments must be entered --></errorMessage>
+        <name>LifePro_Market_Codes_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA215 =  If  Life Provisions No or Burn, Then Life Provision Comments must be entered --></errorMessage>
+        <name>Life_Provisions_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA088 - If M&amp;B Notified of Massive Billing Chg = No or Burn, Then M&amp;B Notified of Massive Billing Comments must be entered --></errorMessage>
+        <name>MNB_Notified_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA042 - If Manual Edits Added = No or Burn, Then Manual Edit Comments must be entered --></errorMessage>
+        <name>Manual_Edits_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA019 - If Manual GI Overrides Complete = No or Burn, Then Manual GI Overrides Comments  must be entered --></errorMessage>
+        <name>Manual_GI_Overrides_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA140 - If Master App Pre-filled No or Burn, Then Master App Pre-filled Comments must be entered --></errorMessage>
+        <name>MasterAPP_Prefilled_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA006 - If  Master App Completed Correctly Sent  = No or Burn, Then Master App Completed Comments must be entered --></errorMessage>
+        <name>Master_App_Completed_No_Burn_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA104 - If Master Application Email = No or Burn, Then Master Application Email Comments must be entered --></errorMessage>
+        <name>Master_App_Email_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA063 - If Member Apps Moved Out of Docfinity  = No or Burn, Then Member Apps Moved  Comments must be entered --></errorMessage>
+        <name>Member_Apps_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA233 =  If Members Billed Correctly No or Burn, Then Members Billed Correctly Comments must be entered --></errorMessage>
+        <name>Members_Billed_Correc_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA052 - If Members Impacted by Change Noted  = No or Burn, Then Members Impacted Comments must be entered --></errorMessage>
+        <name>Members_Impacted_Chg_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA212 =  If  Minimum Hours = No or Burn, Then Minimum Hours Comments must be entered --></errorMessage>
+        <name>Minimum_Hours_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA147 - If Misc. Updates No or Burn, Then Misc. Updates Comments must be entered --></errorMessage>
+        <name>Misc_Updates_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA078 - If NOC Generated for each Class  = No or Burn, Then NOC Generated  Comments must be entered --></errorMessage>
+        <name>NOC_Generated_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA033 - If Native System Work Affects Process = No or Burn, Then Native System Work Affects Comments must be entered --></errorMessage>
+        <name>Native_Sys_Work_affec_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA034 - If Native System Work Correct No Affects Process = No or Burn, Then Native System Work  No Affects Comments must be entered --></errorMessage>
+        <name>Native_Sys_Work_noaff_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA081 - If New Documents Generated  = No or Burn, Then New Documents Generated Comments must be entered --></errorMessage>
+        <name>New_Documents_Gen_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA153 - If No Corrections After Issue = No or Burn, Then No Corrections After Issue Comments must be entered --></errorMessage>
+        <name>No_Corrections_After_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA030 - If No Halt Errors = No or Burn, Then No Halt Errors Comments must be entered --></errorMessage>
+        <name>No_Halt_Errors_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA071 - If Notes In CSW  = No or Burn, Then Notes In CSW Comments must be entered --></errorMessage>
+        <name>Notes_In_CSW_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA108 - If Notes Included  = No or Burn, Then Notes Included Comments must be entered --></errorMessage>
+        <name>Notes_Included_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA241 - If  Notes added to CSW and/or LifePRO = No or Burn, Then Notes in CSW Comments  must be entered --></errorMessage>
+        <name>Notes_in_CSW_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA238 =  If Notes to Specialist No or Burn, Then Notes to Specialist Comments must be entered --></errorMessage>
+        <name>Notes_to_Specialist_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA085 - If Notional Bill Compared to Last  = No or Burn, Then Notional Bill Compared Comments must be entered --></errorMessage>
+        <name>Notional_Bill_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA053- If Notional Bill Ran  = No or Burn, Then Notional Bill Ran Comments must be entered --></errorMessage>
+        <name>Notional_Bill_Ran_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA145 - If Notional Total Matches Recon  = No or Burn, Then Notional Total Matches Comments must be entered --></errorMessage>
+        <name>Notional_Total_Match_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA049 - If Ntake/EDI used if over 50 Employees = No or Burn, Then Ntake/EDI Comments must be entered --></errorMessage>
+        <name>Ntake_EDI_Used_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA046 - If Offsets/Exclusions   = No or Burn, Then Offsets/Exclusions Comments must be entered --></errorMessage>
+        <name>Offsets_Exclusions_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA128- If Offsets No or Burn, Then Offsets Comments must be entered --></errorMessage>
+        <name>Offsets_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA115 - If Ongoing Contacts  =  No or Burn, Then Ongoing Contacts   Comments must be entered --></errorMessage>
+        <name>Ongoing_Contacts_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA181 - If  Online Setup No or Burn, Then Online Setup Comments must be entered --></errorMessage>
+        <name>Onlne_Setup_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA-100 Can Only have one Amendment Score Card per Case. QA Scorecard with Record Type Amendment already created --></errorMessage>
+        <name>Only_One_Amendment_ScoreCard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA-100 Can Only have one Benefit Summary Score Card per Case. QA Scorecard with Record Type Benefit summary already created --></errorMessage>
+        <name>Only_One_Benefit_Summary_ScoreCard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA-100 Can Only have one Group Issue Score Card per Case. QA Scorecard with Record Type Group Issue already created --></errorMessage>
+        <name>Only_One_Group_Issue_ScoreCard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA-100 Can Only have one Implementation Score Card per Case. QA Scorecard with Record Type Implementation already created --></errorMessage>
+        <name>Only_One_Implementation_ScoreCard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA-100 Can Only have one System Work Score Card per Case. QA Scorecard with Record Type System Work already created --></errorMessage>
+        <name>Only_One_System_Work_ScoreCard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA-100 Can Only have one Upsell Score Card per Case. QA Scorecard with Record Type Upsell already created --></errorMessage>
+        <name>Only_One_Upsell_ScoreCard</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA102 - If Open Forum/Questions = No or Burn, Then Open Forum/Questions Comments must be entered --></errorMessage>
+        <name>Open_Forum_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA028 - If PCCR Notified After Push = No or Burn, Then PCCR Notified Comments must be entered --></errorMessage>
+        <name>PCCR_Notified_After_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA126- If PRE-EX No or Burn, Then Pre-Ex Comments must be entered --></errorMessage>
+        <name>PRE_EX_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA022 - If PS in Progress Flag Flipped = No or Burn, Then PS in Progress Flag Comments  must be entered --></errorMessage>
+        <name>PS_In_Progress_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA166 - If Partner Case Replied within SLA  = No or Burn, Then Responded to Questions Comments  must be entered --></errorMessage>
+        <name>PartnerCaseInSLANo_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA138 - If Pending Underwriting Decisions No or Burn, Then Pending Underwriting Decisions Comments must be entered --></errorMessage>
+        <name>Pending_UW_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA164 - If Phone Call First Attempt for Missing lng  = No or Burn, Then Phone Call First Attempt Comments  must be entered --></errorMessage>
+        <name>Phone_Call_First_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA073 - If Phone Email Communication Documented = No or Burn, Then Phone Email Comments must be entered --></errorMessage>
+        <name>Phone_Email_Communicat_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA220 =  If Policy &amp; Form Number No or Burn, Then Policy &amp; Form Comments must be entered --></errorMessage>
+        <name>Policy_And_Form_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA037 - If Policy Effective Date Changed = No or Burn, Then Policy Effective Date Comments must be entered --></errorMessage>
+        <name>Policy_Effective_Date_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA244 - If Positive Tone in Response = No or Burn, Then Positive Tone Comments must be entered --></errorMessage>
+        <name>Positive_Tone_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA182 - If  Post Master No or Burn, Then Post Master Comments must be entered --></errorMessage>
+        <name>Post_Master_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA032 - If Pre-Work Notional MBSR = No or Burn, Then Pre-Work Notional MBSR  Comments must be entered --></errorMessage>
+        <name>Pre_Work_Notional_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA048 - If Pre Work Roster Billing = No or Burn, Then Pre-Work Roster Billing Comments must be entered --></errorMessage>
+        <name>Pre_Work_Roster_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA086 - If Production Bill Compared to Notional = No or Burn, Then Production Bill Compared Comments must be entered --></errorMessage>
+        <name>Production_Bill_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA114 - If Provide Service Kit  =  No or Burn, Then Provide Service Kit   Comments must be entered --></errorMessage>
+        <name>Provide_Service_Kit_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA026 - If Provided to Customer Timely Maner  = No or Burn, Then Provided to Customer Comments must be entered --></errorMessage>
+        <name>Provided_Customer_Tml_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA150- If Correct Items Noted For Corrects  = No or Burn, Then Correct Items Noted Comments must be entered --></errorMessage>
+        <name>QA_Items_Noted_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA152 - If QA Reviewed Timely  = No or Burn, Then QA Reviewed Comments must be entered --></errorMessage>
+        <name>QA_Reviewed_Timely_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA155 - If QA Salesforce Setup = No or Burn, Then QA Salesforce Setup Comments must be entered --></errorMessage>
+        <name>QA_Salesforce_Setup_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA157 - If Subject Line Updated to In Process  = No or Burn, Then Subject Line Comments must be entered --></errorMessage>
+        <name>QA_Subject_Line_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA227 =  If RG Correct Rates No or Burn, Then RG Correct Rates Comments must be entered --></errorMessage>
+        <name>RG_Correct_Rates_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA230 =  If RG Disability Plan Info No or Burn, Then RG Disability Plan Info Comments must be entered --></errorMessage>
+        <name>RG_Disability_Plan_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA226 =  If RG Headers No or Burn, Then RG Headers Services Comments must be entered --></errorMessage>
+        <name>RG_Headers_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA229 =  If RG Life Plan Info No or Burn, Then RG Life Plan Info Comments must be entered --></errorMessage>
+        <name>RG_Life_Plan_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA228 =  If RG Pay Frequency No or Burn, Then RG Pay Frequency Comments must be entered --></errorMessage>
+        <name>RG_Pay_Frequency_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA231 =  If RG Supplemental Plan Info No or Burn, Then RG Supplemental Plan Info Comments must be entered --></errorMessage>
+        <name>RG_Supplemental_Plan_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA014 - If Rate Scales added correctly  = No or Burn, Then Rate Scales Comments must be entered --></errorMessage>
+        <name>Rate_Scales_No_or_Burn_then_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA025 - If Rate Sheets Correct  = No or Burn, Then Rate Sheet Comments must be entered --></errorMessage>
+        <name>Rate_Sheets_Correct_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA205 =  If Rates = No or Burn, Then Rates Comments must be entered --></errorMessage>
+        <name>Rates_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA050 - If Recon Complete  = No or Burn, Then Recon Complete Comments must be entered --></errorMessage>
+        <name>Rcon_Complete_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA175  - If Recon Added to Client Folder  No or Burn, Then Recon Added to Client  Comments must be entered --></errorMessage>
+        <name>Recon_ADded_Client_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA051 - If Recon Clean  = No or Burn, Then Recon Clean Comments must be entered --></errorMessage>
+        <name>Recon_Clean_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA232 =  If Recon Member Notes No or Burn, Then Recon Member Notes Comments must be entered --></errorMessage>
+        <name>Recon_Member_Notes_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA174  - If Recon Release Prior to Payroll Update Date No or Burn, Then Recon Release Prior to Payroll Comments must be entered --></errorMessage>
+        <name>Recon_Release_Prior_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA172  - If Recon Sent to Appropriate Contact No or Burn, Then Recon Sent Contact Comments  Comments must be entered --></errorMessage>
+        <name>Recon_Sent_Contact_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA054- If Recon Differences Noted/Addressed  = No or Burn, Then Recon Differences Comments must be entered --></errorMessage>
+        <name>Recon_differences_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA213 =  If  Reduction Schedule No or Burn, Then Reduction Schedule Comments must be entered --></errorMessage>
+        <name>Reduction_Schedule_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA129- If Reductions No or Burn, Then Reductions Comments must be entered --></errorMessage>
+        <name>Reductions_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA091 - If Regenerated Documents Compared Existing  = No or Burn, Then Regenerated Documents Compared Comments must be entered --></errorMessage>
+        <name>Regenerated_Documents_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA040 - If Regenerating Existing Products = No or Burn, Then Regenerating Existing Products Comments must be entered --></errorMessage>
+        <name>Regenerating_Products_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA066 - If Regular Follow-ups Sent for Information  = No or Burn, Then Responded to  Comments must be entered --></errorMessage>
+        <name>Regular_Followups_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA044 - If Rehab Rider   = No or Burn, Then Rehab Rider Comments must be entered --></errorMessage>
+        <name>Rehab_Rider_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA056- If Reinsurer With Correct Document  = No or Burn, Then Released with Documents Comments must be entered --></errorMessage>
+        <name>Reinsurer_Documents_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA235 =  If Reinsurer No or Burn, Then Reinsurer Comments must be entered --></errorMessage>
+        <name>Reinsurer_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA234 =  If Release No or Burn, Then Release Comments must be entered --></errorMessage>
+        <name>Release_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA118- If Release Open Forum  =  No or Burn, Then Release Open Forum Comments must be entered --></errorMessage>
+        <name>Release_Open_Forum_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA055- If Released to Correct Parties  = No or Burn, Then Released to Parties Comments must be entered --></errorMessage>
+        <name>Released_to_Parties_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA082 - If Requested Paid to Date and BCBS# = No or Burn, Then Requested Paid to Date Comments must be entered --></errorMessage>
+        <name>Requested_Paid_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA065 - If Responded to Questions Within 24 Hours  = No or Burn, Then Responded to  Comments must be entered --></errorMessage>
+        <name>Responded_Within_24_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA010 - If Sent to Retro or UW within 24 hours = No or Burn, Then Sent to Retro or UW Comments  must be entered --></errorMessage>
+        <name>Retro_Team_UW_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA109 - If Review Policy/Certificate &amp; Record = No or Burn, Then Review Policy Certificate Comments must be entered --></errorMessage>
+        <name>Review_Policy_Certifc_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA120- If Review Last Log In Report  =  No or Burn, Then Review Last Log in Report Comments must be entered --></errorMessage>
+        <name>Review_last_Login_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA001 - If Reviewed withing Allotted Time = No or Burn, Then Reviewed Within Time Comments Must be Entered --></errorMessage>
+        <name>Reviewed_Timely_No_or_Burn_then_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA080 - If Riders Included  = No or Burn, Then Riders Included Comments must be entered --></errorMessage>
+        <name>Riders_Included_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA214 =  If  Riders No or Burn, Then Riders Comments must be entered --></errorMessage>
+        <name>Riders_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA045 - If Life ADD Features  = No or Burn, Then Life ADDComments must be entered --></errorMessage>
+        <name>Riders_Provisions_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA137 - If Riders Special Provisions No or Burn, Then Riders Special Provisions Comments must be entered --></errorMessage>
+        <name>Riders_Special_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA031 - If Risk Reallocation Ran = No or Burn, Then Risk Reallocation Ran Comments must be entered --></errorMessage>
+        <name>Risk_Reallocation_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA160 - If  Salesforce Notes Accurate &amp; Current = No or Burn, Then Salesforce NotesAccurate&amp;Current comment must be entered --></errorMessage>
+        <name>Salesforce_Notes_Acc_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA092 - If Salesforce Notes Stay Current/Closed  = No or Burn, Then Salesforce Notes Stay CurrentNClosed Comments must be entered --></errorMessage>
+        <name>Salesforce_Notes_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA062- If Salesforce Setup = No or Burn, Then Document Scanned  Comments must be entered --></errorMessage>
+        <name>Salesforce_Setup_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA009 - If Salesforce Setup and System Note  = No or Burn, Then Salesforce Setup System Comments  must be entered --></errorMessage>
+        <name>Salesforce_Setup_System_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA039 - If Schedule of Insurance Matches Master App = No or Burn, Then Earning Definition Comments must be entered --></errorMessage>
+        <name>Schedule_of_Insurance_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA159 - If Scrub Section Reviewed with Correct PSS IS  = No or Burn, Then Scrub Section Reviewed Comments must be entered --></errorMessage>
+        <name>Scoreca_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA151- If Scorecard Correct  = No or Burn, Then Scorecard Comments must be entered --></errorMessage>
+        <name>Scorecard_Correct_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA158 - If Scorecard Has Correct QA Specialist  = No or Burn, Then Scorecard Has QA Specialist Comments must be entered --></errorMessage>
+        <name>Scorecard_Has_RightQA_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA095 - If Scrub  = No or Burn, Then Scrub Comments must be entered --></errorMessage>
+        <name>Scrub_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA005 - If  Sent to PCCR within 24 hours = No or Burn, Then Sent to PCCR Comments Must be Entered --></errorMessage>
+        <name>Sent_To_PCCR_No_Burn_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA068 - If Sent to Claims  = No or Burn, Then Sent to Claims Comments must be entered --></errorMessage>
+        <name>Sent_to_Claims_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA004 - If Setup Reviewed/Differences Noted = No or Burn, Then Setup Review Comments Must be Entered --></errorMessage>
+        <name>Setup_Reviewed_No_Burn_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA144 - If Sold Plan Confirmation No or Burn, Then Sold Plan Confirmation Comments must be entered --></errorMessage>
+        <name>Sold_Plan_Confirm_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA105 - If Summary of Call = No or Burn, Then Summary of Call Comments must be entered --></errorMessage>
+        <name>Summary_of_call_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA217 =  If Supplemental Provisions No or Burn, Then Supplemental Provision Comments must be entered --></errorMessage>
+        <name>Supplement_Provisions_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA116- If Survey  =  No or Burn, Then Survey Comments must be entered --></errorMessage>
+        <name>Survey_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA242 - If System Work Accurately Completed  = No or Burn, Then System Work Completed Comments must be entered --></errorMessage>
+        <name>System_Work_Completed_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA206 =  If 3rd Party Services = No or Burn, Then 3rd Party Comments must be entered --></errorMessage>
+        <name>Third_Party_Services_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA139 - If Timeline &amp; Checklist Created No or Burn, Then Timeline &amp; Checklist Comments must be entered --></errorMessage>
+        <name>Timeline_Checklist_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA173  - If Timely Responses for Post Recon Inquires No or Burn, Then Timely Response Post Recon  Comments must be entered --></errorMessage>
+        <name>Timely_Response_Recon_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA208 =  If Typos = No or Burn, Then Typos Comments must be entered --></errorMessage>
+        <name>Typos_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA012 - If Underwriting Approval Check/Requested = No or Burn, Then Underwriting Approval Comments  must be entered --></errorMessage>
+        <name>Underwriting_Approval_Checked_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA137 - If Unlinked Bill Details  No or Burn, Then Unlinked Bill Details Comments must be entered --></errorMessage>
+        <name>Unlinked_Bills_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA167 - If Unread Emails Closed or Replied SLA  = No or Burn, Then Unread Emails Comments  must be entered --></errorMessage>
+        <name>UnreadEmailsNo_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA243 - If Utilized Correct Grammer  = No or Burn, Then Utilized Grammer Comments  must be entered --></errorMessage>
+        <name>Utilized_Grammer_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA211 =  If Waiting Period = No or Burn, Then Waiting Period Comments must be entered --></errorMessage>
+        <name>Waiting_Period_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA123 - If Welcome Call made No or Burn, Then Welcome to Group Comments must be entered --></errorMessage>
+        <name>Welcome_Call_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA036 - If Welcome Letter Correct  = No or Burn, Then Welcome Letter Comments must be entered --></errorMessage>
+        <name>Welcome_Letter_Correc_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA093 - If Welcome to Group &amp; Disclose Recording = No or Burn Welcome to Group Comments must be entered --></errorMessage>
+        <name>Welcome_to_Group_No_or_Burn_Comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA013 - If Contract Change = No or Burn, Then Contract Change Comments must be entered --></errorMessage>
+        <name>X905_to_509_No_or_Burn_then_Comments</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- QA117- If 90 Day Call   =  No or Burn, Then 90 Day Call   Comments must be entered --></errorMessage>
+        <name>X90Day_Call_No_or_Burn_Comment</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Service_Intake_Score_Card --></label>
+        <name>New_Service_Intake_Score_Card</name>
+    </webLinks>
+</CustomObjectTranslation>

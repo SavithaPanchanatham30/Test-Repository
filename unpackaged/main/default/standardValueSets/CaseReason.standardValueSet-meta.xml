@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Group</fullName>
+        <default>false</default>
+        <label>Group</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Group/Member</fullName>
+        <default>false</default>
+        <label>Group/Member</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Agent/Member</fullName>
+        <default>false</default>
+        <label>Agent/Member</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Agent/Group</fullName>
+        <default>false</default>
+        <label>Agent/Group</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Agency Relationship</fullName>
+        <default>false</default>
+        <label>Agency Relationship</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Self</fullName>
+        <default>false</default>
+        <label>Self</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

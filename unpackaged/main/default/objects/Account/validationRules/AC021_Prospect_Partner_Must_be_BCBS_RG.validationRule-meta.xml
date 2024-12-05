@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC021_Prospect_Partner_Must_be_BCBS_RG</fullName>
+    <active>true</active>
+    <description>For Regence Sales Users, Partner must be Cambia.</description>
+    <errorConditionFormula>RecordType.DeveloperName = &#39;Prospect&#39; &amp;&amp;   
+Partner__r.Name   &lt;&gt; &quot;Cambia&quot; &amp;&amp;
+INCLUDES($User.Region__c , &#39;RG&#39;) &amp;&amp;  
+ $Profile.Name = &#39;USAble Standard Sales User&#39; /*USAble Standard Sales User*/
+&amp;&amp;
+$UserRole.Name &lt;&gt; &#39;Sales Ops&#39;
+&amp;&amp;
+$UserRole.Name &lt;&gt; &#39;SVP Sales&#39;</errorConditionFormula>
+    <errorDisplayField>Partner__c</errorDisplayField>
+    <errorMessage>AC021 Partner must be Cambia</errorMessage>
+</ValidationRule>

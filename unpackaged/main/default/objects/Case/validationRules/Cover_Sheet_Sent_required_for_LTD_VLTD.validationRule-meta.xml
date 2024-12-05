@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cover_Sheet_Sent_required_for_LTD_VLTD</fullName>
+    <active>true</active>
+    <description>The &#39;Cover Sheet Sent&#39; checkbox is a required field to close the case if the LTD or VLTD box is selected.</description>
+    <errorConditionFormula>AND(LTD_or_VLTD_Checked__c = true , OR(ISPICKVAL(Status,  &quot;Closed&quot;),ISPICKVAL(Status, &quot;Issued and Closed&quot;)), OR( ISPICKVAL( Type , &#39;New Business Setup&#39;) &amp;&amp;  ISPICKVAL( Sub_Type__c, &#39;New Business-FT&#39;),
+ISPICKVAL( Type , &#39;General Service&#39;) &amp;&amp; ISPICKVAL( Sub_Type__c , &#39;Implementation&#39;)), ( Cover_Sheet_Sent__c = false ))</errorConditionFormula>
+    <errorDisplayField>Cover_Sheet_Sent__c</errorDisplayField>
+    <errorMessage>This checkbox is a required field to close the case if the case type/subtype is New Business Setup : New Business-FT or General Service : Implementation. Also if status is &quot;Closed&quot; or &quot;Issued and Closed&quot;.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Manner of Death --></label>
+        <name>cve__MannerOfDeath__c</name>
+        <picklistValues>
+            <masterLabel>Accident</masterLabel>
+            <translation><!-- Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homicide</masterLabel>
+            <translation><!-- Homicide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural</masterLabel>
+            <translation><!-- Natural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suicide</masterLabel>
+            <translation><!-- Suicide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Investigation</masterLabel>
+            <translation><!-- Under Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown/Undetermined</masterLabel>
+            <translation><!-- Unknown/Undetermined --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_Implementation_2_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>PS Implementation 2</label>
+    <queue>PS_Implementation_2</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

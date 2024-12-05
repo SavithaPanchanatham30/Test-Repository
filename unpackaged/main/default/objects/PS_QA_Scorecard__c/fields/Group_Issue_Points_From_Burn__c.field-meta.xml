@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Issue_Points_From_Burn__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(Reviewed_within_allotted_time__c)   = &quot;Burn&quot;,10,0) + 
+IF (TEXT( Acknowledgment_to_Submitter__c )   = &quot;Burn&quot;,5,0) +
+IF (TEXT(All_Information_Requested__c ) = &quot;Burn&quot;,15,0) + 
+ IF (TEXT( CDF_Sent_Within_24_hours_All_Products__c ) = &quot;Burn&quot;,3,0) + 
+IF (TEXT( Master_App_Completed_Correctly__c) = &quot;Burn&quot;,15,0) + 
+IF (TEXT(  Sold_Plan_Confirmation__c ) = &quot;Burn&quot;,10,0) + 
+IF (TEXT(Census_Validation__c) = &quot;Burn&quot;,15,0) +
+IF (TEXT(Salesforce_Setup_and_System_Note__c) = &quot;Burn&quot;,15,0) +
+IF (TEXT(Native_System_Work_Correct__c) = &quot;Burn&quot;,15,0) +  
+IF (TEXT(   Manual_GI_Overrides_Complete__c) = &quot;Burn&quot;,10,0) + 
+IF (TEXT( Correct_Billing_Mode_Selected__c ) = &quot;Burn&quot;,2,0) + 
+IF (TEXT( PCCR_Notified_after_Push__c) = &quot;Burn&quot;,3,0) +
+IF (TEXT( Additional_Services_Added__c) = &quot;Burn&quot;,5,0) +
+IF (TEXT( Final_Master_App__c) = &quot;Burn&quot;,10,0) +
+IF (TEXT( Welcome_Letter_Correct__c) = &quot;Burn&quot;,2,0) +
+IF (TEXT( Schedule_of_Insurance_Matches_Master_App__c) = &quot;Burn&quot;,15,0)+
+IF (TEXT(  Earning_Definition_Correct__c) = &quot;Burn&quot;,5,0)+
+IF (TEXT( Manual_Edits_Added__c) = &quot;Burn&quot;,5,0) + 
+IF (TEXT( Continuity_of_Coverage__c) = &quot;Burn&quot;,3,0) + 
+IF (TEXT( Disability_Features__c ) = &quot;Burn&quot;,15,0) +
+IF (TEXT( Life_ADD_Features__c ) = &quot;Burn&quot;,15,0) + 
+IF  (Text( Ntake_EDI_used_if_over_50_Employees__c ) = &quot;Burn&quot;,3,0) + 
+IF (TEXT(Recon_Complete__c) = &quot;Burn&quot;,15,0) +
+IF  (TEXT(Recon_differences_noted_addressed__c) = &quot;Burn&quot;,5,0) + 
+IF  (TEXT( Notional_Total_Matches_Recon__c ) = &quot;Burn&quot;,15,0) +
+IF (Text(Released_to_Correct_Parties__c) = &quot;Burn&quot;,5,0) +
+IF (Text( Completed_Checklist_n_Group_Issue_Folder__c ) = &quot;Burn&quot;,10,0) +
+ 
+IF (TEXT( Documents_in_Postmaster__c) = &quot;Burn&quot;,10,0) +
+IF (TEXT(Reinsurer_With_Correct_Documents__c) = &quot;Burn&quot;,5,0) + 
+IF (TEXT(Access_Able_Setup_Bill_Shows__c) = &quot;Burn&quot;,10,0) +
+IF (TEXT( Bill_Hold_Removed_PS_Issue_Flag__c) = &quot;Burn&quot;,3,0) +
+IF (TEXT (  Welcome_Call_Made__c ) = &quot;Burn&quot;,10,0) +
+IF (TEXT ( Closed_Issued_Closed__c) = &quot;Burn&quot;,5,0) +  
+IF (TEXT ( Final_Policy_Certificates_in_Docfinity__c) = &quot;Burn&quot;,10,0)+
+IF (TEXT ( Notes_In_CSW__c) = &quot;Burn&quot;,5,0) +
+IF (TEXT ( Member_Apps_Moved_Out_Docfinity__c) = &quot;Burn&quot;,5,0) +
+IF (TEXT ( Documents_Scanned_Under_Correct_Doc_Type__c) = &quot;Burn&quot;,3,0)+
+IF (TEXT  ( Docfinity_Job_Completed__c ) = &quot;Burn&quot;,1,0)+
+IF (Text ( Completed_Within_SLA_Guidelines__c) = &quot;Burn&quot;,10,0) +
+IF (TEXT ( Responded_to_Questions_within_24_hours__c) = &quot;Burn&quot;,2,0) +
+IF (TEXT ( Regular_Follow_ups_Sent_fr_Information__c) = &quot;Burn&quot;,2,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Group Issue Points From Burn</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

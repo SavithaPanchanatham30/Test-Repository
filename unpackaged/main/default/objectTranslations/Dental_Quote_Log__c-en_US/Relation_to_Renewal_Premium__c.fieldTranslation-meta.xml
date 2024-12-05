@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- =  Quoted PPO Annual Premium / Renewal PPO Annual Premium --></help>
+        <label><!-- Relation to Renewal Premium --></label>
+        <name>Relation_to_Renewal_Premium__c</name>
+    </CustomFieldTranslation>

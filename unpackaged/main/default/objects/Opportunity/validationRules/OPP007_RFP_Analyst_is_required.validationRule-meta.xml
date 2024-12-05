@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP007_RFP_Analyst_is_required</fullName>
+    <active>true</active>
+    <description>RFP Analyst is required if RFP checkbox is checked</description>
+    <errorConditionFormula>AND( RFP__c = True,  ISBLANK(RFP_Analyst__c ) )</errorConditionFormula>
+    <errorDisplayField>RFP_Analyst__c</errorDisplayField>
+    <errorMessage>If RFP is checked, Please select the &#39;RFP Analyst&#39;.</errorMessage>
+</ValidationRule>

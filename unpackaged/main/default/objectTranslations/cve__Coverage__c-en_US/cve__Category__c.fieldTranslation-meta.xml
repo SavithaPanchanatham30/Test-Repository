@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Category --></label>
+        <name>cve__Category__c</name>
+        <picklistValues>
+            <masterLabel>Accidental Death</masterLabel>
+            <translation><!-- Accidental Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admissions</masterLabel>
+            <translation><!-- Admissions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulance</masterLabel>
+            <translation><!-- Ambulance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brain Injury and Coma</masterLabel>
+            <translation><!-- Brain Injury and Coma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burns</masterLabel>
+            <translation><!-- Burns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Childhood Conditions Rider</masterLabel>
+            <translation><!-- Childhood Conditions Rider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confinement</masterLabel>
+            <translation><!-- Confinement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dislocations</masterLabel>
+            <translation><!-- Dislocations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Dental</masterLabel>
+            <translation><!-- Emergency Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhanced Benefits Rider</masterLabel>
+            <translation><!-- Enhanced Benefits Rider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fractures</masterLabel>
+            <translation><!-- Fractures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Loss and Paralysis</masterLabel>
+            <translation><!-- Functional Loss and Paralysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Cancer</masterLabel>
+            <translation><!-- General Cancer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitalization</masterLabel>
+            <translation><!-- Hospitalization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infectious Disease Rider</masterLabel>
+            <translation><!-- Infectious Disease Rider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Cancer Illness</masterLabel>
+            <translation><!-- Initial Cancer Illness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injury Benefits</masterLabel>
+            <translation><!-- Injury Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inpatient and Home Care Recovery</masterLabel>
+            <translation><!-- Inpatient and Home Care Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Benefits</masterLabel>
+            <translation><!-- Other Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurrent</masterLabel>
+            <translation><!-- Recurrent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rider Benefits</masterLabel>
+            <translation><!-- Rider Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skin Grafts</masterLabel>
+            <translation><!-- Skin Grafts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specified Illness Rider</masterLabel>
+            <translation><!-- Specified Illness Rider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgery</masterLabel>
+            <translation><!-- Surgery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment and Services</masterLabel>
+            <translation><!-- Treatment and Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment and Services Benefits</masterLabel>
+            <translation><!-- Treatment and Services Benefits --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

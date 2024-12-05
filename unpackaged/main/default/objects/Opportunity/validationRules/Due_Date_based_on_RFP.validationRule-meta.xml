@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_based_on_RFP</fullName>
+    <active>true</active>
+    <errorConditionFormula>RFP__c  &amp;&amp; ISBLANK(Due_Date__c)</errorConditionFormula>
+    <errorDisplayField>Due_Date__c</errorDisplayField>
+    <errorMessage>If RFP is checked, Please enter a &#39;Due Date&#39;.</errorMessage>
+</ValidationRule>

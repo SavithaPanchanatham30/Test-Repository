@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_One_Group_Issue_ScoreCard</fullName>
+    <active>true</active>
+    <description>Only allow one Group Issue record type for QA Scorecard</description>
+    <errorConditionFormula>AND(
+    Case__r.PS_QA_Group_Issue_Count__c    &gt; 0,
+ISNEW(),  RecordType.DeveloperName  =  &quot;Group_Issue&quot;
+)</errorConditionFormula>
+    <errorMessage>QA-100 Can Only have one Group Issue Score Card per Case. QA Scorecard with Record Type Group Issue already created</errorMessage>
+</ValidationRule>

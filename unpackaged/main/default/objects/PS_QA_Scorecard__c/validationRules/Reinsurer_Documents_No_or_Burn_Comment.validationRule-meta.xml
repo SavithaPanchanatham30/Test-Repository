@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reinsurer_Documents_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Reinsurer With Correct Documents then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Reinsurer_With_Correct_Documents__c )   = &quot;No&quot; , TEXT(Reinsurer_With_Correct_Documents__c) = &quot;Burn&quot;),   Reinsurer_With_Documents_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Reinsurer_With_Documents_Comments__c</errorDisplayField>
+    <errorMessage>QA056- If Reinsurer With Correct Document  = No or Burn, Then Released with Documents Comments must be entered</errorMessage>
+</ValidationRule>

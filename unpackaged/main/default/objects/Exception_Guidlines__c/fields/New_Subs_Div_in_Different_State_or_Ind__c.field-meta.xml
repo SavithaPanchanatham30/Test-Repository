@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Subs_Div_in_Different_State_or_Ind__c</fullName>
+    <inlineHelpText>Adding New Subsidiary or Division in Different State or Industry. If Yes must go to GUR</inlineHelpText>
+    <label>New Subs/Div in Different State or Ind</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

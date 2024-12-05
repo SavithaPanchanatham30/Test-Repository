@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_one_Check_list</fullName>
+    <active>true</active>
+    <description>Allows only one edi checklist per case</description>
+    <errorConditionFormula>AND(
+Case__r.EDI_Checklist_Count__c &gt;= 1,
+ISNEW()
+)</errorConditionFormula>
+    <errorMessage>EDI Checklist not added, only one EDI Checklist is allowed for a case.</errorMessage>
+</ValidationRule>

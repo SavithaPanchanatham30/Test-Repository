@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_fields_Blue_Territory</fullName>
+    <active>true</active>
+    <description>Mandatory fields on account team assignment object for blue territory.</description>
+    <errorConditionFormula>AND(
+	NOT(ISBLANK(TEXT(Assignment_Method__c))),
+	ISPICKVAL(Assignment_Method__c, &#39;Blue Territory&#39;),
+	OR(Blue_Partner__c = null,
+	ISBLANK(BC_Rep_Code__c))
+	)</errorConditionFormula>
+    <errorMessage>Please enter value for Blue Partner and Blue Territory Code in order to select Blue Territory Assignment method.</errorMessage>
+</ValidationRule>

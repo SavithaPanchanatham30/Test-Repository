@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL000OnlineOneClaimsForm</fullName>
+    <active>false</active>
+    <description>Only One Claims Form per case</description>
+    <errorConditionFormula>AND(
+ Case__r.Claims_Form_Count__c &gt;= 1,
+ISNEW()
+)</errorConditionFormula>
+    <errorMessage>CL000- Online one Claims Form per Case</errorMessage>
+</ValidationRule>

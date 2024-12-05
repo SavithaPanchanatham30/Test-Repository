@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>LifeMap Agent Reach Out Follow Up</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>LIFEMAP - LifeMap Agent Reach Out Follow Up</name>
+    <style>none</style>
+    <subject>Follow Up: USAble Life&#39;s Producer Onboarding and Appointments</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

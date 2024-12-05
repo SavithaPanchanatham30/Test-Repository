@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X905_to_509_No_or_Burn_then_Comments</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in 904 to 509 existing products then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT(  Contract_Change__c ) = &quot;No&quot;,TEXT( Contract_Change__c ) = &quot;Burn&quot;),   Contract_Change_Comments__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Contract_Change_Comments__c</errorDisplayField>
+    <errorMessage>QA013 - If Contract Change = No or Burn, Then Contract Change Comments must be entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_System_Information__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+Group__r.System__c = &quot;Compass&quot;,
+HYPERLINK(&quot;http://csw/Search?memberId=&quot; &amp;  Mbr_Id__c &amp; &quot;&amp;GroupId=&quot; &amp; Group_Id__c, IMAGE(&quot;resource/csw&quot;, &quot;CSW&quot;, 26.25, 58)),
+IF(
+Group__r.System__c = &quot;LifePro&quot;,
+ IMAGE(&quot;resource/LIFEPRO&quot;, &quot;LifePro&quot;, 33.25, 95),&quot;&quot;
+)
+)</formula>
+    <label>Member System Information</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

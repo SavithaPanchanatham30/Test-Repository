@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send notification to Finance for no response on deceased agent cases.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>DECEASED AGENT - Agent Death Notice - Unclaimed Property</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>Agent Death Notice - Unclaimed Property</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

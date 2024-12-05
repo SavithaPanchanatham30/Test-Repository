@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HI_Quotes_Completed</fullName>
+    <columns>Quote_Status__c</columns>
+    <columns>Group_Sold__c</columns>
+    <columns>Action_Taken__c</columns>
+    <columns>NAME</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Opportunity_Effective_Date__c</columns>
+    <columns>Number_Eligible__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>Partner_Rep__c</columns>
+    <columns>LSV_Sales_Executive__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Date_of_Final_Action__c</columns>
+    <columns>Number_PPO_Enrolled__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Quote_Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <filters>
+        <field>LSV_Sales_Executive__c</field>
+        <operation>equals</operation>
+        <value>Bev Luney,Jason Young</value>
+    </filters>
+    <label>HI Quotes Completed</label>
+    <sharedTo>
+        <role>Dental_UW</role>
+        <role>System_Admin</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>STD_FICA_Matching_Form__c</fullName>
+    <description>This field contains Gate2 Infomation.</description>
+    <label>STD FICA Matching Form</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Halt</fullName>
+                <default>false</default>
+                <label>Halt</label>
+            </value>
+            <value>
+                <fullName>Continue/Don’t Submit</fullName>
+                <default>false</default>
+                <label>Continue/Don’t Submit</label>
+            </value>
+            <value>
+                <fullName>Continue/Submit</fullName>
+                <default>false</default>
+                <label>Continue/Submit</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

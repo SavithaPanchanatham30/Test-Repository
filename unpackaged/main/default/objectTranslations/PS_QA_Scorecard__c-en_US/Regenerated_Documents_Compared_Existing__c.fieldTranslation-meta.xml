@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Regenerated documents are compared to existing documents --></help>
+        <label><!-- Regenerated Documents Compared Existing --></label>
+        <name>Regenerated_Documents_Compared_Existing__c</name>
+    </CustomFieldTranslation>

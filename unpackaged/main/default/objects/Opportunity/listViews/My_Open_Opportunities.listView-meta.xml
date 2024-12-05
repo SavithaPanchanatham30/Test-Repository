@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Effective_Date__c</columns>
+    <columns>Broker_Agency__c</columns>
+    <columns>Partner_Rep__c</columns>
+    <columns>LSV_Group_Size__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Won,Closed Lost</value>
+    </filters>
+    <label>My Open Opportunities</label>
+    <sharedTo>
+        <group>All_Arkansas_Sales</group>
+        <group>All_Florida_Sales</group>
+        <group>All_Hawaii_Sales</group>
+        <group>All_Regence_Sales</group>
+        <group>Junior_Admin_Group</group>
+        <role>Regional_VP_Sales_RG</role>
+        <role>Sales_Executive_RG</role>
+        <role>Sales_Manager_RG</role>
+    </sharedTo>
+</ListView>

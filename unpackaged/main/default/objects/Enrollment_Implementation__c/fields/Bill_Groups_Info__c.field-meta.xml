@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_Groups_Info__c</fullName>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Payroll groups name, ded frequency, ded codes, ded instructions</inlineHelpText>
+    <label>Bill Groups Info</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Were Discrepancies Added to Follow-up Spreadsheet (TN Groups Only) --></help>
+        <label><!-- Discrepancies AddedtoFollow-up SpreadSht --></label>
+        <name>Discrepancies_AddedtoFollow_up_SpreadSht__c</name>
+    </CustomFieldTranslation>

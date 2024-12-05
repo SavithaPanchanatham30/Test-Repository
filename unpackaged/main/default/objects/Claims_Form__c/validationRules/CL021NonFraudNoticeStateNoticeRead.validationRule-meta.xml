@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL021NonFraudNoticeStateNoticeRead</fullName>
+    <active>true</active>
+    <description>If Fraud State then Fraud Notice Read Must be Selected</description>
+    <errorConditionFormula>AND(Wellness_Fraud_State__c = &quot;&quot;,  ISBLANK(    Signature_Non_Fraud_notice_state__c  ) )</errorConditionFormula>
+    <errorDisplayField>Signature_Non_Fraud_notice_state__c</errorDisplayField>
+    <errorMessage>CL-021  IF Not a Fraud Notice State then Signature Non Fraud Notice State Must be Entered</errorMessage>
+</ValidationRule>

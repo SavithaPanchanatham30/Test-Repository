@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cancellation/Reinstatement Reason --></label>
+        <name>Cancellation_Reinstatement_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bankruptcy</masterLabel>
+            <translation><!-- Bankruptcy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below Percentage/Size</masterLabel>
+            <translation><!-- Below Percentage/Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel/Claims Request</masterLabel>
+            <translation><!-- Cancel/Claims Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changing To Enterprise Small Group</masterLabel>
+            <translation><!-- Changing To Enterprise Small Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delinquent</masterLabel>
+            <translation><!-- Delinquent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entered Terminated Group In LifePro Due To Open Claim</masterLabel>
+            <translation><!-- Entered Terminated Group In LifePro Due To Open Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired Due To Age</masterLabel>
+            <translation><!-- Expired Due To Age --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extended Term Insurance</masterLabel>
+            <translation><!-- Extended Term Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group&#39;s Request</masterLabel>
+            <translation><!-- Group&apos;s Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave Of Absence</masterLabel>
+            <translation><!-- Leave Of Absence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Move To SA Billing</masterLabel>
+            <translation><!-- Move To SA Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No DOL Approval</masterLabel>
+            <translation><!-- No DOL Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not REC Takeover Business</masterLabel>
+            <translation><!-- Not REC Takeover Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out Of Business/Dissolve</masterLabel>
+            <translation><!-- Out Of Business/Dissolve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overloaned</masterLabel>
+            <translation><!-- Overloaned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid At Master Group</masterLabel>
+            <translation><!-- Paid At Master Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Policyholder&#39;s Request</masterLabel>
+            <translation><!-- Policyholder&apos;s Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Setup In Error</masterLabel>
+            <translation><!-- Product Setup In Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rates/Competition</masterLabel>
+            <translation><!-- Rates/Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced Paid Up</masterLabel>
+            <translation><!-- Reduced Paid Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reinstatement</masterLabel>
+            <translation><!-- Reinstatement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rescinded Policy</masterLabel>
+            <translation><!-- Rescinded Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School Consolidation</masterLabel>
+            <translation><!-- School Consolidation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Change Of Group Number Only</masterLabel>
+            <translation><!-- System Change Of Group Number Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated Employment</masterLabel>
+            <translation><!-- Terminated Employment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer To Another Group With USAL</masterLabel>
+            <translation><!-- Transfer To Another Group With USAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

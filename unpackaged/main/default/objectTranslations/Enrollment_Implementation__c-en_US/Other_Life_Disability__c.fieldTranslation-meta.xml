@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Other Life &amp; Disability --></label>
+        <name>Other_Life_Disability__c</name>
+    </CustomFieldTranslation>

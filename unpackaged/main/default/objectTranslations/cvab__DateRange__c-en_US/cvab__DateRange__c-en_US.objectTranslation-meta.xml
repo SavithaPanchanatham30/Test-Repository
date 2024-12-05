@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Continuous Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Durations --></label>
+            <section>Durations</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Intermittent Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Days --></label>
+            <section>Days</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Intermittent --></label>
+            <section>Intermittent</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+        <sections>
+            <label><!-- Times --></label>
+            <section>Times</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Partial Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Reduced Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Days --></label>
+            <section>Days</section>
+        </sections>
+        <sections>
+            <label><!-- Durations --></label>
+            <section>Durations</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+        <sections>
+            <label><!-- Times --></label>
+            <section>Times</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Intermittent Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Days --></label>
+            <section>Days</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Intermittent --></label>
+            <section>Intermittent</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+        <sections>
+            <label><!-- Times --></label>
+            <section>Times</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partial Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Reduced Leave Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Days --></label>
+            <section>Days</section>
+        </sections>
+        <sections>
+            <label><!-- Durations --></label>
+            <section>Durations</section>
+        </sections>
+        <sections>
+            <label><!-- Links --></label>
+            <section>Links</section>
+        </sections>
+        <sections>
+            <label><!-- Times --></label>
+            <section>Times</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Continuous --></label>
+        <name>cvab__Continuous</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Court date --></label>
+        <name>cvab__CourtDate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Intermittent --></label>
+        <name>cvab__Intermittent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Intermittent Occurrence --></label>
+        <name>cvab__IntermittentOccurrence</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Partial Day --></label>
+        <name>cvab__PartialDay</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reduced schedule --></label>
+        <name>cvab__ReducedSchedule</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- Customer --></label>
+        <name>cvab__Customer</name>
+    </sharingReasons>
+    <webLinks>
+        <label><!-- DateRangesEdit --></label>
+        <name>cvab__DateRangesEdit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Split --></label>
+        <name>cvab__Split</name>
+    </webLinks>
+</CustomObjectTranslation>

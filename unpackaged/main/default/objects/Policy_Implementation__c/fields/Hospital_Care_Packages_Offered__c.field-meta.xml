@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hospital_Care_Packages_Offered__c</fullName>
+    <defaultValue>&quot;      •   Packages Offered:               &quot; + BR() + 
+&quot;             Basic / Select/ Ultra&quot;</defaultValue>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Hospital Care Packages Offered</label>
+    <length>800</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>8</visibleLines>
+</CustomField>

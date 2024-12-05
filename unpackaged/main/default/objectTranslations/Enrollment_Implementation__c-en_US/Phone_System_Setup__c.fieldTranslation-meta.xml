@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Submit ticket for use of USAble Phone system if applicable and set enrollers up --></help>
+        <label><!-- Phone System Setup --></label>
+        <name>Phone_System_Setup__c</name>
+    </CustomFieldTranslation>

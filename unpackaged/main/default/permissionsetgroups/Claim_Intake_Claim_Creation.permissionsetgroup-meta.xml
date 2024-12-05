@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access for the claim intake team to have required access for absence, IDAM, or claim creation from the case</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Claim Intake Claim Creation</label>
+    <permissionSets>ClaimTATCalculation_WRITE</permissionSets>
+    <permissionSets>Insurance_Claims_User_Permissions_Write</permissionSets>
+    <permissionSets>PopulateAbsenceClaimFromCase_WRITE</permissionSets>
+    <permissionSets>PopulateClaimFromCase_WRITE</permissionSets>
+    <permissionSets>SocialSecurityExempt_READ</permissionSets>
+    <permissionSets>Transfer_Records</permissionSets>
+    <permissionSets>UsableCvabStatus_READ</permissionSets>
+    <permissionSets>cvab__AbsenceUserPermissions</permissionSets>
+    <permissionSets>cvab__PermissionsSalesforce</permissionSets>
+    <permissionSets>cvb__Base</permissionSets>
+    <permissionSets>cvint__Integration_ReadWrite</permissionSets>
+    <permissionSets>forcerules__Force_Rule_Permissions_For_Other_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

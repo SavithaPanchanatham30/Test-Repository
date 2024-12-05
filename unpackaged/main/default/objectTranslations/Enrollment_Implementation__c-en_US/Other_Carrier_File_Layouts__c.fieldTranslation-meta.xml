@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Collect file examples for other carriers as needed and provide to Enrollment Services --></help>
+        <label><!-- Other Carrier File Layouts --></label>
+        <name>Other_Carrier_File_Layouts__c</name>
+    </CustomFieldTranslation>

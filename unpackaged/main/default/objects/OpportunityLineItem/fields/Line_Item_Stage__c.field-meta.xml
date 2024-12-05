@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Line_Item_Stage__c</fullName>
+    <label>Line Item Stage</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pursue</fullName>
+                <default>true</default>
+                <label>Pursue</label>
+            </value>
+            <value>
+                <fullName>Waiting for Info</fullName>
+                <default>false</default>
+                <label>Waiting for Info</label>
+            </value>
+            <value>
+                <fullName>Submitted for Quote</fullName>
+                <default>false</default>
+                <label>Submitted for Quote</label>
+            </value>
+            <value>
+                <fullName>Quoted</fullName>
+                <default>false</default>
+                <label>Quoted</label>
+            </value>
+            <value>
+                <fullName>Negotiation</fullName>
+                <default>false</default>
+                <label>Negotiation</label>
+            </value>
+            <value>
+                <fullName>Closed Won</fullName>
+                <default>false</default>
+                <label>Closed Won</label>
+            </value>
+            <value>
+                <fullName>Closed Lost - Quoted</fullName>
+                <default>false</default>
+                <label>Closed Lost - Quoted</label>
+            </value>
+            <value>
+                <fullName>Closed Lost - Not Quoted</fullName>
+                <default>false</default>
+                <label>Closed Lost - Not Quoted</label>
+            </value>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Closed Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

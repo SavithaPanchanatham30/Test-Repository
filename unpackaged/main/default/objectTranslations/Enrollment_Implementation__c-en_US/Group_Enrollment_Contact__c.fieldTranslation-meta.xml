@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Group contact for Enrollment Planning --></help>
+        <label><!-- Group Enrollment Contact --></label>
+        <name>Group_Enrollment_Contact__c</name>
+    </CustomFieldTranslation>

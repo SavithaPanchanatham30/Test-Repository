@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- All Information needed was Requested during Scrub --></help>
+        <label><!-- All Information Requested --></label>
+        <name>All_Information_Requested__c</name>
+    </CustomFieldTranslation>

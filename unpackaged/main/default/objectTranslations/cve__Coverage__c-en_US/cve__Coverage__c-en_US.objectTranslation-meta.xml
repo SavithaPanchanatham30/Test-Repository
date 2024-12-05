@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Additional Information --></label>
+        <name>cve__AdditionalInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Coverage Begin Details --></label>
+        <name>cve__CoverageBeginDetails</name>
+    </fieldSets>
+    <layouts>
+        <layout>Coverage Layout</layout>
+        <sections>
+            <label><!-- Coverage Begin Details --></label>
+            <section>Coverage Begin Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CustomCoverageLayout</layout>
+        <sections>
+            <label><!-- Coverage Begin Details --></label>
+            <section>Coverage Begin Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Fixed amount --></description>
+        <label><!-- Amount --></label>
+        <name>cve__Amount</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Fixed amount, automatically named via category and type picklists --></description>
+        <label><!-- Amount Auto Named --></label>
+        <name>cve__AmountAutoNamed</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Fixed percentage of the base coverage amount --></description>
+        <label><!-- Percentage of Base Coverage --></label>
+        <name>cve__PercentageOfBaseCoverage</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Fixed percentage of one of the other Coverage amounts --></description>
+        <label><!-- Percentage of Other Coverage --></label>
+        <name>cve__PercentageOfOtherCoverage</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Amount entered when the Coverage is selected, up to an optional maximum amount --></description>
+        <label><!-- Variable Amount --></label>
+        <name>cve__VariableAmount</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Number of units entered when the Coverage is selected, up to an optional maximum number of units --></description>
+        <label><!-- Variable Units --></label>
+        <name>cve__VariableUnits</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- DeleteCoverages --></label>
+        <name>cve__DeleteCoverages</name>
+    </webLinks>
+</CustomObjectTranslation>

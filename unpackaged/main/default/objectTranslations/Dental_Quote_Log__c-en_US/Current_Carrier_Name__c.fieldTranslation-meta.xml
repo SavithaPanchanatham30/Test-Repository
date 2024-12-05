@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Current Carrier Name --></label>
+        <name>Current_Carrier_Name__c</name>
+        <picklistValues>
+            <masterLabel>AIG</masterLabel>
+            <translation><!-- AIG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aetna</masterLabel>
+            <translation><!-- Aetna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ameritas</masterLabel>
+            <translation><!-- Ameritas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assurant</masterLabel>
+            <translation><!-- Assurant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BCBS</masterLabel>
+            <translation><!-- BCBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beam Dental</masterLabel>
+            <translation><!-- Beam Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigna</masterLabel>
+            <translation><!-- Cigna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Dental</masterLabel>
+            <translation><!-- Delta Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardian</masterLabel>
+            <translation><!-- Guardian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HDS</masterLabel>
+            <translation><!-- HDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hartford</masterLabel>
+            <translation><!-- Hartford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Humana</masterLabel>
+            <translation><!-- Humana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiser</masterLabel>
+            <translation><!-- Kaiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LSV</masterLabel>
+            <translation><!-- LSV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lincoln National</masterLabel>
+            <translation><!-- Lincoln National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MetLife</masterLabel>
+            <translation><!-- MetLife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutual of Omaha</masterLabel>
+            <translation><!-- Mutual of Omaha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Existing Coverage</masterLabel>
+            <translation><!-- No Existing Coverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Guardian Life</masterLabel>
+            <translation><!-- Pacific Guardian Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premera</masterLabel>
+            <translation><!-- Premera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal</masterLabel>
+            <translation><!-- Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protective</masterLabel>
+            <translation><!-- Protective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prudential</masterLabel>
+            <translation><!-- Prudential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliance Standard</masterLabel>
+            <translation><!-- Reliance Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solstice</masterLabel>
+            <translation><!-- Solstice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sun Life</masterLabel>
+            <translation><!-- Sun Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Concordia</masterLabel>
+            <translation><!-- United Concordia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Healthcare</masterLabel>
+            <translation><!-- United Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unum</masterLabel>
+            <translation><!-- Unum --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

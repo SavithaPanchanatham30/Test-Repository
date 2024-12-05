@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quoted_Eligibles__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>FL -&gt; Full time active Life, then Dental, then Disability
+AR -&gt; Full time active Life, then Disability, then Worksite
+HI -&gt; Full time active Medical, then Dental, then Life, then TDI</inlineHelpText>
+    <label>Quoted Eligibles</label>
+    <precision>9</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

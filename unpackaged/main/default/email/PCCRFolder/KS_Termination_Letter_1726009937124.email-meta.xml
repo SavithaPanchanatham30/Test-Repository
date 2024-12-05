@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Termination letter for non-renewal (agency)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TERM - Termination Letter - Non Renewal (Agency)</name>
+    <style>none</style>
+    <subject>USAble Life - Appointment Termination - _____</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

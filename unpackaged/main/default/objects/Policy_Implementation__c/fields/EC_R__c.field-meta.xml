@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EC_R__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Essential Care &amp; Recovery</description>
+    <inlineHelpText>Essential Care &amp; Recovery. Bundled package all 3 work-site benefits with EC&amp;R Master Application</inlineHelpText>
+    <label>EC&amp;R</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

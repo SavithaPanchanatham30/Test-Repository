@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Account Lifecycle Planning</fullName>
+        <default>false</default>
+        <label>Account Lifecycle Planning</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved Review</fullName>
+        <default>false</default>
+        <label>Approved Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Beneficiary Update Forms</fullName>
+        <default>false</default>
+        <label>Beneficiary Update Forms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brand Awareness</fullName>
+        <default>false</default>
+        <label>Brand Awareness</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancer Update Forms</fullName>
+        <default>false</default>
+        <label>Cancer Update Forms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claim Determination</fullName>
+        <default>false</default>
+        <label>Claim Determination</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closure Letter</fullName>
+        <default>false</default>
+        <label>Closure Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Deal Management</fullName>
+        <default>false</default>
+        <label>Deal Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Designation Letter</fullName>
+        <default>false</default>
+        <label>Designation Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Earnings</fullName>
+        <default>false</default>
+        <label>Earnings</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Educational</fullName>
+        <default>false</default>
+        <label>Educational</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employer Notification</fullName>
+        <default>false</default>
+        <label>Employer Notification</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employer Request</fullName>
+        <default>false</default>
+        <label>Employer Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up</fullName>
+        <default>false</default>
+        <label>Follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Insured Request</fullName>
+        <default>false</default>
+        <label>Insured Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Request</fullName>
+        <default>false</default>
+        <label>Internal Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mail Received</fullName>
+        <default>false</default>
+        <label>Mail Received</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manager Review</fullName>
+        <default>false</default>
+        <label>Manager Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Max Documents</fullName>
+        <default>false</default>
+        <label>Max Documents</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Records</fullName>
+        <default>false</default>
+        <label>Medical Records</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Overpayment</fullName>
+        <default>false</default>
+        <label>Overpayment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre-Ex Review</fullName>
+        <default>false</default>
+        <label>Pre-Ex Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referrals</fullName>
+        <default>false</default>
+        <label>Referrals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected Review</fullName>
+        <default>false</default>
+        <label>Rejected Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Relationship Building</fullName>
+        <default>false</default>
+        <label>Relationship Building</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STD Update Forms</fullName>
+        <default>false</default>
+        <label>STD Update Forms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tolling Letter</fullName>
+        <default>false</default>
+        <label>Tolling Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiver of Premium</fullName>
+        <default>false</default>
+        <label>Waiver of Premium</label>
+    </standardValue>
+</StandardValueSet>

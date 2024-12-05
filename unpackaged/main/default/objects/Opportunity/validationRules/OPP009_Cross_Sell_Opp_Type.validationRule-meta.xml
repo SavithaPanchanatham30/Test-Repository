@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP009_Cross_Sell_Opp_Type</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL (Type, &quot;Cross Sell&quot;) &amp;&amp; NOT(ISPICKVAL ( Account.LSV_Business__c, &quot;Medical Only&quot;))</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>You can only create a Cross Sell Opportunity for Medical Only Accounts.</errorMessage>
+</ValidationRule>

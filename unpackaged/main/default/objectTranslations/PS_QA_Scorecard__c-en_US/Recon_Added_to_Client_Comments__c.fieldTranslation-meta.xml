@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Recon Added to Client Comments --></label>
+        <name>Recon_Added_to_Client_Comments__c</name>
+    </CustomFieldTranslation>

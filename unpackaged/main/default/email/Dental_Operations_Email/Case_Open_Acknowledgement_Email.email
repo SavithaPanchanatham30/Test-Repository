@@ -1,0 +1,21 @@
+Dear {!Case.SuppliedName},
+
+Thank you for contacting USAble Life Dental Operations Support. Your case has been successfully submitted and is being reviewed by our support team. Below are the details of your case:
+
+
+Case Number: {!Case.CaseNumber}
+Subject: {!Case.Subject}
+Description: {!Case.Description}
+
+
+
+
+
+We will get back to you as soon as possible with an update. In the meantime, if you have any additional information to provide, please reply to this email.
+
+Thank you for your patience.
+
+Best regards,
+USAble Life Dental Operations
+
+{!Case.Thread_Id}

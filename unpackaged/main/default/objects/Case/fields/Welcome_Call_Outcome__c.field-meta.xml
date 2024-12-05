@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Welcome_Call_Outcome__c</fullName>
+    <label>Welcome Call Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Answer</fullName>
+                <default>false</default>
+                <label>No Answer</label>
+            </value>
+            <value>
+                <fullName>Reached Customer</fullName>
+                <default>false</default>
+                <label>Reached Customer</label>
+            </value>
+            <value>
+                <fullName>Voice Mail</fullName>
+                <default>false</default>
+                <label>Voice Mail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

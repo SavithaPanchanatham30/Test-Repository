@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for providing instruction on how to open secure emails</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Secure Email Instruction</name>
+    <style>none</style>
+    <subject>Welcome to USAble Life! Instructions for Receiving Secure Emails from USAble Life</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

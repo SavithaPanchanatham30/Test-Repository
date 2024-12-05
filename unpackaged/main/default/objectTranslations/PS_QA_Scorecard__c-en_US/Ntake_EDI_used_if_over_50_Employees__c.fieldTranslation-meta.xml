@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ntake/EDI used if over 50 Employees --></label>
+        <name>Ntake_EDI_used_if_over_50_Employees__c</name>
+    </CustomFieldTranslation>

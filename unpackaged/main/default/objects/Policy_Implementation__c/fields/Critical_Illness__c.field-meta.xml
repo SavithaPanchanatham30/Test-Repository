@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Critical_Illness__c</fullName>
+    <defaultValue>&quot;•      EE Plan and GI&quot;  + BR() +
+&quot;     o      5 – 50K; 20K GI&quot; + BR () +
+&quot;•      SP Plan and GI&quot; + BR() +
+&quot;     o      5 – 50K; 10K GI&quot; + BR() +
+&quot;•	CH Plan and GI&quot; + BR() +
+&quot;     o      5 or 10K; 10K GI&quot; + BR() +
+&quot;•      Riders Included:&quot; + BR() +
+&quot;     o      Recurrent Rider&quot;</defaultValue>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Critical Illness</label>
+    <length>1600</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>8</visibleLines>
+</CustomField>

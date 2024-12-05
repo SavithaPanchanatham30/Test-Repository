@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <label>Product Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VGTL</fullName>
+                <default>false</default>
+                <label>VGTL</label>
+            </value>
+            <value>
+                <fullName>VLTD</fullName>
+                <default>false</default>
+                <label>VLTD</label>
+            </value>
+            <value>
+                <fullName>VSTD</fullName>
+                <default>false</default>
+                <label>VSTD</label>
+            </value>
+            <value>
+                <fullName>Worksite ACC</fullName>
+                <default>false</default>
+                <label>Worksite ACC</label>
+            </value>
+            <value>
+                <fullName>Worksite CA &amp; CI</fullName>
+                <default>false</default>
+                <label>Worksite CA &amp; CI</label>
+            </value>
+            <value>
+                <fullName>Worksite CI</fullName>
+                <default>false</default>
+                <label>Worksite CI</label>
+            </value>
+            <value>
+                <fullName>Worksite HIP</fullName>
+                <default>false</default>
+                <label>Worksite HIP</label>
+            </value>
+            <value>
+                <fullName>Group Worksite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Group Worksite</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

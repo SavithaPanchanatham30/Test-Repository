@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AR_Quotes_Sold</fullName>
+    <columns>NAME</columns>
+    <columns>Opportunity_Effective_Date__c</columns>
+    <columns>Account_Name__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>LSV_Sales_Executive__c</columns>
+    <columns>Partner_Rep__c</columns>
+    <columns>Number_Eligible__c</columns>
+    <columns>Number_PPO_Enrolled__c</columns>
+    <columns>Funding_Type__c</columns>
+    <columns>Sold_PPO_Premium__c</columns>
+    <columns>Final_Formula_PPO_Premium__c</columns>
+    <columns>Multi_Line_Discount_Amount__c</columns>
+    <columns>Implementation_Credit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Group_Sold__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>LSV_Sales_Executive__c</field>
+        <operation>equals</operation>
+        <value>Peter Zornik</value>
+    </filters>
+    <label>AR Quotes Sold</label>
+</ListView>

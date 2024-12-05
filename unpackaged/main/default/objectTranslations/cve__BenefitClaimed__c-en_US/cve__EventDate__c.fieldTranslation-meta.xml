@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date of the event being claimed for e.g. the Date of Disability or the Date of Death. --></help>
+        <label><!-- Event Date --></label>
+        <name>cve__EventDate__c</name>
+    </CustomFieldTranslation>

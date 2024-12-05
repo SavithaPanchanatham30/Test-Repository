@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department_Name__c</fullName>
+    <description>Captures department making request and/or submitted case</description>
+    <inlineHelpText>Captures department making request and/or submitted case</inlineHelpText>
+    <label>Department Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Planning</fullName>
+                <default>false</default>
+                <label>Business Planning</label>
+            </value>
+            <value>
+                <fullName>Business Systems</fullName>
+                <default>false</default>
+                <label>Business Systems</label>
+            </value>
+            <value>
+                <fullName>Central Records</fullName>
+                <default>false</default>
+                <label>Central Records</label>
+            </value>
+            <value>
+                <fullName>Claims</fullName>
+                <default>false</default>
+                <label>Claims</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Information Technology</fullName>
+                <default>false</default>
+                <label>Information Technology</label>
+            </value>
+            <value>
+                <fullName>Membership &amp; Billing</fullName>
+                <default>false</default>
+                <label>Membership &amp; Billing</label>
+            </value>
+            <value>
+                <fullName>Organizational Development</fullName>
+                <default>false</default>
+                <label>Organizational Development</label>
+            </value>
+            <value>
+                <fullName>PCCR (Previously SBMA)</fullName>
+                <default>false</default>
+                <label>PCCR (Previously SBMA)</label>
+            </value>
+            <value>
+                <fullName>Policy Services</fullName>
+                <default>false</default>
+                <label>Policy Services</label>
+            </value>
+            <value>
+                <fullName>Product Development</fullName>
+                <default>false</default>
+                <label>Product Development</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Underwriting</fullName>
+                <default>false</default>
+                <label>Underwriting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

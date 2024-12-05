@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Start Date Time value formatted for the Date Range&apos;s Timezone. --></help>
+        <label><!-- Start Date Time (in timezone) --></label>
+        <name>cvab__StartDateTimeFormattedWithTimezone__c</name>
+    </CustomFieldTranslation>

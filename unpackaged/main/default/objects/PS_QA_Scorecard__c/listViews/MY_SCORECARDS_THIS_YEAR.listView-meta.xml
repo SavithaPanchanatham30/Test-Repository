@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MY_SCORECARDS_THIS_YEAR</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Points_Available_With_Burn__c</columns>
+    <columns>Points_Earned_Without_Burn__c</columns>
+    <columns>Points_Missed__c</columns>
+    <columns>Percentage_Score_Without_Burn__c</columns>
+    <columns>Case__c</columns>
+    <columns>Master_Group__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2021 12:00 AM</value>
+    </filters>
+    <label>My Scorecards This Year</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

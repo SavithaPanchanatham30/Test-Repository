@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Denial Reason --></label>
+        <name>cvab__DenialReason__c</name>
+        <picklistValues>
+            <masterLabel>Non qualified FMLA event</masterLabel>
+            <translation><!-- Non qualified FMLA event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non qualified family member</masterLabel>
+            <translation><!-- Non qualified family member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pfl-AlreadyApproved</masterLabel>
+            <translation><!-- Pfl-AlreadyApproved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pfl-EmployerNotCovered</masterLabel>
+            <translation><!-- Pfl-EmployerNotCovered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pfl-ExhaustionOfBenefits</masterLabel>
+            <translation><!-- Pfl-ExhaustionOfBenefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pfl-NotEligible</masterLabel>
+            <translation><!-- Pfl-NotEligible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pfl-Paperworknotreceived</masterLabel>
+            <translation><!-- Pfl-Paperworknotreceived --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pfl-UntimelyFiling</masterLabel>
+            <translation><!-- Pfl-UntimelyFiling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pfl-WrongCarrier</masterLabel>
+            <translation><!-- Pfl-WrongCarrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serious Health condition not certified</masterLabel>
+            <translation><!-- Serious Health condition not certified --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

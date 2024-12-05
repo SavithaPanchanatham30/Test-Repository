@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Testing_Total_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( Test_Plan_Documented__c , 25, 0)+
+IF ( Application_Election_Form_New_Hire__c , 25, 0)+
+IF ( Application_Election_Form_Existing_Empl__c , 25, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Testing Total Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

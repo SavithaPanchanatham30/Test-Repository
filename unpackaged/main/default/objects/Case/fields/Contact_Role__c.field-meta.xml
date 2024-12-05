@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Role__c</fullName>
+    <description>This formula field holds Contact Role for Contact</description>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISPICKVAL(Contact.Role__c , &quot;Account Executive&quot;),&#39;Account Executive&#39;,
+IF(    
+    ISPICKVAL(Contact.Contact_Type__c , &quot;Agent&quot;),&#39;Agent&#39;,
+IF(    
+    ISPICKVAL(Contact.Contact_Type__c , &quot;Benefit Manager&quot;),&#39;Benefit Manager&#39;,
+IF(
+    ISPICKVAL(Contact.Role__c , &quot;Book Keeper&quot;),&#39;Book Keeper&#39;,
+IF(    
+    ISPICKVAL(Contact.Contact_Type__c , &quot;Group Contact&quot;),&#39;Group Contact&#39;,
+IF(    
+    ISPICKVAL(Contact.Contact_Type__c , &quot;Regional VP&quot;),&#39;Regional VP&#39;,
+IF(    
+    ISPICKVAL(Contact.Contact_Type__c , &quot;Writing Agent&quot;),&#39;Writing Agent&#39;,
+IF(    
+    ISPICKVAL(Contact.Contact_Type__c , &quot;Billing Contact&quot;),&#39;Billing Contact&#39;,&quot;&quot;
+))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

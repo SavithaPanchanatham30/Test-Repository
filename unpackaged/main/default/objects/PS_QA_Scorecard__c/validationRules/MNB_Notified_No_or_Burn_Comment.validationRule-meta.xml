@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MNB_Notified_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in M&amp;B Notified of Massive Billing Chg then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( M_B_Notified_of_Massive_Billing_Chg__c ) = &quot;No&quot; , TEXT (M_B_Notified_of_Massive_Billing_Chg__c ) = &quot;Burn&quot;),    M_B_Notified_of_Massive_Billing_Comments__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>M_B_Notified_of_Massive_Billing_Comments__c</errorDisplayField>
+    <errorMessage>QA088 - If M&amp;B Notified of Massive Billing Chg = No or Burn, Then M&amp;B Notified of Massive Billing Comments must be entered</errorMessage>
+</ValidationRule>

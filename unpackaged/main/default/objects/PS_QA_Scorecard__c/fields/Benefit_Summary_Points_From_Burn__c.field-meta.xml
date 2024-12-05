@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Benefit_Summary_Points_From_Burn__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TEXT (Reviewed_within_allotted_time__c) = &quot;Burn&quot;,10,0) + 
+IF (TEXT ( Setup_Reviewed_Differences_Noted__c ) = &quot;Burn&quot;,15,0) +
+IF (TEXT (  Class_Description_Correct__c ) = &quot;Burn&quot;,5,0) +
+IF (TEXT ( Benefit_and_GI_Amount_Correct__c ) = &quot;Burn&quot;,10,0) + 
+IF (TEXT (  Pre_EX_Correct__c ) = &quot;Burn&quot;,5,0) +
+IF (TEXT (  EP_and_Duration_Correct__c  ) = &quot;Burn&quot;,10,0) +
+ IF (TEXT (   Offsets_Correct__c  ) = &quot;Burn&quot;,5,0) +
+IF (TEXT (   Riders_Special_Provisions_Correct__c  ) = &quot;Burn&quot;,5,0) +
+IF (TEXT (    Reductions_Correct__c  ) = &quot;Burn&quot;,5,0) +
+IF (TEXT (   Formatting_of_Summary_Looks_Presentable__c ) = &quot;Burn&quot;,5,0) +
+IF (TEXT (     Rate_Sheet_Correct__c  ) = &quot;Burn&quot;,15,0) +
+IF (TEXT (    Correct_Pay_Period__c  ) = &quot;Burn&quot;,10,0) +
+IF (TEXT (     Correct_Spouse_Rates_for_Voluntary__c  ) = &quot;Burn&quot;,15,0) +
+IF (TEXT (  Correct_GI_Included_on_RS__c  ) = &quot;Burn&quot;,5,0) +
+IF (TEXT (  Correct_Plan_Type__c ) = &quot;Burn&quot;,5,0) +
+IF (TEXT (  Correct_Rounding__c  ) = &quot;Burn&quot;,5,0) +
+IF (TEXT (  Format_of_Rate_Sheet_Looks_Presentable__c ) = &quot;Burn&quot;,5,0) +
+IF (TEXT ( Provided_to_Customer_Timely_Manner__c) = &quot;Burn&quot;,10,0)+ 
+IF (TEXT ( Salesforce_Setup_and_System_Note__c ) = &quot;Burn&quot;,15,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Benefit Summary Points From Burn</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

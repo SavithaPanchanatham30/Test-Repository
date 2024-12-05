@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recon_ADded_Client_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Recon Added to Client Folder then Recon Added to Client Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Recon_Added_to_Client_Folder__c ) = &quot;No&quot; , TEXT(  Recon_Added_to_Client_Folder__c  ) = &quot;Burn&quot;),    Recon_Added_to_Client_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Recon_Added_to_Client_Comments__c</errorDisplayField>
+    <errorMessage>QA175  - If Recon Added to Client Folder  No or Burn, Then Recon Added to Client  Comments must be entered</errorMessage>
+</ValidationRule>

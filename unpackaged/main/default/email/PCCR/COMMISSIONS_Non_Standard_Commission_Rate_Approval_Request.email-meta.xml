@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>For SLD send to Jerald Martin, for Dental, send to Amy Cain. Copy Jim Condit (Jim.Condit@lsvusa.com)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>COMMISSIONS - Non-Standard Commission Rate Approval Request</name>
+    <style>none</style>
+    <subject>Review and Approval Required: Non-Standard Commission Rate Request</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

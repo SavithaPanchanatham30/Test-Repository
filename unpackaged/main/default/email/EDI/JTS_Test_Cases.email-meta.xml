@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email Template for JTS Test Cases</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>JTS Test Cases</name>
+    <style>none</style>
+    <subject>Ready for USAble Testing</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

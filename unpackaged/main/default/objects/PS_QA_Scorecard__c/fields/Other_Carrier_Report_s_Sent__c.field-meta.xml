@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Carrier_Report_s_Sent__c</fullName>
+    <description>24 HOURS AFTER TO ENROLLMENT END DATE</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>24 HOURS AFTER TO ENROLLMENT END DATE (Min Time 1, Time 3, Max Time 5)</inlineHelpText>
+    <label>Other Carrier Report(s) Sent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

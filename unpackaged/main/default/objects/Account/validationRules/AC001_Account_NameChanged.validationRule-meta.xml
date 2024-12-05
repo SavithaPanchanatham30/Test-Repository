@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC001_Account_NameChanged</fullName>
+    <active>true</active>
+    <description>Account Name cannot be changed.</description>
+    <errorConditionFormula>AND(AND( NOT($Profile.Name = &#39;USAble System Administrator&#39;) ,
+ Not($Profile.Name = &#39;API&#39;),
+ NOT(ISNEW()) , 
+ ISCHANGED (Name) 
+))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>AC001 Account Name cannot be changed. Please make any necessary changes within the Source System.</errorMessage>
+</ValidationRule>

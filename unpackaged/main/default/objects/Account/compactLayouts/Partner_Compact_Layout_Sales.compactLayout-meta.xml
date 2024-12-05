@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Compact_Layout_Sales</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>OwnerId</fields>
+    <fields>Admin_System_Record__c</fields>
+    <label>Partner Compact Layout - Sales</label>
+</CompactLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Partner Service</name>
+    <queueMembers>
+        <roles>
+            <role>Customer_Service_Director_CS</role>
+            <role>Service_Coordinator_CS</role>
+            <role>Service_Recovery_Analyst_CS</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

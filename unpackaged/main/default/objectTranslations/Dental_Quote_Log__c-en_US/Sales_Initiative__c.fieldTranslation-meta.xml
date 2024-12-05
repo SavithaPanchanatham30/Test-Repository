@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sales Initiative --></label>
+        <name>Sales_Initiative__c</name>
+        <picklistValues>
+            <masterLabel>Blue Value Solutions</masterLabel>
+            <translation><!-- Blue Value Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsolicited</masterLabel>
+            <translation><!-- Unsolicited --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

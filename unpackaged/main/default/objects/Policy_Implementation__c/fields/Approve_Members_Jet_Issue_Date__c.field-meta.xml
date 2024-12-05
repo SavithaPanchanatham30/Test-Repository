@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approve_Members_Jet_Issue_Date__c</fullName>
+    <description>This field contains the date when the member is approve</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Approve Members/Jet Issue Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

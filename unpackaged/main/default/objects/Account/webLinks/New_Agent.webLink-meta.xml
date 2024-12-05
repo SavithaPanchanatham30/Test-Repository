@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Agent</fullName>
+    <availability>online</availability>
+    <description>This is new button on account Agency layout that will correctly populate Account with Service Master Account and Branch Agency.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New Agent</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>if(&#39;{!Account.Service_Master_AgencyId__c}&#39; != &quot;&quot;){
+    window.parent.location.href = &quot;/003/e?ent=Contact&amp;con4_lkid=&quot;+&#39;{!Account.Service_Master_AgencyId__c}&#39;+&quot;&amp;CF00Ni000000HivqO_lkid=&quot;+&#39;{!Account.Id}&#39;+&quot;&amp;CF00Ni000000HivqO=&quot;+&#39;{!URLENCODE(Account.Name)}&#39;+&quot;&amp;RecordType=012i0000001IFFE&quot;; 
+}else{
+   alert(&#39;Error! You cannot create Agent on Service Master Agency&#39;);
+}</url>
+</WebLink>

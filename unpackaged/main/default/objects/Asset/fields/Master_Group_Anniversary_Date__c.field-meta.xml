@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_Group_Anniversary_Date__c</fullName>
+    <description>Populated via workflow rule from the Master Group Anniversary Date when the Asset Renewal Date is greater than or equal to the Master Group Anniversary Date. 
+WFR: Asset Group Anniversary date
+This is used for batch creating opportunities and for inventory reports.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Asset Anniversary Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

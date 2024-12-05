@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Queue_New_Business_Open_Cases</fullName>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>SLA_Flag__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>NAME</columns>
+    <columns>Master_Group__c</columns>
+    <columns>Member__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Type_SubType__c</columns>
+    <columns>CASES.ORIGIN</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Queue: New Business Open Cases</label>
+    <queue>New_Business</queue>
+    <sharedTo>
+        <group>All_Policy_Services</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Membership Specialist Points Earned --></label>
+        <name>Membership_Specialist_Points_Earned__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,4 @@
+Hi, 
+Requesting Your approval to make  EDI checklist for case   {!EDI_Checklist__c.Case__c} Group Name {!EDI_Checklist__c.Group_Name__c} with checklist number {!EDI_Checklist__c.Name} active and available for EDI processing.  Detail Link  {!EDI_Checklist__c.Link} 
+
+{!User.Name}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Groups_in_Excess_of_500K__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used by regional service manager and team to report on and track activity of top 100 accounts</description>
+    <inlineHelpText>Identified groups in excess of or equal to $500k in annualized premium</inlineHelpText>
+    <label>Top Groups in Excess of 500K</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

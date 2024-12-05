@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Prepare Ntake/Manual Census Load Date --></label>
+        <name>Prepare_Ntake_Manual_Census_Load_Date__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Percent_Difference_EE_CH__c</fullName>
+    <formula>IF (
+
+AND(NOT(ISNULL( Renewal_Rate_EE_CH__c)), NOT(ISNULL( Quoted_Rate_EE_CH__c))), 
+(Quoted_Rate_EE_CH__c  -  Renewal_Rate_EE_CH__c )/  Renewal_Rate_EE_CH__c  , 
+
+IF (
+
+AND(NOT(ISNULL( Current_Rate_EE_CH__c)) , NOT(ISNULL( Quoted_Rate_EE_CH__c))),
+( Quoted_Rate_EE_CH__c  -  Current_Rate_EE_CH__c )/ Current_Rate_EE_CH__c  , NULL
+
+))</formula>
+    <inlineHelpText>Percent Diff b/w Quoted Rate EE+CH and Renewal Rate EE+CH. If no Renewal Rate EE+CH then percent diff b/w Quoted  Rate EE+CH and Current Rate EE+CH. If no Renewal Rate EE+CH and Current Rate EE+CH then blanks. If there is no Quoted Rate EE+CH then blanks.</inlineHelpText>
+    <label>Percent Difference (EE+CH)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

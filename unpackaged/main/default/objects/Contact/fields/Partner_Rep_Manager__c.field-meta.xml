@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Rep_Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Partner Rep Manager</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Contacts (Partner Rep Manager)</relationshipLabel>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

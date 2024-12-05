@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impacted_Employees_in_CA_or_NY__c</fullName>
+    <inlineHelpText>IF Impacted Employees in CA or NY or Different Industry must go to GUR</inlineHelpText>
+    <label>Impacted Emp in CA/NY or Dif Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReleasedDatemustbeentered</fullName>
+    <active>true</active>
+    <description>If External testing released checked then released date must be entered</description>
+    <errorConditionFormula>AND( External_Testing_Released__c ,  ISNUll(Testing_Release_Date__c))</errorConditionFormula>
+    <errorDisplayField>External_Testing_Released__c</errorDisplayField>
+    <errorMessage>If External Test Released then Testing Release Date must be entered</errorMessage>
+</ValidationRule>

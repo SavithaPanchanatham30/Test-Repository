@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL029ApproximateDateTimeOfAccident</fullName>
+    <active>true</active>
+    <description>Approximate Date Time of Accident must be selected if disability is Accident</description>
+    <errorConditionFormula>AND( TEXT( Type_of_Disability__c )= &quot;Accident&quot;, ISBlank(TEXT(    Approximate_Date_Time_of_Accident__c  )) , RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Approximate_Date_Time_of_Accident__c</errorDisplayField>
+    <errorMessage>CL-029 If Type of Disability - Accident then Approximate Date/Time of Accident must be filled out</errorMessage>
+</ValidationRule>

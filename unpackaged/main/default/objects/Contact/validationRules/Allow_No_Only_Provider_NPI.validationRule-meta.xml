@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allow_No_Only_Provider_NPI</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISNUMBER( Provider_NPI__c )), NOT(ISBLANK( Provider_NPI__c )))</errorConditionFormula>
+    <errorDisplayField>Provider_NPI__c</errorDisplayField>
+    <errorMessage>Only numbers are allowed</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approvals_Received_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Approvals Received then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(  Approvals_Received__c ) = &quot;No&quot; , TEXT(  Approvals_Received__c  ) = &quot;Burn&quot;),   Approval_Received_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Approval_Received_Comments__c</errorDisplayField>
+    <errorMessage>QA183 - If  Approval Received No or Burn, Then Approval Received Comments must be entered</errorMessage>
+</ValidationRule>

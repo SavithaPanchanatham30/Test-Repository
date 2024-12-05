@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rachel&#39;s Prefill</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Rachel&#39;s Prefill</name>
+    <style>none</style>
+    <subject>Rachel&#39;s Prefill - [GROUP NAME] [GROUP NUMBER] | [EFFECTIVE DATE]</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL024DisabilityCausedbyaThirdParty</fullName>
+    <active>true</active>
+    <description>For Type of Disability Accident -Was Disabling Accident caused by 3rd pary</description>
+    <errorConditionFormula>AND( TEXT( Type_of_Disability__c )= &quot;Accident&quot;, ISBlank(TEXT(    Disability_Caused_by_a_Third_Party__c  )) , RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Disability_Caused_by_a_Third_Party__c</errorDisplayField>
+    <errorMessage>CL-024 If Type of Disability - Accident then Disability Caused by a third Party must be filled out</errorMessage>
+</ValidationRule>

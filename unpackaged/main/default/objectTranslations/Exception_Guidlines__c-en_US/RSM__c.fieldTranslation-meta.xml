@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- RSM --></label>
+        <lookupFilter>
+            <errorMessage><!-- Must be in Rsm Role --></errorMessage>
+        </lookupFilter>
+        <name>RSM__c</name>
+        <relationshipLabel><!-- Exception Guidelines (RSM) --></relationshipLabel>
+    </CustomFieldTranslation>

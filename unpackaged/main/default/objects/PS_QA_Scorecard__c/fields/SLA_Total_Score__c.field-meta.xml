@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Total_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>Testing_Email_Sent_Score__c  +
+ Download_Email_Sent_Score__c  +
+ Post_Enroll_Report_Sent_Score__c  +
+ Images_Dropped_Scores__c  +
+ Other_Carrier_Report_Score__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SLA Total Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Policy_Services_Points_Earned__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (Text( CSW_Group_Note__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Group_Level_Options__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Class_Level_Options__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Pending_Underwriting_Decisions__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Contact_Information__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Billing_Mode_Structure__c  ) = &quot;Yes&quot;,3,0) +
+IF (Text( Rates__c ) = &quot;Yes&quot;,3,0) +
+IF (Text( X3rd_Party_Services__c) = &quot;Yes&quot;,2,0)+
+IF (Text( CSW_Member_Notes_for_Grandfathering__c) = &quot;Yes&quot;,2,0)+
+IF (Text( Typos__c) = &quot;Yes&quot;,2,0)+
+IF (Text( Welcome_Letter_Correct__c ) = &quot;Yes&quot;,2,0)+
+IF (Text( Group_Name_and_Subsidiaries__c ) = &quot;Yes&quot;,2,0)+
+IF (Text( Master_App_Completed_Correctly__c ) = &quot;Yes&quot;,3,0)+ 
+IF (Text( Certificate_Effective_Date__c  ) = &quot;Yes&quot;,3,0)+ 
+IF (Text( Waiting_Period__c ) = &quot;Yes&quot;,3,0)+ 
+IF (Text( Minimum_Hours__c   ) = &quot;Yes&quot;,3,0)+ 
+IF (Text( Benefit_and_GI_Amount_Correct__c    ) = &quot;Yes&quot;,3,0)+ 
+IF (Text( Reduction_Schedule__c    ) = &quot;Yes&quot;,3,0)+ 
+IF (Text( Earning_Definition_Correct__c  ) = &quot;Yes&quot;,3,0)+ 
+IF (Text( Riders__c  ) = &quot;Yes&quot;,3,0)+
+IF (Text( Life_Provisions__c   ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Disability_Provisions__c   ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Supplemental_Provisions__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Manual_Edits_Added__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Effective_Renewal_Date__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Amendment_Matches_System_Work_Request__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Amendment_NOC__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Policy_Form_Number__c ) = &quot;Yes&quot;,2,0) + 
+IF (Text( Correct_Amendment_Number_Used__c  ) = &quot;Yes&quot;,2,0) +
+IF (Text( New_Documents_Generated__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( BS_Class_name__c ) = &quot;Yes&quot;,2,0) + 
+IF (Text( BS_Life_Benefits__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( BS_Disability_Benefits__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( BS_Supplemental_Benefits__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( BS_Third_Party_Services__c ) = &quot;Yes&quot;,1,0) +
+IF (Text( RG_Headers__c ) = &quot;Yes&quot;,2,0) +
+IF (Text( RG_Correct_Rates__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( RG_Pay_Frequency__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( RG_Life_Plan_Info__c  ) = &quot;Yes&quot;,3,0) + 
+IF (Text( RG_Disability_Plan_Info__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( RG_Supplemental_Plan_Info__c ) = &quot;Yes&quot;,3,0) +
+IF (Text( Pre_Work_Notional_MBSR_Ran__c ) = &quot;Yes&quot;,3,0) +
+IF (Text( Notional_Bill_Ran__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Unlinked_Bill_Details__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Recon_Complete__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Recon_Member_Notes__c ) = &quot;Yes&quot;,2,0) +
+IF (Text( Members_Billed_Correctly__c ) = &quot;Yes&quot;,3,0) +  
+IF (Text( Risk_Reallocation_Ran__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Approvals_Received__c ) = &quot;Yes&quot;,3,0) + 
+IF (Text( Compliant_Administerable__c  ) = &quot;Yes&quot;,3,0) +
+IF (Text(  Compass_Status__c  ) = &quot;Yes&quot;,2,0) +
+IF (Text(  Online_Setup__c  ) = &quot;Yes&quot;,2,0) +
+IF (Text(  Post_Master__c   ) = &quot;Yes&quot;,2,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Policy Services Points Earned</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

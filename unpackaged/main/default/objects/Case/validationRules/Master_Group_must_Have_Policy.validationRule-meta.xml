@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_Group_must_Have_Policy</fullName>
+    <active>true</active>
+    <description>When Policy Service Case, Master group must have a policy# if a group no keyed in</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Policy_Services&quot;,   LEN(Group_Number__c) &gt; 5 , LEN( Master_Group_Policy__c ) &lt; 6, TEXT( Sub_Type__c )  &lt;&gt; &quot;Prefill&quot;, TEXT( Sub_Type__c )  &lt;&gt; &quot;Benefit Summary&quot;,  ISPICKVAL( Status ,&quot;Closed&quot;)  || ISPICKVAL( Status ,&quot;Issued and Closed&quot;))</errorConditionFormula>
+    <errorMessage>If Group Number is populated on case must have a Master Group with Policy#</errorMessage>
+</ValidationRule>

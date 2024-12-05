@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_AR_Open_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Effective_Date__c</columns>
+    <columns>OPPORTUNITY_SCORE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Partner_Rep__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>New,In Process</value>
+    </filters>
+    <filters>
+        <field>Blue_Rep_Region__c</field>
+        <operation>equals</operation>
+        <value>AR</value>
+    </filters>
+    <label>All AR Open Opportunities</label>
+    <sharedTo>
+        <group>All_Partner_Services</group>
+        <role>SVP_Sales</role>
+    </sharedTo>
+</ListView>

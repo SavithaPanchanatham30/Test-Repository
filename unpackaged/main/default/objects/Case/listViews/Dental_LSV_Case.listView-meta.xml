@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dental_LSV_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Case_Owner_Name__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.NAME</columns>
+    <columns>CASES.EMAIL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>LSV_Support</value>
+    </filters>
+    <label>Dental LSV</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

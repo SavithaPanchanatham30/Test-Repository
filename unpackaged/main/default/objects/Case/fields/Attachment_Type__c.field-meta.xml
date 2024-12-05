@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attachment_Type__c</fullName>
+    <label>Attachment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Central Records - Additions</fullName>
+                <default>false</default>
+                <label>Central Records - Additions</label>
+            </value>
+            <value>
+                <fullName>Central Records - Changes/Adjustments</fullName>
+                <default>false</default>
+                <label>Central Records - Changes/Adjustments</label>
+            </value>
+            <value>
+                <fullName>Central Records - Conversion APP</fullName>
+                <default>false</default>
+                <label>Central Records - Conversion APP</label>
+            </value>
+            <value>
+                <fullName>Central Records - EOI</fullName>
+                <default>false</default>
+                <label>Central Records - EOI</label>
+            </value>
+            <value>
+                <fullName>Central Records - Group</fullName>
+                <default>false</default>
+                <label>Central Records - Group</label>
+            </value>
+            <value>
+                <fullName>Central Records - Individual</fullName>
+                <default>false</default>
+                <label>Central Records - Individual</label>
+            </value>
+            <value>
+                <fullName>Central Records - Port/Convert APP</fullName>
+                <default>false</default>
+                <label>Central Records - Port/Convert APP</label>
+            </value>
+            <value>
+                <fullName>CIS - Duplicate Policy Request App</fullName>
+                <default>false</default>
+                <label>CIS - Duplicate Policy Request App</label>
+            </value>
+            <value>
+                <fullName>Maintenance Group - Terminations</fullName>
+                <default>false</default>
+                <label>Maintenance Group - Terminations</label>
+            </value>
+            <value>
+                <fullName>Medical Und. - Disease Elim. Rider</fullName>
+                <default>false</default>
+                <label>Medical Und. - Disease Elim. Rider</label>
+            </value>
+            <value>
+                <fullName>Conversion APP</fullName>
+                <default>false</default>
+                <label>Conversion APP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

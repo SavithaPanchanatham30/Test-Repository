@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hold_Reasons__c</fullName>
+    <description>Internal Hold Reasons</description>
+    <inlineHelpText>Enter Areas you are waiting on an Internal Response</inlineHelpText>
+    <label>Hold Reasons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Systems</fullName>
+                <default>false</default>
+                <label>Business Systems</label>
+            </value>
+            <value>
+                <fullName>Census File</fullName>
+                <default>false</default>
+                <label>Census File</label>
+            </value>
+            <value>
+                <fullName>Census Info</fullName>
+                <default>false</default>
+                <label>Census Info</label>
+            </value>
+            <value>
+                <fullName>CDF/AQF</fullName>
+                <default>false</default>
+                <label>CDF/AQF</label>
+            </value>
+            <value>
+                <fullName>Enrollment Testing</fullName>
+                <default>false</default>
+                <label>Enrollment Testing</label>
+            </value>
+            <value>
+                <fullName>EOI’s</fullName>
+                <default>false</default>
+                <label>EOI’s</label>
+            </value>
+            <value>
+                <fullName>FICA Match Agreement</fullName>
+                <default>false</default>
+                <label>FICA Match Agreement</label>
+            </value>
+            <value>
+                <fullName>Legal Dept.</fullName>
+                <default>false</default>
+                <label>Legal Dept.</label>
+            </value>
+            <value>
+                <fullName>Master Application</fullName>
+                <default>false</default>
+                <label>Master Application</label>
+            </value>
+            <value>
+                <fullName>PCCR – Commissions</fullName>
+                <default>false</default>
+                <label>PCCR – Commissions</label>
+            </value>
+            <value>
+                <fullName>PCCR – Licensing</fullName>
+                <default>false</default>
+                <label>PCCR – Licensing</label>
+            </value>
+            <value>
+                <fullName>Prior Carrier Certs</fullName>
+                <default>false</default>
+                <label>Prior Carrier Certs</label>
+            </value>
+            <value>
+                <fullName>Prior Carrier Invoice</fullName>
+                <default>false</default>
+                <label>Prior Carrier Invoice</label>
+            </value>
+            <value>
+                <fullName>Product Dept.</fullName>
+                <default>false</default>
+                <label>Product Dept.</label>
+            </value>
+            <value>
+                <fullName>Quoting</fullName>
+                <default>false</default>
+                <label>Quoting</label>
+            </value>
+            <value>
+                <fullName>Roster Review</fullName>
+                <default>false</default>
+                <label>Roster Review</label>
+            </value>
+            <value>
+                <fullName>Scrub Answers</fullName>
+                <default>false</default>
+                <label>Scrub Answers</label>
+            </value>
+            <value>
+                <fullName>UW Approval</fullName>
+                <default>false</default>
+                <label>UW Approval</label>
+            </value>
+            <value>
+                <fullName>W2 Agreement</fullName>
+                <default>false</default>
+                <label>W2 Agreement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

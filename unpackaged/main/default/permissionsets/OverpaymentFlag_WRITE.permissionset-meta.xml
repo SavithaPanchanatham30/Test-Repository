@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Overpayment Flag (WRITE)</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.HasOverPayment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>cvab__Claim__c.TotalOverpayments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

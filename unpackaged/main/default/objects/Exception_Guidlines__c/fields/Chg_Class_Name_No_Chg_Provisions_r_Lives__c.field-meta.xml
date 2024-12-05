@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chg_Class_Name_No_Chg_Provisions_r_Lives__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Changing Class Name but no change to plan provisions or enrolled/eligible lives</inlineHelpText>
+    <label>Chg Class Name No Chg Provisions r Lives</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

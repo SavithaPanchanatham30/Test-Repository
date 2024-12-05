@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Before tax total value of all un-paid payments that have been calculated or manually added. Or the difference between &quot;Total Liability Before Taxes&quot; and &quot;Total Incurred Before Taxes&quot;. --></help>
+        <label><!-- Total to be Incurred Before Taxes --></label>
+        <name>cve__TotalToBeIncurred__c</name>
+    </CustomFieldTranslation>

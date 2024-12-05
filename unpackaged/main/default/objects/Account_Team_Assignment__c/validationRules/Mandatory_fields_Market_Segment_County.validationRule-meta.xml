@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_fields_Market_Segment_County</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+	NOT(ISBLANK(TEXT(Assignment_Method__c))), 
+	ISPICKVAL(Assignment_Method__c, &#39;Market Segment &amp; County&#39;), 
+	OR(Blue_Partner__c = null, 
+	ISBLANK(TEXT(Group_Segment__c)),
+	County__c = null)
+	)</errorConditionFormula>
+    <errorMessage>Please enter value for Blue Partner, Group Segment and County in order to select Market Segment &amp; County Assignment method.</errorMessage>
+</ValidationRule>

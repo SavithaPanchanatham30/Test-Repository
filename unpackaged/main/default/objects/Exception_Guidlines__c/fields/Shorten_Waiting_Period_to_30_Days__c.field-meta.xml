@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shorten_Waiting_Period_to_30_Days__c</fullName>
+    <inlineHelpText>Shorten Waiting Period to 30 days or Yes. If Yes must go to GUR</inlineHelpText>
+    <label>Shorten Waiting Period to &lt;= 30 Days</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

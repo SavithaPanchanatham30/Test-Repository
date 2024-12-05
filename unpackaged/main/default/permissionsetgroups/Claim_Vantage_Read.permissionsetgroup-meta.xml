@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>reflects Claim Vantage read only permission sets</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Claim Vantage Read</label>
+    <permissionSets>AbsenceClaimStatusReason_READ</permissionSets>
+    <permissionSets>AdditionalIncome_READ</permissionSets>
+    <permissionSets>AutoPay_READ</permissionSets>
+    <permissionSets>ClaimIncurredDate_READ</permissionSets>
+    <permissionSets>ClaimTATCalculation_READ</permissionSets>
+    <permissionSets>CoverageLimitation_READ</permissionSets>
+    <permissionSets>ExpressPay_READ</permissionSets>
+    <permissionSets>FICAandMedicareTaxability_READ</permissionSets>
+    <permissionSets>FilesTransitionToClaim_READ</permissionSets>
+    <permissionSets>Insurance_Claims_User_Permissions_Read</permissionSets>
+    <permissionSets>MemberBenefit_READ</permissionSets>
+    <permissionSets>OverPayment_READ</permissionSets>
+    <permissionSets>OverpaymentFlag_READ</permissionSets>
+    <permissionSets>PaymentApproval_READ</permissionSets>
+    <permissionSets>PaymentFields_READ</permissionSets>
+    <permissionSets>PaymentSpecificationRollup_READ</permissionSets>
+    <permissionSets>PopulateAbsenceClaimFromCase_READ</permissionSets>
+    <permissionSets>PopulateClaimFromCase_READ</permissionSets>
+    <permissionSets>SocialSecurityExempt_READ</permissionSets>
+    <permissionSets>UsableCvabStatus_READ</permissionSets>
+    <permissionSets>UserLOARoleFields_READ</permissionSets>
+    <permissionSets>cvab__AbsenceUserPermissionsReadOnly</permissionSets>
+    <permissionSets>cvab__PermissionsSalesforce</permissionSets>
+    <permissionSets>cvb__BaseReadOnly</permissionSets>
+    <permissionSets>cvint__Integration_ReadWrite</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

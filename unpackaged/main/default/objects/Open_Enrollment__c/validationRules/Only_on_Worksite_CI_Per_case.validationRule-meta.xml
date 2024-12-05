@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_on_Worksite_CI_Per_case</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Case__r.Renewal_Worksite_CI_Count__c     = 1,
+ISNEW(),    ISPICKVAL(Product_Type__c, &quot;Worksite CI&quot;) 
+)</errorConditionFormula>
+    <errorMessage>OE006 - The case currently has a Worksite CI Enrollment, please navigate to the existing record and select edit.</errorMessage>
+</ValidationRule>

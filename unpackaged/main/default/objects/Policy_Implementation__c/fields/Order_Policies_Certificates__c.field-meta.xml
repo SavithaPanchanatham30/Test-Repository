@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Policies_Certificates__c</fullName>
+    <description>This field contains information regarding Order Policies/Certificates</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Order Policies/Certificates</inlineHelpText>
+    <label>Order Policies/Certificates</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

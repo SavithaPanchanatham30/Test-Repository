@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Prepare NTAKE file to have members added or manually
+enter census. --></help>
+        <label><!-- Prepare Ntake/Manual Census Load --></label>
+        <name>Prepare_Ntake_Manual_Census_Load__c</name>
+    </CustomFieldTranslation>

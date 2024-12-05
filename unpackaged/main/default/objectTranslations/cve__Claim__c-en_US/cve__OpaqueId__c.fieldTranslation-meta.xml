@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- An Id value assigned and used in combination with other security measures for customer claim inquiries --></help>
+        <label><!-- Opaque Id --></label>
+        <name>cve__OpaqueId__c</name>
+    </CustomFieldTranslation>

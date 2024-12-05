@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Required_If_Member_Not_In_System</fullName>
+    <active>true</active>
+    <description>Group is required if record type is member and contact is not from an admin system</description>
+    <errorConditionFormula>AND(
+      RecordType.Name == &#39;Member&#39;,
+       Admin_System_Record__c = FALSE,
+      ISBLANK( Group__c )
+     )</errorConditionFormula>
+    <errorDisplayField>Group__c</errorDisplayField>
+    <errorMessage>Group is required</errorMessage>
+</ValidationRule>

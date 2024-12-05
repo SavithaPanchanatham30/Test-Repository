@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CS108_IFNotAdministerableReasonmustbekey</fullName>
+    <active>true</active>
+    <description>If not administerable is set the not administerable reason must be noted</description>
+    <errorConditionFormula>AND(Not_Administerable__c,  ISBLANK( Not_Administerable_Reason__c ))</errorConditionFormula>
+    <errorDisplayField>Not_Administerable_Reason__c</errorDisplayField>
+    <errorMessage>CS-108 if Not Administerable the Not Administerable Reason Must be Keyed</errorMessage>
+</ValidationRule>

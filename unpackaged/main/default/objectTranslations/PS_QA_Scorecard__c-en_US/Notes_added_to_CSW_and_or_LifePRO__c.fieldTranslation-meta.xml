@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Notes added to CSW and/or LifePRO --></label>
+        <name>Notes_added_to_CSW_and_or_LifePRO__c</name>
+    </CustomFieldTranslation>

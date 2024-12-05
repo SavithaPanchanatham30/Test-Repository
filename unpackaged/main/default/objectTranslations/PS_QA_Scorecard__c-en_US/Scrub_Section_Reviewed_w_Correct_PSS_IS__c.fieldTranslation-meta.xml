@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Scrub Section Reviewed w Correct PSS/IS --></label>
+        <name>Scrub_Section_Reviewed_w_Correct_PSS_IS__c</name>
+    </CustomFieldTranslation>

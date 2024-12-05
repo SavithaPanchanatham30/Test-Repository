@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Medical_Carrier__c</fullName>
+    <label>Current Medical Carrier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABCBS</fullName>
+                <default>false</default>
+                <label>ABCBS</label>
+            </value>
+            <value>
+                <fullName>Florida Blue</fullName>
+                <default>false</default>
+                <label>Florida Blue</label>
+            </value>
+            <value>
+                <fullName>HMSA</fullName>
+                <default>false</default>
+                <label>HMSA</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Regence/Asuris</fullName>
+                <default>false</default>
+                <label>Regence/Asuris</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

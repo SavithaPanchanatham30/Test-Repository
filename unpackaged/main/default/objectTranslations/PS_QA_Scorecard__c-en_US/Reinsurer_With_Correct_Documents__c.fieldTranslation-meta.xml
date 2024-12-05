@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sent to Correct Reinsurer With Correct Documents --></help>
+        <label><!-- Reinsurer With Correct Documents --></label>
+        <name>Reinsurer_With_Correct_Documents__c</name>
+    </CustomFieldTranslation>

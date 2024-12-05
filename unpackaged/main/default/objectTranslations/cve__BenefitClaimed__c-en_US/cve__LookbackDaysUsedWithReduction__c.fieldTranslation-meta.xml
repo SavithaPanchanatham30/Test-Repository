@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Subset number of days of paid payments which contained Applied Adjustments based on Benefit Reductions --></help>
+        <label><!-- Lookback Days Used at Reduced Benefit --></label>
+        <name>cve__LookbackDaysUsedWithReduction__c</name>
+    </CustomFieldTranslation>

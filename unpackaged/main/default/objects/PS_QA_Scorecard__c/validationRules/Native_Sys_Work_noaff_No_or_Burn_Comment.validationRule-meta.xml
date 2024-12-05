@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Native_Sys_Work_noaff_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Native System Work Correct No affect on  Process then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT( Native_System_Work_Correct_No_Affect_Pro__c)   = &quot;No&quot; , TEXT( Native_System_Work_Correct_No_Affect_Pro__c) = &quot;Burn&quot;),    Native_System_Work_No_Affect_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Native_System_Work_No_Affect_Comments__c</errorDisplayField>
+    <errorMessage>QA034 - If Native System Work Correct No Affects Process = No or Burn, Then Native System Work  No Affects Comments must be entered</errorMessage>
+</ValidationRule>

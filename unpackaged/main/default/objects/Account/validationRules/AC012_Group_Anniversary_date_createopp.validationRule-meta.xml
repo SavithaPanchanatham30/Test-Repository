@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC012_Group_Anniversary_date_createopp</fullName>
+    <active>true</active>
+    <description>Cannot create Opportunities where Group Anniversary Date is blank.</description>
+    <errorConditionFormula>Run_Opp_Batch__c  = true &amp;&amp;  ISBLANK(Group_Anniversary_Date__c)</errorConditionFormula>
+    <errorMessage>AC012 Group Anniversary Date is required to auto-create an opportunity.</errorMessage>
+</ValidationRule>

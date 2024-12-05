@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complete_Explanation_Sent_to_Customer__c</fullName>
+    <label>Complete Explanation Sent to Customer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>PS_QA_Picklist</valueSetName>
+    </valueSet>
+</CustomField>

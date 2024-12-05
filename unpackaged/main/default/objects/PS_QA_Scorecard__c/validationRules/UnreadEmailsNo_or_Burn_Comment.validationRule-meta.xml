@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UnreadEmailsNo_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Unread emails then comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Unread_Emails_Closed_Or_Replied_SLA__c )  = &quot;No&quot; , TEXT(Unread_Emails_Closed_Or_Replied_SLA__c) = &quot;Burn&quot;),     Unread_Emails_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Unread_Emails_Comments__c</errorDisplayField>
+    <errorMessage>QA167 - If Unread Emails Closed or Replied SLA  = No or Burn, Then Unread Emails Comments  must be entered</errorMessage>
+</ValidationRule>

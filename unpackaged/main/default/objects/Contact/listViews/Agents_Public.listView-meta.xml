@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agents_Public</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Contact_Type__c</columns>
+    <columns>Admin_System_Record__c</columns>
+    <columns>CONTACT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Agent</value>
+    </filters>
+    <filters>
+        <field>Admin_System_Record__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Agents</label>
+    <sharedTo>
+        <group>Junior_Admin_Group</group>
+        <roleAndSubordinatesInternal>EVP_Operations</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

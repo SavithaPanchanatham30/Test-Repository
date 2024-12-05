@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL026AskedforCopyofAccidentReport</fullName>
+    <active>true</active>
+    <description>For Type of Disability Accident - Need to ask for copy of Accident Report</description>
+    <errorConditionFormula>AND( TEXT( Type_of_Disability__c )= &quot;Accident&quot;,  NOT( Asked_for_Copy_of_Accident_Report_if_Ava__c )  , RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Asked_for_Copy_of_Accident_Report_if_Ava__c</errorDisplayField>
+    <errorMessage>CL-026 If Type of Disability - Accident then Asked for Accident Report must be filled out</errorMessage>
+</ValidationRule>

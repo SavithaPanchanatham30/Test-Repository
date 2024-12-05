@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compass_Status_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Compass Status then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(  Compass_Status__c  ) = &quot;No&quot; , TEXT(    Compass_Status__c  ) = &quot;Burn&quot;),     Compass_Status_Comments__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Compass_Status_Comments__c</errorDisplayField>
+    <errorMessage>QA180 - If  Compass Status No or Burn, Then Compass Status Comments must be entered</errorMessage>
+</ValidationRule>

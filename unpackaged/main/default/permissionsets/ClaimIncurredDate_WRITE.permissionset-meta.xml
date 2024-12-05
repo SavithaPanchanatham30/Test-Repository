@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set to grant WRITE access on the &quot;IncurredDate__c&quot; field, which has been added to support Coverage Limits during Accident, Critical Illness, or Hospital Indemnity Claim Intake or when adding Coverages to Claims of those types.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Claim Incurred Date Permission (WRITE)</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>cve__BenefitClaimed__c.IncurredDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>cve__Claim__c.IncurredDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

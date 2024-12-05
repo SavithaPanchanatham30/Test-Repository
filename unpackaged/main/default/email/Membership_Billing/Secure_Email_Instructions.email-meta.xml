@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email Template for M&amp;B Secure Email Instructions</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>USAble_Life_Letterhead</letterhead>
+    <name>Secure Email Instructions</name>
+    <style>freeForm</style>
+    <subject>Secure Email Instructions</subject>
+    <textOnly>Dear Payroll Administrator:
+
+Your contract with USAble Life states that premiums for employees will increase as they enter into a new age bracket or have other Anniversary Premium Changes.  We will send your premium change information via a secured email. To open the secured email, please refer to the following instructions.
+
+
+Please open the attachment html that came with the email and follow the instructions to see your data.
+
+
+
+
+
+Follow the instructions in the email message to open or view the attachment.
+Open the &lt;message&gt;.html attachment and then click the link VIEW YOUR ENCRYPTED MESSAGE.
+Sign in to the encryption portal with a Microsoft account or an Office 365 organizational account using your email address as the user name.  If you have not signed up for a Microsoft account with your email address, you must sign up for a Microsoft account using your email address.
+After signing in, you can view the contents of the encrypted message.
+
+
+Note: The Microsoft account used must have an email address that matches the address in the encrypted message. Otherwise, it will not be accepted.
+
+Please feel free to call us at (800) 648-0271 if you have any questions or concerns.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

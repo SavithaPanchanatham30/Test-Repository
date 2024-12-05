@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Broker/Agent Contact --></label>
+        <name>Broker_Agent_Contact__c</name>
+        <relationshipLabel><!-- Enrollment Implementations (Broker/Agent Contact) --></relationshipLabel>
+    </CustomFieldTranslation>

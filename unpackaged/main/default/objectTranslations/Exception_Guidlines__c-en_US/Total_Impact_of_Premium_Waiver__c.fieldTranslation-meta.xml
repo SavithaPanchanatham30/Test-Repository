@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Total Impact of Premium Waiver --></label>
+        <name>Total_Impact_of_Premium_Waiver__c</name>
+    </CustomFieldTranslation>

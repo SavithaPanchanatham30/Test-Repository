@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Prepare DRMS coversheet and LTD
+Policy/Cert/Roster/prior carrier policy/
+proposal/DRMS rate run sheet to send to PE --></help>
+        <label><!-- DRMS Submission --></label>
+        <name>DRMS_Submission__c</name>
+    </CustomFieldTranslation>

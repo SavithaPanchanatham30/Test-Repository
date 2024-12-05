@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>High</fullName>
+        <default>false</default>
+        <label>High</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Normal</fullName>
+        <default>true</default>
+        <label>Normal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Low</fullName>
+        <default>false</default>
+        <label>Low</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Urgent Intervention</fullName>
+        <default>false</default>
+        <label>Urgent Intervention</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supervisor Intervention</fullName>
+        <default>false</default>
+        <label>Supervisor Intervention</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Subject Matter Resource</fullName>
+        <default>false</default>
+        <label>Subject Matter Resource</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Escalation</fullName>
+        <default>false</default>
+        <label>Business Escalation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medium</fullName>
+        <default>false</default>
+        <label>Medium</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Escalation - Exception.</fullName>
+        <default>false</default>
+        <label>Business Escalation - Exception.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 1</fullName>
+        <default>false</default>
+        <label>Tier 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 2</fullName>
+        <default>false</default>
+        <label>Tier 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 3</fullName>
+        <default>false</default>
+        <label>Tier 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 4</fullName>
+        <default>false</default>
+        <label>Tier 4</label>
+    </standardValue>
+</StandardValueSet>

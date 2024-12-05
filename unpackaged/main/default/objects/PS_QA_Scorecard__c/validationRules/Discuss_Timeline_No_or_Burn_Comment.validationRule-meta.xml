@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discuss_Timeline_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Discuss Disability Reporting then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(Discuss_Timeline__c) = &quot;No&quot; , TEXT (Discuss_Timeline__c ) = &quot;Burn&quot;),     Discuss_Timeline_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Discuss_Timeline_Comments__c</errorDisplayField>
+    <errorMessage>QA101 - If Discuss Timeline = No or Burn, Then Discuss Timeline  Comments must be entered</errorMessage>
+</ValidationRule>

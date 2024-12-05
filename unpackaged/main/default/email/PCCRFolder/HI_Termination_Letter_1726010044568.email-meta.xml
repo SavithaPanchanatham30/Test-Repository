@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Hawaii Termination Letter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TERM - Termination Letter (HI)</name>
+    <style>none</style>
+    <subject>USAble Life Termination</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

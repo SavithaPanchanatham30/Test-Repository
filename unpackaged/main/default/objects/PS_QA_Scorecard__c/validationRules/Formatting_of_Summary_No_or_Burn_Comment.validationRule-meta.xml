@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formatting_of_Summary_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Formatitng of Summary then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(  Formatting_of_Summary_Looks_Presentable__c ) = &quot;No&quot; , TEXT (  Formatting_of_Summary_Looks_Presentable__c  ) = &quot;Burn&quot;),  Formatting_of_Summary_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Formatting_of_Summary_Comments__c</errorDisplayField>
+    <errorMessage>QA130 - If Formatting of Summary No or Burn, Then Formatting of Summary Comments must be entered</errorMessage>
+</ValidationRule>

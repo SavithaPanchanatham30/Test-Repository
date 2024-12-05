@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Template for Regence Sales Staff Appointment</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Regence Appointment Welcome Letter</name>
+    <style>none</style>
+    <subject>USAble Life Appointment</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

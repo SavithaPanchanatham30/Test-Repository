@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Customer Service Group</name>
+    <queueMembers>
+        <roles>
+            <role>Service_Coordinator_CS</role>
+            <role>Service_Recovery_Analyst_CS</role>
+        </roles>
+        <users>
+            <user>alexandra.zougris@usablelife.com</user>
+            <user>alexis.razzano@usablelife.com</user>
+            <user>alexis.stein@usablelife.com</user>
+            <user>amanda.eddy@usablelife.com</user>
+            <user>cherie.dukes@usablelife.com</user>
+            <user>christina.capps@usablelife.com</user>
+            <user>devin.dunlap@usablelife.com</user>
+            <user>jeannie.king@usablelife.com</user>
+            <user>kristena.evans@usablelife.com</user>
+            <user>latasha.bowman@usablelife.com</user>
+            <user>latoya.robinson@usablelife.com</user>
+            <user>malecia.yancy@usablelife.com</user>
+            <user>marylynn.garrett@lsvusa.com</user>
+            <user>rakena.turner@usablelife.com</user>
+            <user>sarah.bradford@usablelife.com</user>
+            <user>sharon.taylor@usablelife.com</user>
+            <user>tanya.spease@usablelife.com</user>
+            <user>vatsana.ferrell@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

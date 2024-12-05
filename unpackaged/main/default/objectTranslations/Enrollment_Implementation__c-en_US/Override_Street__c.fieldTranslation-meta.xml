@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to override the Master Group Street if the place en-rollers need to go is different --></help>
+        <label><!-- Override Street --></label>
+        <name>Override_Street__c</name>
+    </CustomFieldTranslation>

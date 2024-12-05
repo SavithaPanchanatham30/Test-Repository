@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <assignments>
+        <name>Assign_Case_and_underwriting_Start_Date</name>
+        <label>Assign Case and underwriting Start Date</label>
+        <locationX>602</locationX>
+        <locationY>379</locationY>
+        <assignmentItems>
+            <assignToReference>NewExceptionGuidelines.Case__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>NewExceptionGuidelines.Underwriting_Start_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Internal_Hold_Start_Date__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_Exception_Guidelines</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Underwriting_Start_Date</name>
+        <label>Assign Underwriting Start Date</label>
+        <locationX>928</locationX>
+        <locationY>574</locationY>
+        <assignmentItems>
+            <assignToReference>Exception_Guidelines.Underwriting_Start_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Internal_Hold_Start_Date__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Exception_Guidelines_With_Hold_start_date</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Exception_Guidelines_Created</name>
+        <label>Exception Guidelines Created</label>
+        <locationX>798</locationX>
+        <locationY>373</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Case_and_underwriting_Start_Date</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Existing Exception Guidelines</defaultConnectorLabel>
+        <rules>
+            <name>Exception_GuideLines_Created_Populate_Underwriting_Start_Date</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Count_of_Exception_Guidelines__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>1.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Exception_Guidelines</targetReference>
+            </connector>
+            <label>Exception GuideLines Created - Populate Underwriting Start Date</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Underwriting_Start_Not_Populated</name>
+        <label>Underwriting Start Not Populated</label>
+        <locationX>774</locationX>
+        <locationY>619</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>UnderwritingStartDatenotPopulatd</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Exception_Guidelines.Underwriting_Start_Date__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Underwriting_Start_Date</targetReference>
+            </connector>
+            <label>Underwriting Start Date Not populated</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Update Exception Guidelines Start Date {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Exception Guidelines Start Date</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Exception_Guidelines</name>
+        <label>Create Exception Guidelines</label>
+        <locationX>419</locationX>
+        <locationY>380</locationY>
+        <inputReference>NewExceptionGuidelines</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>Exception_Guidelines</name>
+        <label>Exception Guidelines</label>
+        <locationX>788</locationX>
+        <locationY>496</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Underwriting_Start_Not_Populated</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Case__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Exception_Guidlines__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Exception_Guidelines_With_Hold_start_date</name>
+        <label>Update Exception Guidelines With Hold start date</label>
+        <locationX>1106</locationX>
+        <locationY>573</locationY>
+        <inputReference>Exception_Guidelines</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Priority</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Business Escalation - Exception.</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Internal_Hold_Start_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <connector>
+                <targetReference>Exception_Guidelines_Created</targetReference>
+            </connector>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>New Exception Guidelines</description>
+        <name>NewExceptionGuidelines</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Exception_Guidlines__c</objectType>
+    </variables>
+</Flow>

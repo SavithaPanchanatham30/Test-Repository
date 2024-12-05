@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overpayment_Notice_Script__c</fullName>
+    <defaultValue>&quot;IF USABLE LIFE SHOULD OVERPAY YOUR BENEFITS AT ANY TIME DURING THE DURATION OF THIS CLAIM, WE WILL REQUEST REIMBURSEMENT OF THE OVERPAID AMOUNT. INSTEAD OF A TRADITIONAL SIGNATURE, YOUR VERBAL ACKNOWLEDGEMENT AUTHORIZES USABLE LIFE TO RECOVER ANY OVERPAID MEDICARE AND/OR SOCIAL SECURITY TAX THAT WAS PAID ON YOUR BEHALF AND CERTIFIES YOU WILL NOT ATTEMPT TO RECOVER A REFUND OR CREDIT OF THE MEDICARE AND/OR SOCIAL SECURITY TAX WITH ANY FORM W-2C THAT IS FURNISHED TO YOU BASED ON RECOVERIES RECEIVED. PLEASE LET US KNOW WHEN YOU RETURN TO WORK TO AVOID AN OVERPAYMENT.&quot;</defaultValue>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Overpayment Notice Script</label>
+    <length>700</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>7</visibleLines>
+</CustomField>

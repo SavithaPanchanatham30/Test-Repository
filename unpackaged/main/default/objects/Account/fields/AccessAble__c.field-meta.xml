@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccessAble__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AccessAble_Total__c &gt; 0, IMAGE(&quot;/resource/AccessAbleGroup&quot;, &quot;&quot;, 32.326,109.222),&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AccessAble</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

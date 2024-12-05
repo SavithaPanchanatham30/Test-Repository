@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Services_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Additional Services Added then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT( Additional_Services_Added__c )  = &quot;No&quot; , TEXT(Additional_Services_Added__c ) = &quot;Burn&quot;),        Additional_Services_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Additional_Services_Comments__c</errorDisplayField>
+    <errorMessage>QA029 - If Additional Services Added = No or Burn, Then Additional Services Comments must be entered</errorMessage>
+</ValidationRule>

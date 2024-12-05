@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Type__c</fullName>
+    <description>This field contains Contact type Pick list value</description>
+    <label>Contact Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Group Contact</fullName>
+                <default>false</default>
+                <label>Group Contact</label>
+            </value>
+            <value>
+                <fullName>Medical Service Provider</fullName>
+                <default>false</default>
+                <label>Medical Service Provider</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>Partner Rep</fullName>
+                <default>false</default>
+                <label>Partner Rep</label>
+            </value>
+            <value>
+                <fullName>Attorney</fullName>
+                <default>false</default>
+                <label>Attorney</label>
+            </value>
+            <value>
+                <fullName>Authorized Rep/POA</fullName>
+                <default>false</default>
+                <label>Authorized Rep/POA</label>
+            </value>
+            <value>
+                <fullName>Beneficiary</fullName>
+                <default>false</default>
+                <label>Beneficiary</label>
+            </value>
+            <value>
+                <fullName>Enrollment Contact</fullName>
+                <default>false</default>
+                <label>Enrollment Contact</label>
+            </value>
+            <value>
+                <fullName>Funeral Home</fullName>
+                <default>false</default>
+                <label>Funeral Home</label>
+            </value>
+            <value>
+                <fullName>Health Provider</fullName>
+                <default>false</default>
+                <label>Health Provider</label>
+            </value>
+            <value>
+                <fullName>Other Business Entity Contact</fullName>
+                <default>false</default>
+                <label>Other Business Entity Contact</label>
+            </value>
+            <value>
+                <fullName>Other Service Provider</fullName>
+                <default>false</default>
+                <label>Other Service Provider</label>
+            </value>
+            <value>
+                <fullName>Carrier Contact</fullName>
+                <default>false</default>
+                <label>Carrier Contact</label>
+            </value>
+            <value>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+                <label>Spouse</label>
+            </value>
+            <value>
+                <fullName>Ex-Spouse</fullName>
+                <default>false</default>
+                <label>Ex-Spouse</label>
+            </value>
+            <value>
+                <fullName>Child</fullName>
+                <default>false</default>
+                <label>Child</label>
+            </value>
+            <value>
+                <fullName>Student Child</fullName>
+                <default>false</default>
+                <label>Student Child</label>
+            </value>
+            <value>
+                <fullName>Domestic Partner</fullName>
+                <default>false</default>
+                <label>Domestic Partner</label>
+            </value>
+            <value>
+                <fullName>Disabled Child</fullName>
+                <default>false</default>
+                <label>Disabled Child</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

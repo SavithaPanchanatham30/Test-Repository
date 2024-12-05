@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provider_TAXID_Cant_Be_Less_Than_9_Dgts</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK(Provider_Tax_ID__c)),
+  LEN(Provider_Tax_ID__c) &lt; 9 
+)</errorConditionFormula>
+    <errorDisplayField>Provider_Tax_ID__c</errorDisplayField>
+    <errorMessage>Provider Tax ID must have 09 digits</errorMessage>
+</ValidationRule>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Exception Status --></label>
+        <name>Exception_Status__c</name>
+        <picklistValues>
+            <masterLabel>2nd Review Requested</masterLabel>
+            <translation><!-- 2nd Review Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Gathering</masterLabel>
+            <translation><!-- Information Gathering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Final Decision</masterLabel>
+            <translation><!-- Pending Final Decision --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

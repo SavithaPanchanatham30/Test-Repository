@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Branch__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Created because the Account of an agent is the &#39;service master agency&#39;. In order to report on location, the &#39;agency branch&#39; is populated with the actual location where that agent is working.</description>
+    <label>Agency Branch</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Agents</relationshipLabel>
+    <relationshipName>Agents</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

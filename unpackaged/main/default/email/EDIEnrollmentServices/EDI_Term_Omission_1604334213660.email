@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><br />
+<span style="line-height: 107%;"><font face="Arial, Helvetica, sans-serif"><span style="font-size: 14px;">This week’s production file was processed successfully. However, the following members have been flagged for verification by our auditing process due to the member or benefit not being present in the file data received.</span></font></span><br />
+<br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 107%;"><b><span style="color:#2980b9">Please verify whether the following members or members’ benefits have been terminated.<br />
+If they have been, please provide termination date:</span></b></span><br />
+<br />
+<br />
+<br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 107%;">If the members or members’ benefits are still active, please be sure to include them on next week's file feed. If the members or members’ benefits are showing as active in your system, please reach out to your vendor contact to investigate further.&nbsp;All members or benefits will remain active and billing unless termination dates are provided.</span><br />
+<br />
+<span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 107%;">Thank you for your help. Please let the USAble Life EDI Team know if there are any questions.</span></body>
+</html>

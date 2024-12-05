@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sent to PCCR Comments --></label>
+        <name>Sent_to_PCCR_Comments__c</name>
+    </CustomFieldTranslation>

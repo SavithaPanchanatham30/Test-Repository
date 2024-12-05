@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cancer Type --></label>
+        <name>Cancer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cancer Care Elite</masterLabel>
+            <translation><!-- Cancer Care Elite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancer w/ Critical</masterLabel>
+            <translation><!-- Cancer w/ Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2G Cancer</masterLabel>
+            <translation><!-- W2G Cancer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

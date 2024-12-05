@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OffsetCalculation__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Offset Calculation</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre-Disability Earnings</fullName>
+                <default>false</default>
+                <label>Pre-Disability Earnings</label>
+            </value>
+            <value>
+                <fullName>Straight Offset</fullName>
+                <default>true</default>
+                <label>Straight Offset</label>
+            </value>
+            <value>
+                <fullName>PFML Offset</fullName>
+                <default>false</default>
+                <label>PFML Offset</label>
+            </value>
+            <value>
+                <fullName>STD Offset</fullName>
+                <default>false</default>
+                <label>STD Offset</label>
+            </value>
+            <value>
+                <fullName>Straight-Reduction Offset</fullName>
+                <default>false</default>
+                <label>Straight-Reduction Offset</label>
+            </value>
+            <value>
+                <fullName>Pre-Disability Earnings Offset</fullName>
+                <default>false</default>
+                <label>Pre-Disability Earnings Offset</label>
+            </value>
+            <value>
+                <fullName>IDAM Offset</fullName>
+                <default>false</default>
+                <label>IDAM Offset</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Amount incremented to the before tax amount overpaid or underpaid. --></help>
+        <label><!-- Change To Overpayment Before Tax --></label>
+        <name>cve__ChangeToOverpaymentBeforeTax__c</name>
+    </CustomFieldTranslation>

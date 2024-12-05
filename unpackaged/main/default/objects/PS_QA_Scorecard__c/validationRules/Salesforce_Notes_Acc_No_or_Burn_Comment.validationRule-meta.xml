@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Notes_Acc_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in QA Salesforce Notes then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Salesforce_Notes_Stay_Accurate_Current__c)  = &quot;No&quot; , TEXT(Salesforce_Notes_Stay_Accurate_Current__c) = &quot;Burn&quot;),           Salesforce_NotesAccurate_Current_Comment__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Salesforce_NotesAccurate_Current_Comment__c</errorDisplayField>
+    <errorMessage>QA160 - If  Salesforce Notes Accurate &amp; Current = No or Burn, Then Salesforce NotesAccurate&amp;Current comment must be entered</errorMessage>
+</ValidationRule>

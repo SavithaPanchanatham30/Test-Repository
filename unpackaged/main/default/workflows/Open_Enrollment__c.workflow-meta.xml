@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Initialize_Enrolled_Lives</fullName>
+        <field>Starting_Enrolled_Lives__c</field>
+        <formula>IF (   Related_Asset__r.Current_Contracts__c &gt; 0, Related_Asset__r.Current_Contracts__c, Asset_Initial_Enrolled_Lives__c)</formula>
+        <name>Initialize Enrolled Lives</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Eligibles</fullName>
+        <field>Starting_Eligible_Lives__c</field>
+        <formula>IF (Related_Asset__r.Current_Eligibles__c &gt; 0, Related_Asset__r.Current_Eligibles__c, Asset_Initial_Eligibles__c)</formula>
+        <name>Update Eligibles</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Initial_Premium</fullName>
+        <field>Starting_Premium__c</field>
+        <formula>IF ( Related_Asset__r.Current_Premium__c &gt; 0,  Related_Asset__r.Current_Premium__c ,  Related_Asset__r.Initial_Premium__c)</formula>
+        <name>Update Initial Premium</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Update info from Asset</fullName>
+        <actions>
+            <name>Initialize_Enrolled_Lives</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Eligibles</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Initial_Premium</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>(1 OR 2 OR 3) And (4 OR 5)</booleanFilter>
+        <criteriaItems>
+            <field>Open_Enrollment__c.Starting_Eligible_Lives__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Open_Enrollment__c.Starting_Enrolled_Lives__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Open_Enrollment__c.Starting_Enrolled_Lives__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Open_Enrollment__c.Asset_Initial_Eligibles__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Open_Enrollment__c.Asset_Initial_Enrolled_Lives__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </criteriaItems>
+        <description>Copy information from Asset if Starting Enrollment is 0</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

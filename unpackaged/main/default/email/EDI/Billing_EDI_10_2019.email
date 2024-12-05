@@ -1,0 +1,32 @@
+We have processed the test file in our TEST environment, and processed what the billing would be if the file was actually ran in production. 
+
+Please review the provided billing adjustment, if the group agrees this is acceptable and all issues on the audit are resolved --- we can move on to the final steps and begin Go-Live prep.  
+
+Billing Adjustments:
+
+Based on the test file, the total billed amount will be approximately XXX.
+
+ 
+This include credits totaling XXX
+
+The credits created by the file are due to the following: 
+Member Salary Change
+Member Benefit Amount Change
+Member / Benefit Termination
+ 
+This includes current & retroactive charges totaling XXX
+
+The charges created by the file are due to the following: 
+Member Salary Change
+Member Install a Benefit
+
+In review of the last couple of months of invoices, the last 3 month average is XXX
+
+The XXX invoice would be approximately XXX
+
+
+If this is agreed on that it is OK to move on with the EDI production and these approximate amounts are acceptable, Please confirm via email
+OR 
+If you would like details of these potential transactions to review, Please let us know and that can be provided. 
+
+Upon approval of this, We will begin the last Go-Live preparations to implement the EDI file feed.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Was phone call the first attempt in requesting missing information --></help>
+        <label><!-- Phone Call First Attempt for Missing Inf --></label>
+        <name>Phone_Call_First_Attempt_for_Missing_Inf__c</name>
+    </CustomFieldTranslation>

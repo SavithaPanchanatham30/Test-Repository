@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Get Available Times for Release Call --></label>
+        <name>Get_Available_Times_for_Release_Call__c</name>
+    </CustomFieldTranslation>

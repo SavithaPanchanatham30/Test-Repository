@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Records</fullName>
+    <columns>NAME</columns>
+    <columns>API_Name_of_field__c</columns>
+    <columns>Blue_Partner_Id__c</columns>
+    <columns>Group_Size_Lower_Limit__c</columns>
+    <columns>Group_Size_Upper_Limit__c</columns>
+    <columns>Number_of_Opportunities__c</columns>
+    <columns>Months_In_Advance__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All_Records</label>
+</ListView>

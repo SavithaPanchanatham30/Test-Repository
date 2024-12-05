@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Broker_Agency__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <label>Broker Agency</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Account record type must be an Agency</errorMessage>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Agency</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Master Groups</relationshipLabel>
+    <relationshipName>Broker_Agency</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

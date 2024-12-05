@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>USAble_EDI_User_Profile_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>USAble_EDI_User_Profile_Name</shortDescription>
+        <value>API</value>
+    </labels>
+    <labels>
+        <fullName>USAble_Sales_User_Profile_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>USAble Sales User Profile Name</shortDescription>
+        <value>USAble Standard Sales User</value>
+    </labels>
+</CustomLabels>

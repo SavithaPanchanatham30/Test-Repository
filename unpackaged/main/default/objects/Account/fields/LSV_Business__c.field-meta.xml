@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSV_Business__c</fullName>
+    <inlineHelpText>&#39;Medical Only&#39; - Master Group has only medical asset
+&#39;Medical and Ancillary&#39; - Master Group has medical asset and at least one ancillary asset
+&#39;Ancillary Only&#39; - Master Group has no medical asset and at least one ancillary asset</inlineHelpText>
+    <label>LSV Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LSV Customer</fullName>
+                <default>false</default>
+                <label>LSV Customer</label>
+            </value>
+            <value>
+                <fullName>Medical Only</fullName>
+                <default>false</default>
+                <label>Medical Only</label>
+            </value>
+            <value>
+                <fullName>Ancillary Only</fullName>
+                <default>false</default>
+                <label>Ancillary Only</label>
+            </value>
+            <value>
+                <fullName>Medical and Ancillary</fullName>
+                <default>false</default>
+                <label>Medical and Ancillary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

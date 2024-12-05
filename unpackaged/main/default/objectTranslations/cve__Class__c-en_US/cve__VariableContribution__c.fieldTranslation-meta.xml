@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When checked, contributions are taken from the Benefit Claimed premium fields rather than the Class contribution fields --></help>
+        <label><!-- Variable Contribution --></label>
+        <name>cve__VariableContribution__c</name>
+    </CustomFieldTranslation>

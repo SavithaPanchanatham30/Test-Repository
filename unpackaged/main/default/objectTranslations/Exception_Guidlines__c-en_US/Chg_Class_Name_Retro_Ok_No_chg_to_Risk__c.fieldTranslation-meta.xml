@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Retro is ok because there is no change to risks --></help>
+        <label><!-- Chg Class Name Retro Ok No chg to Risk --></label>
+        <name>Chg_Class_Name_Retro_Ok_No_chg_to_Risk__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_to_SendF__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  ISNULL(Date_Feedback_Sent__c ) , 0, 5 * ( FLOOR( ( BLANKVALUE(Date_Feedback_Sent__c , TODAY()) - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( BLANKVALUE(Date_Feedback_Sent__c , TODAY()) - DATE( 1900, 1, 8), 7 ) ) )
+-
+(5 * ( FLOOR( ( Date_File_Received__c - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( Date_File_Received__c - DATE( 1900, 1, 8), 7 ) ) )</formula>
+    <label>Days to SendF</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

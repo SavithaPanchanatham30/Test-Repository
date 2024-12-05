@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP011_Closing_Oppty_wProducts_Reqiured</fullName>
+    <active>true</active>
+    <description>Validates that a custom field on opportunity product &#39;line item stage&#39; is = closed won, closed lost - quoted, or closed lost.</description>
+    <errorConditionFormula>AND (RecordType.DeveloperName == &#39;Lock_Opportunity&#39;,
+$Profile.Name != &#39;USAble System Administrator&#39;,
+$UserRole.Name != &#39;Sales_Ops&#39;,
+OR(
+ISPICKVAL(StageName, &quot;Closed Won&quot;),
+ISPICKVAL(StageName, &quot;Closed Lost&quot;)
+))</errorConditionFormula>
+    <errorMessage>OPP011 To Close an Opportunity with Products. All products (Line Item Stage) need to be &#39;Closed&#39;</errorMessage>
+</ValidationRule>

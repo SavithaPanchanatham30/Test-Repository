@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- List of Payment Contributions Static Resource names. Overrides the Options.PaymentContributionsResourceNames custom setting. --></help>
+        <label><!-- Payment Contributions Resource Names --></label>
+        <name>cve__PaymentContributionsResourceNames__c</name>
+    </CustomFieldTranslation>

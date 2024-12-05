@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Disability_Review_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Group Disability Review</label>
+    <queue>Group_Disability_Review</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GroupMember_Member_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+ISPICKVAL(Reason, &quot;Group/Member&quot;),
+Member__c = &quot;&quot;),
+TRUE,
+FALSE
+)</errorConditionFormula>
+    <errorDisplayField>Member__c</errorDisplayField>
+    <errorMessage>Please enter Member</errorMessage>
+</ValidationRule>

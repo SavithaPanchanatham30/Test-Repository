@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Examiner Wellness (Claims)</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Examiner Wellness (Claims)</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Intake_Supervisor_Claims</parentRole>
+</Role>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Code__c</fullName>
+    <label>Partner Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ARRTL</fullName>
+                <default>false</default>
+                <label>ARRTL</label>
+            </value>
+            <value>
+                <fullName>FLRTL</fullName>
+                <default>false</default>
+                <label>FLRTL</label>
+            </value>
+            <value>
+                <fullName>NCRTL</fullName>
+                <default>false</default>
+                <label>NCRTL</label>
+            </value>
+            <value>
+                <fullName>TNRTL</fullName>
+                <default>false</default>
+                <label>TNRTL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Months of service from 0 to 11; whole years are entered in the &quot;Years of Service at DOD&quot; field --></help>
+        <label><!-- Months of Service at Date of Disability --></label>
+        <name>cve__MonthsOfServiceAtDod__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Reinstatement_Reason__c</fullName>
+    <label>Cancellation/Reinstatement Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bankruptcy</fullName>
+                <default>false</default>
+                <label>Bankruptcy</label>
+            </value>
+            <value>
+                <fullName>Below Percentage/Size</fullName>
+                <default>false</default>
+                <label>Below Percentage/Size</label>
+            </value>
+            <value>
+                <fullName>Cancel/Claims Request</fullName>
+                <default>false</default>
+                <label>Cancel/Claims Request</label>
+            </value>
+            <value>
+                <fullName>Changing To Enterprise Small Group</fullName>
+                <default>false</default>
+                <label>Changing To Enterprise Small Group</label>
+            </value>
+            <value>
+                <fullName>Death</fullName>
+                <default>false</default>
+                <label>Death</label>
+            </value>
+            <value>
+                <fullName>Delinquent</fullName>
+                <default>false</default>
+                <label>Delinquent</label>
+            </value>
+            <value>
+                <fullName>Entered Terminated Group In LifePro Due To Open Claim</fullName>
+                <default>false</default>
+                <label>Entered Terminated Group In LifePro Due To Open Claim</label>
+            </value>
+            <value>
+                <fullName>Expired Due To Age</fullName>
+                <default>false</default>
+                <label>Expired Due To Age</label>
+            </value>
+            <value>
+                <fullName>Extended Term Insurance</fullName>
+                <default>false</default>
+                <label>Extended Term Insurance</label>
+            </value>
+            <value>
+                <fullName>Group&#39;s Request</fullName>
+                <default>false</default>
+                <label>Group&#39;s Request</label>
+            </value>
+            <value>
+                <fullName>Leave Of Absence</fullName>
+                <default>false</default>
+                <label>Leave Of Absence</label>
+            </value>
+            <value>
+                <fullName>Move To SA Billing</fullName>
+                <default>false</default>
+                <label>Move To SA Billing</label>
+            </value>
+            <value>
+                <fullName>No DOL Approval</fullName>
+                <default>false</default>
+                <label>No DOL Approval</label>
+            </value>
+            <value>
+                <fullName>Not REC Takeover Business</fullName>
+                <default>false</default>
+                <label>Not REC Takeover Business</label>
+            </value>
+            <value>
+                <fullName>Out Of Business/Dissolve</fullName>
+                <default>false</default>
+                <label>Out Of Business/Dissolve</label>
+            </value>
+            <value>
+                <fullName>Overloaned</fullName>
+                <default>false</default>
+                <label>Overloaned</label>
+            </value>
+            <value>
+                <fullName>Paid At Master Group</fullName>
+                <default>false</default>
+                <label>Paid At Master Group</label>
+            </value>
+            <value>
+                <fullName>Policyholder&#39;s Request</fullName>
+                <default>false</default>
+                <label>Policyholder&#39;s Request</label>
+            </value>
+            <value>
+                <fullName>Product Setup In Error</fullName>
+                <default>false</default>
+                <label>Product Setup In Error</label>
+            </value>
+            <value>
+                <fullName>Rates/Competition</fullName>
+                <default>false</default>
+                <label>Rates/Competition</label>
+            </value>
+            <value>
+                <fullName>Reduced Paid Up</fullName>
+                <default>false</default>
+                <label>Reduced Paid Up</label>
+            </value>
+            <value>
+                <fullName>Reinstatement</fullName>
+                <default>false</default>
+                <label>Reinstatement</label>
+            </value>
+            <value>
+                <fullName>Rescinded Policy</fullName>
+                <default>false</default>
+                <label>Rescinded Policy</label>
+            </value>
+            <value>
+                <fullName>School Consolidation</fullName>
+                <default>false</default>
+                <label>School Consolidation</label>
+            </value>
+            <value>
+                <fullName>System Change Of Group Number Only</fullName>
+                <default>false</default>
+                <label>System Change Of Group Number Only</label>
+            </value>
+            <value>
+                <fullName>Terminated Employment</fullName>
+                <default>false</default>
+                <label>Terminated Employment</label>
+            </value>
+            <value>
+                <fullName>Transfer To Another Group With USAL</fullName>
+                <default>false</default>
+                <label>Transfer To Another Group With USAL</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

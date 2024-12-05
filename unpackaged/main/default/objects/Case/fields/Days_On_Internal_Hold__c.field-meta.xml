@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_On_Internal_Hold__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Internal_Hold_End_Date__c &gt; Internal_Hold_Start_Date__c ,Internal_Hold_End_Date__c - Internal_Hold_Start_Date__c,IF(Internal_Hold_Start_Date__c &gt; CreatedDate, Now () - 
+Internal_Hold_Start_Date__c,0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Days On Internal Hold</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

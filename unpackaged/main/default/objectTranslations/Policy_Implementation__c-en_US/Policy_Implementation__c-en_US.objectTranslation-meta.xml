@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Policy Implementation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Policy Implementations</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Amendment Layout</layout>
+        <sections>
+            <label><!-- Amendments Section - Type --></label>
+            <section>Amendments Section - Type</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Miscellaneous --></label>
+            <section>Miscellaneous</section>
+        </sections>
+        <sections>
+            <label><!-- Notes for Quality Assurance --></label>
+            <section>Notes for Quality Assurance</section>
+        </sections>
+        <sections>
+            <label><!-- Partner Notes --></label>
+            <section>Partner Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Scrub Notes --></label>
+            <section>Scrub Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fast Track</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Implementations Layout</layout>
+        <sections>
+            <label><!-- Benefit Details/Explanation --></label>
+            <section>Benefit Details/Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Benefits --></label>
+            <section>Benefits</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Miscellaneous --></label>
+            <section>Miscellaneous</section>
+        </sections>
+        <sections>
+            <label><!-- Miscellaneous Text --></label>
+            <section>Miscellaneous Text</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Other Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Policy Implementations Layout</layout>
+        <sections>
+            <label><!-- Amendments Section - Type --></label>
+            <section>Amendments Section - Type</section>
+        </sections>
+        <sections>
+            <label><!-- Benefits --></label>
+            <section>Benefits</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Method --></label>
+            <section>Billing Method</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Specialist Instruction Notes --></label>
+            <section>Implementation Specialist Instruction Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Miscellaneous --></label>
+            <section>Miscellaneous</section>
+        </sections>
+        <sections>
+            <label><!-- Notes for Quality Assurance --></label>
+            <section>Notes for Quality Assurance</section>
+        </sections>
+        <sections>
+            <label><!-- QA Review --></label>
+            <section>QA Review</section>
+        </sections>
+        <sections>
+            <label><!-- Scrub Notes --></label>
+            <section>Scrub Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Submission Improvement --></label>
+            <section>Submission Improvement</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Used for Amendments --></description>
+        <label><!-- Amendments --></label>
+        <name>Amendments</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for Fast Track Records --></description>
+        <label><!-- Fast Track --></label>
+        <name>Fast_Track</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for Implementation Record Types --></description>
+        <label><!-- Implementation --></label>
+        <name>Implementation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for Other record Type --></description>
+        <label><!-- Other --></label>
+        <name>Other</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for Transitions --></description>
+        <label><!-- Transition --></label>
+        <name>Transition</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- The case currently has a Policy Implementation record, please navigate to the existing record and select edit. --></errorMessage>
+        <name>OnlyOnePolicyImplementation</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Send this acknowledgement upon receipt of a contract.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Contract Acknowledgement Letter</name>
+    <style>none</style>
+    <subject>USAble Life - Contract Acknowledgement</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

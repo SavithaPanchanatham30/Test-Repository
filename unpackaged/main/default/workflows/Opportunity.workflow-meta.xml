@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Change_Record_Type_to_Locked</fullName>
+        <description>change the record type to locked.</description>
+        <field>RecordTypeId</field>
+        <lookupValue>Lock_Opportunity</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Change Record Type to Locked</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opportunity_Name</fullName>
+        <description>Update Opportunity Name to AccountName-OpportunityType-AnniversaryDate.</description>
+        <field>Name</field>
+        <formula>MID(Account.Name, 1, 90) + &quot;-&quot; + TEXT(Type) + &quot;-&quot; +  TEXT( Effective_Date__c )</formula>
+        <name>Opportunity Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opportunity_Type_New_Business</fullName>
+        <description>Make Opportunity Type as &#39;New Business&#39;</description>
+        <field>Type</field>
+        <literalValue>New Business</literalValue>
+        <name>Opportunity Type New Business</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unlock_Opportunity</fullName>
+        <description>Sets the record type of the opportunity back to Sales record type, which unlocks it</description>
+        <field>RecordTypeId</field>
+        <lookupValue>Sales</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Unlock Opportunity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Effective_Date_False</fullName>
+        <description>Set Update Effective date checkbox to False.</description>
+        <field>Update_Effective_Date__c</field>
+        <literalValue>0</literalValue>
+        <name>Update Effective Date False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Effective_Date_True</fullName>
+        <description>This will check the update Effective date checkbox to true.</description>
+        <field>Update_Effective_Date__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Effective Date True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Opp_Closed_Date</fullName>
+        <field>CloseDate</field>
+        <formula>Today()</formula>
+        <name>Update Opp. Closed Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Oppo_Closed_Date</fullName>
+        <field>CloseDate</field>
+        <formula>Today()</formula>
+        <name>Update Opp Closed Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stage_to_Closed_Lost</fullName>
+        <field>StageName</field>
+        <literalValue>Closed Lost</literalValue>
+        <name>Update Stage to Closed Lost</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stage_to_Closed_Won</fullName>
+        <field>StageName</field>
+        <literalValue>Closed Won</literalValue>
+        <name>Update Stage to Closed Won</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stage_to_In_Process</fullName>
+        <field>StageName</field>
+        <literalValue>In Process</literalValue>
+        <name>Update Stage to In Process</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_effective_date</fullName>
+        <field>Effective_Date__c</field>
+        <formula>Account.Group_Anniversary_Date__c</formula>
+        <name>Update effective date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Opportunity Name</fullName>
+        <actions>
+            <name>Opportunity_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Effective_Date_False</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Sets the opportunity name according to standard convention for open opportunities whose effective date has changed.</description>
+        <formula>Name !=  Account.Name + &quot;-&quot; + TEXT(Type) + &quot;-&quot; + TEXT( Effective_Date__c ) &amp;&amp;   ( NOT(IsClosed) ||  PRIORVALUE(IsClosed) != true ) &amp;&amp;  OR (Update_Effective_Date__c = true, NOT(ISBLANK(Effective_Date__c)) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unlock Opportunity</fullName>
+        <actions>
+            <name>Unlock_Opportunity</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>If a Locked Opportunity has a line item that is opened, then change the Opp record type back to Sales to unlock it and allow changes</description>
+        <formula>IF(  RecordType.DeveloperName = &#39;Lock_Opportunity&#39; &amp;&amp; Not_Closed_Line_Item_Count__c  &gt; 0 , true , false  )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Opportunity Stage to In Process</fullName>
+        <actions>
+            <name>Update_Stage_to_In_Process</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Opportunity Stage to In Process whenever users update an opportunity that has been created by batch.</description>
+        <formula>NOT( ISNEW()) &amp;&amp; ISPICKVAL( StageName , &#39;New&#39;) &amp;&amp; NOT(ISCHANGED(Closed_Lost_Amount__c)) &amp;&amp;  NOT(ISCHANGED(Line_Item_Quoted__c)) &amp;&amp;  NOT(ISCHANGED(Closed_Lost_Count__c)) &amp;&amp;  NOT(ISCHANGED(Not_Closed_Line_Item_Count__c)) &amp;&amp;  NOT(ISCHANGED(Line_Item_Count__c)) &amp;&amp;  NOT(ISCHANGED(Closed_Won_Count__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WFR_Line Items Closed Lost</fullName>
+        <actions>
+            <name>Change_Record_Type_to_Locked</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Opp_Closed_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Stage_to_Closed_Lost</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>When all line items are Closed Lost, updates opp stage to &#39;Closed Lost&#39; and changes opp record type to locked.</description>
+        <formula>AND(Closed_Lost_Count__c =  Line_Item_Count__c ,  Line_Item_Count__c &lt;&gt; 0,  Closed_Won_Count__c = 0)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WFR_Line Items Closed Won</fullName>
+        <actions>
+            <name>Change_Record_Type_to_Locked</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Oppo_Closed_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Stage_to_Closed_Won</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>When all line items are closed, updates Opp stage to Closed Won and changes record type to locked.</description>
+        <formula>AND(Closed_Won_Count__c &gt;= 1,  Not_Closed_Line_Item_Count__c = 0)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WFR_Line Items Open</fullName>
+        <actions>
+            <name>Update_Stage_to_In_Process</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>When there is an open line item, updates opportunity stage to &#39;In Process&#39;.</description>
+        <formula>AND(    Not_Closed_Line_Item_Count__c &gt; 0,   Line_Item_Count__c &gt; 0 ,   NOT(ISPICKVAL( PRIORVALUE(StageName) , &quot;New&quot;))   ) /* Exception for &#39;New&#39; accommodates opps created by batch */</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WFR_OppType_ProspectAccount</fullName>
+        <actions>
+            <name>Opportunity_Type_New_Business</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>When the opportunity is created under a Prospect account, the Opportunity.Type must be &#39;New Business&#39;.</description>
+        <formula>Account.RecordType.DeveloperName = &#39;Prospect&#39;</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>WFR_Update effective date</fullName>
+        <actions>
+            <name>Update_Effective_Date_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_effective_date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Group_Anniversary_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Effective_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>If Opp effective date is blank, it is set based on Account Group Anniversary Date</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

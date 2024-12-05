@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementation_Points_Missed__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TEXT( Acknowledgment_to_Submitter__c )   = &quot;No&quot;,10,0) + 
+IF (TEXT( Scrub__c )   = &quot;No&quot;,15,0) + 
+IF (TEXT( All_Information_Requested__c  )   = &quot;No&quot;,15,0) +
+IF (TEXT(  Master_App_Completed_Correctly__c  )   = &quot;No&quot;,15,0) +
+IF (TEXT(  Timeline_and_Checklist_Created__c  )   = &quot;No&quot;,15,0) +
+IF (TEXT( Call_Agenda_Completed__c )   = &quot;No&quot;,5,0) + 
+IF (TEXT(  Master_Application_Pre_filled__c  )   = &quot;No&quot;,15,0) + 
+IF (TEXT( Census_Validation__c )   = &quot;No&quot;,15,0) + 
+IF (TEXT(  Salesforce_Setup_and_System_Note__c  )   = &quot;No&quot;,15,0) + 
+IF (TEXT(  Welcome_to_Group_Disclose_Recording__c  )   = &quot;No&quot;,5,0) +
+IF (TEXT(  Discuss_Master_Application__c )   = &quot;No&quot;,15,0) + 
+IF (TEXT(  Discuss_Type_of_Enrollment__c )   = &quot;No&quot;,3,0) + 
+IF (TEXT(   Discuss_Billing_Method__c )   = &quot;No&quot;,10,0) + 
+IF (TEXT(Discuss_Disability_Reporting_Addiitional__c)   = &quot;No&quot;,5,0) + 
+IF (TEXT(Discuss_Differences_in_Scrub__c)   = &quot;No&quot;,10,0) + 
+IF (TEXT(  Discuss_Timeline__c  )   = &quot;No&quot;,10,0) + 
+IF (TEXT(  Open_Forum_Questions__c  )   = &quot;No&quot;,5,0) + 
+IF (TEXT(  Get_Available_Times_for_Release_Call__c  )   = &quot;No&quot;,3,0) + 
+IF (TEXT(   Master_Application_Email__c )   = &quot;No&quot;,10,0) +  
+IF (TEXT(  Correct_Signed_Document__c  )   = &quot;No&quot;,15,0) + 
+IF (TEXT(   Communication_Expectations_Partner__c  )   = &quot;No&quot;,15,0) + 
+IF (TEXT(    Communication_Expectations_PSS__c )   = &quot;No&quot;,15,0) +
+IF (TEXT(     Communication_Expectations_QA__c )   = &quot;No&quot;,15,0) +
+IF (TEXT(  Notes_Included__c )   = &quot;No&quot;,15,0) + 
+IF (TEXT(  Confirm_Save_the_Date_Meeting__c )   = &quot;No&quot;,5,0) + 
+IF (TEXT(  Introductions_Recording__c  )   = &quot;No&quot;,5,0) + 
+IF (TEXT(  Go_Over_Policy_Certificates__c  )   = &quot;No&quot;,15,0) + 
+IF (TEXT(   Discuss_Online_Billing_Services__c  )   = &quot;No&quot;,15,0) + 
+IF (TEXT(   Provide_Service_Kit__c )   = &quot;No&quot;,5,0) +
+IF (TEXT(   Ongoing_Contacts__c  )   = &quot;No&quot;,5,0) + 
+IF (TEXT(  Survey__c  )   = &quot;No&quot;,5,0) + 
+IF (TEXT(  X90_Day_Call__c  )   = &quot;No&quot;,3,0) + 
+IF (TEXT(   Release_Open_Forum__c  )   = &quot;No&quot;,5,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Implementation Points Missed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

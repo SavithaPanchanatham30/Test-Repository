@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPR003_Next_Renewal_Date</fullName>
+    <active>true</active>
+    <description>Ensures Next Renewal Date of an opportunity product is always after the effective date. Used for asset creation on closed lost opportunity line items.</description>
+    <errorConditionFormula>IF( ISNEW(), 
+Next_Renewal_Date__c &lt;= Opportunity.Effective_Date__c,
+Next_Renewal_Date__c &lt;= Effective_Date__c)</errorConditionFormula>
+    <errorDisplayField>Next_Renewal_Date__c</errorDisplayField>
+    <errorMessage>OPR003 Next renewal date must be later than effective date</errorMessage>
+</ValidationRule>

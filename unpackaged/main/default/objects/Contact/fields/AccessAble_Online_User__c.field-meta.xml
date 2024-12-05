@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccessAble_Online_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>A web-based application that provides simplified benefit enrollment and billing processes.</description>
+    <label>AccessAble Online User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- All Claimant/Insured People (Contacts) or Organizations (Accounts). Edit via Claim Relationship objects. --></help>
+        <label><!-- Claimant/Insured Names --></label>
+        <name>cve__ClaimantInsuredName__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dep_Life__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Dependent life</description>
+    <inlineHelpText>Does group have Dependent Life</inlineHelpText>
+    <label>Dep Life</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sum Category --></label>
+        <name>Sum_Category__c</name>
+        <picklistValues>
+            <masterLabel>Choice Copay - TG</masterLabel>
+            <translation><!-- Choice Copay - TG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Choice Copay - Vol</masterLabel>
+            <translation><!-- Choice Copay - Vol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Choice PPO - TG</masterLabel>
+            <translation><!-- Choice PPO - TG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Choice PPO - Vol</masterLabel>
+            <translation><!-- Choice PPO - Vol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Choice Plus PPO - TG</masterLabel>
+            <translation><!-- Choice Plus PPO - TG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Choice Plus PPO - Vol</masterLabel>
+            <translation><!-- Choice Plus PPO - Vol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental Prepaid</masterLabel>
+            <translation><!-- Dental Prepaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select PPO - Trad</masterLabel>
+            <translation><!-- Select PPO - Trad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select PPO - Vol</masterLabel>
+            <translation><!-- Select PPO - Vol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select PPO Plus -Vol</masterLabel>
+            <translation><!-- Select PPO Plus -Vol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select PPO Plus – Trad</masterLabel>
+            <translation><!-- Select PPO Plus – Trad --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

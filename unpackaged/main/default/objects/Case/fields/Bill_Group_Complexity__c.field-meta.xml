@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bill_Group_Complexity__c</fullName>
+    <description>Bill Group Complexity used to subtract on Group Level System work or General Services</description>
+    <label>Bill Group Complexity</label>
+    <summarizedField>Policy_Implementation__c.Bill_Group_Complexity__c</summarizedField>
+    <summaryForeignKey>Policy_Implementation__c.Case__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

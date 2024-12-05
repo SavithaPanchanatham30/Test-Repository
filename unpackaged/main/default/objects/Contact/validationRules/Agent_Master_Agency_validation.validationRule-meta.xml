@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Master_Agency_validation</fullName>
+    <active>true</active>
+    <description>Agent contacts which are not created by EDI user should be tied to Master Agency.</description>
+    <errorConditionFormula>AND(
+   RecordType.DeveloperName = &#39;Agent&#39;,
+   CreatedBy.LastName &lt;&gt; &#39;EDI&#39; ,  
+   Account.Master_Agency_Record__c = false ,
+   $Profile.Name &lt;&gt; &#39;USAble Standard Sales User&#39;,
+   $Profile.Name &lt;&gt; &#39;USAble System Administrator&#39;
+   )</errorConditionFormula>
+    <errorMessage>Contact should be tied to account that is master agency.</errorMessage>
+</ValidationRule>

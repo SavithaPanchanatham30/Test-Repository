@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Rates match, pull DRMS Rate Sheet and verify
+benefit riders. If Group has prior carrier, verify we have the
+prior carrier policy at this time --></help>
+        <label><!-- Check DRMS Rate Run --></label>
+        <name>Check_DRMS_Rate_Run__c</name>
+    </CustomFieldTranslation>

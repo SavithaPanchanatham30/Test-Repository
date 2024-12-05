@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPR002_Quoted_with_Sales_price_zero</fullName>
+    <active>true</active>
+    <description>Quoted WFR executes after VR, so logic in this VR must be aligned with: 
+• WFR_Update Quoted Opportunity Product</description>
+    <errorConditionFormula>OR( 
+  (
+  UnitPrice = 0
+  &amp;&amp;
+  OR (contains(Opportunity.Blue_Rep_Region__c, &#39;FL&#39;),
+contains(Opportunity.Blue_Rep_Region__c, &#39;HI&#39;)
+)
+  &amp;&amp;
+     OR( 
+      ISPICKVAL( Line_Item_Stage__c , &quot;Quoted&quot;), 
+      ISPICKVAL( Line_Item_Stage__c , &quot;Closed Won&quot;), 
+      ISPICKVAL( Line_Item_Stage__c , &quot;Negotiation&quot;),
+      ( ISPICKVAL( Line_Item_Stage__c , &quot;Closed Lost - Quoted&quot;) &amp;&amp; Sales_Price_Custom__c  = 0 )  
+      )
+
+  &amp;&amp; NOT( 
+      (ISPICKVAL(PRIORVALUE(Line_Item_Stage__c),&quot;Closed Lost - Quoted&quot;) || ISPICKVAL(PRIORVALUE(Line_Item_Stage__c),&quot;Closed Lost - Not Quoted&quot;)) &amp;&amp; Sales_Price_Custom__c &gt; 0
+      )
+   
+  ),
+  (
+  UnitPrice = 0
+  &amp;&amp;
+  contains(Opportunity.Blue_Rep_Region__c, &#39;AR&#39;)
+  &amp;&amp; 
+  Product2.Master_Product_ID__c &lt;&gt; &#39;GP904&#39;
+  &amp;&amp;
+     OR( 
+      ISPICKVAL( Line_Item_Stage__c , &quot;Quoted&quot;), 
+      ISPICKVAL( Line_Item_Stage__c , &quot;Closed Won&quot;), 
+      ISPICKVAL( Line_Item_Stage__c , &quot;Negotiation&quot;),
+      ( ISPICKVAL( Line_Item_Stage__c , &quot;Closed Lost - Quoted&quot;) &amp;&amp; Sales_Price_Custom__c  = 0 )  
+      )
+
+  &amp;&amp; NOT( 
+      (ISPICKVAL(PRIORVALUE(Line_Item_Stage__c),&quot;Closed Lost - Quoted&quot;) || ISPICKVAL(PRIORVALUE(Line_Item_Stage__c),&quot;Closed Lost - Not Quoted&quot;)) &amp;&amp; Sales_Price_Custom__c &gt; 0
+      )
+  ) 
+)</errorConditionFormula>
+    <errorDisplayField>UnitPrice</errorDisplayField>
+    <errorMessage>OPR002 Sales Price is required when product has been quoted.</errorMessage>
+</ValidationRule>

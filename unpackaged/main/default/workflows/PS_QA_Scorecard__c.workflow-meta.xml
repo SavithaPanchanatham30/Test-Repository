@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Amendment_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Amendment_Points_Earned__c</formula>
+        <name>Amendment Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Amendment_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Amendment_Points_Earned__c + Amendment_Points_From_Burn__c</formula>
+        <name>Amendment Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Amendment_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Amendment_Points_From_Burn__c</formula>
+        <name>Amendment Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Ammendment_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Amendment_Points_Missed__c</formula>
+        <name>Ammendment Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BS_Point_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Billing_Specialist_Points_Earned__c</formula>
+        <name>BS Point Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BS_Points_Available_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Billing_Specialist_Points_Earned__c +
+Billing_Specialist_Points_Missed__c</formula>
+        <name>BS Points Available No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BS_Points_Earned_w_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Billing_Specialist_Points_Earned__c + Billing_Specialist_Points_From_Burn__c</formula>
+        <name>BS Points Earned w Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BS_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Billing_Specialist_Points_Missed__c</formula>
+        <name>BS Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BS_Points_available_w_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Billing_Specialist_Points_From_Burn__c +
+Billing_Specialist_Points_Earned__c +
+Billing_Specialist_Points_Missed__c</formula>
+        <name>BS Points available w Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BS_Points_from_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Points_From_Burn__c</formula>
+        <name>BS Points from Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BenS_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Benefit_Summary_Points_Earned__c</formula>
+        <name>BenS Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BenS_Points_Earned_with_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Benefit_Summary_Points_Earned__c +  Benefit_Summary_Points_From_Burn__c</formula>
+        <name>BenS Points Earned with Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BenS_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Benefit_Summary_Points_From_Burn__c</formula>
+        <name>BenS Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>BenS_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Benefit_Summary_Points_Missed__c</formula>
+        <name>BenS Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Implementation_Points_Avail_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Implementation_Points_Earned__c +  Implementation_Points_Missed__c</formula>
+        <name>Calc Implementation Points Avail No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Implementation_Points_Avail_with_Bn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Implementation_Points_Earned__c +  Implementation_Points_From_Burn__c  +  Implementation_Points_Missed__c</formula>
+        <name>Calc Implementation Points Avail with Bn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_M_B_Analyst_Points_Avail_With_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Membership_Analyst_Points_Earned__c +  Membership_Analyst_Points_Missed__c + Membership_Analyst_Points_From_Burn__c</formula>
+        <name>Calc M&amp;B Analyst Points Avail With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_M_B_Analyst_Points_Available_No_BRN</fullName>
+        <field>Points__c</field>
+        <formula>Membership_Analyst_Points_Earned__c +  Membership_Analyst_Points_Missed__c</formula>
+        <name>Calc M&amp;B Analyst Points Available No BRN</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_M_B_Specialist_Point_Avail_with_BRN</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Membership_Specialist_Points_Earned__c +  Membership_Specialist_Points_From_Burn__c  +  Membership_Specials_Points_Missed__c</formula>
+        <name>Calc M&amp;B Specialist Point Avail with BRN</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_M_B_Specialist_Points_Available_NoB</fullName>
+        <field>Points__c</field>
+        <formula>Membership_Specialist_Points_Earned__c +  Membership_Specials_Points_Missed__c</formula>
+        <name>Calc M&amp;B Specialist Points Available NoB</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_OLD_GI_Points_Available_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Old_Group_Issue_Points_Earned__c +  Old_Group_Issue_Points_Missed__c</formula>
+        <name>Calc OLD GI Points Available No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Old_Amend_Points_Available_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Old_Amendment_Points_Earned__c +  Old_Amendment_Points_Missed__c</formula>
+        <name>Calc Old Amend Points Available No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Old_Amend_Points_Available_With_Brn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Old_Amendment_Points_Earned__c +  Old_Amendment_Burn_Points__c  +  Old_Amendment_Points_Missed__c</formula>
+        <name>Calc Old Amend Points Available With Brn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Old_Bens_Points_Avail_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>OLD_Benefit_Summary_Points_Earned__c +   OLD_Benefit_Summary_Points_Missed__c</formula>
+        <name>Calc Old Bens Points Avail No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Old_GI_Points_Available_With_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Old_Group_Issue_Points_Earned__c +  Old_Group_Issue_Points_From_Burn__c +  Old_Group_Issue_Points_Missed__c</formula>
+        <name>Calc Old GI Points Available With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Old_Implement_Points_Avail_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Old_Implementation_Points_Earned__c  +  Old_Implementation_Points_Missed__c</formula>
+        <name>Calc Old Implement Points Avail No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Old_Implment_Points_Avail_with_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Old_Implementation_Burn_Points__c +  Old_Implementation_Points_Earned__c +  Old_Implementation_Points_Missed__c</formula>
+        <name>Calc Old Implment Points Avail with Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Old_Research_Points_Avail_w_BRN</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Old_Research_Points_Earned__c +  Old_Research_Points_From_Burn__c + Old_Research_Points_Missed__c</formula>
+        <name>Calc Old Research Points Avail w BRN</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_Old_Upsell_Point_Avl_With_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Old_Upsell_Points_Earned__c +  Old_Upsell_From_Burn__c +  Old_Upsell_Points_Missed__c</formula>
+        <name>Calc Old Upsell Point Avl With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_SIntake_Points_Avail_With_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Service_Intake_Points_Earned__c  + Service_Intake_Points_From_Burn__c  + Service_Intake_Points_Missed__c</formula>
+        <name>Calc SIntake Points Avail With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calc_ServiceIntake_Points_Available_No_B</fullName>
+        <field>Points__c</field>
+        <formula>Service_Intake_Points_Earned__c +  Service_Intake_Points_Missed__c</formula>
+        <name>Calc ServiceIntake Points Available No B</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Amend_Points_Available_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Amendment_Points_Earned__c  +  Amendment_Points_Missed__c</formula>
+        <name>Calculate Amend Points Available No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Amend_Points_Available_With_br</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Amendment_Points_Earned__c + Amendment_Points_Missed__c + Amendment_Points_From_Burn__c</formula>
+        <name>Calculate Amend Points Available With br</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_BenS_Points_available_no_burn</fullName>
+        <field>Points__c</field>
+        <formula>Benefit_Summary_Points_Earned__c +  Benefit_Summary_Points_Missed__c</formula>
+        <name>Calculate BenS Points available no burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Claim_Setup_Points_Avail_no_BN</fullName>
+        <field>Points__c</field>
+        <formula>Claims_Setup_Points_Earned__c +  Claim_Setup_Points_Missed__c</formula>
+        <name>Calculate Claim Setup Points Avail no BN</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_GI_Points_Available_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Group_Issue_Points_Earned__c + Group_Issue_Points_Missed__c</formula>
+        <name>Calculate GI Points Available No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_GI_Points_Available_with_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Group_Issue_Points_Earned__c + Group_Issue_Points_Missed__c +   Group_Issue_Points_From_Burn__c</formula>
+        <name>Calculate GI Points Available with Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Old_Research_Point_Avail_No_Br</fullName>
+        <field>Points__c</field>
+        <formula>Old_Research_Points_Earned__c +  Old_Research_Points_Missed__c</formula>
+        <name>Calc Old Research Points Avail No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Old_Upsell_Points_Avail_No_Brn</fullName>
+        <field>Points__c</field>
+        <formula>Old_Upsell_Points_Earned__c +  Old_Upsell_Points_Missed__c</formula>
+        <name>Calculate Old Upsell Points Avail No Brn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Research_Points_Avail_with_Brn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>System_Work_Points_Earned__c +  System_Work_Points_From_Burn__c +  System_Work_Points_Missed__c</formula>
+        <name>Calculate Systemw Points Avail with Brn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Research_Points_Avl_No_Brn</fullName>
+        <field>Points__c</field>
+        <formula>System_Work_Points_Earned__c +  System_Work_Points_Missed__c</formula>
+        <name>Calculate System Wrk Avl No Brn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Upsell_Points_Available_No_BRN</fullName>
+        <field>Points__c</field>
+        <formula>Upsell_Points_Earned__c +  Upsell_Points_Missed__c</formula>
+        <name>Calculate Upsell Points Available No BRN</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculate_Upsell_Points_with_BRN</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Upsell_Points_Earned__c +  Upsell_Points_Missed__c +  Upsell_Points_From_Burn__c</formula>
+        <name>Calculate Upsell Points Avail with BRN</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculation_BenS_Points_Available_With_B</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Benefit_Summary_Points_Earned__c +  Benefit_Summary_Points_From_Burn__c + Benefit_Summary_Points_Missed__c</formula>
+        <name>Calculation BenS Points Available With B</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Calculation_PS_Points_Available_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Policy_Services_Points_Earned__c +  Policy_Services_Points_Missed__c</formula>
+        <name>Calculation PS Points Available No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Claims_Setup_Points_Available_With_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Claim_Setup_Points_Missed__c + Claims_Setup_Points_Earned__c + Claims_Setup_Points_From_Burn__c</formula>
+        <name>Claims Setup Points Available With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Claims_Setup_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Claims_Setup_Points_Earned__c</formula>
+        <name>Claims Setup Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Claims_Setup_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Claims_Setup_Points_Earned__c +  Claims_Setup_Points_From_Burn__c</formula>
+        <name>Claims Setup Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Claims_Setup_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Claims_Setup_Points_From_Burn__c</formula>
+        <name>Claims Setup Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Claims_Setup_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Claim_Setup_Points_Missed__c</formula>
+        <name>Claims Setup Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Date_of_Manager_Audit</fullName>
+        <field>Date_of_Manager_Audit__c</field>
+        <formula>TODAY()</formula>
+        <name>Date of Manager Audit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>GI_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Group_Issue_Points_Earned__c</formula>
+        <name>GI Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>GI_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Group_Issue_Points_Earned__c + Group_Issue_Points_From_Burn__c</formula>
+        <name>GI Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Group_Issue_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Group_Issue_Points_From_Burn__c</formula>
+        <name>Group Issue Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Group_Issue_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Group_Issue_Points_Missed__c</formula>
+        <name>Group Issue Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Implementation_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Implementation_Points_Earned__c</formula>
+        <name>Implementation Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Implementation_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Implementation_Points_Earned__c +  Implementation_Points_From_Burn__c</formula>
+        <name>Implementation Points Earned with Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Implementation_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Implementation_Points_Missed__c</formula>
+        <name>Implementation Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Implementation_Points_from_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Implementation_Points_From_Burn__c</formula>
+        <name>Implementation Points from Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Manager_Data_Entered</fullName>
+        <field>QA_Manager_Data_Entered__c</field>
+        <literalValue>1</literalValue>
+        <name>Manager Data Entered</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Membership_Analyst_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Membership_Analyst_Points_Earned__c</formula>
+        <name>Membership Analyst Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Membership_Analyst_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Membership_Analyst_Points_From_Burn__c</formula>
+        <name>Membership Analyst Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Membership_Analyst_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Membership_Analyst_Points_Missed__c</formula>
+        <name>Membership Analyst Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Membership_Analyst_Points_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Membership_Analyst_Points_Earned__c +  Membership_Analyst_Points_From_Burn__c</formula>
+        <name>Membership Analyst Points With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Membership_Special_PointsEWith_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Membership_Specialist_Points_Earned__c +  Membership_Specialist_Points_From_Burn__c</formula>
+        <name>Membership Special Points EarndWith Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Membership_Specialist_PointFromburn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Membership_Specialist_Points_From_Burn__c</formula>
+        <name>Membership Specialist PointFromburn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Membership_Specialist_Points_Earn_no_Brn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Membership_Specialist_Points_Earned__c</formula>
+        <name>Membership Specialist Points Earn no Brn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Membership_Specialist_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Membership_Specials_Points_Missed__c</formula>
+        <name>Membership Specialist Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>OLD_GI_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Old_Group_Issue_Points_From_Burn__c</formula>
+        <name>OLD GI Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Amendment_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Old_Amendment_Points_Earned__c</formula>
+        <name>Old Amendment Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Amendment_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Old_Amendment_Points_Earned__c +  Old_Amendment_Burn_Points__c</formula>
+        <name>Old Amendment Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Amendment_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Old_Amendment_Burn_Points__c</formula>
+        <name>Old Amendment Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Amendment_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Old_Amendment_Points_Missed__c</formula>
+        <name>Old Amendment Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_BenS_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>OLD_Benefit_Summary_Points_Earned__c</formula>
+        <name>Old BenS Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_BenS_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>OLD_Benefit_Summary_Points_Earned__c +  Old_Benefit_Sum_Points_From_Burn__c</formula>
+        <name>Old BenS Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_BenS_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Old_Benefit_Sum_Points_From_Burn__c</formula>
+        <name>Old BenS Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_BenS_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>OLD_Benefit_Summary_Points_Missed__c</formula>
+        <name>Old BenS Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_GI_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Old_Group_Issue_Points_Earned__c</formula>
+        <name>Old GI Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_GI_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Old_Group_Issue_Points_Earned__c +  Old_Group_Issue_Points_From_Burn__c</formula>
+        <name>Old GI Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_GI_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Old_Group_Issue_Points_Missed__c</formula>
+        <name>Old GI Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Implement_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Old_Implementation_Points_Earned__c</formula>
+        <name>Old Implement Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Implement_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Old_Implementation_Points_Earned__c +  Old_Implementation_Burn_Points__c</formula>
+        <name>Old Implement Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Implement_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Old_Implementation_Burn_Points__c</formula>
+        <name>Old Implement Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Implement_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Old_Implementation_Points_Missed__c</formula>
+        <name>Old Implement Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Points_Avail_With_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>OLD_Benefit_Summary_Points_Earned__c +  OLD_Benefit_Summary_Points_Missed__c +  Old_Benefit_Sum_Points_From_Burn__c</formula>
+        <name>Old Points Avail With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Research_Point_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Old_Research_Points_Earned__c</formula>
+        <name>Old Research Point No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Research_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Old_Research_Points_Earned__c +  Old_Research_Points_From_Burn__c</formula>
+        <name>Old Research Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Research_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Old_Research_Points_From_Burn__c</formula>
+        <name>Old Research Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Research_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Old_Research_Points_Missed__c</formula>
+        <name>Old Research Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Upsell_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Old_Upsell_Points_Earned__c</formula>
+        <name>Old Upsell Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Upsell_Points_Earned_with_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Old_Upsell_Points_Earned__c + Old_Upsell_From_Burn__c</formula>
+        <name>Old Upsell Points Earned with Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Upsell_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Old_Upsell_Points_Missed__c</formula>
+        <name>Old Upsell Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Old_Upsell_Points_from_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Old_Upsell_From_Burn__c</formula>
+        <name>Old Upsell Points from Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Points_Available_With_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Policy_Services_Points_Earned__c + Policy_Services_Points_From_Burn__c +  Policy_Services_Points_Missed__c</formula>
+        <name>PS Points Available With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Policy_Services_Points_Earned__c</formula>
+        <name>PS Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Points_Earned_With_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Policy_Services_Points_Earned__c +  Policy_Services_Points_From_Burn__c</formula>
+        <name>PS Points Earned With Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Policy_Services_Points_From_Burn__c</formula>
+        <name>PS Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Policy_Services_Points_Missed__c</formula>
+        <name>PS Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Parter_Service_Points_available_w_Burn</fullName>
+        <field>Points_Available_With_Burn__c</field>
+        <formula>Partner_Service_Points_from_Burn__c+
+Partner_Service_Points_Earned__c +
+ Partner_Service_Points_Missed__c</formula>
+        <name>Parter Service Points available w Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Partner_Service_Point_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Partner_Service_Points_Earned__c</formula>
+        <name>Partner Service Point Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Partner_Service_Points_Available_No_Burn</fullName>
+        <field>Points__c</field>
+        <formula>Partner_Service_Points_Earned__c +  Partner_Service_Points_Missed__c</formula>
+        <name>Partner Service Points Available No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Partner_Service_Points_Earned_w_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Partner_Service_Points_Earned__c +
+ Partner_Service_Points_from_Burn__c</formula>
+        <name>Partner Service Points Earned w Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Partner_Service_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Partner_Service_Points_Missed__c</formula>
+        <name>Partner Service Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Partner_Service_Points_from_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Partner_Service_Points_from_Burn__c</formula>
+        <name>Partner Service Points from Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>QA_Specialist</fullName>
+        <field>QA_Specialist__c</field>
+        <formula>$User.FirstName &amp;&quot; &quot;&amp; $User.LastName</formula>
+        <name>QA Specialist</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Research_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>System_Work_Points_Earned__c</formula>
+        <name>Research Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Research_Points_Earned_with_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>System_Work_Points_Earned__c + System_Work_Points_From_Burn__c</formula>
+        <name>Research Points Earned with Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Research_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>System_Work_Points_Missed__c</formula>
+        <name>Research Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Research_Points_from_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>System_Work_Points_From_Burn__c</formula>
+        <name>Research Points from Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Service_Intake_Earned_no_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Service_Intake_Points_Earned__c</formula>
+        <name>Service Intake Earned no Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Service_Intake_Earned_with_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Service_Intake_Points_Earned__c + Service_Intake_Points_From_Burn__c</formula>
+        <name>Service Intake Earned with Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Service_Intake_Points_From_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Service_Intake_Points_From_Burn__c</formula>
+        <name>Service Intake Points From Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Service_Intake_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Service_Intake_Points_Missed__c</formula>
+        <name>Service Intake Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Review_Date_for_M_B</fullName>
+        <field>Reviewed_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Review Date for M&amp;B</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Specialist_with_Owner</fullName>
+        <field>QA_Specialist__c</field>
+        <formula>Case__r.Case_Owner_Name__c</formula>
+        <name>Update Specialist with Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Upsell_Points_Earned_No_Burn</fullName>
+        <field>Points_Earned_Without_Burn__c</field>
+        <formula>Upsell_Points_Earned__c</formula>
+        <name>Upsell Points Earned No Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Upsell_Points_Earned_with_Burn</fullName>
+        <field>Points_Earned_With_Burn__c</field>
+        <formula>Upsell_Points_Earned__c +  Upsell_Points_From_Burn__c</formula>
+        <name>Upsell Points Earned with Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Upsell_Points_Missed</fullName>
+        <field>Points_Missed__c</field>
+        <formula>Upsell_Points_Missed__c</formula>
+        <name>Upsell Points Missed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Upsell_Points_from_Burn</fullName>
+        <field>Points_From_Burn__c</field>
+        <formula>Upsell_Points_From_Burn__c</formula>
+        <name>Upsell Points from Burn</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Calculate Amendment Points</fullName>
+        <actions>
+            <name>Amendment_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Amendment_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Amendment_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Ammendment_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_Amend_Points_Available_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_Amend_Points_Available_With_br</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Amendments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is amendment populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Benefit Summary Points</fullName>
+        <actions>
+            <name>BenS_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BenS_Points_Earned_with_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BenS_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BenS_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_BenS_Points_available_no_burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculation_BenS_Points_Available_With_B</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Benefit Summary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is benefit summary populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Billing Solution Points</fullName>
+        <actions>
+            <name>BS_Point_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BS_Points_Available_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BS_Points_Earned_w_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BS_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BS_Points_available_w_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>BS_Points_from_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Billing Solutions</value>
+        </criteriaItems>
+        <description>When record type is Billing Solutions populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Claim Setup Points</fullName>
+        <actions>
+            <name>Calculate_Claim_Setup_Points_Avail_no_BN</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Claims_Setup_Points_Available_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Claims_Setup_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Claims_Setup_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Claims_Setup_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Claims_Setup_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Claims Setup</value>
+        </criteriaItems>
+        <description>When record type is claims setup populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Group Issue Points</fullName>
+        <actions>
+            <name>Calculate_GI_Points_Available_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_GI_Points_Available_with_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>GI_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>GI_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Group_Issue_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Group_Issue_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Group Issue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is Group Issue populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Implementation Points</fullName>
+        <actions>
+            <name>Calc_Implementation_Points_Avail_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calc_Implementation_Points_Avail_with_Bn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Implementation_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Implementation_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Implementation_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Implementation_Points_from_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Implementation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is Implementation populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Membership Analyst Points</fullName>
+        <actions>
+            <name>Calc_M_B_Analyst_Points_Avail_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calc_M_B_Analyst_Points_Available_No_BRN</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Membership_Analyst_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Membership_Analyst_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Membership_Analyst_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Membership_Analyst_Points_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Membership Analyst</value>
+        </criteriaItems>
+        <description>When record type is xxxxx populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Membership Specialist Points</fullName>
+        <actions>
+            <name>Calc_M_B_Specialist_Point_Avail_with_BRN</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calc_M_B_Specialist_Points_Available_NoB</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Membership_Special_PointsEWith_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Membership_Specialist_PointFromburn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Membership_Specialist_Points_Earn_no_Brn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Membership_Specialist_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Membership Specialist</value>
+        </criteriaItems>
+        <description>When record type is xxxxx populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate OLD Benefit Summary Points</fullName>
+        <actions>
+            <name>Calc_Old_Bens_Points_Avail_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_BenS_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_BenS_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_BenS_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_BenS_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Points_Avail_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Benefit Summary</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is benefit summary populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Old Amendment Points</fullName>
+        <actions>
+            <name>Calc_Old_Amend_Points_Available_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calc_Old_Amend_Points_Available_With_Brn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Amendment_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Amendment_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Amendment_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Amendment_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Amendments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is amendment populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Old Group Issue Points</fullName>
+        <actions>
+            <name>Calc_OLD_GI_Points_Available_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calc_Old_GI_Points_Available_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>OLD_GI_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_GI_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_GI_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_GI_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Group Issue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is Group Issue populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Old Implementation Points</fullName>
+        <actions>
+            <name>Calc_Old_Implement_Points_Avail_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calc_Old_Implment_Points_Avail_with_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Implement_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Implement_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Implement_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Implement_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Implementation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is Implementation populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Old Research Points</fullName>
+        <actions>
+            <name>Calc_Old_Research_Points_Avail_w_BRN</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_Old_Research_Point_Avail_No_Br</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Research_Point_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Research_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Research_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Research_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>System Work</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is research populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Old Upsell Points</fullName>
+        <actions>
+            <name>Calc_Old_Upsell_Point_Avl_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_Old_Upsell_Points_Avail_No_Brn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Upsell_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Upsell_Points_Earned_with_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Upsell_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Old_Upsell_Points_from_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Upsell</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is upsell populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Partner Services Points</fullName>
+        <actions>
+            <name>Parter_Service_Points_available_w_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Partner_Service_Point_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Partner_Service_Points_Available_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Partner_Service_Points_Earned_w_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Partner_Service_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Partner_Service_Points_from_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Partner Services</value>
+        </criteriaItems>
+        <description>When record type is Partner Services populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Policy Services Points</fullName>
+        <actions>
+            <name>Calculation_PS_Points_Available_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PS_Points_Available_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PS_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PS_Points_Earned_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PS_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PS_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Policy Services</value>
+        </criteriaItems>
+        <description>When record type is Policy Services populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Research Points</fullName>
+        <actions>
+            <name>Calculate_Research_Points_Avail_with_Brn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_Research_Points_Avl_No_Brn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Research_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Research_Points_Earned_with_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Research_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Research_Points_from_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Research</value>
+        </criteriaItems>
+        <description>When record type is research populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Service Intake Points</fullName>
+        <actions>
+            <name>Calc_SIntake_Points_Avail_With_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calc_ServiceIntake_Points_Available_No_B</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Service_Intake_Earned_no_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Service_Intake_Earned_with_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Service_Intake_Points_From_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Service_Intake_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Service Intake</value>
+        </criteriaItems>
+        <description>When record type is amendment populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate System Work Points</fullName>
+        <actions>
+            <name>Calculate_Research_Points_Avail_with_Brn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_Research_Points_Avl_No_Brn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Research_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Research_Points_Earned_with_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Research_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Research_Points_from_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>System Work</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is research populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Calculate Upsell Points</fullName>
+        <actions>
+            <name>Calculate_Upsell_Points_Available_No_BRN</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Calculate_Upsell_Points_with_BRN</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Upsell_Points_Earned_No_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Upsell_Points_Earned_with_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Upsell_Points_Missed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Upsell_Points_from_Burn</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Upsell</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Use_Old_Formulas__c</field>
+            <operation>notEqual</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>When record type is upsell populate generic Points Earned, Points Missed, Points from Burn, Available with Burn, Available without  burn</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Manager Entered Data</fullName>
+        <actions>
+            <name>Manager_Data_Entered</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.QA_Specialist_Scorecard_Points_Earned__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.QA_Post_Review_Points_Earned__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.QA_Specialist_Scorecard_Points_Missed__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.QA_Post_Review_Points_Missed__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.QA_Post_Review_Points_From_Burn__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate QA Specialist</fullName>
+        <actions>
+            <name>QA_Specialist</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3) AND 4</booleanFilter>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.QA_Specialist__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Reviewed_Date__c</field>
+            <operation>greaterThan</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Points_Earned_With_Burn__c</field>
+            <operation>greaterThan</operation>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>Policy Services</value>
+        </criteriaItems>
+        <description>Populate QA Specialist with current user</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate QA Specialist as owner</fullName>
+        <actions>
+            <name>Update_Specialist_with_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3) AND 4</booleanFilter>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.QA_Specialist__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Reviewed_Date__c</field>
+            <operation>greaterThan</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Points_Earned_With_Burn__c</field>
+            <operation>greaterThan</operation>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Policy Services</value>
+        </criteriaItems>
+        <description>Populate QA Specialist with current user</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate Review Date</fullName>
+        <actions>
+            <name>QA_Specialist</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Review_Date_for_M_B</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Service Intake,Membership Specialist,Membership Analyst</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Reviewed_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Populate Review Date if M&amp;B</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Manager Date if Blank</fullName>
+        <actions>
+            <name>Date_of_Manager_Audit</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.QA_Manager_Data_Entered__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>PS_QA_Scorecard__c.Date_of_Manager_Audit__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Update Manager Date if Blank and data entered</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

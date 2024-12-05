@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Taken__c</fullName>
+    <inlineHelpText>* Explained Functionality Limitations - Functional Notes required.
+*Solution Provided - Solution Notes required.
+* Relationship Contact Needed - Reassign case, and @mention owner.
+* Service Resolution Needed - Creates Tasks for Service Resolution</inlineHelpText>
+    <label>Action Taken</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Thanked Customer</fullName>
+                <default>false</default>
+                <label>Thanked Customer</label>
+            </value>
+            <value>
+                <fullName>Initiated Customer Contact</fullName>
+                <default>false</default>
+                <label>Initiated Customer Contact</label>
+            </value>
+            <value>
+                <fullName>Explained Functionality Limitation</fullName>
+                <default>false</default>
+                <label>Explained Functionality Limitation</label>
+            </value>
+            <value>
+                <fullName>Solution Provided</fullName>
+                <default>false</default>
+                <label>Solution Provided</label>
+            </value>
+            <value>
+                <fullName>Relationship Contact Needed</fullName>
+                <default>false</default>
+                <label>Relationship Contact Needed</label>
+            </value>
+            <value>
+                <fullName>Service Resolution Needed</fullName>
+                <default>false</default>
+                <label>Service Resolution Needed</label>
+            </value>
+            <value>
+                <fullName>No Action Needed</fullName>
+                <default>false</default>
+                <label>No Action Needed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

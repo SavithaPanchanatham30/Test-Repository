@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discuss_Master_App_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Discuss Master Application then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(Discuss_Master_Application__c) = &quot;No&quot; , TEXT (  Discuss_Master_Application__c) = &quot;Burn&quot;),    Discuss_Master_Application_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Discuss_Master_Application_Comments__c</errorDisplayField>
+    <errorMessage>QA094 - If Discuss Master Application = No or Burn Discuss Master Application Comments must be entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <adapterUrl>https://staasf.shoretelsky.com/STPSSFSoftphone.htm</adapterUrl>
+    <customSettings>{&quot;reqSoftphoneHeight&quot;:&quot;600&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Classic_and_Lightning&quot;}</customSettings>
+    <displayName>Mitel for Salesforce v5.4</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>Internal Name</internalNameLabel>
+    <sections>
+        <items>
+            <label>Description</label>
+            <name>reqDescription</name>
+            <value>Supports the Mitel Connect and 14.2 Phone Systems on Salesforce Classic, Console and Lightning pages</value>
+        </items>
+        <items>
+            <label>CTI Adapter Softphone URL</label>
+            <name>reqAdapterUrl</name>
+            <value>https://staasf.shoretelsky.com/STPSSFSoftphone.htm</value>
+        </items>
+        <items>
+            <label>Use CTI API (true/false)</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Lightning and Console Softphone Max Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>600</value>
+        </items>
+        <items>
+            <label>Salesforce Compatibility Mode</label>
+            <name>reqSalesforceCompatibilityMode</name>
+            <value>Classic_and_Lightning</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Mitel Headquarters Server Name or IP Address</label>
+            <name>reqSMServer</name>
+            <value>usldir03-p.usablelife.com</value>
+        </items>
+        <items>
+            <label>Authenticate with Mitel Connect (true/false)</label>
+            <name>reqABCAuthentication</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Mitel Call Handling Mode Control Enabled (true/false)</label>
+            <name>reqShowCHMControl</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Mitel Workgroup Agent Control Enabled (true/false)</label>
+            <name>reqShowWGAgentControl</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Mitel Recorder Controls Enabled (true/false)</label>
+            <name>reqShowRecorderControl</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Click to Dial Enabled (true/false)</label>
+            <name>reqShowClickToDial</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>If only one record found on incoming call open the record automatically (true/false)</label>
+            <name>reqScreenPopEnabled</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Show Softphone for New Calls in Lightning and Console (true/false)</label>
+            <name>reqServiceConsoleAutoOpen</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Inbound Call Fields ({&quot;label&quot;: &quot;Mitel call field&quot;}, ...})</label>
+            <name>optCallFieldsInbound</name>
+            <value>{&quot;Dialed&quot;: &quot;called&quot;}, {&quot;DNIS&quot;: &quot;dnis&quot;}, {&quot;From&quot;: &quot;from&quot;}</value>
+        </items>
+        <items>
+            <label>Outbound Call Fields ({&quot;label&quot;: &quot;Mitel call field&quot;}, ...})</label>
+            <name>optCallFieldsOutbound</name>
+            <value>{&quot;Caller&quot;: &quot;caller&quot;}</value>
+        </items>
+        <items>
+            <label>For Classic Interface only, New SF entity for unknown caller PHONE NUMBER form field ID</label>
+            <name>optNewEntityFieldIDNumber</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>For Classic Interface only, New SF entity for unknown caller NAME form field ID</label>
+            <name>optNewEntityFieldIDName</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>For inbound calls, search on dialed number (DNIS) in addition to caller&#39;s number (true/false/and)</label>
+            <name>optSearchDNIS</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Salesforce Service Console Users (true/false)</label>
+            <name>optServiceConsole</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Additional Options (&quot;Option&quot;: Value, ...)</label>
+            <name>optOptions</name>
+            <value xsi:nil="true" />
+        </items>
+        <label>Settings</label>
+        <name>reqSettings</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Agent Controls Enabled (true/false)</label>
+            <name>reqShowAgentControl</name>
+            <value>false</value>
+        </items>
+        <items>
+            <label>Custom Call Log Fields to set for Wrap Codes (&quot;Salesforce field&quot;, &quot;Salesforce field&quot;, ...)</label>
+            <name>optActivityFields</name>
+            <value xsi:nil="true" />
+        </items>
+        <label>CLOUD Contact Center Settings</label>
+        <name>reqCCSettings</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Outbound Calls Logging Enabled (true/false)</label>
+            <name>reqCallActivitiesOutbound</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Inbound Calls Logging Enabled (true/false)</label>
+            <name>reqCallActivitiesInbound</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Outbound Subject (Text and variables including {date}, {time}, etc.)</label>
+            <name>reqSubjectOutbound</name>
+            <value>Call Outbound {date} {time}</value>
+        </items>
+        <items>
+            <label>Inbound Subject (Text and variables including {date}, {time}, etc.)</label>
+            <name>reqSubjectInbound</name>
+            <value>Call Inbound {date} {time}</value>
+        </items>
+        <items>
+            <label>Outbound Call Log Results (&quot;Result 1&quot;, &quot;Result 2&quot;, ...)</label>
+            <name>optCallResultsOutbound</name>
+            <value>&quot; Call Outbound - Updated Case&quot;, &quot;Call Outbound - Left Message&quot;</value>
+        </items>
+        <items>
+            <label>Inbound Call Log Results (&quot;Result 1&quot;, &quot;Result 2&quot;, ...)</label>
+            <name>optCallResultsInbound</name>
+            <value>&quot;Inbound - New Case&quot;,  &quot;Call Inbound- Updated Case&quot;</value>
+        </items>
+        <items>
+            <label>Missed Call Log Result</label>
+            <name>optCallResultMissed</name>
+            <value>Missed Call</value>
+        </items>
+        <items>
+            <label>Custom Call Log Fields to Set ({&quot;Salesforce field&quot;: &quot;Mitel call field&quot;}, ...)</label>
+            <name>optActivityFields</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>For Classic Interface only, Follow Up Options Enabled on Save/Update (true/false)</label>
+            <name>reqFollowupEnabled</name>
+            <value>false</value>
+        </items>
+        <items>
+            <label>Keep Call Logs Open after Call Disconnect (true/false/save)</label>
+            <name>reqKeepCallLogOpen</name>
+            <value>save</value>
+        </items>
+        <items>
+            <label>Recent Call Logs Count</label>
+            <name>reqRecentCallLogsCount</name>
+            <value>3</value>
+        </items>
+        <label>Call Log Settings</label>
+        <name>reqCallLogSettings</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Record Type</label>
+            <name>reqCallLogRecordType</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Outbound Call Input Fields (fieldname[*][=Mitel Field], …)</label>
+            <name>optCallLogOutboundInputFields</name>
+            <value xsi:nil="true" />
+        </items>
+        <items>
+            <label>Inbound Call Input Fields (fieldname[*][=Mitel Field], …)</label>
+            <name>optCallLogInboundInputFields</name>
+            <value xsi:nil="true" />
+        </items>
+        <label>Advanced Call Log Settings - Note: These settings require the optional Apex class STPSSoftphone be installed in the customer&#39;s organization.</label>
+        <name>reqCallLogSettingsApex</name>
+    </sections>
+</CallCenter>

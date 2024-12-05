@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Medical UW is relaying the closed decision to REP/BROKER/GROUP</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Medical Underwriting CLOSED TO REP/BROKER/GROUP</name>
+    <style>none</style>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

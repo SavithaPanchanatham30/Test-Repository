@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL011MedicalFacilityPhoneorAddress</fullName>
+    <active>true</active>
+    <description>Medical Facility Address or Phone must be entered</description>
+    <errorConditionFormula>AND( ISBLANK(  Medical_Facility_Address__c  ),  ISBLANK(   Medical_Facility_Phone__c   ), RecordType.DeveloperName = &quot;Wellness&quot; )</errorConditionFormula>
+    <errorDisplayField>Medical_Facility_Address__c</errorDisplayField>
+    <errorMessage>CL-011 Either the Medical Facility/Physician Phone or Address Must be Entered</errorMessage>
+</ValidationRule>

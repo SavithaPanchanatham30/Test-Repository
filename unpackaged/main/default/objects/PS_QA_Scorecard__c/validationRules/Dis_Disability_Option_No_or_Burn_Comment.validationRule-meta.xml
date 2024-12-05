@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dis_Disability_Option_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Discuss Disability Reporting then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Discuss_Disability_Reporting_Addiitional__c ) = &quot;No&quot; , TEXT (Discuss_Disability_Reporting_Addiitional__c) = &quot;Burn&quot;),   Discuss_Disability_Reporting_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Discuss_Disability_Reporting_Comments__c</errorDisplayField>
+    <errorMessage>QA098 - If Discuss Type of Discuss Disability Report/Additional = No or Burn, Then Discuss Type of Discuss Disability Reporting Comments must be entered</errorMessage>
+</ValidationRule>

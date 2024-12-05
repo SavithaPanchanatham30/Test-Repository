@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- True if &quot;Assignment Group Active&quot; and &quot;Active&quot; fields on the user record are checked.  If True the users is available for this and all Assignment Groups. --></help>
+        <label><!-- User Active --></label>
+        <name>User_Active__c</name>
+    </CustomFieldTranslation>

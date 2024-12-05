@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Notes added for GSS and ISM Comments --></label>
+        <name>Notes_added_for_GSS_and_ISM_Comments__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>reflects permission sets Claim Leaders (director level and above) need to handle claims within Claim Vantage</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Claims Senior Leader</label>
+    <permissionSets>AbsenceClaimStatusReason_WRITE</permissionSets>
+    <permissionSets>Access_to_edit_Overpayment_Amounts</permissionSets>
+    <permissionSets>AdditionalIncome_WRITE</permissionSets>
+    <permissionSets>AutoPay_WRITE</permissionSets>
+    <permissionSets>ClaimIncurredDate_WRITE</permissionSets>
+    <permissionSets>ClaimTATCalculation_WRITE</permissionSets>
+    <permissionSets>CopyMoveDeleteDocumentsApexPermission</permissionSets>
+    <permissionSets>CoverageLimitation_WRITE</permissionSets>
+    <permissionSets>ExpressPay_WRITE</permissionSets>
+    <permissionSets>FICAandMedicareTaxability_WRITE</permissionSets>
+    <permissionSets>FilesTransitionToClaim_WRITE</permissionSets>
+    <permissionSets>Force_Rule_Permissions_Assignment</permissionSets>
+    <permissionSets>Insurance_Claims_User_Permissions_Write</permissionSets>
+    <permissionSets>MemberBenefit_WRITE</permissionSets>
+    <permissionSets>OverPayment_WRITE</permissionSets>
+    <permissionSets>OverpaymentFlag_READ</permissionSets>
+    <permissionSets>PaymentApproval_WRITE</permissionSets>
+    <permissionSets>PaymentFields_WRITE</permissionSets>
+    <permissionSets>PaymentSpecificationRollup_WRITE</permissionSets>
+    <permissionSets>PopulateAbsenceClaimFromCase_WRITE</permissionSets>
+    <permissionSets>PopulateClaimFromCase_WRITE</permissionSets>
+    <permissionSets>SocialSecurityExempt_WRITE</permissionSets>
+    <permissionSets>Transfer_Records</permissionSets>
+    <permissionSets>UsableCvabStatus_WRITE</permissionSets>
+    <permissionSets>UserLOARoleFields_WRITE</permissionSets>
+    <permissionSets>cvab__AbsenceUserPermissions</permissionSets>
+    <permissionSets>cvab__PermissionsSalesforce</permissionSets>
+    <permissionSets>cvb__Base</permissionSets>
+    <permissionSets>cvint__Integration_ReadWrite</permissionSets>
+    <permissionSets>forcerules__Force_Rule_Permissions_For_Other_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Salesforce Setup And System Comments --></label>
+        <name>Sales_for_Setup_and_System_Comments__c</name>
+    </CustomFieldTranslation>

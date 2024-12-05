@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPR006_Closed_Reason_Required</fullName>
+    <active>true</active>
+    <description>Validates that a custom field entitled Closed Reason is provided if an opportunity product line item stage is closed won, closed lost - quoted, closed lost - not quoted.</description>
+    <errorConditionFormula>AND (
+  OR (
+     ISPICKVAL(Line_Item_Stage__c , &quot;Closed Won&quot;),
+     ISPICKVAL(Line_Item_Stage__c , &quot;Closed Lost - Quoted&quot;), 
+     ISPICKVAL(Line_Item_Stage__c , &quot;Closed Lost - Not Quoted&quot;)),
+ISPICKVAL(Closed_Reason__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Closed_Reason__c</errorDisplayField>
+    <errorMessage>OPR006 Closed Reason is required when Line Item Stage has a closed value.</errorMessage>
+</ValidationRule>

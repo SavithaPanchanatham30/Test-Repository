@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Team Assignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Team Assignments</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Account Assignment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Team Member Assignment --></label>
+            <section>Team Member Assignment</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Blue Partner must be of Partner Record Type --></errorMessage>
+        <name>Blue_Partner_must_be_Partner_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter value for Blue Partner and Blue Territory Code in order to select Blue Territory Assignment method. --></errorMessage>
+        <name>Mandatory_fields_Blue_Territory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter value for Blue Partner, Group Segment and County in order to select Market Segment &amp; County Assignment method. --></errorMessage>
+        <name>Mandatory_fields_Market_Segment_County</name>
+    </validationRules>
+</CustomObjectTranslation>

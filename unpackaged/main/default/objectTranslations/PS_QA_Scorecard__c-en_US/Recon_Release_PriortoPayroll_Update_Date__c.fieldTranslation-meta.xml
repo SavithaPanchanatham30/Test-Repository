@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Recon Released Prior to Payroll Upload Date --></help>
+        <label><!-- Recon Release PriortoPayroll Update Date --></label>
+        <name>Recon_Release_PriortoPayroll_Update_Date__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_last_Login_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn is  Is entered in Review Last Log in Report then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Review_Last_Log_in_Report__c ) = &quot;No&quot; , TEXT (  Review_Last_Log_in_Report__c) = &quot;Burn&quot;),  Review_Last_Login_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Review_Last_Login_Comments__c</errorDisplayField>
+    <errorMessage>QA120- If Review Last Log In Report  =  No or Burn, Then Review Last Log in Report Comments must be entered</errorMessage>
+</ValidationRule>

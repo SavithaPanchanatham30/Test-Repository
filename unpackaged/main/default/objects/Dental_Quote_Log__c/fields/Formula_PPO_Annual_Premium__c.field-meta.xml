@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Formula_PPO_Annual_Premium__c</fullName>
+    <label>Formula PPO Annual Premium</label>
+    <summarizedField>Quote_Log_Product__c.Formula_Annual_Premium__c</summarizedField>
+    <summaryFilterItems>
+        <field>Quote_Log_Product__c.Product_Sub_Cat__c</field>
+        <operation>equals</operation>
+        <value>Choice PPO - Vol, Choice Plus PPO - Vol, Choice Copay - Vol, Choice PPO - TG, Choice Plus PPO - TG, Choice Copay - TG, Select PPO - Vol, Select PPO Plus -Vol, Select PPO - Trad, Select PPO Plus – Trad, PPO, PPO/DMO</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Quote_Log_Product__c.Quote_Log__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

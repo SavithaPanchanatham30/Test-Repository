@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status Reason --></label>
+        <name>cve__StatusReason__c</name>
+        <picklistValues>
+            <masterLabel>AD&amp;D Loss</masterLabel>
+            <translation><!-- AD&amp;D Loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADB Death</masterLabel>
+            <translation><!-- ADB Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADL Loss</masterLabel>
+            <translation><!-- ADL Loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accelerated Payout</masterLabel>
+            <translation><!-- Accelerated Payout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Information Needed</masterLabel>
+            <translation><!-- Additional Information Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation><!-- Death --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabled Any Occupation</masterLabel>
+            <translation><!-- Disabled Any Occupation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabled Own Occupation</masterLabel>
+            <translation><!-- Disabled Own Occupation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elimination Period Not Met</masterLabel>
+            <translation><!-- Elimination Period Not Met --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exceeds Maximum Benefit</masterLabel>
+            <translation><!-- Exceeds Maximum Benefit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception Authorized by Management</masterLabel>
+            <translation><!-- Exception Authorized by Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Requested Not Received</masterLabel>
+            <translation><!-- Information Requested Not Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marked Up in Error</masterLabel>
+            <translation><!-- Marked Up in Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matured</masterLabel>
+            <translation><!-- Matured --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maximum Age</masterLabel>
+            <translation><!-- Maximum Age --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maximum Duration</masterLabel>
+            <translation><!-- Maximum Duration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misrepresentation</masterLabel>
+            <translation><!-- Misrepresentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Proof of loss</masterLabel>
+            <translation><!-- No Proof of loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Disabled Any Occupation</masterLabel>
+            <translation><!-- Not Disabled Any Occupation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Disabled Own Occupation</masterLabel>
+            <translation><!-- Not Disabled Own Occupation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Eligible</masterLabel>
+            <translation><!-- Not Eligible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not an Accident Under the Terms of the Contract</masterLabel>
+            <translation><!-- Not an Accident Under the Terms of the Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Policy Exclusion(s)</masterLabel>
+            <translation><!-- Policy Exclusion(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-existing Condition</masterLabel>
+            <translation><!-- Pre-existing Condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTW Gainful Occupation</masterLabel>
+            <translation><!-- RTW Gainful Occupation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTW Own Occupation</masterLabel>
+            <translation><!-- RTW Own Occupation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement</masterLabel>
+            <translation><!-- Settlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suicide</masterLabel>
+            <translation><!-- Suicide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terms of Contract Not Met</masterLabel>
+            <translation><!-- Terms of Contract Not Met --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unpaid Premium</masterLabel>
+            <translation><!-- Unpaid Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

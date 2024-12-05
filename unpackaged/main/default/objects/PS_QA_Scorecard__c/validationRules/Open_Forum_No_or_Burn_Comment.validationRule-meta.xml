@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Forum_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Open Forum/Questions then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Open_Forum_Questions__c ) = &quot;No&quot; , TEXT ( Open_Forum_Questions__c ) = &quot;Burn&quot;),      Open_Forum_Questions_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Open_Forum_Questions_Comments__c</errorDisplayField>
+    <errorMessage>QA102 - If Open Forum/Questions = No or Burn, Then Open Forum/Questions Comments must be entered</errorMessage>
+</ValidationRule>

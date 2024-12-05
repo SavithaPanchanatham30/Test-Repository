@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>Yes</fullName>
+        <default>false</default>
+        <label>Yes</label>
+    </customValue>
+    <customValue>
+        <fullName>No</fullName>
+        <default>false</default>
+        <label>No</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Research</fullName>
+        <default>false</default>
+        <label>Pending Research</label>
+    </customValue>
+    <description>Used for Yes No Picklist with N/A and Pending Research</description>
+    <masterLabel>Yes No Pending Research Options</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batch_Created__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>It indicates, if an opportunity has been auto created by the batch job. Used in batch that automatically creates opportunities</description>
+    <label>Auto Created</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

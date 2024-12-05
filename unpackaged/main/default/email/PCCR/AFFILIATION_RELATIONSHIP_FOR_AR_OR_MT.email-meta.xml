@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Affiliation/relationship required for AR, OR &amp; Montana</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AFFILIATION/RELATIONSHIP FOR AR, OR &amp; MT</name>
+    <style>none</style>
+    <subject>Affiliation/Relationship Required</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

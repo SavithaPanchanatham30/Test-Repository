@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AG-Queue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AG-Queues</value>
+    </caseValues>
+    
+    
+    
+    
+    <layouts>
+        <layout>Assignment Group-Queue Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Queue already belongs to an Assignment Group.  Please remove from Assignment Group or choose another Queue --></errorMessage>
+        <name>Queue_Name_is_Unique</name>
+    </validationRules>
+</CustomObjectTranslation>

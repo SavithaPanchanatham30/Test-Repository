@@ -1,0 +1,57 @@
+USAble Life is preparing for the upcoming Open Enrollment for mutual client, {!Case.Master_Group__c} .  
+Please reference the following below that may address any questions that you or the client may have regarding the Open Enrollment Process. 
+
+Are there any plan changes for the new plan year?
+
+·        {!Case.Master_Group__c} has the following changes for the new plan year: 
+·         XXX
+·         XXX
+·         XXX
+·         USAL EDI Team prefers to receive a separate file for AE/OE.
+
+
+Will the AE/OE file need a naming convention that differs from the normal file name?
+
+·         Yes, the preferred naming convention for all AE/OE files: OE_GroupNumber_GroupName_YYYYMMDD.csv
+·         Please notify the USAL EDI Team when submitting the AE/OE file for {!Case.Master_Group__c}.
+
+
+Is there a preferred time line in which you would like to receive the file?
+
+·         Please send AE/OE file after all changes for the 2018 plan year have been completed.
+
+What is the cut-off date the AE/OE file needs to be received to ensure new ID cards are sent out to employee by the start of the new plan year?
+
+·         We do not produce ID cards for Life and Disability. This will not be applicable.
+
+What is the Server address for sending the AE TEST file?
+
+·         Not Applicable, USAL EDI Team does not require a test AE/OE file.
+·         **NOTE** USAL EDI Team will not need a test file for AE/OE as we will use the production file to process in our staging environment and provide any discrepancies.
+
+
+What is the Server address for sending the AE/OE PRODUCTION file?
+
+·         The server address is the same as the weekly production files. Please continue to use the same server. 
+·         Please notify the USAL EDI Team at edirequest@usablelife.com when sending the AE/OE file so we can take the proper steps to review the file manually before processing the production data.
+
+
+What is the AE/OE PRODUCTION file header or naming convention?
+
+·         Please refer to Question 2 above. 
+
+Will regular files be sent after the AE/OE PRODUCTION file has been sent?
+
+·         Yes, please continue to send the weekly scheduled file.
+
+Will original effective date or new effective dates be sent on the AE PRODUCTION file and ongoing file?
+
+·         New effective dates are preferred for all members
+
+Do you term by omission or do you require termination dates to be sent on the AE/OE file?
+
+·         USAL does not term by omission. We will need the specific termination effective date in the file for the member or member's benefit.
+
+Can you confirm you are the correct contact for their OE file? 
+
+·         Yes, edirequest@usablelife.com is the correct contact information.

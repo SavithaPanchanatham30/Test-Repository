@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Correct_Spouse_Rate_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Correct Spouse Rates then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(  Correct_Spouse_Rates_for_Voluntary__c ) = &quot;No&quot; , TEXT ( Correct_Spouse_Rates_for_Voluntary__c ) = &quot;Burn&quot;),    Correct_Spouse_Rates_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Correct_Spouse_Rates_Comments__c</errorDisplayField>
+    <errorMessage>QA133 - If Correct Spouse Rates  No or Burn, Then Correct Spouse Rates Comments must be entered</errorMessage>
+</ValidationRule>

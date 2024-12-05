@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The actual Benefit Start Date, which is the Adjusted Benefit Start if used, the Benefit Start otherwise. --></help>
+        <label><!-- Actual Benefit Start --></label>
+        <name>cve__ActualBenefitStart__c</name>
+    </CustomFieldTranslation>

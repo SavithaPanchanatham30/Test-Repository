@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Treatment #3 MM/YYYY (If No Exact Date) --></label>
+        <name>Treatment_3_MM_YYYY_If_No_Exact_Date__c</name>
+    </CustomFieldTranslation>

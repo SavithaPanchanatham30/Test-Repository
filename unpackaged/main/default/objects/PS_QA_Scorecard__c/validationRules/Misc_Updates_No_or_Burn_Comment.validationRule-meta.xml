@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Misc_Updates_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Misc Updates then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(  Misc_Updates__c  ) = &quot;No&quot; , TEXT ( Misc_Updates__c ) = &quot;Burn&quot;),            Misc_Updates_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Misc_Updates_Comments__c</errorDisplayField>
+    <errorMessage>QA147 - If Misc. Updates No or Burn, Then Misc. Updates Comments must be entered</errorMessage>
+</ValidationRule>

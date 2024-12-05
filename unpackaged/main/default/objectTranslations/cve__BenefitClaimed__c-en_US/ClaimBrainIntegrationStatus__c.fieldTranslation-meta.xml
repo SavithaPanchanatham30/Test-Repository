@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ClaimBrain Integration Status --></label>
+        <name>ClaimBrainIntegrationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Calculating</masterLabel>
+            <translation><!-- Calculating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

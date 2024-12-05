@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assignment_Group_Recods_less_than_1000</fullName>
+    <active>true</active>
+    <description>Total number of Assignment Group records tied to an Assignment Group Name cannot be greater than 1000 for programming efficency</description>
+    <errorConditionFormula>Count_of_Users__c &gt;990</errorConditionFormula>
+    <errorMessage>Total number of users assigned to an Assignment Group Name cannot exceed more than 990</errorMessage>
+</ValidationRule>

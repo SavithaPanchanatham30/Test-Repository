@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX005_Adding_SubDiv_Need_With_Employees</fullName>
+    <active>true</active>
+    <description>If Adding New Subsidiary or Division the we must know if it is with Employees</description>
+    <errorConditionFormula>And( Adding_New_Subsidiary_Or_Division__c,Text( New_Subsidiary_Division_With_Employees__c ) &lt;&gt;    &quot;Yes&quot;,Text(New_Subsidiary_Division_With_Employees__c) &lt;&gt;  &quot;No&quot;)</errorConditionFormula>
+    <errorDisplayField>New_Subsidiary_Division_With_Employees__c</errorDisplayField>
+    <errorMessage>EX005- If Adding New Sub/div  is checked , then With Employees must be Yes or No</errorMessage>
+</ValidationRule>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Offset Calculation --></label>
+        <name>OffsetCalculation__c</name>
+        <picklistValues>
+            <masterLabel>IDAM Offset</masterLabel>
+            <translation><!-- IDAM Offset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFML Offset</masterLabel>
+            <translation><!-- PFML Offset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Disability Earnings</masterLabel>
+            <translation><!-- Pre-Disability Earnings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Disability Earnings Offset</masterLabel>
+            <translation><!-- Pre-Disability Earnings Offset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STD Offset</masterLabel>
+            <translation><!-- STD Offset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Straight Offset</masterLabel>
+            <translation><!-- Straight Offset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Straight-Reduction Offset</masterLabel>
+            <translation><!-- Straight-Reduction Offset --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

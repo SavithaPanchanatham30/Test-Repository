@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Instructions related to  GI info, product instructions/limitations, special eligibility, takeover, approvals/exceptions, other enrollment systems, group specific notes, election forms, LOA, competitor information, etc... --></help>
+        <label><!-- Enrollment Plan Notes/Instructions --></label>
+        <name>Enrollment_Plan_Notes_Instructions__c</name>
+    </CustomFieldTranslation>

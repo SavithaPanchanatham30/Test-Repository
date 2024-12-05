@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Birthdate</fullName>
+        <field>Patient_Birth_Date__c</field>
+        <formula>Policy_Holder_Birthdate__c</formula>
+        <name>Update Birthdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Patient_Name</fullName>
+        <field>Patient_Name_First_Last__c</field>
+        <formula>PolicyHolder_Name_First_Last__c</formula>
+        <name>Update Patient Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Social_Security</fullName>
+        <field>Patient_Social_Security__c</field>
+        <formula>Social_Security__c</formula>
+        <name>Update Social Security</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Copy Policy Holder to Patient</fullName>
+        <actions>
+            <name>Update_Birthdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Patient_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Social_Security</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Claims_Form__c.Relationship_to_Patent__c</field>
+            <operation>equals</operation>
+            <value>Self</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

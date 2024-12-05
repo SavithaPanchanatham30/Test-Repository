@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Explain How Third Party Was the Cause --></label>
+        <name>Explain_How_Third_Party_Was_the_Cause__c</name>
+    </CustomFieldTranslation>

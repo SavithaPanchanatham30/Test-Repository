@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL015MedicalFacilityAddressZIPRequired</fullName>
+    <active>true</active>
+    <description>Medical Facility Address entered then State is required</description>
+    <errorConditionFormula>AND( NOT(ISBLANK(  Medical_Facility_Address__c  )), OR( ISBLANK(      Medical_Facility_Zip__c ),Not(ISNUMBER(  Medical_Facility_Zip__c  ))), RecordType.DeveloperName = &quot;Welln ess&quot;  )</errorConditionFormula>
+    <errorDisplayField>Medical_Facility_Zip__c</errorDisplayField>
+    <errorMessage>CL-015 If Facility Address Entered Numeric Zip Code Must be Entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Role__c</fullName>
+    <description>Values in this picklist must exactly match values in the Account Team role picklist, or the trigger to assign account team will fail.</description>
+    <label>Team Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account Manager</fullName>
+                <default>false</default>
+                <label>Account Manager</label>
+            </value>
+            <value>
+                <fullName>AM Management</fullName>
+                <default>false</default>
+                <label>AM Management</label>
+            </value>
+            <value>
+                <fullName>Sales Executive</fullName>
+                <default>false</default>
+                <label>Sales Executive</label>
+            </value>
+            <value>
+                <fullName>Sales Management</fullName>
+                <default>false</default>
+                <label>Sales Management</label>
+            </value>
+            <value>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+                <label>Sales Support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

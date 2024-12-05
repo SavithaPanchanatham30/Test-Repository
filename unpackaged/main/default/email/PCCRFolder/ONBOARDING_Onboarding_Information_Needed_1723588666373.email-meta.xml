@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Onboarding initial request information needed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ONBOARDING - Onboarding Information Needed</name>
+    <style>none</style>
+    <subject>Agency/Agent Information Needed for USAble Life&#39;s New Electronic Onboarding and Contracting</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Updated_Blue_Rep__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is being used in Blue Rep update functionality.</description>
+    <label>Sales Updated Blue Rep?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

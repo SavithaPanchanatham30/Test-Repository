@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Correct_Form_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Correct form number used then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(  Correct_Form_Number_Used__c  ) = &quot;No&quot; ,  TEXT ( Correct_Form_Number_Used__c ) = &quot;Burn&quot;),      Correct_Form_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Correct_Form_Comments__c</errorDisplayField>
+    <errorMessage>QA074 - If Correct From Number Used = No or Burn, Then Correct Form# Comments must be entered</errorMessage>
+</ValidationRule>

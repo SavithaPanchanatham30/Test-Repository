@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Benefit Options - Member Grp Lvl Correct --></label>
+        <name>Benefit_Options_Member_Grp_Lvl_Correct__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Open Enrollment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Open Enrollments</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Renewal Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- OE-005 Enrollment End Date Cannot be less than Enrollment Start Date --></errorMessage>
+        <name>OE_005_Enrollment_End_LT_Enrollment_Star</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OE001 - The case currently has a VGTL Renewal Enrollment, please navigate to the existing record and select edit. --></errorMessage>
+        <name>Only_on_VGTL_Enrollment_Per_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OE002 - The case currently has a VLTD Renewal Enrollment, please navigate to the existing record and select edit. --></errorMessage>
+        <name>Only_on_VLTD_Enrollment_Per_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OE003-The case currently has a VSTD Renewal Enrollment, please navigate to the existing record and select edit. --></errorMessage>
+        <name>Only_on_VSTD_Enrollment_Per_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OE004 - The case currently has a Worksite ACC Enrollment, please navigate to the existing record and select edit. --></errorMessage>
+        <name>Only_on_Worksite_ACC_Per_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OE007 - The case currently has a Worksite CA &amp; CI Enrollment, please navigate to the existing record and select edit. --></errorMessage>
+        <name>Only_on_Worksite_CA_CI_Per_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OE006 - The case currently has a Worksite CI Enrollment, please navigate to the existing record and select edit. --></errorMessage>
+        <name>Only_on_Worksite_CI_Per_case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OE008 - The case currently has a Worksite HIP Enrollment, please navigate to the existing record and select edit. --></errorMessage>
+        <name>Only_on_Worksite_HIP_Per_case</name>
+    </validationRules>
+</CustomObjectTranslation>

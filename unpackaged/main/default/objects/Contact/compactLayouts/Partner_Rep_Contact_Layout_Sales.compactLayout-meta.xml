@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Rep_Contact_Layout_Sales</fullName>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>Phone</fields>
+    <fields>MobilePhone</fields>
+    <fields>Mobile_Sales__c</fields>
+    <fields>Email</fields>
+    <fields>Email_Sales__c</fields>
+    <fields>Contact_Type__c</fields>
+    <fields>Title</fields>
+    <fields>Partner_Rep_Territory_Code__c</fields>
+    <label>Partner Rep Contact Layout - Sales</label>
+</CompactLayout>

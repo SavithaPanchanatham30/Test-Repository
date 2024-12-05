@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>CSM Implementations</name>
+    <queueMembers>
+        <users>
+            <user>janice.elmore@usablelife.com</user>
+            <user>jessie.smith@usablelife.com</user>
+            <user>katey.baker@usablelife.com</user>
+            <user>sherri.payne@usablelife.como</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

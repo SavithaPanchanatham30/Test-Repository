@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Term by Omission</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EDI- Term by Omission</name>
+    <style>none</style>
+    <subject>EDI File Processing Issue- Employee/Benefit missing from this weeks file data</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

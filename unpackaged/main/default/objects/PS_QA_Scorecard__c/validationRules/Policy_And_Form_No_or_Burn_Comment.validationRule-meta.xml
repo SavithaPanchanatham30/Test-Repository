@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Policy_And_Form_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Policy &amp; Form Number then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Policy_Form_Number__c ) = &quot;No&quot; , TEXT(      Policy_Form_Number__c  ) = &quot;Burn&quot;), Policy_Form_Number_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Policy_Form_Number_Comments__c</errorDisplayField>
+    <errorMessage>QA220 =  If Policy &amp; Form Number No or Burn, Then Policy &amp; Form Comments must be entered</errorMessage>
+</ValidationRule>

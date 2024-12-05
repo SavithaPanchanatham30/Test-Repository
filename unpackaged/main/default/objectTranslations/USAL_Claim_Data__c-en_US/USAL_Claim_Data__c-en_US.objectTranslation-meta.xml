@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>USAL Claim Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>USAL Claims Data</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>USAL Claim Layout</layout>
+        <sections>
+            <label><!-- Absence Section --></label>
+            <section>Absence Section</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Insurance Claim Section --></label>
+            <section>Insurance Claim Section</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Census Increases/Reductions Loaded --></label>
+        <name>Census_Increases_Reductions_Loaded__c</name>
+    </CustomFieldTranslation>

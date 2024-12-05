@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Mode_And_Stru_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Billing Mode &amp; Structure then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Billing_Mode_Structure__c )   = &quot;No&quot; , TEXT( Billing_Mode_Structure__c  ) = &quot;Burn&quot;),        Billing_Mode_Structure_Comments__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Billing_Mode_Structure_Comments__c</errorDisplayField>
+    <errorMessage>QA204 =  If Billing Mode &amp; Structure = No or Burn, Then Class Level Comments must be entered</errorMessage>
+</ValidationRule>

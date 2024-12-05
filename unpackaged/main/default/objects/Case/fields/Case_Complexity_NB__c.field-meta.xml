@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Complexity_NB__c</fullName>
+    <description>This Rollup field is defining the Complexity of Case</description>
+    <label>Case Complexity NB</label>
+    <summarizedField>Policy_Implementation__c.New_Business_Complexity__c</summarizedField>
+    <summaryForeignKey>Policy_Implementation__c.Case__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

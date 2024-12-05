@@ -1,0 +1,13 @@
+Dear Valued LifeMap Customer,
+
+This email is to serve as confirmation, Case# {!Case.CaseNumber},  has been completed as requested.   
+
+[Include details if updates do not match request]
+
+If you have additional questions regarding this request, please do not hesitate to contact us.  
+
+We appreciate the opportunity to serve you!
+
+LifeMap Enrollment Team
+
+{!Case.Thread_Id}

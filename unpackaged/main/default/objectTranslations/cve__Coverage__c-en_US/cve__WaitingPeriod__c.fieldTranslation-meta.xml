@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Period before effective date of coverage - calculated from Policy Effective Date if individual, or Date of Hire if not (e.g., group) --></help>
+        <label><!-- Waiting Period --></label>
+        <name>cve__WaitingPeriod__c</name>
+    </CustomFieldTranslation>

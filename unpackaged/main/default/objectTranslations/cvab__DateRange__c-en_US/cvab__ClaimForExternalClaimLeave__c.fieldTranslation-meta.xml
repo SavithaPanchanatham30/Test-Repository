@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Lookup to the Claim record when the Date Range was created for an &quot;external&quot; Absence (cvab__ClaimLeave__c). That is, an Absence that isn&apos;t added to the claim but exists outside AbsenceDirect. --></help>
+        <label><!-- Claim For External Absence --></label>
+        <name>cvab__ClaimForExternalClaimLeave__c</name>
+        <relationshipLabel><!-- Date Ranges For External Absences --></relationshipLabel>
+    </CustomFieldTranslation>

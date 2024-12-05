@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Resident State --></label>
+        <name>cve__ResidentState__c</name>
+        <picklistValues>
+            <masterLabel>AB-ALBERTA</masterLabel>
+            <translation><!-- AB-ALBERTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AK-ALASKA</masterLabel>
+            <translation><!-- AK-ALASKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL-ALABAMA</masterLabel>
+            <translation><!-- AL-ALABAMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR-ARKANSAS</masterLabel>
+            <translation><!-- AR-ARKANSAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AS-AMERICAN SAMOA</masterLabel>
+            <translation><!-- AS-AMERICAN SAMOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ-ARIZONA</masterLabel>
+            <translation><!-- AZ-ARIZONA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BC-BRITISH COLUMBIA</masterLabel>
+            <translation><!-- BC-BRITISH COLUMBIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA-CALIFORNIA</masterLabel>
+            <translation><!-- CA-CALIFORNIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO-COLORADO</masterLabel>
+            <translation><!-- CO-COLORADO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT-CONNECTICUT</masterLabel>
+            <translation><!-- CT-CONNECTICUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CZ-CANAL ZONE</masterLabel>
+            <translation><!-- CZ-CANAL ZONE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC-DISTRICT OF COLUMBIA</masterLabel>
+            <translation><!-- DC-DISTRICT OF COLUMBIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE-DELAWARE</masterLabel>
+            <translation><!-- DE-DELAWARE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL-FLORIDA</masterLabel>
+            <translation><!-- FL-FLORIDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM-FEDERATED STATES OF MICRONESIA</masterLabel>
+            <translation><!-- FM-FEDERATED STATES OF MICRONESIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA-GEORGIA</masterLabel>
+            <translation><!-- GA-GEORGIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GU-GUAM</masterLabel>
+            <translation><!-- GU-GUAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI-HAWAII</masterLabel>
+            <translation><!-- HI-HAWAII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HK-HONG KONG</masterLabel>
+            <translation><!-- HK-HONG KONG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA-IOWA</masterLabel>
+            <translation><!-- IA-IOWA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID-IDAHO</masterLabel>
+            <translation><!-- ID-IDAHO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL-ILLINOIS</masterLabel>
+            <translation><!-- IL-ILLINOIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN-INDIANA</masterLabel>
+            <translation><!-- IN-INDIANA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KO-KOREA</masterLabel>
+            <translation><!-- KO-KOREA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS-KANSAS</masterLabel>
+            <translation><!-- KS-KANSAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY-KENTUCKY</masterLabel>
+            <translation><!-- KY-KENTUCKY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA-LOUISIANA</masterLabel>
+            <translation><!-- LA-LOUISIANA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LB-LABRADOR</masterLabel>
+            <translation><!-- LB-LABRADOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA-MASSACHUSETTS</masterLabel>
+            <translation><!-- MA-MASSACHUSETTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB-MANITOBA</masterLabel>
+            <translation><!-- MB-MANITOBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD-MARYLAND</masterLabel>
+            <translation><!-- MD-MARYLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME-MAINE</masterLabel>
+            <translation><!-- ME-MAINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MH-MARSHALL ISLANDS</masterLabel>
+            <translation><!-- MH-MARSHALL ISLANDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI-MICHIGAN</masterLabel>
+            <translation><!-- MI-MICHIGAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN-MINNESOTA</masterLabel>
+            <translation><!-- MN-MINNESOTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO-MISSOURI</masterLabel>
+            <translation><!-- MO-MISSOURI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MP-NORTHERN MARIANA ISLANDS</masterLabel>
+            <translation><!-- MP-NORTHERN MARIANA ISLANDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS-MISSISSIPPI</masterLabel>
+            <translation><!-- MS-MISSISSIPPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT-MONTANA</masterLabel>
+            <translation><!-- MT-MONTANA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NB-NEW BRUNSWICK</masterLabel>
+            <translation><!-- NB-NEW BRUNSWICK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC-NORTH CAROLINA</masterLabel>
+            <translation><!-- NC-NORTH CAROLINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND-NORTH DAKOTA</masterLabel>
+            <translation><!-- ND-NORTH DAKOTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE-NEBRASKA</masterLabel>
+            <translation><!-- NE-NEBRASKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NF-NEWFOUNDLAND</masterLabel>
+            <translation><!-- NF-NEWFOUNDLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH-NEW HAMPSHIRE</masterLabel>
+            <translation><!-- NH-NEW HAMPSHIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ-NEW JERSEY</masterLabel>
+            <translation><!-- NJ-NEW JERSEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM-NEW MEXICO</masterLabel>
+            <translation><!-- NM-NEW MEXICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS-NOVA SCOTIA</masterLabel>
+            <translation><!-- NS-NOVA SCOTIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NT-NORTHWEST TERRITORIES</masterLabel>
+            <translation><!-- NT-NORTHWEST TERRITORIES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV-NEVADA</masterLabel>
+            <translation><!-- NV-NEVADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY-NEW YORK</masterLabel>
+            <translation><!-- NY-NEW YORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH-OHIO</masterLabel>
+            <translation><!-- OH-OHIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK-OKLAHOMA</masterLabel>
+            <translation><!-- OK-OKLAHOMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ON-ONTARIO</masterLabel>
+            <translation><!-- ON-ONTARIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR-OREGON</masterLabel>
+            <translation><!-- OR-OREGON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA-PENNSYLVANIA</masterLabel>
+            <translation><!-- PA-PENNSYLVANIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PE-PRINCE EDWARD ISLAND</masterLabel>
+            <translation><!-- PE-PRINCE EDWARD ISLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PQ-QUEBEC</masterLabel>
+            <translation><!-- PQ-QUEBEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR-PUERTO RICO</masterLabel>
+            <translation><!-- PR-PUERTO RICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PW-PALAU</masterLabel>
+            <translation><!-- PW-PALAU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI-RHODE ISLAND</masterLabel>
+            <translation><!-- RI-RHODE ISLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA-SAUDI ARABIA</masterLabel>
+            <translation><!-- SA-SAUDI ARABIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC-SOUTH CAROLINA</masterLabel>
+            <translation><!-- SC-SOUTH CAROLINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD-SOUTH DAKOTA</masterLabel>
+            <translation><!-- SD-SOUTH DAKOTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK-SASKATCHEWAN</masterLabel>
+            <translation><!-- SK-SASKATCHEWAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN-TENNESSEE</masterLabel>
+            <translation><!-- TN-TENNESSEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX-TEXAS</masterLabel>
+            <translation><!-- TX-TEXAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT-UTAH</masterLabel>
+            <translation><!-- UT-UTAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA-VIRGINIA</masterLabel>
+            <translation><!-- VA-VIRGINIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VI-VIRGIN ISLANDS</masterLabel>
+            <translation><!-- VI-VIRGIN ISLANDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT-VERMONT</masterLabel>
+            <translation><!-- VT-VERMONT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA-WASHINGTON</masterLabel>
+            <translation><!-- WA-WASHINGTON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI-WISCONSIN</masterLabel>
+            <translation><!-- WI-WISCONSIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV-WEST VIRGINIA</masterLabel>
+            <translation><!-- WV-WEST VIRGINIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY-WYOMING</masterLabel>
+            <translation><!-- WY-WYOMING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YK-YUKON TERRITORIES</masterLabel>
+            <translation><!-- YK-YUKON TERRITORIES --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

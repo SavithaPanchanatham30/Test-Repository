@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Just In Time</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Just in Time Language</name>
+    <style>none</style>
+    <subject>Just in Time Appointments</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

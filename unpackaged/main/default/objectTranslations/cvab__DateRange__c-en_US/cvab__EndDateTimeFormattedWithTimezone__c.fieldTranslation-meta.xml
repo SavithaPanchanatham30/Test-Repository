@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The End Date Time value formatted for the Date Range&apos;s Timezone. --></help>
+        <label><!-- End Date Time (in timezone) --></label>
+        <name>cvab__EndDateTimeFormattedWithTimezone__c</name>
+    </CustomFieldTranslation>

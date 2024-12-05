@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Amendments</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>All_Policy_Services</publicGroup>
+        </publicGroups>
+        <users>
+            <user>connie.nalley@usablelife.com</user>
+            <user>eric.hunt@usablelife.com</user>
+            <user>fredricka.smith@usablelife.com</user>
+            <user>lee.lawrence@usablelife.comf</user>
+            <user>paula.bates@usablelife.com</user>
+            <user>rose.mitchell@usablelife.com</user>
+            <user>shane.loftis@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

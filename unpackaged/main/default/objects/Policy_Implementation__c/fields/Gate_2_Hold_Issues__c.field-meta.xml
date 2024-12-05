@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gate_2_Hold_Issues__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT( Critical_Census_Data__c ),&quot;Halt&quot;, &quot;Census Data, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Census Data, &quot;, null) +
+CASE(TEXT(  SIC_Code__c  ),&quot;Halt&quot;, &quot;SIC Code, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;SIC Code, &quot;, null) +
+CASE(TEXT(  Class_Descriptions__c    ),&quot;Halt&quot;, &quot;Class Desc, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Class Desc, &quot;, null) +
+CASE(TEXT(   W_2_Agreement_for_STD__c   ),&quot;Halt&quot;, &quot;W2 for STD, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;W2 for STD, &quot;, null) +
+CASE(TEXT(  LTD_W_2_Option_Marked_on_Master_App__c    ),&quot;Halt&quot;, &quot;LTD W2 Option, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;LTD W2 Option, &quot; , null) +
+CASE(TEXT(  STD_FICA_Matching_Form__c    ),&quot;Halt&quot;, &quot;STD FICA, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;STD FICA, &quot;, null) +
+CASE(TEXT(   Evidence_of_Insurability_EOI_forms__c   ),&quot;Halt&quot;, &quot;Insurability, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Insurability, &quot;, null) +
+CASE(TEXT(   Member_Applications_Voluntary_Product__c   ),&quot;Halt&quot;, &quot;Voluntary Product, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Voluntary Product, &quot;, null) +
+CASE(TEXT(   Prior_Carrier_Policy_Booklet__c   ),&quot;Halt&quot;, &quot;Prior Carrier Booklet, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Prior Carrier Booklet, &quot;, null) +
+CASE(TEXT(   Waiting_Period__c   ),&quot;Halt&quot;, &quot;Waiting Period, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Waiting Period, &quot;, null) +
+CASE(TEXT(   Hours_Worked_Per_Week__c   ),&quot;Halt&quot;, &quot;Work Week, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Work Week, &quot; , null) +
+CASE(TEXT(   Contributory_Percentage__c   ),&quot;Halt&quot;, &quot;Contribute%, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Contribute%, &quot;, null) +
+CASE(TEXT(   OldEffective_Date__c   ),&quot;Halt&quot;, &quot;Eff Date, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Eff Date, &quot;, null) +
+CASE(TEXT(   Minimum_Hours_Worked__c   ),&quot;Halt&quot;, &quot;Min Hours, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Min Hours, &quot;, null) +
+CASE(TEXT(  Status_of_Number_of_Lives__c    ),&quot;Halt&quot;, &quot;Lives, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Lives, &quot;, null) +
+CASE(TEXT(   Rate_Guaranteed_Years__c   ),&quot;Halt&quot;, &quot;Rate Years, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Rate Years, &quot; , null) +
+CASE(TEXT(  Group_meets_Issue_Participation__c    ),&quot;Halt&quot;, &quot;Participation, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Participation, &quot;, null) +
+CASE(TEXT(   List_of_employees_not_actively_at_work__c   ),&quot;Halt&quot;, &quot;Inactive List, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Inactive List, &quot;, null) +
+CASE(TEXT(   Replacement_of_prior_coverage__c   ),&quot;Halt&quot;, &quot;Replace Prior, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Replace Prior, &quot;, null) +
+CASE(TEXT(  Signed_by_Group_Leader_before_Eff_Date__c    ),&quot;Halt&quot;, &quot;Group Lead Sign, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Group Lead Sign, &quot;, null) +
+CASE(TEXT(   Annual_Earnings__c   ),&quot;Halt&quot;, &quot;Earnings, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Earnings, &quot; , null) +
+CASE(TEXT(   Voluntary_Benefits__c   ),&quot;Halt&quot;, &quot;Voluntary Benefits, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Voluntary Benefits, &quot; , null) +
+CASE(TEXT(   Date_of_Hire__c   ),&quot;Halt&quot;, &quot;Hire Date, &quot;, &quot;Continue/Don’t Submit&quot;,&quot;Hire Date, &quot; , null) +
+CASE(TEXT(   Prior_Carrier_Bill__c   ),&quot;Halt&quot;, &quot;Prior Carrier Bill&quot;, &quot;Continue/Don’t Submit&quot;,&quot;Prior Carrier Bill&quot; , null)</formula>
+    <label>Gate 2 Hold Issues</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

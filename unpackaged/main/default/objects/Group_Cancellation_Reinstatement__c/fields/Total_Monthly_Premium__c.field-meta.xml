@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Monthly_Premium__c</fullName>
+    <formula>Dep_Life__c + ADD__c + Grp_Life__c + Grp_LTD__c + Grp_STD__c + Supp_Life__c + TDI__c + VGTL__c + VIP__c +  VLTD__c  +  VADD__c  +  Group_Cancer_Care_with_Critical_Care__c  +  Group_Accident_Recovery__c  +  Group_Hospital_Care__c  +  Cancer_Care__c  +  Critical_Care__c  +  Care_and_Recovery_Bundle__c + Accident__c + Cancer__c + CI_Critical_Illness__c + HIP_Hospital_Indemnity__c + TL_Term_Life__c +  DI_Disability__c + UL_Whole_Life__c + DUO_Accident__c + DUO_Critical__c + DUO_Hospital__c + PFML__c + MA_PFL__c +  GTL__c +  AD_D__c + Dependent_Life__c  + STD__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Monthly Premium</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

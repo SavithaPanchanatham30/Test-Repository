@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Hold_End_Date__c</fullName>
+    <description>Date when hold was removed</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Date when first hold was removed</inlineHelpText>
+    <label>External Hold End Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

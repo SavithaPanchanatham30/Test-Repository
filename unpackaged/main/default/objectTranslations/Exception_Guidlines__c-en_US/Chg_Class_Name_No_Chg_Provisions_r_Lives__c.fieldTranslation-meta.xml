@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Changing Class Name but no change to plan provisions or enrolled/eligible lives --></help>
+        <label><!-- Chg Class Name No Chg Provisions r Lives --></label>
+        <name>Chg_Class_Name_No_Chg_Provisions_r_Lives__c</name>
+    </CustomFieldTranslation>

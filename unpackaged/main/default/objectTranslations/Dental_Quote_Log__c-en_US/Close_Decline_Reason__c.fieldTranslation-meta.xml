@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Close/Decline Reason --></label>
+        <name>Close_Decline_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Ineligible group</masterLabel>
+            <translation><!-- Ineligible group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing info</masterLabel>
+            <translation><!-- Missing info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No response from rep</masterLabel>
+            <translation><!-- No response from rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncompetitive</masterLabel>
+            <translation><!-- Uncompetitive --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

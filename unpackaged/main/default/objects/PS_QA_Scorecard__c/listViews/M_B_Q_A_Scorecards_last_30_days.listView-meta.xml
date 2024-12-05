@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_B_Q_A_Scorecards_last_30_days</fullName>
+    <columns>Case__c</columns>
+    <columns>NAME</columns>
+    <columns>Case_Owner_Name__c</columns>
+    <columns>Reviewed_Date__c</columns>
+    <columns>Points__c</columns>
+    <columns>Points_Earned_With_Burn__c</columns>
+    <columns>Points_Missed__c</columns>
+    <columns>Percentage_Score_Without_Burn__c</columns>
+    <columns>Master_Group__c</columns>
+    <columns>QA_Specialist__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PS_QA_Scorecard__c.Membership_Analyst,PS_QA_Scorecard__c.Membership_Specialist,PS_QA_Scorecard__c.Service_Intake</value>
+    </filters>
+    <filters>
+        <field>Reviewed_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>N_DAYS_AGO:30</value>
+    </filters>
+    <label>M&amp;B Q/A Scorecards last 30 days</label>
+    <sharedTo>
+        <role>Director_MB_ES</role>
+        <role>Manager_Member_Services_M_B</role>
+        <role>Member_Services_Lead_M_B</role>
+    </sharedTo>
+</ListView>

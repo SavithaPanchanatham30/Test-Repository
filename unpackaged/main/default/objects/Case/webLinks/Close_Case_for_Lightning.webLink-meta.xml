@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Case_for_Lightning</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Close Case for Lightning</masterLabel>
+    <openType>replace</openType>
+    <page>CloseCaseLightningVF</page>
+    <protected>false</protected>
+</WebLink>

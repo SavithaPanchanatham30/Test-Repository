@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Service Intake</name>
+    <queueMembers>
+        <roles>
+            <role>Member_Services_Intake_Analyst_M_B_SI</role>
+            <role>Member_Services_Supervisor_M_B_SI</role>
+        </roles>
+        <users>
+            <user>lisa.adams@usablelife.com</user>
+            <user>rebecca.lester@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

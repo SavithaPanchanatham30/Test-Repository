@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- IF Impacted Employees in CA or NY or Different Industry must go to GUR --></help>
+        <label><!-- Impacted Emp in CA/NY or Dif Industry --></label>
+        <name>Impacted_Employees_in_CA_or_NY__c</name>
+    </CustomFieldTranslation>

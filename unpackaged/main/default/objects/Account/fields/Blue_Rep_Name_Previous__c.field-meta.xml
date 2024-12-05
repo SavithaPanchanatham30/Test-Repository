@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blue_Rep_Name_Previous__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field will hold the previous  value of the Blue Rep Name field.</description>
+    <label>Blue Rep Name Previous</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Blue Rep Name Previous)</relationshipLabel>
+    <relationshipName>Accounts1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

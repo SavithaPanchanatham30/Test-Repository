@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>First follow up email referencing onboarding link sent within 3 to 7 business days from the initial email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ONBOARDING - Onboarding Invitation - First Follow Up (New/AOR)</name>
+    <style>none</style>
+    <subject>2nd Attempt - USAble Life Producer Onboarding and Appointments</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

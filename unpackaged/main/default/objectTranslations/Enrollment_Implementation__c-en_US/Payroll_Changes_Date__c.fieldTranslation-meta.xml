@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Last Date for Payroll Changes --></help>
+        <label><!-- Payroll Changes Date --></label>
+        <name>Payroll_Changes_Date__c</name>
+    </CustomFieldTranslation>

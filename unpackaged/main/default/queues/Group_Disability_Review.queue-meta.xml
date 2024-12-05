@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Group Disability Review</name>
+    <queueMembers>
+        <users>
+            <user>allison.taylor@usablelife.com</user>
+            <user>beverly.recalde@usablelife.com</user>
+            <user>carrie.warness@usablelife.com</user>
+            <user>drexel.smith@usablelife.com</user>
+            <user>shane.loftis@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>cve__Claim__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>cve__PaymentSpecification__c</sobjectType>
+    </queueSobject>
+</Queue>

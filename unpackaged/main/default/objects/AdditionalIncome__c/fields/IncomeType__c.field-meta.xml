@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IncomeType__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Income Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sick Leave</fullName>
+                <default>false</default>
+                <label>Sick Leave</label>
+            </value>
+            <value>
+                <fullName>PTO</fullName>
+                <default>false</default>
+                <label>PTO</label>
+            </value>
+            <value>
+                <fullName>PFML Income</fullName>
+                <default>false</default>
+                <label>PFML Income</label>
+            </value>
+            <value>
+                <fullName>STD Income</fullName>
+                <default>false</default>
+                <label>STD Income</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

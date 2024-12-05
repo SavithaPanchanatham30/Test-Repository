@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_App_Email_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Master Application Email then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(Master_Application_Email__c) = &quot;No&quot; , TEXT ( Master_Application_Email__c) = &quot;Burn&quot;),        Master_Application_Email_comments__c      = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Master_Application_Email_comments__c</errorDisplayField>
+    <errorMessage>QA104 - If Master Application Email = No or Burn, Then Master Application Email Comments must be entered</errorMessage>
+</ValidationRule>

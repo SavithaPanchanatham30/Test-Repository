@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>M&amp;B Membership</name>
+    <queueMembers>
+        <users>
+            <user>aaron.chapman@usablelife.com</user>
+            <user>aaron.post@usablelife.com</user>
+            <user>allyson.horton@usablelife.com</user>
+            <user>amanda.giovanini@usablelife.com</user>
+            <user>amie.holm@usablelife.com</user>
+            <user>barbara.wright@usablelife.com</user>
+            <user>bill.sawtelle@usablelife.com</user>
+            <user>william.chappell@usablelife.com</user>
+            <user>bobbie.perry@usablelife.com</user>
+            <user>brenda.smith@usablelife.com</user>
+            <user>cameron.webb@usablelife.com</user>
+            <user>chasaty.johnson@usablelife.com</user>
+            <user>courtney.butcher@usablelife.com</user>
+            <user>debbie.graff@usablelife.com</user>
+            <user>edward.bowman@usablelife.com</user>
+            <user>glenda.miller@usablelife.com</user>
+            <user>harriett.evans@usablelife.com</user>
+            <user>james.austin@usablelife.com</user>
+            <user>janet.lane@usablelife.com</user>
+            <user>jimmy.williams@usablelife.com</user>
+            <user>jordan.totten@usablelife.com</user>
+            <user>leticia.carter@usablelife.com</user>
+            <user>michael.kaucher@usablelife.com</user>
+            <user>michael.yancey@usablelife.com</user>
+            <user>nancy.tomovska@usablelife.com</user>
+            <user>nicole.palomar@usablelife.com</user>
+            <user>shane.loftis@usablelife.com</user>
+            <user>shanta.williams@usablelife.com</user>
+            <user>tangula.watkins@usablelife.com</user>
+            <user>taylor.wesley@usablelife.com</user>
+            <user>teyandra.gordon@usablelife.com</user>
+            <user>tiffany.winchester@usablelife.com</user>
+            <user>whitney.clark@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

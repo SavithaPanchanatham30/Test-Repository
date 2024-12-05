@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_complete_review_Items_Noted</fullName>
+    <active>true</active>
+    <description>I No or Burn Is entered in Billing complete Review and Items Noted then Comments must be enteredf</description>
+    <errorConditionFormula>AND( OR(TEXT(  Items_Noted_Correctly__c   )   = &quot;No&quot; , TEXT(  Items_Noted_Correctly__c ) = &quot;Burn&quot;),    Billing_Complete_Review_Comments__c = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Billing_Complete_Review_Comments__c</errorDisplayField>
+    <errorMessage>QA154 - If Billing Compete Review, Items Noted CRCLife = No or Burn, Then Billing Complete Review Comments must be entered</errorMessage>
+</ValidationRule>

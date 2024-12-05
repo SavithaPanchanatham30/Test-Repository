@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL028MustAskforOtherIncome</fullName>
+    <active>true</active>
+    <description>Must Ask for Other Income</description>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &quot;Short_Term_Disability&quot;, Not(Asked_If_Eligible_For_Other_Income__c))</errorConditionFormula>
+    <errorDisplayField>Asked_If_Eligible_For_Other_Income__c</errorDisplayField>
+    <errorMessage>CL-028 Must asks if they had other Income and give examples below</errorMessage>
+</ValidationRule>

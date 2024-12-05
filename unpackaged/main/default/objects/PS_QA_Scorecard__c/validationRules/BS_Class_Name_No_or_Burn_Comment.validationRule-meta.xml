@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BS_Class_Name_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in BS - Class Name then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( BS_Class_name__c ) = &quot;No&quot; , TEXT(       BS_Class_name__c  ) = &quot;Burn&quot;),  BS_Class_Name_Comments__c = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>BS_Class_Name_Comments__c</errorDisplayField>
+    <errorMessage>QA221 =  If BS Class Name No or Burn, Then BS Class Name Comments must be entered</errorMessage>
+</ValidationRule>

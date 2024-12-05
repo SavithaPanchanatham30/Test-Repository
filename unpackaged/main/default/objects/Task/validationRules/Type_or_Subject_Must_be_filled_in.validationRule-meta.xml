@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_or_Subject_Must_be_filled_in</fullName>
+    <active>true</active>
+    <description>Type or Subject must be filled in</description>
+    <errorConditionFormula>ISBLANK(Text(Type)) &amp;&amp; ISBLANK(Subject )</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>Type or Subject must be filled in</errorMessage>
+</ValidationRule>

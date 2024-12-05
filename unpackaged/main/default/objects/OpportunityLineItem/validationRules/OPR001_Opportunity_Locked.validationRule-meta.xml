@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPR001_Opportunity_Locked</fullName>
+    <active>true</active>
+    <description>Prevents users from updating an opportunity product when the opportunity is locked when it is more than 30 days past the effective date.</description>
+    <errorConditionFormula>AND (Opportunity_Lock__c, 
+      $Profile.Name != &#39;USAble System Administrator&#39;,
+      $UserRole.Name != &#39;Regional VP Sales - FCL,MA&#39;,
+      $UserRole.Name != &#39;VP Account Management (Renewals)&#39;,
+      $UserRole.Name != &#39;Regional VP Sales - AR&#39;,
+      $UserRole.Name != &#39;Regional VP Sales - HI&#39;, 
+       DATEVALUE(NOW()) &gt;=  Opportunity.Effective_Date__c + 30 )</errorConditionFormula>
+    <errorMessage>OPR001 Opportunity is locked</errorMessage>
+</ValidationRule>

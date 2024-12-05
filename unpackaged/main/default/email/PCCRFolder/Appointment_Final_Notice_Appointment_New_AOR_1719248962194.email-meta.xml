@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Follow up email sent within 3 to 7 business days of 2nd attempt appointment outreach</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>APPT - Appointment - Final Notice - (New/AOR)</name>
+    <style>none</style>
+    <subject>Final Notice - USAble Life Producer Onboarding and Appointments</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

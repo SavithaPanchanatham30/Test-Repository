@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- All Affected Employees have been and currently are actively at work.  (If No, must go to GUR, and Claims) --></help>
+        <label><!-- All Affected Emp Have Been &amp; Are Working --></label>
+        <name>All_Afected_Emp_Have_Been_Are_Working__c</name>
+    </CustomFieldTranslation>

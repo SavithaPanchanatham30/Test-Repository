@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Members Billed Correctly --></label>
+        <name>Members_Billed_Correctly__c</name>
+    </CustomFieldTranslation>

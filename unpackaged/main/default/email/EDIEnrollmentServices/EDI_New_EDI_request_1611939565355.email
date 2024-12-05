@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><span style="color:black">Thank you for inquiring about USAble Life's EDI enrollment feed.&nbsp;</span>Please sign the attached form and return to <a href="mailto:EDIRequest@USAbleLife.com" style="color:blue; text-decoration:underline">EDIRequest@USAbleLife.com</a>. We will need the document completed, signed, and returned before we can engage in an implementation.&nbsp;</span><br />
+<br />
+<span style="line-height:107%"><span style="line-height:107%">Once the signed form is returned&nbsp;our EDI Team will reach out and begin the implementation process this includes providing&nbsp;a vendor&nbsp;guidebook and data template to assist in the file build.&nbsp;</span></span><br />
+<span style="line-height:normal"><b><u>Please be informed of the following details:</u></b></span></span></span>
+<ul>
+	<li style="margin-bottom:11px"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal">EDI blackout period is 30 Days before&nbsp;through 30 Days after Annual Enrollment Effective date.</span></span></span>
+	<ul style="list-style-type:circle">
+		<li style="margin-bottom:11px; margin-left:16px"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal">EDI details can&nbsp;be provided&nbsp;prior to or during this blackout&nbsp;period, but no test files will be reviewed or processed during this window.&nbsp;</span></span></span></li>
+	</ul>
+	</li>
+	<li style="list-style-type:none">
+	<ul style="list-style-type:circle">
+		<li style="margin-bottom:11px; margin-left:16px"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal">If testing is not completed prior to the start of the blackout period, all testing will be placed on Hold and resume testing after the OE blackout has been fulfilled.</span></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<div style="margin-left: 120px;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><span style="line-height:normal"><b><i>***Annual&nbsp;Enrollment ---<br />
+***Blackout Period ---</i></b></span></span></span></div>
+
+<div>&nbsp;</div>
+
+<ul>
+	<li><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">USAble Life is reviewing that your group meets the requirements to include the supplemental benefits in your requested EDI file feed. We have requested a Client Services Manager to assist and ensure your supplemental benefits meet the eligibility requirements to be included in feed. They will review the benefits and be in contact with you if changes are needed.</span></span>
+
+	<ul>
+		<li><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Supplemental benefits include the following: <strong>Accident Recovery, Critical Care, Hospital Care</strong></span></span></li>
+	</ul>
+	</li>
+</ul>
+<br />
+<span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Once this has been completed, we can continue with the implementation process and provide a vendor guidebook to assist in the benefits/data build.<br />
+The implementation process usually requires approximately&nbsp;a 45-day time frame for completion.&nbsp;​​​​​That time frame begins when USAble Life receives the first test file from the vendor. We will potentially request an onboarding call with all parties to review the first test file after it has been reviewed by USAble.<br />
+&nbsp;&nbsp;<br />
+Prior to and throughout testing all regular member maintenance should continue to be processed or submitted until USAble Life notifies you that the EDI implementation phase has ended and has been approved for&nbsp;production.&nbsp;Throughout the EDI testing process, members and/or benefits may be updated in the production environment as discrepancies are identified and corrected in the data. This can result in billing adjustments showing on the bills during the testing process and up to the first bill generated after the EDI file has moved to production.<br />
+&nbsp;&nbsp;<br />
+Please let us know if there are additional questions, or if you would like to schedule a call to talk through the process.</span></span></body>
+</html>

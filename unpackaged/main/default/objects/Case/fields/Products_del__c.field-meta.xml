@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products_del__c</fullName>
+    <description>This field contains products name and used in Mail Merge Doc</description>
+    <label>Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident</fullName>
+                <default>false</default>
+                <label>Accident</label>
+            </value>
+            <value>
+                <fullName>AD&amp;D</fullName>
+                <default>false</default>
+                <label>AD&amp;D</label>
+            </value>
+            <value>
+                <fullName>AIRMED</fullName>
+                <default>false</default>
+                <label>AIRMED</label>
+            </value>
+            <value>
+                <fullName>Cancer</fullName>
+                <default>false</default>
+                <label>Cancer</label>
+            </value>
+            <value>
+                <fullName>Critical Illness</fullName>
+                <default>false</default>
+                <label>Critical Illness</label>
+            </value>
+            <value>
+                <fullName>Dental</fullName>
+                <default>false</default>
+                <label>Dental</label>
+            </value>
+            <value>
+                <fullName>Disability</fullName>
+                <default>false</default>
+                <label>Disability</label>
+            </value>
+            <value>
+                <fullName>DUO Accident</fullName>
+                <default>false</default>
+                <label>DUO Accident</label>
+            </value>
+            <value>
+                <fullName>DUO Critical</fullName>
+                <default>false</default>
+                <label>DUO Critical</label>
+            </value>
+            <value>
+                <fullName>DUO Hospital</fullName>
+                <default>false</default>
+                <label>DUO Hospital</label>
+            </value>
+            <value>
+                <fullName>FICA Match</fullName>
+                <default>false</default>
+                <label>FICA Match</label>
+            </value>
+            <value>
+                <fullName>FMLA</fullName>
+                <default>false</default>
+                <label>FMLA</label>
+            </value>
+            <value>
+                <fullName>Gap Care</fullName>
+                <default>false</default>
+                <label>Gap Care</label>
+            </value>
+            <value>
+                <fullName>Hospital Confinement</fullName>
+                <default>false</default>
+                <label>Hospital Confinement</label>
+            </value>
+            <value>
+                <fullName>Life</fullName>
+                <default>false</default>
+                <label>Life</label>
+            </value>
+            <value>
+                <fullName>LIFE/ADD</fullName>
+                <default>false</default>
+                <label>LIFE/ADD</label>
+            </value>
+            <value>
+                <fullName>LTD</fullName>
+                <default>false</default>
+                <label>LTD</label>
+            </value>
+            <value>
+                <fullName>Medical</fullName>
+                <default>false</default>
+                <label>Medical</label>
+            </value>
+            <value>
+                <fullName>Other Carrier Product</fullName>
+                <default>false</default>
+                <label>Other Carrier Product</label>
+            </value>
+            <value>
+                <fullName>STD</fullName>
+                <default>false</default>
+                <label>STD</label>
+            </value>
+            <value>
+                <fullName>Tax Advantage Accounts</fullName>
+                <default>false</default>
+                <label>Tax Advantage Accounts</label>
+            </value>
+            <value>
+                <fullName>TDI</fullName>
+                <default>false</default>
+                <label>TDI</label>
+            </value>
+            <value>
+                <fullName>VADD</fullName>
+                <default>false</default>
+                <label>VADD</label>
+            </value>
+            <value>
+                <fullName>VGTL</fullName>
+                <default>false</default>
+                <label>VGTL</label>
+            </value>
+            <value>
+                <fullName>VIP</fullName>
+                <default>false</default>
+                <label>VIP</label>
+            </value>
+            <value>
+                <fullName>Vision</fullName>
+                <default>false</default>
+                <label>Vision</label>
+            </value>
+            <value>
+                <fullName>VLTD</fullName>
+                <default>false</default>
+                <label>VLTD</label>
+            </value>
+            <value>
+                <fullName>Worksite to Group</fullName>
+                <default>false</default>
+                <label>Worksite to Group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

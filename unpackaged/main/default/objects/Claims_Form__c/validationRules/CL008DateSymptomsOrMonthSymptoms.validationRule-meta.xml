@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL008DateSymptomsOrMonthSymptoms</fullName>
+    <active>true</active>
+    <description>Date Symptoms First Appeared  or Month Symptoms Appeared must be entered</description>
+    <errorConditionFormula>AND( ISBLANK(  Date_Symptoms_First_Appeared__c  ),  ISBLANK(    Month_MM_YYYY_FirstSymptom_No_Exact_Date__c   ), RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Date_Symptoms_First_Appeared__c</errorDisplayField>
+    <errorMessage>CL-008 Either Date Symptoms First Appeared or Month Symptoms First Appeared Must be Entered</errorMessage>
+</ValidationRule>

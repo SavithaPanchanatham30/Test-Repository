@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Build Platform --></label>
+        <name>Build_Platform__c</name>
+        <picklistValues>
+            <masterLabel>Able Employee Navigator</masterLabel>
+            <translation><!-- Able Employee Navigator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AccessAble</masterLabel>
+            <translation><!-- AccessAble --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustmark</masterLabel>
+            <translation><!-- Trustmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USAble Selerix</masterLabel>
+            <translation><!-- USAble Selerix --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

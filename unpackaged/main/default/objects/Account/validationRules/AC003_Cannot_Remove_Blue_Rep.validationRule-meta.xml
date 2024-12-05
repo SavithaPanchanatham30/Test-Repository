@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC003_Cannot_Remove_Blue_Rep</fullName>
+    <active>true</active>
+    <description>This validation rule is made to make sure blue rep is not deleted by Sales users</description>
+    <errorConditionFormula>NOT( ISNEW() ) 
+&amp;&amp; ISBLANK( Blue_Rep_Name__c ) 
+&amp;&amp; NOT(ISBLANK(PRIORVALUE(Blue_Rep_Name__c)))
+&amp;&amp;  $User.ProfileId != &#39;00ei0000001i3Ag&#39; /*API*/ 
+&amp;&amp;  $User.ProfileId != &#39;00ei0000000kOoM&#39; /*USAble System Admin*/ 
+&amp;&amp;  $User.ProfileId != &#39;00ei00000016uyN&#39; /*System Admin*/</errorConditionFormula>
+    <errorDisplayField>Blue_Rep_Name__c</errorDisplayField>
+    <errorMessage>AC003 Blue Rep cannot be removed, it can only be changed.</errorMessage>
+</ValidationRule>

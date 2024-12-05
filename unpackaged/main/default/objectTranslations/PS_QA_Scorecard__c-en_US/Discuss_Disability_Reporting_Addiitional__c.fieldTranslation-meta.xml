@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Discuss disability reporting options if LTD/STD included. Also address the need for additional forms. --></help>
+        <label><!-- Discuss Disability Reporting/Addiitional --></label>
+        <name>Discuss_Disability_Reporting_Addiitional__c</name>
+        <picklistValues>
+            <masterLabel>Burn</masterLabel>
+            <translation><!-- Burn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

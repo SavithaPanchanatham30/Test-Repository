@@ -1,0 +1,33 @@
+Good Morning {!Contact.FirstName},
+You have been appointed to solicit Life, Accident and Health insurance products on behalf of USAble Life in the States of Kansas & Missouri effective ________.  USAble Life is an Arkansas domiciled insurance company that is an affiliate partner with Blue Cross Blue Shield of Kansas City.
+
+Please contact the Agent Service Center at 1(866)666-0300 or accountmanagement@usablelife.com for solicitation of USAble Life products in the state listed above.
+ 
+Visit the USAble Life Producer site, designed for all your on-line marketing needs.  Registering is easy!
+ 
+•          Log on to https://www.usablelife.com/Brokers/Registration
+•          Complete the Registration form
+•          Click on SUBMIT
+ 
+Once you have registered, you will be able to view group benefits, contacts and employee detail for your employer groups online that are serviced through our Compass administration system. Additionally, if a group has opted for electronic billing, the bill will also be available to view. Online Services provides information right at your fingertips, and will help to better serve our customers in the field.
+
+Additionally, through Online Services, you can:
+
+• Download product applications
+• Download product brochures
+• Access admin manuals, field reference manuals, etc.
+• View archived Producer Bulletins
+• View past and present issues of USAble Life Elements
+• Learn more about our products
+
+And much more!
+
+If you have any questions regarding licensing and appointments, please feel free to contact me at  {!User.Phone} or {!User.Email}.
+ 
+Thank you and have a great day!
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+{!User.Department}
+{!User.CompanyName}

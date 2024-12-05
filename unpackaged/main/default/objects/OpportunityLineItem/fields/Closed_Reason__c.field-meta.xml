@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Reason__c</fullName>
+    <label>Primary Close Reason</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Line_Item_Stage__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent Didn’t Pursue</fullName>
+                <default>false</default>
+                <label>Agent Didn’t Pursue</label>
+            </value>
+            <value>
+                <fullName>Bad Customer Experience</fullName>
+                <default>false</default>
+                <label>Bad Customer Experience</label>
+            </value>
+            <value>
+                <fullName>Blue Lost Medical</fullName>
+                <default>false</default>
+                <label>Blue Lost Medical</label>
+            </value>
+            <value>
+                <fullName>Blue Rep Didn&#39;t Pursue</fullName>
+                <default>false</default>
+                <label>Blue Rep Didn&#39;t Pursue</label>
+            </value>
+            <value>
+                <fullName>Broker Relationship</fullName>
+                <default>false</default>
+                <label>Broker Relationship</label>
+            </value>
+            <value>
+                <fullName>Competitive Rates</fullName>
+                <default>false</default>
+                <label>Competitive Rates</label>
+            </value>
+            <value>
+                <fullName>Dental Total Health / Dental XTra</fullName>
+                <default>false</default>
+                <label>Dental Total Health / Dental XTra</label>
+            </value>
+            <value>
+                <fullName>Didn&#39;t Place Coverage (with anyone)</fullName>
+                <default>false</default>
+                <label>Didn&#39;t Place Coverage (with anyone)</label>
+            </value>
+            <value>
+                <fullName>Don&#39;t Know</fullName>
+                <default>false</default>
+                <label>Don&#39;t Know</label>
+            </value>
+            <value>
+                <fullName>DTQ - Industry</fullName>
+                <default>false</default>
+                <label>DTQ - Industry</label>
+            </value>
+            <value>
+                <fullName>DTQ - Not Meeting Participation</fullName>
+                <default>false</default>
+                <label>DTQ - Not Meeting Participation</label>
+            </value>
+            <value>
+                <fullName>DTQ - Plan Design</fullName>
+                <default>false</default>
+                <label>DTQ - Plan Design</label>
+            </value>
+            <value>
+                <fullName>DTQ - Uncompetitive Rates</fullName>
+                <default>false</default>
+                <label>DTQ - Uncompetitive Rates</label>
+            </value>
+            <value>
+                <fullName>Group Doesn&#39;t Offer Coverage</fullName>
+                <default>false</default>
+                <label>Group Doesn&#39;t Offer Coverage</label>
+            </value>
+            <value>
+                <fullName>In a Rate Guarantee</fullName>
+                <default>false</default>
+                <label>In a Rate Guarantee</label>
+            </value>
+            <value>
+                <fullName>Medical Packaging</fullName>
+                <default>false</default>
+                <label>Medical Packaging</label>
+            </value>
+            <value>
+                <fullName>Missing Info to Quote</fullName>
+                <default>false</default>
+                <label>Missing Info to Quote</label>
+            </value>
+            <value>
+                <fullName>Plan Design</fullName>
+                <default>false</default>
+                <label>Plan Design</label>
+            </value>
+            <value>
+                <fullName>RFP Committee Decision</fullName>
+                <default>false</default>
+                <label>RFP Committee Decision</label>
+            </value>
+            <value>
+                <fullName>Uncompetitive Offering</fullName>
+                <default>false</default>
+                <label>Uncompetitive Offering</label>
+            </value>
+            <value>
+                <fullName>Uncompetitive Rates</fullName>
+                <default>false</default>
+                <label>Uncompetitive Rates</label>
+            </value>
+            <value>
+                <fullName>Vision Only - Blue Product</fullName>
+                <default>false</default>
+                <label>Vision Only - Blue Product</label>
+            </value>
+            <value>
+                <fullName>Excluded from Opportunities</fullName>
+                <default>false</default>
+                <label>Excluded from Opportunities</label>
+            </value>
+            <value>
+                <fullName>Large Group Not Out to Bid This Year</fullName>
+                <default>false</default>
+                <label>Large Group Not Out to Bid This Year</label>
+            </value>
+            <value>
+                <fullName>Decline to Quote</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Decline to Quote</label>
+            </value>
+            <value>
+                <fullName>Not Issued</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Issued</label>
+            </value>
+            <value>
+                <fullName>Premium Paid</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Premium Paid</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <controllingFieldValue>Closed Lost - Quoted</controllingFieldValue>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Broker Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Competitive Rates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Dental Total Health / Dental XTra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <controllingFieldValue>Closed Lost - Quoted</controllingFieldValue>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Don&#39;t Know</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Medical Packaging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Plan Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Quoted</controllingFieldValue>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Bad Customer Experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Quoted</controllingFieldValue>
+            <valueName>Blue Lost Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Quoted</controllingFieldValue>
+            <valueName>Didn&#39;t Place Coverage (with anyone)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Quoted</controllingFieldValue>
+            <valueName>RFP Committee Decision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Quoted</controllingFieldValue>
+            <valueName>Uncompetitive Offering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Quoted</controllingFieldValue>
+            <valueName>Uncompetitive Rates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Agent Didn’t Pursue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Blue Rep Didn&#39;t Pursue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>DTQ - Industry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>DTQ - Not Meeting Participation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>DTQ - Plan Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>DTQ - Uncompetitive Rates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Group Doesn&#39;t Offer Coverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>In a Rate Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Missing Info to Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Vision Only - Blue Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Excluded from Opportunities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost - Not Quoted</controllingFieldValue>
+            <valueName>Large Group Not Out to Bid This Year</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

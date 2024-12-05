@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Account_Manager_FL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>If a Florida Opportunity, allow all Account Managers read/write</description>
+        <label>Account Manager FL</label>
+        <sharedTo>
+            <role>Account_Manager_FCL</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Blue_Rep_Region__c</field>
+            <operation>equals</operation>
+            <value>FL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Dental_Underwriting</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Florida &amp; Arkansas Opportunities with Dental Underwriting</description>
+        <label>Dental Underwriting</label>
+        <sharedTo>
+            <group>Dental_Underwriting</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Blue_Rep_Region__c</field>
+            <operation>contains</operation>
+            <value>AR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Blue_Rep_Region__c</field>
+            <operation>contains</operation>
+            <value>FL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lock_Opportunity_Access_AM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This sharing rule is made to give ability to Director of Account Management role to edit locked opportunities.</description>
+        <label>Lock Opportunity Access AM</label>
+        <sharedTo>
+            <role>Director_Account_Management</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Lock Opportunity,Sales</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Lock_Opportunity_Access_RVP_Sales_FCL_MA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>This sharing rule is made to give ability to Regional VP Sales - FCL,MA role to edit locked opportunities.</description>
+        <label>Lock Opportunity Access RVP Sales FCL MA</label>
+        <sharedTo>
+            <role>Regional_VP_Sales_FCL_MA</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Lock Opportunity,Sales</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Blue_Rep_Region__c</field>
+            <operation>equals</operation>
+            <value>,FL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opportunity_Share_with_Sales_Users_of_Arkansas</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opportunity Share with Sales Users of Arkansas</label>
+        <sharedTo>
+            <group>All_Arkansas_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Blue_Rep_Region__c</field>
+            <operation>equals</operation>
+            <value>AR</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opportunity_Share_with_Sales_Users_of_Florida</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Opportunity Share with Sales Users of Florida</label>
+        <sharedTo>
+            <group>All_Florida_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Blue_Rep_Region__c</field>
+            <operation>equals</operation>
+            <value>FL</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opportunity_Share_with_Sales_Users_of_Hawaii</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opportunity Share with Sales Users of Hawaii</label>
+        <sharedTo>
+            <group>All_Hawaii_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Blue_Rep_Region__c</field>
+            <operation>equals</operation>
+            <value>HI</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opportunity_Share_with_Sales_Users_of_RG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Opportunity Share with Sales Users of RG</label>
+        <sharedTo>
+            <group>All_Regence_Sales</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Blue_Rep_Region__c</field>
+            <operation>equals</operation>
+            <value>RG</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Sales_Support_North_to_Sales_Exec_South</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Allows Sales Support for FCL north region to edit opportunities belonging to Sales Executive in south region</description>
+        <label>Sales Support North to Sales Exec South</label>
+        <sharedTo>
+            <role>Sales_Support_FCL_North</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Mid_Market_Sales_Executive_FCL_South</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sales_Support_South_to_Sales_Exec_North</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sales Support in South FL can update opportunities owned by Sales Executive in North FL. This is for coverage when the other sales support is not around.</description>
+        <label>Sales Support South to Sales Exec North</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Sales_Support_FCL_South</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Mid_Market_Sales_Executive_FCL_North</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

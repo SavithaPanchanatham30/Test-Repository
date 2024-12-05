@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Minimum Hour Change. If Yes must go to GUR --></help>
+        <label><!-- Minimum Hour Change --></label>
+        <name>Minimum_Hour_Change__c</name>
+    </CustomFieldTranslation>

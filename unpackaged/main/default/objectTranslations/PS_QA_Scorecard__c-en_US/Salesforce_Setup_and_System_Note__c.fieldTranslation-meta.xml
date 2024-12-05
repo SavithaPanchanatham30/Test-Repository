@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Upsell &amp; Amendments &amp; System Work Record Type - Salesforce Setup &amp; CSW. For Group Issue Record Type -  Products listed in Salesforce . For Benefit summary Setup -  Salesforce Case &amp; Group Issue folder --></help>
+        <label><!-- Salesforce Setup &amp; System Note/GI Folder --></label>
+        <name>Salesforce_Setup_and_System_Note__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Dates Changed Type --></label>
+        <name>cvab__DatesChangedType__c</name>
+        <picklistValues>
+            <masterLabel>Changed</masterLabel>
+            <translation><!-- Changed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old</masterLabel>
+            <translation><!-- Old --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

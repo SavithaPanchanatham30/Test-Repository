@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Use this field to provide an overview of where the Gate is in the process. --></help>
+        <label><!-- Gate 2 Overview --></label>
+        <name>Gate_2_Overview__c</name>
+    </CustomFieldTranslation>

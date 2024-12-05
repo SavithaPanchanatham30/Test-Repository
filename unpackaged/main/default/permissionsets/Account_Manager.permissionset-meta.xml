@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grant access to Account Wiki field to Hawaii users only</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Account Manager</label>
+    <license>Salesforce</license>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Wiki__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

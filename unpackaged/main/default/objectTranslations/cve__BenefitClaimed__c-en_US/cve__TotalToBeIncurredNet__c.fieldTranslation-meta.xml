@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Net total value of all un-paid payments that have been calculated or manually added. Or the difference between &quot;Total Liability Net&quot; and &quot;Total Incurred Net&quot;. --></help>
+        <label><!-- Total to be Incurred Net --></label>
+        <name>cve__TotalToBeIncurredNet__c</name>
+    </CustomFieldTranslation>

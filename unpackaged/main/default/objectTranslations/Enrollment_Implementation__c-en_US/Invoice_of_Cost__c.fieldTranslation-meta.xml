@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Provide invoice of costs to sales rep for discussion with broker --></help>
+        <label><!-- Invoice of Cost --></label>
+        <name>Invoice_of_Cost__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Absence Payment Schedule --></label>
+        <name>cvint__AbsencePaymentSchedule__c</name>
+        <relationshipLabel><!-- Classes (Absence Payment Schedule) --></relationshipLabel>
+    </CustomFieldTranslation>

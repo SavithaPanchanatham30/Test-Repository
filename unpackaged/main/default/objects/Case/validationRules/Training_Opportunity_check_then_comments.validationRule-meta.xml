@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Opportunity_check_then_comments</fullName>
+    <active>true</active>
+    <description>If Training Opportunity Check then Comments must be entered.</description>
+    <errorConditionFormula>AND(Training_Comments__c = &quot;&quot;, Training_Opportunity__c)</errorConditionFormula>
+    <errorDisplayField>Training_Comments__c</errorDisplayField>
+    <errorMessage>CS100 - IF Training Opportunity Checked Comments must be entered.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL003PatientNameEntered</fullName>
+    <active>true</active>
+    <description>Patient Name must be entered if not Self</description>
+    <errorConditionFormula>AND( OR(TEXT(Relationship_to_Patent__c) = &quot;Spouse&quot;, TEXT(Relationship_to_Patent__c) = &quot;Dependent&quot;),  Patient_Name_First_Last__c = &quot;&quot;, RecordType.DeveloperName = &quot;Wellness&quot; )</errorConditionFormula>
+    <errorDisplayField>Patient_Name_First_Last__c</errorDisplayField>
+    <errorMessage>CL-003  Patient Name must be entered if Relationship not self</errorMessage>
+</ValidationRule>

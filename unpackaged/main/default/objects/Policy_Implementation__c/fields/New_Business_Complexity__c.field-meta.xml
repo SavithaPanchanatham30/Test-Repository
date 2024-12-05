@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Business_Complexity__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(GTL_ADD__c,1,0)+
+IF(STD__c,1,0)+
+IF(STD_BUY_UP__c,1,0)+
+IF(LTD__c,2,0)+
+IF(LTD_Buy_up__c,2,0)+
+IF(SUPP_LIFE_ADD__c,1,0)+
+IF(TDI_Flag__c,0.5,0)+
+IF(VGTL__c,2,0)+
+IF(VADD__c,2,0)+
+IF(VSTD__c,3,0)+
+IF(VLTD__c,2,0)+
+IF(Accident__c,1,0)+
+IF(Critical_Care__c,3,0)+
+IF(Hospital_Care__c,3,0)+
+IF(EC_R__c,3,0)+
+IF (ISPICKVAL(Online_List__c, &quot;NTAKE&quot;),1,0)+
+IF (ISPICKVAL(Online_List__c, &quot;MANUAL&quot;),2,0)+
+IF (ISPICKVAL(Online_List__c, &quot;SELERIX&quot;),2,0)+
+IF (Self_Admin__c,1,0)+
+IF (BenefitFocus__c,5,0)+	 	 
+IF (Contract_Conversion__c,5,0)+ 
+IF (ASO__c,2,0)+ 
+IF (ATP__c,2,0)+ 
+IF (Claims_Setup__c,3,0)+ 
+IF (Upsell_Flag__c,2,0)+ 
+Bill_Group_Complexity__c + 
+IF (Grandfathering__c,2,0)+ 
+No_Of_Lives_Complexity__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>New Business Complexity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

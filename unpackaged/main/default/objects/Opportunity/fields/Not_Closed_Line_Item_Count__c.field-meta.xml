@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Closed_Line_Item_Count__c</fullName>
+    <description>Total number of related opportunity line items that are not closed.</description>
+    <label>Line Items Open</label>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.Line_Item_Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Won,  Closed Lost - Quoted, Closed Lost - Not Quoted</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

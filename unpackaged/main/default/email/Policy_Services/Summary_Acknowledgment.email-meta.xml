@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Benefit Summary - Acknowledgment of Receipt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Benefit Summary Acknowledgment</name>
+    <style>none</style>
+    <subject>Benefit Summary - Acknowledgment of Receipt</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

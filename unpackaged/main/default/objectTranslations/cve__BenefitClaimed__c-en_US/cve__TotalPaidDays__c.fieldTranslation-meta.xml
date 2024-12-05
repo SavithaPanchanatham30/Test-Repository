@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For paid Payments, where Benefit Work Week Days are 5 only week days are summed otherwise all days are summed --></help>
+        <label><!-- Total Paid Days --></label>
+        <name>cve__TotalPaidDays__c</name>
+    </CustomFieldTranslation>

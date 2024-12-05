@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Line_for_Opp__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is used in the code that creates the opportunities via batch, and it indicates that the product is a &#39;generic&#39; product line that could be added to an opportunity.</description>
+    <label>Product Line for Opp</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

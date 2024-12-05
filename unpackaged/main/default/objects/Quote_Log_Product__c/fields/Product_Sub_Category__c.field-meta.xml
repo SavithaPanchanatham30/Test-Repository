@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Sub_Category__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Product Sub Category</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Product2.Product_Sub_Category__c</field>
+            <operation>equals</operation>
+            <value>Care, TG Choice, TG Choice Plus, TG Copayment, Traditional PPO, Traditional PPO+, Traditional PPP, Vol. Choice, Vol. Choice Plus, Vol. Copayment, Vol. PPO, Vol. PPO+, Vol. PPP</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Quote Log Products (Product Sub Category)</relationshipLabel>
+    <relationshipName>Quote_Log_Product_Sub_Category</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

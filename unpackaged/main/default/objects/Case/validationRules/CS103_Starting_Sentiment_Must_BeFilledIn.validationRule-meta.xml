@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CS103_Starting_Sentiment_Must_BeFilledIn</fullName>
+    <active>true</active>
+    <description>CS103- If Action Taken  Entered Started Sentiment Must be filled in</description>
+    <errorConditionFormula>AND(TEXT( Starting_Sentiment__c  )  = &quot;&quot;, TEXT(Action_Taken__c  )  &lt;&gt; &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Starting_Sentiment__c</errorDisplayField>
+    <errorMessage>CS103 - If Action Taken Entered then Starting Sentiment should be entered.</errorMessage>
+</ValidationRule>

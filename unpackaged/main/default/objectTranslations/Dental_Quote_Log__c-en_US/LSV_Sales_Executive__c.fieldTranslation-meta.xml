@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- LSV Sales Executive --></label>
+        <name>LSV_Sales_Executive__c</name>
+        <picklistValues>
+            <masterLabel>Al Alonso</masterLabel>
+            <translation><!-- Al Alonso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annie Cooper</masterLabel>
+            <translation><!-- Annie Cooper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bev Luney</masterLabel>
+            <translation><!-- Bev Luney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billy Ward</masterLabel>
+            <translation><!-- Billy Ward --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calvin Whitaker</masterLabel>
+            <translation><!-- Calvin Whitaker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christie Hoskins</masterLabel>
+            <translation><!-- Christie Hoskins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Craig Westling</masterLabel>
+            <translation><!-- Craig Westling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dani Barney</masterLabel>
+            <translation><!-- Dani Barney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Darlene Shelby</masterLabel>
+            <translation><!-- Darlene Shelby --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gary Bello</masterLabel>
+            <translation><!-- Gary Bello --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glenn Davis</masterLabel>
+            <translation><!-- Glenn Davis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greg Sutton</masterLabel>
+            <translation><!-- Greg Sutton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Janet Bronson</masterLabel>
+            <translation><!-- Janet Bronson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Young</masterLabel>
+            <translation><!-- Jason Young --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeff Schmidt</masterLabel>
+            <translation><!-- Jeff Schmidt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kristin Todd</masterLabel>
+            <translation><!-- Kristin Todd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lee Messervy</masterLabel>
+            <translation><!-- Lee Messervy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leesa Albert</masterLabel>
+            <translation><!-- Leesa Albert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nick Mirante</masterLabel>
+            <translation><!-- Nick Mirante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patricia Eshaia</masterLabel>
+            <translation><!-- Patricia Eshaia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peter Zornik</masterLabel>
+            <translation><!-- Peter Zornik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ryan Anderson</masterLabel>
+            <translation><!-- Ryan Anderson --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

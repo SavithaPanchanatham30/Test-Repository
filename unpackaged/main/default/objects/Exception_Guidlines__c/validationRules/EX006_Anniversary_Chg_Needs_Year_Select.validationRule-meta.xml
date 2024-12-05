@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX006_Anniversary_Chg_Needs_Year_Select</fullName>
+    <active>true</active>
+    <description>If Anniversary or Renewal Date Change we need to know if it is in same year or not.</description>
+    <errorConditionFormula>And(  Anniversary_or_Renewal_Date_Change__c ,Text(  Anniversary_or_Renewal_Date_In_Same_Year__c  ) &lt;&gt;    &quot;Yes&quot;,Text( Anniversary_or_Renewal_Date_In_Same_Year__c ) &lt;&gt;  &quot;No&quot;)</errorConditionFormula>
+    <errorDisplayField>Anniversary_or_Renewal_Date_In_Same_Year__c</errorDisplayField>
+    <errorMessage>EX006- If Anniversary or Renewal Date  is checked , then Anniversary or Renewal Date in Same Year must be Yes or No</errorMessage>
+</ValidationRule>

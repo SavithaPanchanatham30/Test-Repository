@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Unlinked Bill Detail Comments --></label>
+        <name>Unlinked_Bill_Detail_Comments__c</name>
+    </CustomFieldTranslation>

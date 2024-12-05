@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Changed_Carrier_to_Yes</fullName>
+        <description>Update Changed Carrier to Yes</description>
+        <field>Changed_Carrier__c</field>
+        <literalValue>Yes</literalValue>
+        <name>Changed Carrier to Yes</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Sales_Price_Original_to_Sales_Price</fullName>
+        <description>Copies Sales Price Original to Sales Price when a line item is set from lost to an open or won status</description>
+        <field>UnitPrice</field>
+        <formula>IF ( UnitPrice = 0, Sales_Price_Custom__c, UnitPrice)</formula>
+        <name>Copy Sales Price Original to Sales Price</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reset_Sales_Price_Original_to_0</fullName>
+        <description>If an opportunity product is set from Lost stage back to an Open or Won stage, then copy the Sales Price Original back to Sales Price, and set Sales Price Original to -0-. This will ensure the totals are all correct.</description>
+        <field>Sales_Price_Custom__c</field>
+        <formula>IF( UnitPrice &gt; 0, 0, Sales_Price_Custom__c )</formula>
+        <name>Reset Sales Price Original to 0</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Closed_Lost_Sales_Price_field</fullName>
+        <description>Update Sales Price Closed field for Closed Lost Total Price Calculation</description>
+        <field>Sales_Price_Custom__c</field>
+        <formula>UnitPrice</formula>
+        <name>Update Closed Lost Sales Price field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Opp_Stage_to_In_Process</fullName>
+        <field>StageName</field>
+        <literalValue>In Process</literalValue>
+        <name>Update Opp Stage to In Process</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>OpportunityId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Quoted</fullName>
+        <description>Mark quoted as true.</description>
+        <field>Quoted__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Quoted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Reason</fullName>
+        <field>Closed_Reason__c</field>
+        <literalValue>Agent Didn’t Pursue</literalValue>
+        <name>Update Reason</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sales_Price</fullName>
+        <description>Update sales price with 0 if lne item stage is closed lost</description>
+        <field>UnitPrice</field>
+        <formula>0</formula>
+        <name>Update Sales Price</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stage</fullName>
+        <field>Line_Item_Stage__c</field>
+        <literalValue>Closed Lost - Not Quoted</literalValue>
+        <name>Update Stage</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Submitted_to_UW_Checkbox</fullName>
+        <description>Update Submitted to UW checkbox to true when the Dental Opportunity Product</description>
+        <field>Submitted_to_UW__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Submitted to UW Checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>OpportunityId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>populate_effective_date_on_opp_prod</fullName>
+        <field>Effective_Date__c</field>
+        <formula>Opportunity.Effective_Date__c</formula>
+        <name>populate effective date on opp prod</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Auto Close FL Large Group Opps</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.FL__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.LSV_Group_Size__c</field>
+            <operation>greaterThan</operation>
+            <value>300</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Batch_Created__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Update_Reason</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Update_Stage</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>OpportunityLineItem.Opp_Effective_Date__c</offsetFromField>
+            <timeLength>-3</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Changed Carrier to Yes Closed Won</fullName>
+        <actions>
+            <name>Changed_Carrier_to_Yes</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>For &#39;Closed Won&#39; line item stage, auto update the &#39;Changed Carrier&#39; to &#39;Yes&#39; when saved</description>
+        <formula>OR(     AND( ISPICKVAL( Line_Item_Stage__c , &quot;Closed Won&quot;),          ISPICKVAL(  Opportunity.Type  , &quot;New Business&quot;)        ),     AND(         ISPICKVAL( Line_Item_Stage__c , &quot;Closed Won&quot;),         ISPICKVAL(  Opportunity.Type  , &quot;Cross Sell&quot;),         Opportunity.Account.LSV_Group_Size__c &lt;= 300        )  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Populate effective date on Opp Prod</fullName>
+        <actions>
+            <name>populate_effective_date_on_opp_prod</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>If the Opportunity Product effective date is blank, populate it from the opportunity effective date.</description>
+        <formula>IF( ISBLANK(Effective_Date__c),true,false )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Opportunity Stage to In Process</fullName>
+        <actions>
+            <name>Update_Opp_Stage_to_In_Process</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This will change the opportunity stage to In Progress when ever it is changed after creation by batch.</description>
+        <formula>NOT( ISNEW()) &amp;&amp; ISPICKVAL( Opportunity.StageName , &#39;New&#39;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Sales Price if ReOpened</fullName>
+        <actions>
+            <name>Copy_Sales_Price_Original_to_Sales_Price</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Reset_Sales_Price_Original_to_0</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>If an opportunity product is set from Lost stage back to an Open or Won stage, then copy the Sales Price Original back to Sales Price, and set Sales Price Original to -0-. This will ensure the totals are all correct.</description>
+        <formula>AND(  	 	ISCHANGED(Line_Item_Stage__c) , 	 	OR( 		 		ISPICKVAL( PRIORVALUE (Line_Item_Stage__c),&#39;Closed Lost - Quoted&#39;), 		 		ISPICKVAL( PRIORVALUE (Line_Item_Stage__c),&#39;Closed Lost - Not Quoted&#39;) 		 	), 	 	AND( 		 		NOT(ISPICKVAL(Line_Item_Stage__c,&#39;Closed Lost - Quoted&#39;)), 		 		NOT(ISPICKVAL(Line_Item_Stage__c,&#39;Closed Lost - Not Quoted&#39;)) 	 	),             	Sales_Price_Custom__c &gt; 0 )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Submitted to UW checkbox</fullName>
+        <actions>
+            <name>Update_Submitted_to_UW_Checkbox</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>OpportunityLineItem.Line_Item_Stage__c</field>
+            <operation>equals</operation>
+            <value>Submitted for Quote,Quoted,Negotiation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Product2.Family</field>
+            <operation>equals</operation>
+            <value>Dental</value>
+        </criteriaItems>
+        <description>Update Submitted to UW checkbox to true when a dental opportunity product is submitted to UW</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WFR_Update Quoted Opportunity Product</fullName>
+        <actions>
+            <name>Update_Quoted</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow will mark quoted as true if line item stage is quoted.
+Logic in this WFR should be aligned with VR OP002_Quoted_with_Sales_price_zero</description>
+        <formula>OR(    ISPICKVAL( Line_Item_Stage__c , &quot;Quoted&quot;),    ISPICKVAL( Line_Item_Stage__c , &quot;Closed Won&quot;),    ISPICKVAL( Line_Item_Stage__c , &quot;Negotiation&quot;),    ISPICKVAL( Line_Item_Stage__c , &quot;Closed Lost - Quoted&quot;)     )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>WFR_Update Sales Price</fullName>
+        <actions>
+            <name>Update_Closed_Lost_Sales_Price_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Sales_Price</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This will update Sales Price Original field for calculation of closed lost total price.</description>
+        <formula>OR(  AND(  ISCHANGED(Line_Item_Stage__c),  ISPICKVAL(Line_Item_Stage__c,&quot;Closed Lost - Quoted&quot;),  UnitPrice &lt;&gt; 0  ),  AND(  ISCHANGED(Line_Item_Stage__c),  ISPICKVAL(Line_Item_Stage__c,&quot;Closed Lost - Not Quoted&quot;),  UnitPrice &lt;&gt; 0  ),  AND(  ISCHANGED(UnitPrice),  OR(  ISPICKVAL(Line_Item_Stage__c,&quot;Closed Lost - Quoted&quot;),  ISPICKVAL(Line_Item_Stage__c,&quot;Closed Lost - Not Quoted&quot;)  ),  UnitPrice &gt; 0  )  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

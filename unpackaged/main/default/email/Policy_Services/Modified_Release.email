@@ -1,0 +1,62 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span style="color: rgb(0, 0, 0);"><b><span style="font-size:20.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-fareast-theme-font:minor-fareast;
+mso-no-proof:yes">T</span></b>hank you,
+{!Case.Master_Group__c} for your recent addition(s) to your benefit package with
+USAble Life. We show that you have selected to add </span><font color="#3333ff">[enter coverage added]</font> to
+your existing package as of {! Case.Effective_Date__c}. <o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);">You will find the following
+items attached to assist with administering your group coverage:<o:p></o:p></p>
+
+<ul style="color: rgb(0, 0, 0); margin-top: 0in;" type="disc">
+ <li class="MsoNormal"><b>Group Policy<o:p></o:p></b></li>
+ <li class="MsoNormal"><b>Group Certificate<o:p></o:p></b></li>
+ <li class="MsoNormal"><b>LTD Policy<o:p></o:p></b></li>
+ <li class="MsoNormal"><b>LTD Certificate<o:p></o:p></b></li>
+ <li class="MsoNormal"><b>Administration Manual<o:p></o:p></b></li>
+ <li class="MsoNormal"><b>Online Services Flyer<o:p></o:p></b></li>
+ <li class="MsoNormal"><b>Estate Guidance Brochure<o:p></o:p></b></li>
+ <li class="MsoNormal"><b>Assist America Brochure</b><o:p></o:p></li>
+ <li class="MsoNormal"><b>Online EAP Flyer</b><o:p></o:p></li>
+</ul>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><b>&nbsp;</b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);">Please reference group
+number <font color="#3333ff">[enter group# here]</font> when making inquiries on your account.<o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);">Please
+provide all eligible employees with their appropriate Certificate of
+Insurance.&nbsp; As future employees are added to your insurance program please
+provide them a Certificate of Insurance as well. <o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);">If you
+are posting your Certificate of Insurance documents to an intranet site you
+agree to the following:<o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><i>By acceptance and
+posting of these USAble Life insuring documents to your internal website, you
+agree that no changes will be made to the documents and that should the
+contract between your company and USAble Life terminate, you will remove the
+documents from your website within five (5) business days.<o:p></o:p></i></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><b><i>&nbsp;</i></b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);">Again, we would like to
+thank you for choosing USAble Life to provide your employee benefits and we
+look forward to continuing to serve you.<o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0);"><o:p>&nbsp;</o:p></p>]]></td>
+</tr>
+</table>

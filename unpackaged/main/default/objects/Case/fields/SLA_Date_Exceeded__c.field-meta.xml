@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Date_Exceeded__c</fullName>
+    <formula>IF(
+AND(
+IsClosed = False,
+NOW() &gt; SLA_End_Date__c),true,
+IF(
+AND(
+IsClosed = True,
+ClosedDate &gt; SLA_End_Date__c),true,false
+)  
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SLA Date Exceeded</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

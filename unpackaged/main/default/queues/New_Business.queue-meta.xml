@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>New Business</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>All_Policy_Services</publicGroup>
+        </publicGroups>
+        <users>
+            <user>alston.wilkins@usablelife.com</user>
+            <user>brandon.riedie@usablelife.com1</user>
+            <user>brandy.isom@usablelife.com</user>
+            <user>brooklyn.barley@usablelife.com</user>
+            <user>carolyn.smith@usablelife.com</user>
+            <user>christy.cody@usablelife.com</user>
+            <user>daniel.sims@usablelife.com</user>
+            <user>david.henry@usablelife.com</user>
+            <user>debra.parris@usablelife.com</user>
+            <user>dustin.tacker@usablelife.com</user>
+            <user>eric.hunt@usablelife.com</user>
+            <user>fredricka.smith@usablelife.com</user>
+            <user>jennifer.gober@usablelife.com</user>
+            <user>kristi.pruitt@usablelife.com</user>
+            <user>lee.lawrence@usablelife.comf</user>
+            <user>lillie.johnson@usablelife.com</user>
+            <user>lisa.fuller@usablelife.com</user>
+            <user>martha.parker@usablelife.com</user>
+            <user>paula.bates@usablelife.com</user>
+            <user>rick.culbreth@usablelife.com</user>
+            <user>rose.delorme@usablelife.com</user>
+            <user>rose.mitchell@usablelife.com</user>
+            <user>ryan.o&#39;dell@usablelife.com</user>
+            <user>stacy.morris@usablelife.com</user>
+            <user>stephanie.stafford@usablelife.com</user>
+            <user>talaya.johnson@usablelife.com</user>
+            <user>teshon.hewitt@usablelife.com</user>
+            <user>whitney.webb@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

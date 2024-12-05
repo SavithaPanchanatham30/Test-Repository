@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EX004_Premium_Risk_No_Comments</fullName>
+    <active>true</active>
+    <description>If Premium rrisk is &quot;Yes&quot; you need to explain why</description>
+    <errorConditionFormula>And(TEXT(   Premium_Risk_In_Play__c  ) = &quot;Yes&quot;,   Premium_Notes__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Premium_Notes__c</errorDisplayField>
+    <errorMessage>EX004- If  Premium Risk In Play = Yes, then Premium Notes Needs to be entered</errorMessage>
+</ValidationRule>

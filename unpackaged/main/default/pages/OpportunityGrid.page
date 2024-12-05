@@ -1,0 +1,70 @@
+<apex:page standardStylesheets="false" showHeader="false" sidebar="false">
+
+   <style>
+    body {
+        padding: 0px !important;
+       }
+    </style>
+    
+    <apex:includeScript value="/lightning/lightning.out.js" />
+    <div id="tectonic" />
+    <!--<div id="tectonic2" style="padding-left: 25px; padding-right: 25px; padding-bottom: 25px; padding-top: 0px;"/>-->
+    <div id="tectonic2" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    
+
+
+
+    <script>
+        var vUnsavedRecords = 0;
+        var vChangedRecordsArr = ['x'];
+    console.log('vChangedRecordsArr: ' + vChangedRecordsArr);
+    
+        $Lightning.use("c:OpportunityGridApp", function() {
+    
+          $Lightning.createComponent("c:SearchFilterCmp",
+          {},
+          "tectonic",
+          function(cmp) {
+            console.log('component SearchFilterCmp created');
+          }); 
+            /* 
+          $Lightning.createComponent("c:OpportunityQuickCloseCmp",
+          {},
+          "tectonic2",
+          function(cmp) {
+            console.log('component OpportunityQuickCloseCmp created');
+          }); 
+           */ 
+        });
+        
+$( document ).ready(function() {
+    var $ = jQuery.noConflict(true);
+    /*
+    setTimeout(function(){ console.log( "binding datepicker...!" ); 
+        $('.clsdatepicker').datepicker( {
+                  showOn: 'both', 
+            buttonText: '<i class="fa fa-calendar" style="font-size:24px; color: red;"></i>',
+            changeMonth: true,
+            changeYear: true,
+            showButtonPanel: true,
+            dateFormat: 'MM yy',
+            onClose: function(dateText, inst) { 
+                $(this).datepicker('setDate', new Date(inst.selectedYear, inst.selectedMonth, 1));
+            }
+        });      
+     
+                         }, 7000);
+    */
+$('.ui-datepicker').on("blur", function(e)
+  { 
+    $('.ui-datepicker').hide();
+  });
+  
+  
+    
+});
+    
+    </script>
+
+</apex:page>

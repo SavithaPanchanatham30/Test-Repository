@@ -1,0 +1,16 @@
+Dear {!Case.SuppliedName},
+
+Your case {!Case.CaseNumber} regarding {!Case.Subject} has been resolved and is now closed.
+
+Case Details: 
+
+Case Number: {!Case.CaseNumber}
+
+Subject: {!Case.Subject}
+
+If you have any further questions or if the issue persists, please do not hesitate to contact our support team.
+
+ 
+
+Best regards,
+USAble Life Dental Operations

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OE_005_Enrollment_End_LT_Enrollment_Star</fullName>
+    <active>true</active>
+    <description>Enrollment End cannot be less than Enrollment Start</description>
+    <errorConditionFormula>Enrollment_End_Date__c &lt;  Enrollment_Start_Date__c</errorConditionFormula>
+    <errorDisplayField>Enrollment_End_Date__c</errorDisplayField>
+    <errorMessage>OE-005 Enrollment End Date Cannot be less than Enrollment Start Date</errorMessage>
+</ValidationRule>

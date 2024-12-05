@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- QA Specialist Percent without Burn --></label>
+        <name>QA_Specialist_Percent_without_Burn__c</name>
+    </CustomFieldTranslation>

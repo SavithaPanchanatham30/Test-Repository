@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Use when sending FL Weekly SS to BCBSFL</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>FL APPT/TERM SS FOR</name>
+    <style>none</style>
+    <subject>FL APPT/TERM SS FOR (date)</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Critical Type --></label>
+        <name>Critical_Type__c</name>
+        <picklistValues>
+            <masterLabel>Critical Care</masterLabel>
+            <translation><!-- Critical Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUO</masterLabel>
+            <translation><!-- DUO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2G</masterLabel>
+            <translation><!-- W2G --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

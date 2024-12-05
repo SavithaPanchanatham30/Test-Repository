@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Policy_Effective_Date_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Welcome Letter Correct then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT( Policy_Effective_Date_Changed_Correctly__c )   = &quot;No&quot; , TEXT(  Policy_Effective_Date_Changed_Correctly__c ) = &quot;Burn&quot;),     Policy_Effective_Date_Comments__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Policy_Effective_Date_Comments__c</errorDisplayField>
+    <errorMessage>QA037 - If Policy Effective Date Changed = No or Burn, Then Policy Effective Date Comments must be entered</errorMessage>
+</ValidationRule>

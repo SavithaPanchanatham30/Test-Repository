@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>accounts for access needed for customer service or service teams to work absence claims or claims</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Claims Customer Service</label>
+    <permissionSets>AbsenceClaimStatusReason_READ</permissionSets>
+    <permissionSets>AdditionalIncome_READ</permissionSets>
+    <permissionSets>AutoPay_READ</permissionSets>
+    <permissionSets>ClaimIncurredDate_READ</permissionSets>
+    <permissionSets>ClaimTATCalculation_READ</permissionSets>
+    <permissionSets>CopyMoveDeleteDocumentsApexPermission</permissionSets>
+    <permissionSets>CoverageLimitation_READ</permissionSets>
+    <permissionSets>Customer_Service_Add_documents_to_Claim</permissionSets>
+    <permissionSets>ExpressPay_READ</permissionSets>
+    <permissionSets>FICAandMedicareTaxability_READ</permissionSets>
+    <permissionSets>FilesTransitionToClaim_READ</permissionSets>
+    <permissionSets>Insurance_Claims_User_Permissions_Read</permissionSets>
+    <permissionSets>MemberBenefit_READ</permissionSets>
+    <permissionSets>OverPayment_READ</permissionSets>
+    <permissionSets>OverpaymentFlag_READ</permissionSets>
+    <permissionSets>PaymentApproval_READ</permissionSets>
+    <permissionSets>PaymentFields_READ</permissionSets>
+    <permissionSets>PaymentSpecificationRollup_READ</permissionSets>
+    <permissionSets>PopulateAbsenceClaimFromCase_READ</permissionSets>
+    <permissionSets>PopulateClaimFromCase_READ</permissionSets>
+    <permissionSets>SocialSecurityExempt_READ</permissionSets>
+    <permissionSets>Transfer_Records</permissionSets>
+    <permissionSets>Upload_Claim_Documents</permissionSets>
+    <permissionSets>UsableCvabStatus_READ</permissionSets>
+    <permissionSets>UserLOARoleFields_READ</permissionSets>
+    <permissionSets>cvab__AbsenceUserPermissionsReadOnly</permissionSets>
+    <permissionSets>cvab__PermissionsSalesforce</permissionSets>
+    <permissionSets>cvb__BaseReadOnly</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cause of Accident --></label>
+        <name>cve__CauseOfAccident__c</name>
+        <picklistValues>
+            <masterLabel>Catastrophic</masterLabel>
+            <translation><!-- Catastrophic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drowning</masterLabel>
+            <translation><!-- Drowning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fall</masterLabel>
+            <translation><!-- Fall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire or Explosion</masterLabel>
+            <translation><!-- Fire or Explosion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firearm</masterLabel>
+            <translation><!-- Firearm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Accident</masterLabel>
+            <translation><!-- Other Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicular Accident</masterLabel>
+            <translation><!-- Vehicular Accident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicular Accident - Driver of Car</masterLabel>
+            <translation><!-- Vehicular Accident - Driver of Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicular Accident - Passenger of Car</masterLabel>
+            <translation><!-- Vehicular Accident - Passenger of Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workplace Accident</masterLabel>
+            <translation><!-- Workplace Accident --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

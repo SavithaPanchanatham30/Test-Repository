@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>USAL_Claim_Data__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>USAL Claim Data</label>
+    <referenceTo>USAL_Claim_Data__c</referenceTo>
+    <relationshipLabel>USAL Payments Data</relationshipLabel>
+    <relationshipName>USAL_Payments_Data</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

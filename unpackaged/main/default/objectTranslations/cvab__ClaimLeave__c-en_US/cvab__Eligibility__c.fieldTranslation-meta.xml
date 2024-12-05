@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Eligibility --></label>
+        <name>cvab__Eligibility__c</name>
+        <picklistValues>
+            <masterLabel>Eligible</masterLabel>
+            <translation><!-- Eligible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ineligible</masterLabel>
+            <translation><!-- Ineligible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Eligibility</masterLabel>
+            <translation><!-- Pending Eligibility --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

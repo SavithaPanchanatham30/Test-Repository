@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <description>This information contains Role Picklist information</description>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account Executive</fullName>
+                <default>false</default>
+                <label>Account Executive</label>
+            </value>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Benefit Manager</fullName>
+                <default>false</default>
+                <label>Benefit Manager</label>
+            </value>
+            <value>
+                <fullName>Billing Contact</fullName>
+                <default>false</default>
+                <label>Billing Contact</label>
+            </value>
+            <value>
+                <fullName>Book Keeper</fullName>
+                <default>false</default>
+                <label>Book Keeper</label>
+            </value>
+            <value>
+                <fullName>Group Contact</fullName>
+                <default>false</default>
+                <label>Group Contact</label>
+            </value>
+            <value>
+                <fullName>Regional VP</fullName>
+                <default>false</default>
+                <label>Regional VP</label>
+            </value>
+            <value>
+                <fullName>Writing Agent</fullName>
+                <default>false</default>
+                <label>Writing Agent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

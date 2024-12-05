@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Typically the Claim this Claim was copied from. --></help>
+        <label><!-- Preceding Claim --></label>
+        <name>cve__PrecedingClaim__c</name>
+        <relationshipLabel><!-- Succeeding Claims --></relationshipLabel>
+    </CustomFieldTranslation>

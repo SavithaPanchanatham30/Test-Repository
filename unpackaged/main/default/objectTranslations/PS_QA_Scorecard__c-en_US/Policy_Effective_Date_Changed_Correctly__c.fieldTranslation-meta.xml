@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Policy Effective Date Changed to Certificate Effective Date (Unless 904-509) --></help>
+        <label><!-- Policy Effective Date Changed Correctly --></label>
+        <name>Policy_Effective_Date_Changed_Correctly__c</name>
+    </CustomFieldTranslation>

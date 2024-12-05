@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AC010_Require_Blue_Rep_Partner_BCBS_Fl</fullName>
+    <active>true</active>
+    <description>Require Blue Rep field for Prospect accounts when the Partner is either Blue Cross Blue Shield of Florida, Arkansas Blue Cross Blue Shield or Hawaii Medical Service Association.</description>
+    <errorConditionFormula>(
+ Partner__r.Name = &#39;Blue Cross Blue Shield of Florida&#39; 
+ ||
+ Partner__r.Name = &#39;Arkansas Blue Cross and Blue Shield&#39;  
+ ||
+ Partner__r.Name = &#39;Hawaii Medical Service Association&#39; 
+) 
+&amp;&amp;
+Partner__r.RecordType.DeveloperName = &#39;Partner&#39; 
+&amp;&amp;
+RecordType.DeveloperName = &#39;Prospect&#39; 
+&amp;&amp;
+ISBLANK(Blue_Rep_Name__c)</errorConditionFormula>
+    <errorDisplayField>Blue_Rep_Name__c</errorDisplayField>
+    <errorMessage>AC010 Blue Rep is required</errorMessage>
+</ValidationRule>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Policy_Implementation_Stage_Status__c</fullName>
+    <label>Policy Implementation Stage Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Policy_Implementation_Stage__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Continue</fullName>
+                <default>false</default>
+                <label>Continue</label>
+            </value>
+            <value>
+                <fullName>Halt</fullName>
+                <default>false</default>
+                <label>Halt</label>
+            </value>
+            <value>
+                <fullName>Release with LTD</fullName>
+                <default>false</default>
+                <label>Release with LTD</label>
+            </value>
+            <value>
+                <fullName>Release without LTD</fullName>
+                <default>false</default>
+                <label>Release without LTD</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Gate 1</controllingFieldValue>
+            <controllingFieldValue>Gate 2</controllingFieldValue>
+            <valueName>Continue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gate 1</controllingFieldValue>
+            <controllingFieldValue>Gate 2</controllingFieldValue>
+            <valueName>Halt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Released</controllingFieldValue>
+            <valueName>Release with LTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Released</controllingFieldValue>
+            <valueName>Release without LTD</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

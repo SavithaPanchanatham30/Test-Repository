@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Eligibles__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Medical Eligibles at point of sale for a new benefit OR Medical Eligibles at point of renewal for an existing benefit.
+This will reset at the time of renewal.</inlineHelpText>
+    <label>Initial Eligibles</label>
+    <precision>9</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Service_Points_Missed__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Text(VOC_Profiles_timely_filled_out__c) = &quot;No&quot;, 2, 0) +
+IF(Text(Missing_info_in_24_hours__c )=&quot;No&quot;,2,0)+
+IF(Text(Initial_response_in_24_hrs__c)=&quot;No&quot;,2,0)+
+IF(Text(New_emails_handled_correctly__c)=&quot;No&quot;,2,0)+
+IF(Text(Positive_Tone_in_Response__c)=&quot;No&quot;,2,0)+
+IF(Text(Escalated_within_24_hours__c)=&quot;No&quot;,2,0)+
+IF(Text(Opportunities_Identified__c)=&quot;No&quot;,2,0)+
+IF(Text(Collaborated_w_Internal_Teams__c)=&quot;No&quot;,2,0)+
+IF(Text(Asked_relevant_questions__c)=&quot;No&quot;,2,0)+
+IF(Text(How_to_use_AccessAble__c)=&quot;No&quot;,2,0)+
+IF(Text(Finding_info_in_cert__c)=&quot;No&quot;,2,0)+
+IF(Text(How_to_read_invoice__c)=&quot;No&quot;,2,0)+
+IF(Text(Group_Member_Updates__c)=&quot;No&quot;,2,0)+
+IF(Text(AccessAble_access__c)=&quot;No&quot;,2,0)+
+IF(Text(CSW_LifePro_Changes__c)=&quot;No&quot;,2,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Partner Service Points Missed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MG_Beginning_Character__c</fullName>
+    <description>This field is used to capture the first character of the Master Group&#39;s Name.</description>
+    <externalId>false</externalId>
+    <formula>LEFT(Master_Group__r.Name, 1)</formula>
+    <label>MG Beginning Character</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

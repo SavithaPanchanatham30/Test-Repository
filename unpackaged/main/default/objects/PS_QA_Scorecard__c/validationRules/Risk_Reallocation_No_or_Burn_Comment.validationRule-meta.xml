@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_Reallocation_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in No Halt Errors then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT(Risk_Reallocation_Ran__c)  = &quot;No&quot; , TEXT( Risk_Reallocation_Ran__c) = &quot;Burn&quot;),         Risk_Reallocation_Ran_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Risk_Reallocation_Ran_Comments__c</errorDisplayField>
+    <errorMessage>QA031 - If Risk Reallocation Ran = No or Burn, Then Risk Reallocation Ran Comments must be entered</errorMessage>
+</ValidationRule>

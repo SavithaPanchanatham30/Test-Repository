@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_No__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reflects the first 9 characters of the Dependent No which should reflect
+        the member no this dependent is related</description>
+    <externalId>false</externalId>
+    <formula>TRIM(LEFT(Dependent_No__c,9))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Reflects the first 9 characters of the Dependent No which should reflect
+        the member no this dependent is related</inlineHelpText>
+    <label>Member No</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

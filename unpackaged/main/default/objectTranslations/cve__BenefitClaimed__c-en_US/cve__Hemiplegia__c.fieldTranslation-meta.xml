@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Movement of upper and lower limbs of one side of body --></help>
+        <label><!-- Hemiplegia --></label>
+        <name>cve__Hemiplegia__c</name>
+    </CustomFieldTranslation>

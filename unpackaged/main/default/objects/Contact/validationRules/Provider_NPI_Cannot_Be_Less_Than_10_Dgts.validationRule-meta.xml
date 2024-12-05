@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provider_NPI_Cannot_Be_Less_Than_10_Dgts</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK(Provider_NPI__c)),
+  LEN(Provider_NPI__c) &lt; 10 
+)</errorConditionFormula>
+    <errorDisplayField>Provider_NPI__c</errorDisplayField>
+    <errorMessage>Provider NPI must have 10 digits</errorMessage>
+</ValidationRule>

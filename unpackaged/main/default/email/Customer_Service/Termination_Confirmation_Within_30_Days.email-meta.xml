@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For FL Retails Terminations that are within the 30-day Right to Examine window</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>For FL Retails Terminations that are within the 30-day window</name>
+    <style>none</style>
+    <subject>Termination Confirmation from USAble Life</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

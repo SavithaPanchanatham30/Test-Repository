@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <assignments>
+        <name>Copy_Information_From_Case</name>
+        <label>Copy Information From Case</label>
+        <locationX>751</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Scheme_Number__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Case__r.Master_Group__r.Group_Policy_num__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Date_Request_Received__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Case__r.CreatedDate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Initialize</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Initialize</name>
+        <label>Initialize Access Request</label>
+        <locationX>749</locationX>
+        <locationY>549</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Assess_Request_Deadline__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CalculateReceivedPlus1</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Salesforce_Coordination_Deadline__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CalculateReceivedPlus1</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <constants>
+        <name>DaysLater1</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>1.0</numberValue>
+        </value>
+    </constants>
+    <environments>Default</environments>
+    <formulas>
+        <name>CalculateReceivedPlus1</name>
+        <dataType>Date</dataType>
+        <expression>CASE(
+ WEEKDAY({!$Record.Date_Request_Received__c}),
+  1, ({!$Record.Date_Request_Received__c}) + DaysLater1 + 
+      FLOOR((DaysLater1-1)/5)*2,
+  2, ({!$Record.Date_Request_Received__c}) + DaysLater1 + 
+      FLOOR((DaysLater1)/5)*2,
+  3, ({!$Record.Date_Request_Received__c}) + DaysLater1 + 
+      FLOOR((DaysLater1+1)/5)*2,
+  4, ({!$Record.Date_Request_Received__c}) + DaysLater1 + 
+      FLOOR((DaysLater1+2)/5)*2,
+  5, ({!$Record.Date_Request_Received__c}) + DaysLater1 + 
+      FLOOR((DaysLater1+3)/5)*2,
+  6, ({!$Record.Date_Request_Received__c}) + DaysLater1 + 
+      CEILING((DaysLater1)/5)*2,
+  7, ({!$Record.Date_Request_Received__c}) - IF(DaysLater1&gt;0,1,0) + DaysLater1 + 
+      CEILING((DaysLater1)/5)*2,null)</expression>
+    </formulas>
+    <interviewLabel>Initialize Fields on Enrollment Checklist Tracker Create {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Initialize Fields on Enrollment Checklist Tracker Create</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>630</locationX>
+        <locationY>75</locationY>
+        <connector>
+            <targetReference>Copy_Information_From_Case</targetReference>
+        </connector>
+        <object>Enrollment_Checklist_Tracker__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

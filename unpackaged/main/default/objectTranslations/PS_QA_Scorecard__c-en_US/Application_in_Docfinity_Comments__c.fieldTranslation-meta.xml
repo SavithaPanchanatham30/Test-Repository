@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Application in Docfinity Comments --></label>
+        <name>Application_in_Docfinity_Comments__c</name>
+    </CustomFieldTranslation>

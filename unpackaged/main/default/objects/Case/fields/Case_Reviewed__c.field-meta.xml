@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reviewed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Custom field created to capture when a case has been reviewed by leadership</description>
+    <inlineHelpText>Field used to identify when a case has been reviewed by leadership for the respective department.</inlineHelpText>
+    <label>Case Reviewed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Adjusted Amount After Adjustments minus Contestable Amount --></help>
+        <label><!-- Adjusted Amount For Distribution --></label>
+        <name>cve__AdjustedAmountForDistribution__c</name>
+    </CustomFieldTranslation>

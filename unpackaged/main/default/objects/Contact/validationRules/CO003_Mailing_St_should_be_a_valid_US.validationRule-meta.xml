@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CO003_Mailing_St_should_be_a_valid_US</fullName>
+    <active>true</active>
+    <description>Mailing State Code should be a valid US State Code</description>
+    <errorConditionFormula>AND(!ISBLANK( MailingState ), 
+AND (NOT($Profile.Name = &#39;API&#39; )), 
+OR ( 
+LEN(MailingState) &lt;&gt; 2, 
+NOT( 
+CONTAINS(&quot;AL:AK:AZ:AR:CA:CO:CT:DE:DC:FL:GA:HI:ID:IL:IN:IA:KS:KY:LA:ME:MD:MA:MI:MN:MS:MO:MT:NE:NV:NH:NJ:NM:NY:NC:ND:OH:OK:OR:PA:RI:SC:SD:TN:TX:UT:VT:VA:WA:WV:WI:WY:AS:GU:MP:PR:VI:AA:AE:AP&quot;,  MailingState)
+)
+))</errorConditionFormula>
+    <errorDisplayField>MailingState</errorDisplayField>
+    <errorMessage>CO003 Please enter a valid US state code in caps</errorMessage>
+</ValidationRule>

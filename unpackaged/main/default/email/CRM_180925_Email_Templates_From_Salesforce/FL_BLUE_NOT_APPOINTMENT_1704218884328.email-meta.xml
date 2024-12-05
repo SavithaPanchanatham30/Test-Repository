@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>AGENT WANTING APPT BUT NOT APPT&#39;D BY FL BLUE</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FL BLUE - NOT APPOINTED</name>
+    <relatedEntityType>Case</relatedEntityType>
+    <style>none</style>
+    <subject>NO APPOINTMENT WITH FLORIDA BLUE</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

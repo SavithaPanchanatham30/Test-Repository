@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Reason__c</fullName>
+    <label>Close Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Small Case</fullName>
+                <default>false</default>
+                <label>Small Case</label>
+            </value>
+            <value>
+                <fullName>Non-Core State Quote</fullName>
+                <default>false</default>
+                <label>Non-Core State Quote</label>
+            </value>
+            <value>
+                <fullName>Inforce LifeMap Customer</fullName>
+                <default>false</default>
+                <label>Inforce LifeMap Customer</label>
+            </value>
+            <value>
+                <fullName>Inforce USAble Customer</fullName>
+                <default>false</default>
+                <label>Inforce USAble Customer</label>
+            </value>
+            <value>
+                <fullName>Non-standard Request</fullName>
+                <default>false</default>
+                <label>Non-standard Request</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPR005_Require_Carrier_When_Stage_Closed</fullName>
+    <active>true</active>
+    <description>If Closed Stage is Closed Lost - Quoted, require Changed Carrier value</description>
+    <errorConditionFormula>AND
+(
+  ISPICKVAL( Line_Item_Stage__c , &quot;Closed Lost - Quoted&quot;),  
+  NOT(ISPICKVAL( Current_Carrier_Name__c, &quot;No Existing Coverage&quot; )), 
+  NOT(ISBLANK( TEXT(Current_Carrier_Name__c ))),
+  ISBLANK( TEXT(Changed_Carrier__c)) 
+)</errorConditionFormula>
+    <errorDisplayField>Changed_Carrier__c</errorDisplayField>
+    <errorMessage>OPR005 Select changed carrier option</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ECR Commissions (Heaped/Level) --></label>
+        <name>ECR_Commissions_Heaped_Level__c</name>
+        <picklistValues>
+            <masterLabel>Heaped</masterLabel>
+            <translation><!-- Heaped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level</masterLabel>
+            <translation><!-- Level --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

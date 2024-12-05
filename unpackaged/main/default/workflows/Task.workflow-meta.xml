@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Populated_Date_File_Received</fullName>
+        <description>If date file received is null populated it</description>
+        <field>Date_File_Received__c</field>
+        <formula>TODAY()</formula>
+        <name>Populated Date File Received</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Task_to_in_Progress</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Update Task to in Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Subject File Received Status Default</fullName>
+        <actions>
+            <name>Update_Task_to_in_Progress</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Task.Subject</field>
+            <operation>equals</operation>
+            <value>File Received</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Task.Status</field>
+            <operation>equals</operation>
+            <value>Not Started</value>
+        </criteriaItems>
+        <description>Update Status to In Progress if Not started on EDI Case</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Subject File Received%2C no receipt date</fullName>
+        <actions>
+            <name>Populated_Date_File_Received</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Task.Subject</field>
+            <operation>equals</operation>
+            <value>File Received</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Task.Date_File_Received__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Task.IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.ProfileId</field>
+            <operation>contains</operation>
+            <value>IT User,Enrollment</value>
+        </criteriaItems>
+        <description>Update Status to In Progress if Not started on EDI Case</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

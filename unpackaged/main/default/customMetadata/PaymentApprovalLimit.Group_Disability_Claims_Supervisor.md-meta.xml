@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Group Disability Claims Supervisor</label>
+    <protected>false</protected>
+    <values>
+        <field>AbsenceReleaseLimit__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DisabilityAdHocPaymentLimit__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DisabilityRecurringPaymentsLimit__c</field>
+        <value xsi:type="xsd:double">4000.0</value>
+    </values>
+    <values>
+        <field>DisabilityReleaseLimitDays__c</field>
+        <value xsi:type="xsd:double">364.0</value>
+    </values>
+    <values>
+        <field>RoleName__c</field>
+        <value xsi:type="xsd:string">Group Disability Claims Supervisor</value>
+    </values>
+    <values>
+        <field>SupplementalReleaseLimitsAccident__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SupplementalReleaseLimitsCritical__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

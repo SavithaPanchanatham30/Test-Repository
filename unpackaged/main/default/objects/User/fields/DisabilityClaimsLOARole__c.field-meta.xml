@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DisabilityClaimsLOARole__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Disability Claims LOA Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Group Disability Claims Examiner 1</fullName>
+                <default>false</default>
+                <label>Group Disability Claims Examiner 1</label>
+            </value>
+            <value>
+                <fullName>Group Disability Claims Examiner 2</fullName>
+                <default>false</default>
+                <label>Group Disability Claims Examiner 2</label>
+            </value>
+            <value>
+                <fullName>Group Disability Sr Claims Examiner</fullName>
+                <default>false</default>
+                <label>Group Disability Sr Claims Examiner</label>
+            </value>
+            <value>
+                <fullName>Group Disability Claims Team Lead</fullName>
+                <default>false</default>
+                <label>Group Disability Claims Team Lead</label>
+            </value>
+            <value>
+                <fullName>Group Disability Claims Supervisor</fullName>
+                <default>false</default>
+                <label>Group Disability Claims Supervisor</label>
+            </value>
+            <value>
+                <fullName>Group Disability Claims Manager</fullName>
+                <default>false</default>
+                <label>Group Disability Claims Manager</label>
+            </value>
+            <value>
+                <fullName>Group Disability Claims TDI Examiner Trainee</fullName>
+                <default>false</default>
+                <label>Group Disability Claims TDI Examiner Trainee</label>
+            </value>
+            <value>
+                <fullName>Group Disability Claims TDI Examiner 1</fullName>
+                <default>false</default>
+                <label>Group Disability Claims TDI Examiner 1</label>
+            </value>
+            <value>
+                <fullName>Group Disability Claims TDI Examiner 2</fullName>
+                <default>false</default>
+                <label>Group Disability Claims TDI Examiner 2</label>
+            </value>
+            <value>
+                <fullName>Group Disability Claims TDI Examiner 3</fullName>
+                <default>false</default>
+                <label>Group Disability Claims TDI Examiner 3</label>
+            </value>
+            <value>
+                <fullName>Claims Director</fullName>
+                <default>false</default>
+                <label>Claims Director</label>
+            </value>
+            <value>
+                <fullName>Claims Sr Director</fullName>
+                <default>false</default>
+                <label>Claims Sr Director</label>
+            </value>
+            <value>
+                <fullName>VP Claims</fullName>
+                <default>false</default>
+                <label>VP Claims</label>
+            </value>
+            <value>
+                <fullName>Claims Trainee</fullName>
+                <default>false</default>
+                <label>Claims Trainee</label>
+            </value>
+            <value>
+                <fullName>Claims Auditor</fullName>
+                <default>false</default>
+                <label>Claims Auditor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

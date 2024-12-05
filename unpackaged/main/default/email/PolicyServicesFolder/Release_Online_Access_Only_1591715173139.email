@@ -1,0 +1,99 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoNormal" style="margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;line-height:18.0pt"><img alt="1" src="https://usablelife--c.na46.content.force.com/file-asset-public/X1?oid=00Di0000000foen" style="max-width: 684.3800231933593px" title="1" /><br />
+<br />
+<br />
+<span style="color:#000000;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">Hello&nbsp;</span></b></span><span style="color:#3498db;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">[Enter Contact&nbsp;name here]</span></b></span><span style="color:#000000;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">, </span></b></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">Welcome to USAble Life.&nbsp; We are pleased you have selected us as your insurance carrier to provide group benefits to your employees.</span><span style="font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes"> </span></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">&nbsp; </span></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">You will find the following items attached to assist with administering your group coverage:</span><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes"> </span></span></p>
+
+<ul>
+	<li class="MsoNormal" style="margin-left: 0.25in; line-height: 105%;"><span style="color:#000000;"><b><span style="font-family: Helvetica, sans-serif;">USAble Life Group Number</span></b><b><span style="font-family: Arial, sans-serif;">:</span></b><span style="font-family: Arial, sans-serif;">&nbsp;</span></span><span style="color:#3498db;"><b><span style="font-family: Helvetica, sans-serif; background: yellow;">{{{Case.Group_Number__c}}}</span></b></span></li>
+	<li class="MsoNormal" style="margin: 0in 0in 0.0001pt 0.25in; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 15.4px;"><span style="color:#000000;"><b><span style="font-family: Helvetica, sans-serif;">Benefits Effective Date:&nbsp;</span></b></span><span style="color:#3498db;"><b><span style="font-family: Helvetica, sans-serif;"><span style="background: yellow;">{{{Case.Effective_Date__c}}}</span></span></b></span><span style="color:#000000;"> <b style="mso-bidi-font-weight:normal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes"> </span></b></span></li>
+	<li class="MsoNormal" style="margin-left: 0.25in; line-height: 105%;"><a href="https://docs.usablelife.com/files/usal-admin-guide-group-and-voluntary.pdf"><span style="color:#3498db;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes">Group Administrator Guide</span></b></span></a><span style="color:#000000;"><b style="mso-bidi-font-weight:
+normal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-no-proof:yes"> </span></b></span></li>
+</ul>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">*<b>Connecting to your Benefits</b>&nbsp;– Your free and secure AccessAble account is your connection to your benefits.&nbsp;Your master application, policy and employee benefit certificate, along with administration guidelines, billing and assistance are available now through your AccessAble account.&nbsp;&nbsp;<br />
+<br />
+<b>It’s easy to get started!</b>&nbsp;To access your account, follow the instructions below.&nbsp;</span><span style="font-family:&quot;Times New Roman&quot;,serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes"> </span></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">&nbsp; </span></b></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">Step 1</span></b></span><span style="font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes"><span style="color:#000000;">: Go to</span> </span><a href="https://accessable.usablelife.com/"><span style="font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes">https://accessable.usablelife.com/</span></a><span style="font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes"> <span style="color:#000000;">and enter the User-ID and Temporary Password that were provided in a separate email. </span></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">&nbsp; </span></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><i style="mso-bidi-font-style:normal"><span style="font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes">*<b style="mso-bidi-font-weight:normal">Important Note:&nbsp; </b>Your temporary password will expire after 24 hours.&nbsp; If your temporary password expires, please contact USAble Life Customer Care or select the “Forgot User ID or Password” option to reset your password yourself. </span></i></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">&nbsp; </span></b></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">Step 2</span></b><span style="font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes">: Enter your new password.&nbsp; After entering your new password you will receive an email with your 6 digit PIN.</span><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-no-proof:yes"> </span></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><b><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">&nbsp; </span></b></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><b><i style="mso-bidi-font-style:
+normal"><span style="font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-no-proof:yes">*Important Note:</span></i></b><i style="mso-bidi-font-style:normal"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">&nbsp;You can save the device you use to sign in to your account by selecting “Remember this device”.&nbsp; Selecting this option will saved your user ID the device you are using and avoid the need for a PIN, as long as you log in every 60 days. &nbsp; </span></i></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><br />
+<span style="color:#000000;"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes"><b>Step 3</b>:&nbsp; Click the Bills &amp; Payments tab to access your initial bill.&nbsp; Initial bills are available following your group effective date.<b> </b></span></span></p>
+
+<p class="MsoNormal" style="line-height:105%"><span style="color:#000000;"><span style="font-family:&quot;Arial&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">&nbsp; </span></span></p>
+
+<p class="MsoNormal" style="margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;line-height:18.0pt"><span style="color:#000000;"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">We would like to thank you for choosing USAble Life to provide your employee benefits and we look forward to serving you.</span><span style="font-family:&quot;Times New Roman&quot;,serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes"> </span></span></p>
+
+<p class="MsoNormal" style="margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;line-height:18.0pt"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes"><span style="color:#000000;">USAble Life Customer Service&nbsp;<br />
+Phone:&nbsp; (800) 370-5856&nbsp;<br />
+Fax:&nbsp; (501) 235-8413<br />
+Email:</span><span style="mso-spacerun:yes">&nbsp; </span></span><a href="mailto:custserv@usablelife.com"><span style="font-family:&quot;Helvetica&quot;,sans-serif;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-no-proof:yes">custserv@usablelife.com</span></a><span style="font-family:&quot;Arial&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-no-proof:yes"> </span></p>
+
+<p class="MsoNormal" style="margin-top:12.0pt;margin-right:0in;margin-bottom:
+12.0pt;margin-left:0in;line-height:18.0pt"><b style="mso-bidi-font-weight:normal"><span style="font-size:11.0pt;
+font-family:&quot;Helvetica&quot;,sans-serif;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA;
+mso-no-proof:yes">* After hours call and email responses provided the next business day *</span></b></p>
+
+</body></html>

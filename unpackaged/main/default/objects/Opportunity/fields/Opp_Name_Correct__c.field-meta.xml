@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Name_Correct__c</fullName>
+    <description>Checks to see if the opportunity name matches the naming convention. Created because WFR to set name wasn&#39;t working but issue could not be reproduced.</description>
+    <formula>if(Account.Name +&#39;-&#39;+ TEXT(Type)+&#39;-&#39;+TEXT(Effective_Date__c) =  Name ,TRUE,FALSE)</formula>
+    <label>Opp Name Correct</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

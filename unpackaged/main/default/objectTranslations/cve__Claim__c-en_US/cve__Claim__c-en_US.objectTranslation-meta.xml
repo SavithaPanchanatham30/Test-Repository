@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Claim Layout</layout>
+        <sections>
+            <label><!-- Activity Management --></label>
+            <section>Activity Management</section>
+        </sections>
+        <sections>
+            <label><!-- Benefit Summary --></label>
+            <section>Benefit Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Claim Dates --></label>
+            <section>Claim Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Life Claim Dates --></label>
+            <section>Life Claim Dates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CustomCveClaimLayout</layout>
+        <sections>
+            <label><!-- Activity Management --></label>
+            <section>Activity Management</section>
+        </sections>
+        <sections>
+            <label><!-- Benefit Summary --></label>
+            <section>Benefit Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Claim Dates --></label>
+            <section>Claim Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Life Claim Dates --></label>
+            <section>Life Claim Dates</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Export --></label>
+        <name>Export</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Express Pay --></label>
+        <name>ExpressPay</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- File Upload --></label>
+        <name>file_upload_action</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- AddBenefit --></label>
+        <name>cve__AddBenefit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AssignClaim --></label>
+        <name>cve__AssignClaim</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CaseManagement --></label>
+        <name>cve__CaseManagement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimAttachments --></label>
+        <name>cve__ClaimAttachments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimFeedItems --></label>
+        <name>cve__ClaimFeedItems</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimNotes --></label>
+        <name>cve__ClaimNotes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimSummary --></label>
+        <name>cve__ClaimSummary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CopyClaim --></label>
+        <name>cve__CopyClaim</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- InquiryPreview --></label>
+        <name>cve__InquiryPreview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- JournalCaseManagement --></label>
+        <name>cve__JournalCaseManagement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewMedicalRequest --></label>
+        <name>cve__NewMedicalRequest</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PayeeCentricView --></label>
+        <name>cve__PayeeCentricView</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Payees --></label>
+        <name>cve__Payees</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PaymentCalculation --></label>
+        <name>cve__PaymentCalculation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Payments --></label>
+        <name>cve__Payments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendInquiryPortalEmail --></label>
+        <name>cve__SendInquiryPortalEmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UpdateBenefitSummary --></label>
+        <name>cve__UpdateBenefitSummary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Workflows --></label>
+        <name>cve__Workflows</name>
+    </webLinks>
+</CustomObjectTranslation>

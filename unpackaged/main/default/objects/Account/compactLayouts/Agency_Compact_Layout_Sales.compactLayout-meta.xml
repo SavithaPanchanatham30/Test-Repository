@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Compact_Layout_Sales</fullName>
+    <fields>Name</fields>
+    <fields>ParentId</fields>
+    <fields>RecordTypeId</fields>
+    <fields>BillingAddress</fields>
+    <fields>Service_Flag__c</fields>
+    <fields>Service_Master_Agency__c</fields>
+    <label>Agency Compact Layout - Sales</label>
+</CompactLayout>

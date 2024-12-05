@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scorecard_Correct_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Scorecard Correct then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(   Scorecard_Correct__c   )   = &quot;No&quot; , TEXT(Scorecard_Correct__c ) = &quot;Burn&quot;),      Scorecard_Correct_Comments__c      = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Scorecard_Correct_Comments__c</errorDisplayField>
+    <errorMessage>QA151- If Scorecard Correct  = No or Burn, Then Scorecard Comments must be entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Market Size (Regence Only) --></label>
+        <name>Market_Size__c</name>
+        <picklistValues>
+            <masterLabel>101+</masterLabel>
+            <translation><!-- 101+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51-100</masterLabel>
+            <translation><!-- 51-100 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

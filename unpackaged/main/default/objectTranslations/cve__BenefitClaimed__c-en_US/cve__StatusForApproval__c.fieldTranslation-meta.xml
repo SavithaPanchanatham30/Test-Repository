@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When an approval process is used, the Status value that is to be approved is set here so that it is available to the approval process and so the approval process can transfer it to the Status field if it is approved. --></help>
+        <label><!-- Status for Approval --></label>
+        <name>cve__StatusForApproval__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

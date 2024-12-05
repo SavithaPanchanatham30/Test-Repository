@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CDF_Sent_Within_24_Hours_Comments</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in CDF Sent Within 24 hours then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT( CDF_Sent_Within_24_hours_All_Products__c ) = &quot;No&quot;,TEXT(CDF_Sent_Within_24_hours_All_Products__c) = &quot;Burn&quot;),           CDF_Sent_Comments__c     = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>CDF_Sent_Comments__c</errorDisplayField>
+    <errorMessage>QA011 - If CDF Sent within 24 hours = No or Burn, Then CDF Sent Comments  must be entered</errorMessage>
+</ValidationRule>

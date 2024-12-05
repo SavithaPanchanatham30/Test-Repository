@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reinstatement Request Received Within 15 days of delinquency letter date --></help>
+        <label><!-- Reinstatement Request Within 15 Days --></label>
+        <name>Reinstatement_Request_Within_15_Days__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Rep_Position_Name__c</fullName>
+    <label>Partner Rep Position Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Agent/Wholesaler Manager</fullName>
+                <default>false</default>
+                <label>General Agent/Wholesaler Manager</label>
+            </value>
+            <value>
+                <fullName>Renewal Unit Rep</fullName>
+                <default>false</default>
+                <label>Renewal Unit Rep</label>
+            </value>
+            <value>
+                <fullName>Small Group Agent Coordinator</fullName>
+                <default>false</default>
+                <label>Small Group Agent Coordinator</label>
+            </value>
+            <value>
+                <fullName>Mid-Market Renewal</fullName>
+                <default>false</default>
+                <label>Mid-Market Renewal</label>
+            </value>
+            <value>
+                <fullName>Mid-Market Sales</fullName>
+                <default>false</default>
+                <label>Mid-Market Sales</label>
+            </value>
+            <value>
+                <fullName>Mid-Market Combo</fullName>
+                <default>false</default>
+                <label>Mid-Market Combo</label>
+            </value>
+            <value>
+                <fullName>Government/Public Combo</fullName>
+                <default>false</default>
+                <label>Government/Public Combo</label>
+            </value>
+            <value>
+                <fullName>National Strategic Account Executive Sales</fullName>
+                <default>false</default>
+                <label>National Strategic Account Executive Sales</label>
+            </value>
+            <value>
+                <fullName>National Strategic Account Executive Renewals</fullName>
+                <default>false</default>
+                <label>National Strategic Account Executive Renewals</label>
+            </value>
+            <value>
+                <fullName>Corporate Accounts Executive Combo</fullName>
+                <default>false</default>
+                <label>Corporate Accounts Executive Combo</label>
+            </value>
+            <value>
+                <fullName>Small Group</fullName>
+                <default>false</default>
+                <label>Small Group</label>
+            </value>
+            <value>
+                <fullName>Direct Sales</fullName>
+                <default>false</default>
+                <label>Direct Sales</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

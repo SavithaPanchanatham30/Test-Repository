@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>This will round robin the blam</description>
+        <name>Trigger_Assignment_Rule</name>
+        <label>Trigger Assignment Rule</label>
+        <locationX>520</locationX>
+        <locationY>541</locationY>
+        <actionName>forcerules__RecordAssignmentHandler</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>objectNameValue</name>
+            <value>
+                <elementReference>ObjectName</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sObjValueId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>forcerules__RecordAssignmentHandler</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>61.0</apiVersion>
+    <constants>
+        <name>ObjectName</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>cvab__Claim__c</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>Check_if_Owner_is_Queue</name>
+        <label>Check if Owner is Queue</label>
+        <locationX>677</locationX>
+        <locationY>392</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Owner_is_Queue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>StartofOwner</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00G</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Assignment_Flag</targetReference>
+            </connector>
+            <label>Owner is Queue</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>StartofOwner</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$Record.Owner:Group.Id}, 3)</expression>
+    </formulas>
+    <interviewLabel>Absence Round robin Created in queue {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Absence Round robin Created in queue</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Update owner Using Assignment Rule</description>
+        <name>Update_Assignment_Flag</name>
+        <label>Update Assignment Flag</label>
+        <locationX>701</locationX>
+        <locationY>540</locationY>
+        <connector>
+            <targetReference>Trigger_Assignment_Rule</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Assign_Owner_using_Assignment_Rules__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>543</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Check_if_Owner_is_Queue</targetReference>
+        </connector>
+        <object>cvab__Claim__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

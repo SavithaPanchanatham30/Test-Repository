@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dental_OpsdpmSolutions_Assignment_Group_Name</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Dental OpsdpmSolutions</label>
+    <queue>Dental_OpsdpmSolutions</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

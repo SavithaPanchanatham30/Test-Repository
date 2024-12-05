@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shorten Waiting Period to 30 days or Yes. If Yes must go to GUR --></help>
+        <label><!-- Shorten Waiting Period to &lt;= 30 Days --></label>
+        <name>Shorten_Waiting_Period_to_30_Days__c</name>
+    </CustomFieldTranslation>

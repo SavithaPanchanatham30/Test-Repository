@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Benefits__c</fullName>
+    <description>This field contains the Benefits the Contact holds</description>
+    <label>Benefits</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADD</fullName>
+                <default>false</default>
+                <label>ADD</label>
+            </value>
+            <value>
+                <fullName>DEP</fullName>
+                <default>false</default>
+                <label>DEP</label>
+            </value>
+            <value>
+                <fullName>GTL</fullName>
+                <default>false</default>
+                <label>GTL</label>
+            </value>
+            <value>
+                <fullName>LTD</fullName>
+                <default>false</default>
+                <label>LTD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

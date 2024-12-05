@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amendment_Complexity__c</fullName>
+    <description>Calculates amendment Complexity</description>
+    <externalId>false</externalId>
+    <formula>IF(Add_Class__c,3,0)+
+IF(Add_Subsidiary__c,2,0)+
+IF(Add_Remove_Bill_Group__c,2,0)+
+IF(Add_Remove_Department__c,2,0)+
+IF(Add_Remove_Benefit_Rider__c,0.5,0)+
+IF(Change_Anniversary_Date__c,0.5,0)+
+IF(Change_Annual_Enrollment_Date__c,0.5,0)+
+IF(Benefit_Downgrade__c,1,0)+
+IF(Benefit_Upgrade__c,1,0)+
+IF(Benefit_Termination__c,0.5,0)+
+IF(Change_Billing_Mode__c,0.5,0)+
+IF(Change_Offsets_Exclusions__c,0.5,0)+
+IF(Change_Class_Definition__c,0.5,0)+
+IF(Contribution_Change__c,0.5,0)+
+IF(Domestic_Partner_Change__c,0.5,0)+
+IF(EAP_Change__c,0.25,0)+
+IF(Earnings_Definition_Change__c,1,0)+
+IF(FICA_Match_Changes__c,0.25,0)+
+IF (Full_Time_Hours_Change__c,0.5,0)+
+IF(GI_Change__c,1,0)+
+IF(Group_Demographic_Change__c,0.25,0)+
+IF(Name_Change__c,0.5,0)+
+IF(Plan_Month_Change__c,0.25,0)+
+IF(Reduction_Schedule_Change__c,0.75,0)+
+IF(Rehire_Provision_Change__c,0.5,0)+
+IF(Renewal_Date_Change__c,0.25,0)+
+IF(Waiting_Period_Change__c,0.5,0)+
+IF(W_2_Services_Change__c,0.25,0)+
+IF(ISBLANK(Other_Changes__c),0,1)+
+(Amendment_Class_Complexity__c)+
+(Amend_Bill_Group_Complexity__c)+
+(Amendment_Payer_Complexity__c)+
+(Amendment_Dept_Complexity__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Amendment Complexity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

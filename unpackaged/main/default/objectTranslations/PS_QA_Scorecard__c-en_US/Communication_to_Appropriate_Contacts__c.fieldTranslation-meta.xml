@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Communication sent to the appropriate contact- internal or external --></help>
+        <label><!-- Communication to Appropriate Contacts --></label>
+        <name>Communication_to_Appropriate_Contacts__c</name>
+    </CustomFieldTranslation>

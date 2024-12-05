@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CustomCvabClaimLayout</layout>
+        <sections>
+            <label><!-- Actiivity --></label>
+            <section>Actiivity</section>
+        </sections>
+        <sections>
+            <label><!-- Claim --></label>
+            <section>Claim</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Default</layout>
+        <sections>
+            <label><!-- Claim --></label>
+            <section>Claim</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Denial Reason --></label>
+            <section>Denial Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Read Only</layout>
+        <sections>
+            <label><!-- Claim --></label>
+            <section>Claim</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Denial Reason --></label>
+            <section>Denial Reason</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Export --></label>
+        <name>Export</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Express Pay --></label>
+        <name>ExpressPay</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Time --></label>
+        <name>cvab__AddTimeLtng</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>cvab__NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- File Upload --></label>
+        <name>file_upload_action</name>
+    </quickActions>
+    <sharingReasons>
+        <label><!-- Customer --></label>
+        <name>cvab__Customer</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage><!-- You cannot remove an employee from a claim once it has been set. --></errorMessage>
+        <name>cvab__CannotBlankEmployee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Close reason cannot be blank. --></errorMessage>
+        <name>cvab__CloseReasonCannotBeBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reopen reason cannot be blank. --></errorMessage>
+        <name>cvab__ReopenReasonCannotBeBlank</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AddTime --></label>
+        <name>cvab__AddTime</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AddTimeLtngOut --></label>
+        <name>cvab__AddTimeLtngOut</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimDateRangesEdit --></label>
+        <name>cvab__ClaimDateRangesEdit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimDetailInPdf --></label>
+        <name>cvab__ClaimDetailInPdf</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimFeedItems --></label>
+        <name>cvab__ClaimFeedItems</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimInPdf --></label>
+        <name>cvab__ClaimInPdf</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CloseClaim --></label>
+        <name>cvab__CloseClaim</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateRecertificationLetter --></label>
+        <name>cvab__CreateRecertificationLetter</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateRecertificationLetterPage --></label>
+        <name>cvab__CreateRecertificationLetterPage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NoCertReceived --></label>
+        <name>cvab__NoCertReceived</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NoCertReceivedPage --></label>
+        <name>cvab__NoCertReceivedPage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Notes --></label>
+        <name>cvab__Notes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ReturnToWork --></label>
+        <name>cvab__ReturnToWork</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RunEligibilityRules --></label>
+        <name>cvab__RunEligibilityRules</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RunEligibilityRulesPage --></label>
+        <name>cvab__RunEligibilityRulesPage</name>
+    </webLinks>
+</CustomObjectTranslation>

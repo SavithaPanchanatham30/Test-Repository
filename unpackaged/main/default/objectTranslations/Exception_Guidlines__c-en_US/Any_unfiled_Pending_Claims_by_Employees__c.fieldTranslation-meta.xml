@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Are there any pending claims which have not been sent by the affected employees --></help>
+        <label><!-- Any Unfiled Pending Claims by Employees --></label>
+        <name>Any_unfiled_Pending_Claims_by_Employees__c</name>
+    </CustomFieldTranslation>

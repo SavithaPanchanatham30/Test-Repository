@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSV_Sales_Executive__c</fullName>
+    <label>LSV Sales Executive</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Al Alonso</fullName>
+                <default>false</default>
+                <label>Al Alonso</label>
+            </value>
+            <value>
+                <fullName>Annie Cooper</fullName>
+                <default>false</default>
+                <label>Annie Cooper</label>
+            </value>
+            <value>
+                <fullName>Bev Luney</fullName>
+                <default>false</default>
+                <label>Bev Luney</label>
+            </value>
+            <value>
+                <fullName>Billy Ward</fullName>
+                <default>false</default>
+                <label>Billy Ward</label>
+            </value>
+            <value>
+                <fullName>Calvin Whitaker</fullName>
+                <default>false</default>
+                <label>Calvin Whitaker</label>
+            </value>
+            <value>
+                <fullName>Christie Hoskins</fullName>
+                <default>false</default>
+                <label>Christie Hoskins</label>
+            </value>
+            <value>
+                <fullName>Craig Westling</fullName>
+                <default>false</default>
+                <label>Craig Westling</label>
+            </value>
+            <value>
+                <fullName>Dani Barney</fullName>
+                <default>false</default>
+                <label>Dani Barney</label>
+            </value>
+            <value>
+                <fullName>Darlene Shelby</fullName>
+                <default>false</default>
+                <label>Darlene Shelby</label>
+            </value>
+            <value>
+                <fullName>Gary Bello</fullName>
+                <default>false</default>
+                <label>Gary Bello</label>
+            </value>
+            <value>
+                <fullName>Glenn Davis</fullName>
+                <default>false</default>
+                <label>Glenn Davis</label>
+            </value>
+            <value>
+                <fullName>Greg Sutton</fullName>
+                <default>false</default>
+                <label>Greg Sutton</label>
+            </value>
+            <value>
+                <fullName>Janet Bronson</fullName>
+                <default>false</default>
+                <label>Janet Bronson</label>
+            </value>
+            <value>
+                <fullName>Jason Young</fullName>
+                <default>false</default>
+                <label>Jason Young</label>
+            </value>
+            <value>
+                <fullName>Jeff Schmidt</fullName>
+                <default>false</default>
+                <label>Jeff Schmidt</label>
+            </value>
+            <value>
+                <fullName>Kristin Todd</fullName>
+                <default>false</default>
+                <label>Kristin Todd</label>
+            </value>
+            <value>
+                <fullName>Lee Messervy</fullName>
+                <default>false</default>
+                <label>Lee Messervy</label>
+            </value>
+            <value>
+                <fullName>Leesa Albert</fullName>
+                <default>false</default>
+                <label>Leesa Albert</label>
+            </value>
+            <value>
+                <fullName>Nick Mirante</fullName>
+                <default>false</default>
+                <label>Nick Mirante</label>
+            </value>
+            <value>
+                <fullName>Peter Zornik</fullName>
+                <default>false</default>
+                <label>Peter Zornik</label>
+            </value>
+            <value>
+                <fullName>Patricia Eshaia</fullName>
+                <default>false</default>
+                <label>Patricia Eshaia</label>
+            </value>
+            <value>
+                <fullName>Ryan Anderson</fullName>
+                <default>false</default>
+                <label>Ryan Anderson</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

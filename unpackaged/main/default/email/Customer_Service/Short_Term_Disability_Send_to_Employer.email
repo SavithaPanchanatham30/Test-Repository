@@ -1,0 +1,64 @@
+<table border="0" cellpadding="5" width="800" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;">Dear
+Benefits Administrator for {!Case.Master_Group__c} <i style="mso-bidi-font-style:
+normal"><span style="color:black;mso-themecolor:text1">:<o:p></o:p></span></i></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; margin-bottom: 0.0001pt;"><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">Your
+employee, </span>{!Case.Contact},<span style="font-size: 12pt;">&nbsp;DOB&nbsp;</span></font><font face="arial" style="">{!Contact.Date_of_Birth__c},&nbsp;<span style="font-size: 12pt;">&nbsp;has contacted USAble Life to file a claim for Short
+Term Disability (STD) benefits.</span></font><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;&nbsp; </span><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">The
+Employee Statement information has been received, and the employee has been
+notified of the additional documentation needed to complete the claim for
+review.<o:p></o:p></span></font></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;">To assist us
+in processing the claim, please complete and return the attached Employer
+Statement.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><span style="font-size: 12pt;">HOW TO
+COMPLETE THE EMPLOYER STATEMENT&nbsp;</span><span style="line-height: 107%; font-family: Calibri, sans-serif;">(For
+expedited receipt, please return via Option 1 or 2)</span><span style="line-height: 107%; font-family: Calibri, sans-serif;">:</span></p><p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"></p><ol style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;"><li><font style="text-indent: -0.25in;">Complete all q</font><span style="text-indent: -0.25in;">u</span><span style="text-indent: -0.25in;">estions on the form, print and
+sign the form, scan and attach completed form to email reply; or</span></li><li>Form fill all fields on the form, electronically sign by clicking in box 32 “Contact Signature” and following the prompts, and attach completed form to email reply; or</li><li><span style="text-indent: -0.25in; font-size: 12pt;">You may choose to fax or mail the completed form
+at the number and address noted on the form.</span>&nbsp;</li></ol>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;">Please
+return the completed form as soon as possible, but no later than 21 days from
+the date of this email.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;">Thank you
+for allowing USAble Life to serve your disability insurance needs.<span style="mso-spacerun:yes">&nbsp; </span>Should you have any questions, please give our
+Customer Care Team a call at 800-370-5856.<span style="mso-spacerun:yes">&nbsp;
+</span>We are here to help.<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;">Sincerely,<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><i><span style="font-size:12.0pt;line-height:
+107%;font-family:&quot;Harlow Solid Italic&quot;">{!User.FirstName}<o:p></o:p></span></i></p><p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><i><span style="font-size:12.0pt;line-height:
+107%;font-family:&quot;Harlow Solid Italic&quot;"><o:p></o:p></span></i></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;"><i style="mso-bidi-font-style:normal"><o:p>&nbsp;</o:p></i></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;">Customer Care
+Associate<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;">USABLE Life
+Customer Care<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial; margin-bottom: 0.0001pt;">1-800-370-5856<o:p></o:p></p>
+
+<p class="MsoNormal" style="font-size: 12pt; color: rgb(0, 0, 0); font-family: arial;">M-F, 8:00 AM – 5:00 PM Central<o:p></o:p></p>]]></td>
+</tr>
+</table>

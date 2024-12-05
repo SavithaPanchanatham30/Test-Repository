@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pre_Work_Roster_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Pre Work Roster Billing then Comments must be entered</description>
+    <errorConditionFormula>AND( OR(TEXT( Pre_Work_Roster_Billing__c )   = &quot;No&quot; , TEXT(  Pre_Work_Roster_Billing__c) = &quot;Burn&quot;),   Pre_Work_Roster_Billing_Comments__c   = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Pre_Work_Roster_Billing_Comments__c</errorDisplayField>
+    <errorMessage>QA048 - If Pre Work Roster Billing = No or Burn, Then Pre-Work Roster Billing Comments must be entered</errorMessage>
+</ValidationRule>

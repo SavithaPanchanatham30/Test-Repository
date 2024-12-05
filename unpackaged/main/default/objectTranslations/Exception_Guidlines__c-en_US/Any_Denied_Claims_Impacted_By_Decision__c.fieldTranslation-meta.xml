@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Any Denied Claims Impacted By Decision --></label>
+        <name>Any_Denied_Claims_Impacted_By_Decision__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>service@usablelife.com</email>
+    <name>Claims Intake</name>
+    <queueMembers>
+        <users>
+            <user>amanda.bloom@usablelife.com</user>
+            <user>bryce.mayon@usablelife.com</user>
+            <user>evon.gray@usablelife.com</user>
+            <user>jennifer.farnsworth@usablelife.com</user>
+            <user>lauren.gordon@usablelife.com</user>
+            <user>mary.sanford@fclife.com</user>
+            <user>renee.jackson-latham@usablelife.com</user>
+            <user>ryan.bogan@usablelife.com</user>
+            <user>talia.porrello@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Assignment_Group_Name__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Work_Completed_Comments</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in System Work Completed then comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(  System_Work_Accurately_Completed__c  )  = &quot;No&quot; , TEXT( System_Work_Accurately_Completed__c ) = &quot;Burn&quot;),        System_Work_Completed_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>System_Work_Completed_Comments__c</errorDisplayField>
+    <errorMessage>QA242 - If System Work Accurately Completed  = No or Burn, Then System Work Completed Comments must be entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Fraud_Notice_State_STD_Script__c</fullName>
+    <defaultValue>&quot;Instead of a traditional signature to confirm the information that you provided and your understanding of the overpayment notice, we have the capabilities of accepting your verbal acknowledgement. Do you confirm that you understand the overpayment notice and that you agree to be bound by the accuracy of all of the information you provided regarding Short Term Disability Claim?&quot;</defaultValue>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Non Fraud Notice State STD Script</label>
+    <length>600</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

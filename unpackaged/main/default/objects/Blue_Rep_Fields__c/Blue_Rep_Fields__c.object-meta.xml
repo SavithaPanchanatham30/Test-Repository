@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Indicates the relationship of the Blue Partner SFID to a State/Region field on Account/Contact. The logic can be read like this: &#39;When an agency/partner relationship is created, find the Partner Id in the custom setting and then update the field indicated in API_Name_of_field__c to TRUE. Update the field on both the Agency record and its contact records.&quot;</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Blue Partner Fields for Sharing</label>
+    <visibility>Public</visibility>
+</CustomObject>

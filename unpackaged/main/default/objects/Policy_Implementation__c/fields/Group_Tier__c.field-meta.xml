@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Tier__c</fullName>
+    <description>Tier of the Group</description>
+    <inlineHelpText>Tier of the Group</inlineHelpText>
+    <label>Group Tier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tier 1</fullName>
+                <default>false</default>
+                <label>Tier 1</label>
+            </value>
+            <value>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+                <label>Tier 2</label>
+            </value>
+            <value>
+                <fullName>Tier 3</fullName>
+                <default>false</default>
+                <label>Tier 3</label>
+            </value>
+            <value>
+                <fullName>Tier 4</fullName>
+                <default>false</default>
+                <label>Tier 4</label>
+            </value>
+            <value>
+                <fullName>Reporting Only</fullName>
+                <default>false</default>
+                <label>Reporting Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

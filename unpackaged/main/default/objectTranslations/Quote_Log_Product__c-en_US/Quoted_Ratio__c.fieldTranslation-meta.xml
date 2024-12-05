@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If Renewal Premium is populated, Quoted/Renewal Premium. If not, Quoted/Current Premium. --></help>
+        <label><!-- Quoted Ratio --></label>
+        <name>Quoted_Ratio__c</name>
+    </CustomFieldTranslation>

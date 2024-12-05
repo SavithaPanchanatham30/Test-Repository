@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Team_s_Closed_Activities</fullName>
+    <columns>TASK.WHAT_NAME</columns>
+    <columns>TASK.SUBJECT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>TASK.DUE_DATE</columns>
+    <columns>TASK.STATUS</columns>
+    <columns>TASK.PRIORITY</columns>
+    <columns>TASK.LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>IS_REMINDER_SET</columns>
+    <filterScope>Team</filterScope>
+    <filters>
+        <field>TASK.STATUS</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <label>My Team&#39;s Closed Activities</label>
+    <sharedTo>
+        <role>Customer_Service_Director_CS</role>
+        <role>Director_Account_Management</role>
+        <role>Manager_Billing_Solutions_M_B</role>
+        <role>Manager_CS</role>
+        <role>Manager_Claims</role>
+        <role>Manager_PS</role>
+        <role>Manager_SBMA</role>
+        <role>Supervisor_Claims</role>
+        <role>Supervisor_SBMA</role>
+    </sharedTo>
+</ListView>

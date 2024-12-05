@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Enrollment Services Case Setup</name>
+    <queueMembers>
+        <users>
+            <user>audri.barnes@usablelife.com</user>
+            <user>caleb.dather@usablelife.com</user>
+            <user>cassi.snyder@usablelife.com</user>
+            <user>collise.dennis@usablelife.com</user>
+            <user>daniel.blackburn@usablelife.com</user>
+            <user>derek.saldanha@usablelife.comf</user>
+            <user>jan.garner@usablelife.com</user>
+            <user>janice.elmore@usablelife.com</user>
+            <user>jene.hamm@usablelife.com</user>
+            <user>jessie.smith@usablelife.com</user>
+            <user>jodi.stelling@usablelife.com</user>
+            <user>kristena.evans@usablelife.com</user>
+            <user>lisa.fuller@usablelife.com</user>
+            <user>melissa.leslie@usablelife.com</user>
+            <user>michael.shawhan@usablelife.com</user>
+            <user>ryan.nommensen@usablelife.com</user>
+            <user>sarah.bradford@usablelife.com</user>
+            <user>stephanie.ungerank@lsvusa.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

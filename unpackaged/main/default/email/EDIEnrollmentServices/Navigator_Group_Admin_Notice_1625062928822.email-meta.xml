@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Navigator- Group Admin Notice</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Navigator- Group Admin Notice</name>
+    <style>none</style>
+    <subject>USAble Life - Employee Enrollment process change</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

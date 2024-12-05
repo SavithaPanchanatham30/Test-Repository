@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OverPayment READ</label>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.HasOverPayment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.OutstandingOverpayment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>cve__PaymentSpecification__c.ClaimNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>cve__PaymentSpecification__c.ClaimStatus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>cve__PaymentSpecification__c.Claimant__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>cve__PaymentSpecification__c.Product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <tabSettings>
+        <tab>cve__PaymentSpecification__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

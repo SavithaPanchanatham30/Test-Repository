@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reviewed within 48 hours for upsell, amendments, and group issue. reviewed within 8 hours benefit summary and 24 hours for research --></help>
+        <label><!-- Reviewed Within Allotted Time --></label>
+        <name>Reviewed_within_allotted_time__c</name>
+    </CustomFieldTranslation>

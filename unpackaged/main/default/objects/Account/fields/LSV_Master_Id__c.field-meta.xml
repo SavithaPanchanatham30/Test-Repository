@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSV_Master_Id__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>LSV Master ID
+Prefaced &#39;P&#39; for Partner
+Prefaced &#39;A&#39; for Agency
+Prefaced &#39;G&#39; for Master Group</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>true</externalId>
+    <label>LSV Master Id</label>
+    <length>15</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

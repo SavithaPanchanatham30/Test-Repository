@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome letter for LifeMap transition and new with agreement notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>LIFEMAP - LifeMap Welcome Letter</name>
+    <style>none</style>
+    <subject>USAble Life Appointment - __________________</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

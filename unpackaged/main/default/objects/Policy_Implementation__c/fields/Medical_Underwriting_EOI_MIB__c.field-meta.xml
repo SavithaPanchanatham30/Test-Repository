@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medical_Underwriting_EOI_MIB__c</fullName>
+    <description>This field contains Medical Underwriting Process if applicable, received
+Evidence of Insurability form(s) (EOI), run MIB, and send to
+Medical Underwriting.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Received Evidence of Insurability form(s) (EOI), run MIB, and send to
+Medical Underwriting.</inlineHelpText>
+    <label>Medical Underwriting/EOI/MIB</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

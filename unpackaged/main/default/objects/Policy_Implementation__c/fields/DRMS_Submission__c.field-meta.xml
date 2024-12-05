@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DRMS_Submission__c</fullName>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Prepare DRMS coversheet and LTD
+Policy/Cert/Roster/prior carrier policy/
+proposal/DRMS rate run sheet to send to PE</inlineHelpText>
+    <label>DRMS Submission</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

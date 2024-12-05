@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regular_Followups_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Regular Followups sent for information then Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT( Regular_Follow_ups_Sent_fr_Information__c )   = &quot;No&quot; , TEXT(Regular_Follow_ups_Sent_fr_Information__c ) = &quot;Burn&quot;),  Regular_Follow_ups_Comments__c  = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Regular_Follow_ups_Comments__c</errorDisplayField>
+    <errorMessage>QA066 - If Regular Follow-ups Sent for Information  = No or Burn, Then Responded to  Comments must be entered</errorMessage>
+</ValidationRule>

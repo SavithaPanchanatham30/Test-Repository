@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP002_Opp_Account_RecordType_Not_Valid</fullName>
+    <active>true</active>
+    <description>Requires that the account on the opportunity be either a Master Group or Prospect</description>
+    <errorConditionFormula>Account.RecordType.DeveloperName = &#39;Agency&#39; ||
+Account.RecordType.DeveloperName = &#39;Other&#39; ||
+Account.RecordType.DeveloperName = &#39;Partner&#39;</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>OPP002 Opportunity should be tied to a Master Group or Prospect Account.</errorMessage>
+</ValidationRule>

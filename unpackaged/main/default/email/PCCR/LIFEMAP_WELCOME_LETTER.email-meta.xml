@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>WELCOME LETTER FOR LIFEMAP TRANSITION AND NEW WITH AGREEMENT NOTIFICATION</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LIFEMAP WELCOME LETTER</name>
+    <style>none</style>
+    <subject>USAble Life Appointment - ______________</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

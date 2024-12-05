@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claims_PFML_Agreement_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>SLA_Flag__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>NAME</columns>
+    <columns>Master_Group__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Type_SubType__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.ORIGIN</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New Email Closed Case</value>
+    </filters>
+    <label>Queue: Claims PFML Agreement - Open</label>
+    <queue>Claims_PFML_Agreement</queue>
+    <sharedTo>
+        <group>All_Claims</group>
+    </sharedTo>
+</ListView>

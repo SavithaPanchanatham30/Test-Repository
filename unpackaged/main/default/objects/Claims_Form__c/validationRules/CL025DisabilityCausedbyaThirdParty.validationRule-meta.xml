@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL025DisabilityCausedbyaThirdParty</fullName>
+    <active>true</active>
+    <description>For Accident caused by a third party -  explained how it was caused by a third party</description>
+    <errorConditionFormula>AND( TEXT(  Disability_Caused_by_a_Third_Party__c   )= &quot;Yes&quot;,ISBlank(Explain_How_Third_Party_Was_the_Cause__c) , RecordType.DeveloperName = &quot;Short_Term_Disability&quot; )</errorConditionFormula>
+    <errorDisplayField>Explain_How_Third_Party_Was_the_Cause__c</errorDisplayField>
+    <errorMessage>CL-025 If Accident Caused by Third Party = &quot;Yes&quot;  then Explanation must be keyed</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reference guide for AccessAble to be sent to the group admin</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>AccessAble GrpAdm</name>
+    <style>none</style>
+    <subject>USAble Life AccessAble Reference Guide</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

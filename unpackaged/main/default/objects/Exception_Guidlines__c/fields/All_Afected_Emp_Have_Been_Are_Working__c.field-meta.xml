@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Afected_Emp_Have_Been_Are_Working__c</fullName>
+    <inlineHelpText>All Affected Employees have been and currently are actively at work.  (If No, must go to GUR, and Claims)</inlineHelpText>
+    <label>All Affected Emp Have Been &amp; Are Working</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

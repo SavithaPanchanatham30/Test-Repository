@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Address_ZipCode_required</fullName>
+    <active>true</active>
+    <description>Agency address and zipcode required for recordtype &#39;Agent&#39;</description>
+    <errorConditionFormula>AND(
+   $Profile.Name &lt;&gt; &quot;USAble Standard Sales User&quot;,
+   IF ( RecordType.Name == &#39;Agent&#39; &amp;&amp; Admin_System_Record__c = FALSE, 
+	ISBLANK(Account.Address__c) || 
+        ISBLANK(Account.BillingPostalCode), 
+        False
+	)
+)</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Missing selected agency address &amp; zipcode.</errorMessage>
+</ValidationRule>

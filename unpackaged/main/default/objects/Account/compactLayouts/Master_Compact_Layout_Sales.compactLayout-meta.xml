@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_Compact_Layout_Sales</fullName>
+    <fields>Name</fields>
+    <fields>Policy__c</fields>
+    <fields>Group_Anniversary_Date__c</fields>
+    <fields>Primary_BCBS_Number__c</fields>
+    <fields>Group_Size__c</fields>
+    <fields>LSV_Business__c</fields>
+    <fields>Blue_Rep_Name__c</fields>
+    <fields>RecordTypeId</fields>
+    <label>Master Compact Layout - Sales</label>
+</CompactLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>AOR change letter combined with recoupment of commissions</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AOR Change - Recoupment of Commissions</name>
+    <style>none</style>
+    <subject>AOR Change &lt;Name of Group&gt;</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

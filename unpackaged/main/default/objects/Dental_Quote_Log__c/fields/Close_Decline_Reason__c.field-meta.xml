@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Decline_Reason__c</fullName>
+    <label>Close/Decline Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Action_Taken__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Uncompetitive</fullName>
+                <default>false</default>
+                <label>Uncompetitive</label>
+            </value>
+            <value>
+                <fullName>Missing info</fullName>
+                <default>false</default>
+                <label>Missing info</label>
+            </value>
+            <value>
+                <fullName>No response from rep</fullName>
+                <default>false</default>
+                <label>No response from rep</label>
+            </value>
+            <value>
+                <fullName>Ineligible group</fullName>
+                <default>false</default>
+                <label>Ineligible group</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Uncompetitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Missing info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>No response from rep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Ineligible group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

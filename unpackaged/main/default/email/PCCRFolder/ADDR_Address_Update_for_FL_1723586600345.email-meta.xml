@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Address update request - notify agent/agency to update DOI first</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ADDR - Address Update for FL</name>
+    <style>none</style>
+    <subject>Update of Current Address on Department of Insurance</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

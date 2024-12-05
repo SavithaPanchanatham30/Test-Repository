@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Notes_No_or_Burn_Comment</fullName>
+    <active>true</active>
+    <description>If No or Burn Is entered in Case Notes as to what was processed then Case Notes Comments must be entered</description>
+    <errorConditionFormula>AND(OR(TEXT(   Case_Notes_as_to_What_Was_Processed__c ) = &quot;No&quot; , TEXT(Case_Notes_as_to_What_Was_Processed__c ) = &quot;Burn&quot;),               Case_Notes_Comments__c    = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Case_Notes_Comments__c</errorDisplayField>
+    <errorMessage>QA168 - If Case Notes as to What Was Process No or Burn, Then Case Notes Comments must be entered</errorMessage>
+</ValidationRule>

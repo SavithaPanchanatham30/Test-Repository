@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set to update system fields used in handling Payment approval
+        limits.  May be required/helpful for Admin users in the event that
+        manual data updates/fixes are required.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PaymentApproval (WRITE)</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>cve__PaymentSpecification__c.PaymentApprovalStatus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>cve__PaymentSpecification__c.RunApprovalAs__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

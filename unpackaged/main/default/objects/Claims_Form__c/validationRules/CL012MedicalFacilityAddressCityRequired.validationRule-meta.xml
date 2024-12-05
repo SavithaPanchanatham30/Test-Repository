@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL012MedicalFacilityAddressCityRequired</fullName>
+    <active>true</active>
+    <description>Medical Facility Address entered then City is required</description>
+    <errorConditionFormula>AND( NOT(ISBLANK(  Medical_Facility_Address__c  )),  ISBLANK(    Medical_Facility_City__c   ) )</errorConditionFormula>
+    <errorDisplayField>Medical_Facility_City__c</errorDisplayField>
+    <errorMessage>CL-012 If Facility Address Entered City Must be Entered</errorMessage>
+</ValidationRule>

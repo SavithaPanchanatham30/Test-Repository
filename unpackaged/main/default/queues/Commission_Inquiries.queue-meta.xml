@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Commission Inquiries</name>
+    <queueMembers>
+        <users>
+            <user>amanda.floyd@usablelife.com</user>
+            <user>deb.landry@usablelife.com</user>
+            <user>gloria.mcintosh@usablelife.com</user>
+            <user>jesaca.duncan@usablelife.com</user>
+            <user>jessica.runyon@usablelife.com</user>
+            <user>richard.casto@usablelife.com</user>
+            <user>teresa.routt@usablelife.com</user>
+            <user>tj.huynh@usablelife.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

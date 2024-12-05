@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EUTF Claims</fullName>
+    <description>EUTF claims cases</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Awaiting Response Externally</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Awaiting Response Internally</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed%2FSpam</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Duplicate and Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Imaging %28In Flow%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Imaging %28Out of Flow%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Process</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>New Email Closed Case</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

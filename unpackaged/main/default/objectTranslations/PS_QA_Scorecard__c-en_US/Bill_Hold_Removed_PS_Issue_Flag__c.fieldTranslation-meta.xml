@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Bill Hold Removed; PS Issued Flag Flipped - Group Issue &amp; Upsell,  Bill, Notional, Risk Hold Removed; PS Issue Flag Flipped, Active Status - Amendments --></help>
+        <label><!-- Bill Hold Removed PS Issue Flag --></label>
+        <name>Bill_Hold_Removed_PS_Issue_Flag__c</name>
+    </CustomFieldTranslation>
