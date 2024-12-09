@@ -613,6 +613,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.dummyField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Agency_MasterGroups__c.Master_Group_BCBS__c</field>
         <readable>true</readable>

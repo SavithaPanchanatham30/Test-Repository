@@ -803,6 +803,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.dummyField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account_Team_Assignment__c.Assignment_Method__c</field>
         <readable>true</readable>
     </fieldPermissions>

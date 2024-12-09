@@ -2226,6 +2226,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.dummyField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.nwcs_ldl__AssignedDate__c</field>
         <readable>true</readable>
     </fieldPermissions>

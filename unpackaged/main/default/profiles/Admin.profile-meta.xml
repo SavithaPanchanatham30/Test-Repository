@@ -1151,6 +1151,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.dummyField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account_Team_Assignment_Additional_Rule__c.Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
