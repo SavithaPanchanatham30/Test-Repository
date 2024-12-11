@@ -30,7 +30,7 @@ public without sharing class CASE_Hierarchy {
         Schema.FieldSet fieldSetObj = DescribeSObjectResultObj.FieldSets.getMap().get(fieldSetName);
     
         //List<Schema.FieldSetMember> fieldSetMemberList =  fieldSetObj.getFields();
-        //system.debug('fieldSetMemberList ====>' + fieldSetMemberList);  
+        system.debug('fieldSetObj ====>' + fieldSetObj);  
         return fieldSetObj.getFields(); 
     } 
     

@@ -115,6 +115,10 @@
             <start>64.53.177.36</start>
         </ipRanges>
         <ipRanges>
+            <end>54.203.218.9</end>
+            <start>54.203.218.9</start>
+        </ipRanges>
+        <ipRanges>
             <end>54.163.166.54</end>
             <start>54.83.60.38</start>
         </ipRanges>
