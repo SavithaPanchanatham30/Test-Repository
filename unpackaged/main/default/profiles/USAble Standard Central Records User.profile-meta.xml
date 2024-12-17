@@ -1866,6 +1866,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Medical_Underwriting_Comments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Member_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2277,6 +2282,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.Type_SubType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Underwriting_State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Underwriting_Tier__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
