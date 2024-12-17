@@ -36,4 +36,9 @@
         <default>false</default>
         <label>Consortium</label>
     </standardValue>
+    <standardValue>
+        <fullName>testAccountType</fullName>
+        <default>false</default>
+        <label>testAccountType</label>
+    </standardValue>
 </StandardValueSet>
