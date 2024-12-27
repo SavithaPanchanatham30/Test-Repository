@@ -6,7 +6,11 @@ private class CASE_HierarchyTest {
      String fieldSetName = 'Case_Hierarchy';
      Boolean allDone = false; 
  //    AllParents.add(theCase.ID);
+  if(theCase!=null)
+  {
      String sObjName = theCase.ID.getSObjectType().getDescribe().getName();
    String returnCases =  CASE_Hierarchy.getHierarchiesQuickById (theCase.ID, sObjName);
-        String jsonSerializedd = CASE_Hierarchy.getColumnJSON (fieldSetName,sObjName,false);   }
+        String jsonSerializedd = CASE_Hierarchy.getColumnJSON (fieldSetName,sObjName,false);
+  }
+    }
 }
